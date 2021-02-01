@@ -562,7 +562,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		From the PS, the protons are then injected into the even more powerful Super Proton Synchrotron (SPS): far larger than the 688 m circumference of the PS, the SPS has a circumference of 7 km and almost 5 times as many electromagnets, capable of accelerating the protons to an energy of 450 GeV. The SPS originally operated as the principle collider of CERN's particle physics program when it came online in 1976 and was crucial in several key experiments in CERN's history, such as the Nobel-prize-winning discovery of the W and Z bosons in 1983 when the SPS ran as a proton-antiproton collider \cite{WBosonDiscovery, ZBosonDiscovery}. 
 
-		The final step in the accelerator chain is the LHC itself, however the method of accelerating within the LHC differs slightly from the techniques of the previous circular accelerators. The protons from the SPS are injected to the LHC at two points instead of one in order to create two separate proton beams which circulate in opposite directions. These two distinct beams are each accelerated up to an energy of 6.5 TeV, allowing for a center of mass energy of $\sqrt{s}$ = 13 TeV during Run 2. The full chain of LHC accelerators can be seen in Figure \ref{Fig:CERNRings}. \par
+		The final step in the accelerator chain is the LHC itself, however the method of accelerating within the LHC differs slightly from the techniques of the previous circular accelerators. The protons from the SPS are injected to the LHC at two points instead of one in order to create two separate proton beams which circulate in opposite directions. These two distinct beams are each accelerated up to an energy of 6.5 TeV, allowing for a centre-of-mass energy of $\sqrt{s}$ = 13 TeV during Run 2. The full chain of LHC accelerators can be seen in Figure \ref{Fig:CERNRings}. \par
 
 		\begin{figure}
 			\centering
@@ -609,8 +609,6 @@ An example of this process can be seen by considering the constraint placed on t
 
 		% 28/01/21
 
-		penis penis penis penis penis
-
 		\subsubsection{Luminosity}
 
 		In order to evaluate the performance of an accelerator, it is important to consider a metric that adequately describes the collisions taking place. In the case of accelerator physics "luminosity", a measure of how effectively an accelerator is able to deliver particle collisions, is used. The luminosity of an accelerator is defined as the integral of the accelerator's instantaneous luminosity with respect to time, i.e. the instantaneous luminosity at every instant or:
@@ -639,7 +637,24 @@ An example of this process can be seen by considering the constraint placed on t
 
 		Instantaneous luminosity is expressed in units of cm$^{-2}$s$^{-1}$. The peak instantaneous luminosity of the LHC was designed to reach a value of $1 \times 10^{34}$cm$^{-2}$s$^{-1}$, however this value has been exceeded and peak instantaneous luminosities of up to $2.1 \times 10^{34}$cm$^{-2}$s$^{-1}$ have been achieved. \par
 		
-		Integrated luminosity has units of cm$^{-2}$ but is more commonly expressed in units of inverse femtobarn fb$^{-1}$ where one barn (1 b) is equivalent to $1 \times 10^{-28} $m$^{-2}$.		
+		Integrated luminosity has units of cm$^{-2}$ but is more commonly expressed in units of inverse femtobarn fb$^{-1}$ where one barn (1 b) is equivalent to $1 \times 10^{-28} $m$^{-2}$. During Run 2 the ATLAS detector recorded a total of 140fb$^{-1}$ of luminosity corresponding to 3.2fb$^{-1}$ in 2015, 32.9fb$^{-1}$ in 2016, 43.7fb$^{-1}$ in 2017, and 60.1fb$^{-1}$ in 2018 \cite{ATLASLumiPublic}. 
+
+		\begin{figure}[h!]
+			\begin{subfigure}{.5\textwidth}
+				\centering
+				\includegraphics[scale=0.3]{ATLAS_Luminosity_Time.png}
+				\caption{Delivered luminosity vs. time}
+				\label{Fig:SFigATLASLuminosityTime}
+			\end{subfigure}
+			\begin{subfigure}{.5\textwidth}
+				\centering
+				\includegraphics[scale=0.3]{ATLAS_Luminosity_Total.png}
+				\caption{Total integrated luminosity vs. time}
+				\label{Fig:SFigATLASLuminosityTotal}
+			\end{subfigure}
+			\caption{ (a) Cumulative luminosity versus month delivered to ATLAS during stable beams and for high energy p-p collisions. (b) Cumulative luminosity versus time delivered to ATLAS (green), recorded by ATLAS (yellow), and certified to be good quality data (blue) during stable beams for pp collisions at 13 TeV centre-of-mass energy in 2015-2018 \cite{ATLASLumiPublic}.}
+			\label{Fig:ATLASLuminosity}
+		\end{figure}
 
 		%01/02/21
 
@@ -805,7 +820,7 @@ An example of this process can be seen by considering the constraint placed on t
 		still possible to operate with up to 100kHz output rate from the L1 trigger). \par
 		The HLT runs on a dedicated server farm, and uses high speed algorithms to further refine events in the region of interest that pass the L1 trigger. The HLT reduces the event rate further to 1kHz, processing each event in an average of 0.2s. \par
 		
-		\bibliographystyle{unsrtnat}
+		\bibliographystyle{Thesis.bst}
 		
 		\bibliography{Prog_2}
 		

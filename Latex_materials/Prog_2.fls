@@ -139,6 +139,12 @@ INPUT /home/jake/Desktop/Thesis/Latex_materials/LHC_Beam_Structure.png
 INPUT /home/jake/Desktop/Thesis/Latex_materials/LHC_Beam_Structure.png
 INPUT /home/jake/Desktop/Thesis/Latex_materials/LHC_Beam_Structure.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT /home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Time.png
+INPUT /home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Time.png
+INPUT /home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Time.png
+INPUT /home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Total.png
+INPUT /home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Total.png
+INPUT /home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Total.png
 INPUT /home/jake/Desktop/Thesis/Latex_materials/LHC_Rings.jpg
 INPUT /home/jake/Desktop/Thesis/Latex_materials/LHC_Rings.jpg
 INPUT /home/jake/Desktop/Thesis/Latex_materials/ATLAS.jpg
@@ -158,7 +164,6 @@ INPUT /home/jake/Desktop/Thesis/Latex_materials/Muon_System.png
 INPUT /home/jake/Desktop/Thesis/Latex_materials/Muon_System.png
 INPUT /home/jake/Desktop/Thesis/Latex_materials/Prog_2.bbl
 INPUT /home/jake/Desktop/Thesis/Latex_materials/Prog_2.bbl
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -184,5 +189,4 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
