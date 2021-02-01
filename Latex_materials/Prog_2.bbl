@@ -1,0 +1,2262 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Nason et~al.(1989)Nason, Dawson, and
+  Ellis]{Article:EarlyQCDCrossSections}
+P.~Nason, S.~Dawson, and R.~Keith Ellis.
+\newblock {The One Particle Inclusive Differential Cross-Section for Heavy
+  Quark Production in Hadronic Collisions}.
+\newblock \emph{Nucl. Phys.}, B327:\penalty0 49--92, 1989.
+\newblock \doi{10.1016/0550-3213(90)90180-L, 10.1016/0550-3213(89)90286-1}.
+\newblock [Erratum: Nucl. Phys.B335,260(1990)].
+
+\bibitem[Campbell et~al.(2004)Campbell, Ellis, Maltoni, and
+  Willenbrock]{Article:HeavyFlavourXsec1}
+John~M. Campbell, R.~Keith Ellis, F.~Maltoni, and S.~Willenbrock.
+\newblock {Associated production of a $Z$ Boson and a single heavy quark jet}.
+\newblock \emph{Phys. Rev.}, D69:\penalty0 074021, 2004.
+\newblock \doi{10.1103/PhysRevD.69.074021}.
+
+\bibitem[Campbell et~al.(2006)Campbell, Ellis, Maltoni, and
+  Willenbrock]{Article:HeavyFlavourXsec2}
+John~M. Campbell, R.~Keith Ellis, F.~Maltoni, and S.~Willenbrock.
+\newblock {Production of a $Z$ boson and two jets with one heavy-quark tag}.
+\newblock \emph{Phys. Rev.}, D73:\penalty0 054007, 2006.
+\newblock \doi{10.1103/PhysRevD.77.019903, 10.1103/PhysRevD.73.054007}.
+\newblock [Erratum: Phys. Rev.D77,019903(2008)].
+
+\bibitem[Febres~Cordero et~al.(2009)Febres~Cordero, Reina, and
+  Wackeroth]{Article:HeavyFlavourXsec3}
+Fernando Febres~Cordero, L.~Reina, and D.~Wackeroth.
+\newblock {W- and Z-boson production with a massive bottom-quark pair at the
+  Large Hadron Collider}.
+\newblock \emph{Phys. Rev.}, D80:\penalty0 034015, 2009.
+\newblock \doi{10.1103/PhysRevD.80.034015}.
+
+\bibitem[Aad et~al.(2014)]{Article:EarlyATLASCrossSecMeasurement}
+Georges Aad et~al.
+\newblock {Measurement of differential production cross-sections for a $Z$
+  boson in association with $b$-jets in 7 TeV proton-proton collisions with the
+  ATLAS detector}.
+\newblock \emph{JHEP}, 10:\penalty0 141, 2014.
+\newblock \doi{10.1007/JHEP10(2014)141}.
+
+\bibitem[Chatrchyan et~al.(2012)]{Article:EarlyCMSCrossSecMeasurement}
+Serguei Chatrchyan et~al.
+\newblock {Inclusive $b$-jet production in $pp$ collisions at $\sqrt{s}=7$
+  TeV}.
+\newblock \emph{JHEP}, 04:\penalty0 084, 2012.
+\newblock \doi{10.1007/JHEP04(2012)084}.
+
+\bibitem[Tanabashi et~al.(2018)Tanabashi, Hagiwara, Hikasa, Nakamura, Sumino,
+  Takahashi, Tanaka, Agashe, Aielli, Amsler, Antonelli, Asner, Baer, Banerjee,
+  Barnett, Basaglia, Bauer, Beatty, Belousov, Beringer, Bethke, Bettini,
+  Bichsel, Biebel, Black, Blucher, Buchmuller, Burkert, Bychkov, Cahn, Carena,
+  Ceccucci, Cerri, Chakraborty, Chen, Chivukula, Cowan, Dahl, D'Ambrosio,
+  Damour, de~Florian, de~Gouv\^ea, DeGrand, de~Jong, Dissertori, Dobrescu,
+  D'Onofrio, Doser, Drees, Dreiner, Dwyer, Eerola, Eidelman, Ellis, Erler,
+  Ezhela, Fetscher, Fields, Firestone, Foster, Freitas, Gallagher, Garren,
+  Gerber, Gerbier, Gershon, Gershtein, Gherghetta, Godizov, Goodman, Grab,
+  Gritsan, Grojean, Groom, Gr\"unewald, Gurtu, Gutsche, Haber, Hanhart,
+  Hashimoto, Hayato, Hayes, Hebecker, Heinemeyer, Heltsley, Hern\'andez-Rey,
+  Hisano, H\"ocker, Holder, Holtkamp, Hyodo, Irwin, Johnson, Kado, Karliner,
+  Katz, Klein, Klempt, Kowalewski, Krauss, Kreps, Krusche, Kuyanov, Kwon,
+  Lahav, Laiho, Lesgourgues, Liddle, Ligeti, Lin, Lippmann, Liss, Littenberg,
+  Lugovsky, Lugovsky, Lusiani, Makida, Maltoni, Mannel, Manohar, Marciano,
+  Martin, Masoni, Matthews, Mei\ss{}ner, Milstead, Mitchell, M\"onig, Molaro,
+  Moortgat, Moskovic, Murayama, Narain, Nason, Navas, Neubert, Nevski, Nir,
+  Olive, Pagan~Griso, Parsons, Patrignani, Peacock, Pennington, Petcov, Petrov,
+  Pianori, Piepke, Pomarol, Quadt, Rademacker, Raffelt, Ratcliff, Richardson,
+  Ringwald, Roesler, Rolli, Romaniouk, Rosenberg, Rosner, Rybka, Ryutin,
+  Sachrajda, Sakai, Salam, Sarkar, Sauli, Schneider, Scholberg, Schwartz,
+  Scott, Sharma, Sharpe, Shutt, Silari, Sj\"ostrand, Skands, Skwarnicki, Smith,
+  Smoot, Spanier, Spieler, Spiering, Stahl, Stone, Sumiyoshi, Syphers, Terashi,
+  Terning, Thoma, Thorne, Tiator, Titov, Tkachenko, T\"ornqvist, Tovey,
+  Valencia, Van~de Water, Varelas, Venanzoni, Verde, Vincter, Vogel, Vogt,
+  Wakely, Walkowiak, Walter, Wands, Ward, Wascko, Weiglein, Weinberg, Weinberg,
+  White, Wiencke, Willocq, Wohl, Womersley, Woody, Workman, Yao, Zeller, Zenin,
+  Zhu, Zhu, Zimmermann, Zyla, Anderson, Fuller, Lugovsky, and
+  Schaffner]{Article:PDG}
+M.~Tanabashi, K.~Hagiwara, K.~Hikasa, K.~Nakamura, Y.~Sumino, F.~Takahashi,
+  J.~Tanaka, K.~Agashe, G.~Aielli, C.~Amsler, M.~Antonelli, D.~M. Asner,
+  H.~Baer, Sw. Banerjee, R.~M. Barnett, T.~Basaglia, C.~W. Bauer, J.~J. Beatty,
+  V.~I. Belousov, J.~Beringer, S.~Bethke, A.~Bettini, H.~Bichsel, O.~Biebel,
+  K.~M. Black, E.~Blucher, O.~Buchmuller, V.~Burkert, M.~A. Bychkov, R.~N.
+  Cahn, M.~Carena, A.~Ceccucci, A.~Cerri, D.~Chakraborty, M.-C. Chen, R.~S.
+  Chivukula, G.~Cowan, O.~Dahl, G.~D'Ambrosio, T.~Damour, D.~de~Florian,
+  A.~de~Gouv\^ea, T.~DeGrand, P.~de~Jong, G.~Dissertori, B.~A. Dobrescu,
+  M.~D'Onofrio, M.~Doser, M.~Drees, H.~K. Dreiner, D.~A. Dwyer, P.~Eerola,
+  S.~Eidelman, J.~Ellis, J.~Erler, V.~V. Ezhela, W.~Fetscher, B.~D. Fields,
+  R.~Firestone, B.~Foster, A.~Freitas, H.~Gallagher, L.~Garren, H.-J. Gerber,
+  G.~Gerbier, T.~Gershon, Y.~Gershtein, T.~Gherghetta, A.~A. Godizov,
+  M.~Goodman, C.~Grab, A.~V. Gritsan, C.~Grojean, D.~E. Groom, M.~Gr\"unewald,
+  A.~Gurtu, T.~Gutsche, H.~E. Haber, C.~Hanhart, S.~Hashimoto, Y.~Hayato, K.~G.
+  Hayes, A.~Hebecker, S.~Heinemeyer, B.~Heltsley, J.~J. Hern\'andez-Rey,
+  J.~Hisano, A.~H\"ocker, J.~Holder, A.~Holtkamp, T.~Hyodo, K.~D. Irwin, K.~F.
+  Johnson, M.~Kado, M.~Karliner, U.~F. Katz, S.~R. Klein, E.~Klempt, R.~V.
+  Kowalewski, F.~Krauss, M.~Kreps, B.~Krusche, Yu.~V. Kuyanov, Y.~Kwon,
+  O.~Lahav, J.~Laiho, J.~Lesgourgues, A.~Liddle, Z.~Ligeti, C.-J. Lin,
+  C.~Lippmann, T.~M. Liss, L.~Littenberg, K.~S. Lugovsky, S.~B. Lugovsky,
+  A.~Lusiani, Y.~Makida, F.~Maltoni, T.~Mannel, A.~V. Manohar, W.~J. Marciano,
+  A.~D. Martin, A.~Masoni, J.~Matthews, U.-G. Mei\ss{}ner, D.~Milstead, R.~E.
+  Mitchell, K.~M\"onig, P.~Molaro, F.~Moortgat, M.~Moskovic, H.~Murayama,
+  M.~Narain, P.~Nason, S.~Navas, M.~Neubert, P.~Nevski, Y.~Nir, K.~A. Olive,
+  S.~Pagan~Griso, J.~Parsons, C.~Patrignani, J.~A. Peacock, M.~Pennington,
+  S.~T. Petcov, V.~A. Petrov, E.~Pianori, A.~Piepke, A.~Pomarol, A.~Quadt,
+  J.~Rademacker, G.~Raffelt, B.~N. Ratcliff, P.~Richardson, A.~Ringwald,
+  S.~Roesler, S.~Rolli, A.~Romaniouk, L.~J. Rosenberg, J.~L. Rosner, G.~Rybka,
+  R.~A. Ryutin, C.~T. Sachrajda, Y.~Sakai, G.~P. Salam, S.~Sarkar, F.~Sauli,
+  O.~Schneider, K.~Scholberg, A.~J. Schwartz, D.~Scott, V.~Sharma, S.~R.
+  Sharpe, T.~Shutt, M.~Silari, T.~Sj\"ostrand, P.~Skands, T.~Skwarnicki, J.~G.
+  Smith, G.~F. Smoot, S.~Spanier, H.~Spieler, C.~Spiering, A.~Stahl, S.~L.
+  Stone, T.~Sumiyoshi, M.~J. Syphers, K.~Terashi, J.~Terning, U.~Thoma, R.~S.
+  Thorne, L.~Tiator, M.~Titov, N.~P. Tkachenko, N.~A. T\"ornqvist, D.~R. Tovey,
+  G.~Valencia, R.~Van~de Water, N.~Varelas, G.~Venanzoni, L.~Verde, M.~G.
+  Vincter, P.~Vogel, A.~Vogt, S.~P. Wakely, W.~Walkowiak, C.~W. Walter,
+  D.~Wands, D.~R. Ward, M.~O. Wascko, G.~Weiglein, D.~H. Weinberg, E.~J.
+  Weinberg, M.~White, L.~R. Wiencke, S.~Willocq, C.~G. Wohl, J.~Womersley,
+  C.~L. Woody, R.~L. Workman, W.-M. Yao, G.~P. Zeller, O.~V. Zenin, R.-Y. Zhu,
+  S.-L. Zhu, F.~Zimmermann, P.~A. Zyla, J.~Anderson, L.~Fuller, V.~S. Lugovsky,
+  and P.~Schaffner.
+\newblock Review of particle physics.
+\newblock \emph{Phys. Rev. D}, 98:\penalty0 030001, Aug 2018.
+\newblock \doi{10.1103/PhysRevD.98.030001}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.98.030001}.
+
+\bibitem[Maltoni et~al.(2012)Maltoni, Ridolfi, and
+  Ubiali]{Article:FlavourSchemes}
+Fabio Maltoni, Giovanni Ridolfi, and Maria Ubiali.
+\newblock {b-initiated processes at the LHC: a reappraisal}.
+\newblock \emph{JHEP}, 07:\penalty0 022, 2012.
+\newblock \doi{10.1007/JHEP04(2013)095, 10.1007/JHEP07(2012)022}.
+\newblock [Erratum: JHEP04,095(2013)].
+
+\bibitem[Rojo(2016)]{Article:PDFRun2}
+Juan Rojo.
+\newblock {PDF4LHC recommendations for Run II}.
+\newblock \emph{PoS}, DIS2016:\penalty0 018, 2016.
+
+\bibitem[et~al. {(ATLAS Collaboration)}(2012)]{DiscoHiggsATLAS}
+Georges~Aad et~al. {(ATLAS Collaboration)}.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.020}.
+
+\bibitem[et~al. {(CMS Collaboration)}(2012)]{DiscoHiggsCMS}
+Serguei~Chatrchyan et~al. {(CMS Collaboration)}.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 30--61, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.021}.
+
+\bibitem[Altarelli(2002)]{Article:QCDPrimer}
+Guido Altarelli.
+\newblock {A QCD primer}.
+\newblock \emph{AIP Conf. Proc.}, 631\penalty0 (1):\penalty0 70, 2002.
+\newblock \doi{10.1063/1.1513677}.
+
+\bibitem[Englert and Brout(1964)]{Brout-Englert}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 321--323, Aug 1964.
+\newblock \doi{10.1103/PhysRevLett.13.321}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.13.321}.
+
+\bibitem[Higgs(1964)]{Higgs}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 508--509, Oct 1964.
+\newblock \doi{10.1103/PhysRevLett.13.508}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.13.508}.
+
+\bibitem[Drell and Yan(1970)]{Article:DrellYan}
+Sidney~D. Drell and Tung-Mow Yan.
+\newblock Massive lepton-pair production in hadron-hadron collisions at high
+  energies.
+\newblock \emph{Phys. Rev. Lett.}, 25:\penalty0 316--320, Aug 1970.
+\newblock \doi{10.1103/PhysRevLett.25.316}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.25.316}.
+
+\bibitem[Martin et~al.(2009)Martin, Stirling, Thorne, and
+  Watt]{Article:PartonDistributions}
+A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt.
+\newblock {Parton distributions for the LHC}.
+\newblock \emph{Eur. Phys. J.}, C63:\penalty0 189--285, 2009.
+\newblock \doi{10.1140/epjc/s10052-009-1072-5}.
+
+\bibitem[Brüning et~al.(2004{\natexlab{a}})Brüning, Collier, Lebrun, Myers,
+  Ostojic, Poole, and Proudlock]{LHCDesignV1}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole, and Paul Proudlock.
+\newblock \emph{{LHC Design Report}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2004{\natexlab{a}}.
+\newblock \doi{10.5170/CERN-2004-003-V-1}.
+\newblock URL \url{http://cds.cern.ch/record/782076}.
+
+\bibitem[Brüning et~al.(2004{\natexlab{b}})Brüning, Collier, Lebrun, Myers,
+  Ostojic, Poole, and Proudlock]{LHCDesignV2}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole, and Paul Proudlock.
+\newblock \emph{{LHC Design Report}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2004{\natexlab{b}}.
+\newblock \doi{10.5170/CERN-2004-003-V-2}.
+\newblock URL \url{http://cds.cern.ch/record/815187}.
+
+\bibitem[Benedikt et~al.(2004)Benedikt, Collier, Mertens, Poole, and
+  Schindl]{LHCDesignV3}
+Michael Benedikt, Paul Collier, V~Mertens, John Poole, and Karlheinz Schindl.
+\newblock \emph{{LHC Design Report}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2004.
+\newblock \doi{10.5170/CERN-2004-003-V-3}.
+\newblock URL \url{http://cds.cern.ch/record/823808}.
+
+\bibitem[Arnaudon et~al.(2006)Arnaudon, Baudrenghien, Baylac, Bellodi, Body,
+  Borburgh, Bourquin, Broere, Brunner, Bruno, Carli, Caspers, Cousineau, Cuvet,
+  De~Almeida~Martins, Dobers, Fowler, Garoby, Gerigk, Goddard, Hanke, Hori,
+  Jones, Kahle, Kalbreier, Kroyer, Küchler, Lombardi, López-Hernandez,
+  Magistris, Martini, Maury, Page, Paoluzzi, Pasini, Raich, Rossi, Royer,
+  Sargsyan, Serrano, Scrivens, Silari, Timmins, Venturini-Delsolaro, Vretenar,
+  Wegner, Weterings, and Zickler]{LINAC4}
+L~Arnaudon, P~Baudrenghien, M~Baylac, G~Bellodi, Y~Body, J~Borburgh,
+  P~Bourquin, J~Broere, O~Brunner, L~Bruno, C~Carli, Friedhelm Caspers, S~M
+  Cousineau, Y~Cuvet, C~De~Almeida~Martins, T~Dobers, T~Fowler, R~Garoby,
+  F~Gerigk, B~Goddard, K~Hanke, M~Hori, M~Jones, K~Kahle, Willi Kalbreier,
+  T~Kroyer, D~Küchler, A~M Lombardi, L~A López-Hernandez, M~Magistris,
+  M~Martini, S~Maury, E~Page, M~Paoluzzi, M~Pasini, U~Raich, C~Rossi, J~P
+  Royer, E~Sargsyan, J~Serrano, R~Scrivens, M~Silari, M~Timmins,
+  W~Venturini-Delsolaro, M~Vretenar, R~Wegner, W~Weterings, and T~Zickler.
+\newblock {Linac4 Technical Design Report}.
+\newblock Technical Report CERN-AB-2006-084. CARE-Note-2006-022-HIPPI, CERN,
+  Geneva, Dec 2006.
+\newblock URL \url{https://cds.cern.ch/record/1004186}.
+\newblock revised version submitted on 2006-12-14 09:00:40.
+
+\bibitem[Arnison et~al.(1983{\natexlab{a}})Arnison, Astbury, Aubert, Bacci,
+  Bauer, Bézaguet, Böck, Bowcock, Calvetti, Carroll, Catz, Cennini, Centro,
+  Ceradini, Cittolin, Cline, Cochet, Colas, Corden, Dallman, DeBeer, {Della
+  Negra}, Demoulin, Denegri, {Di Ciaccio}, DiBitonto, Dobrzynski, Dowell,
+  Edwards, Eggert, Eisenhandler, Ellis, Erhard, Faissner, Fontaine, Frey,
+  Frühwirth, Garvey, Geer, Ghesquière, Ghez, Giboni, Gibson, Giraud-Héraud,
+  Givernaud, Gonidec, Grayer, Gutierrez, Hansl-Kozanecka, Haynes, Hertzberger,
+  Hodges, Hoffmann, Hoffmann, Holthuizen, Homer, Honma, Jank, Jorat, Kalmus,
+  Karimäki, Keeler, Kenyon, Kernan, Kinnunen, Kowalski, Kozanecki, Kryn,
+  Lacava, Laugier, Lees, Lehmann, Leuchs, Lévêque, Linglin, Locci, Loret,
+  Malosse, Markiewicz, Maurin, McMahon, Mendiburu, Minard, Moricca, Muirhead,
+  Muller, Nandi, Naumann, Norton, Orkin-Lecourtois, Paoluzi, Petrucci, Mortari,
+  Pimiä, Placci, Radermacher, Ransdell, Reithler, Revol, Rich, Rijssenbeek,
+  Roberts, Rohlf, Rossi, Rubbia, Sadoulet, Sajot, Salvi, Salvini, Sass,
+  Saudraix, Savoy-Navarro, Schinzel, Scott, Shah, Spiro, Strauss, Sumorok,
+  Szoncso, Smith, Tao, Thompson, Timmer, Tscheslog, Tuominiemi, {Van der Meer},
+  Vialle, Vrana, Vuillemin, Wahl, Watkins, Wilson, Xie, Yvert, and
+  Zurfluh]{WBosonDiscovery}
+G.~Arnison, A.~Astbury, B.~Aubert, C.~Bacci, G.~Bauer, A.~Bézaguet, R.~Böck,
+  T.J.V. Bowcock, M.~Calvetti, T.~Carroll, P.~Catz, P.~Cennini, S.~Centro,
+  F.~Ceradini, S.~Cittolin, D.~Cline, C.~Cochet, J.~Colas, M.~Corden,
+  D.~Dallman, M.~DeBeer, M.~{Della Negra}, M.~Demoulin, D.~Denegri, A.~{Di
+  Ciaccio}, D.~DiBitonto, L.~Dobrzynski, J.D. Dowell, M.~Edwards, K.~Eggert,
+  E.~Eisenhandler, N.~Ellis, P.~Erhard, H.~Faissner, G.~Fontaine, R.~Frey,
+  R.~Frühwirth, J.~Garvey, S.~Geer, C.~Ghesquière, P.~Ghez, K.L. Giboni, W.R.
+  Gibson, Y.~Giraud-Héraud, A.~Givernaud, A.~Gonidec, G.~Grayer, P.~Gutierrez,
+  T.~Hansl-Kozanecka, W.J. Haynes, L.O. Hertzberger, C.~Hodges, D.~Hoffmann,
+  H.~Hoffmann, D.J. Holthuizen, R.J. Homer, A.~Honma, W.~Jank, G.~Jorat, P.I.P.
+  Kalmus, V.~Karimäki, R.~Keeler, I.~Kenyon, A.~Kernan, R.~Kinnunen,
+  H.~Kowalski, W.~Kozanecki, D.~Kryn, F.~Lacava, J.-P. Laugier, J.-P. Lees,
+  H.~Lehmann, K.~Leuchs, A.~Lévêque, E.~Linglin, E.~Locci, M.~Loret, J.-J.
+  Malosse, T.~Markiewicz, G.~Maurin, T.~McMahon, J.-P. Mendiburu, M.-N. Minard,
+  M.~Moricca, H.~Muirhead, F.~Muller, A.K. Nandi, L.~Naumann, A.~Norton,
+  A.~Orkin-Lecourtois, L.~Paoluzi, G.~Petrucci, G.Piano Mortari, M.~Pimiä,
+  A.~Placci, E.~Radermacher, J.~Ransdell, H.~Reithler, J.-P. Revol, J.~Rich,
+  M.~Rijssenbeek, C.~Roberts, J.~Rohlf, P.~Rossi, C.~Rubbia, B.~Sadoulet,
+  G.~Sajot, G.~Salvi, J.~Salvini, J.~Sass, A.~Saudraix, A.~Savoy-Navarro,
+  D.~Schinzel, W.~Scott, T.P. Shah, M.~Spiro, J.~Strauss, K.~Sumorok,
+  F.~Szoncso, D.~Smith, C.~Tao, G.~Thompson, J.~Timmer, E.~Tscheslog,
+  J.~Tuominiemi, S.~{Van der Meer}, J.-P. Vialle, J.~Vrana, V.~Vuillemin, H.D.
+  Wahl, P.~Watkins, J.~Wilson, Y.G. Xie, M.~Yvert, and E.~Zurfluh.
+\newblock Experimental observation of isolated large transverse energy
+  electrons with associated missing energy at s=540 gev.
+\newblock \emph{Physics Letters B}, 122\penalty0 (1):\penalty0 103 -- 116,
+  1983{\natexlab{a}}.
+\newblock ISSN 0370-2693.
+\newblock \doi{https://doi.org/10.1016/0370-2693(83)91177-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0370269383911772}.
+
+\bibitem[Arnison et~al.(1983{\natexlab{b}})Arnison, Astbury, Aubert, Bacci,
+  Bauer, Bézaguet, Böck, Bowcock, Calvetti, Catz, Cennini, Centro, Ceradini,
+  Cittolin, Cline, Cochet, Colas, Corden, Dallman, Dau, DeBeer, Negra,
+  Demoulin, Denegri, {Di Ciaccio}, Dibitonto, Dobrzynski, Dowell, Eggert,
+  Eisenhandler, Ellis, Erhard, Faissner, Fincke, Fontaine, Frey, Frühwirth,
+  Garvey, Geer, Ghesquière, Ghez, Giboni, Gibson, Giraud-Héraud, Givernaud,
+  Gonidec, Grayer, Hansl-Kozaȧecka, Haynes, Hertzberger, Hodges, Hoffmann,
+  Hoffmann, Holthuizen, Homer, Honma, Jank, Jorat, Kalmus, Karimäki, Keeler,
+  Kenyon, Kernan, Kinnunen, Kozanecki, Kryn, Lacava, Laugier, Lees, Lehmann,
+  Leuchs, Lévêque, Linglin, Locci, Malosse, Markiewicz, Maurin, McMahon,
+  Mendiburu, Minard, Mohammadi, Moricca, Morgan, Muirhead, Muller, Nandi,
+  Naumann, Norton, Orkin-Lecourtois, Paoluzi, Pauss, Mortari, Pietarinen,
+  Pimiä, Placci, Porte, Radermacher, Ransdell, Reithler, Revol, Rich,
+  Rijssenbeek, Roberts, Rohlf, Rossi, Rubbia, Sadoulet, Sajot, Salvi, Salvini,
+  Sass, Saudraix, Savoy-Navarro, Schinzel, Scott, Shah, Spiro, Strauss,
+  Streets, Sumorok, Szoncso, Smith, Tao, Thompson, Timmer, Tscheslog,
+  Touminiemi, {Van Eijk}, Vialle, Vrana, Vuillemin, Wahl, Watkins, Wilson,
+  Wulz, Xie, Yvert, and Zurfluh]{ZBosonDiscovery}
+G.~Arnison, A.~Astbury, B.~Aubert, C.~Bacci, G.~Bauer, A.~Bézaguet, R.~Böck,
+  T.J.V. Bowcock, M.~Calvetti, P.~Catz, P.~Cennini, S.~Centro, F.~Ceradini,
+  S.~Cittolin, D.~Cline, C.~Cochet, J.~Colas, M.~Corden, D.~Dallman, D.~Dau,
+  M.~DeBeer, M.Della Negra, M.~Demoulin, D.~Denegri, A.~{Di Ciaccio},
+  D.~Dibitonto, L.~Dobrzynski, J.D. Dowell, K.~Eggert, E.~Eisenhandler,
+  N.~Ellis, P.~Erhard, H.~Faissner, M.~Fincke, G.~Fontaine, R.~Frey,
+  R.~Frühwirth, J.~Garvey, S.~Geer, C.~Ghesquière, P.~Ghez, K.~Giboni, W.R.
+  Gibson, Y.~Giraud-Héraud, A.~Givernaud, A.~Gonidec, G.~Grayer,
+  T.~Hansl-Kozaȧecka, W.J. Haynes, L.O. Hertzberger, C.~Hodges, D.~Hoffmann,
+  H.~Hoffmann, D.J. Holthuizen, R.J. Homer, A.~Honma, W.~Jank, G.~Jorat, P.I.P.
+  Kalmus, V.~Karimäki, R.~Keeler, I.~Kenyon, A.~Kernan, R.~Kinnunen,
+  W.~Kozanecki, D.~Kryn, F.~Lacava, J.-P. Laugier, J.-P. Lees, H.~Lehmann,
+  R.~Leuchs, A.~Lévêque, D.~Linglin, E.~Locci, J.-J. Malosse, T.~Markiewicz,
+  G.~Maurin, T.~McMahon, J.-P. Mendiburu, M.-N. Minard, M.~Mohammadi,
+  M.~Moricca, K.~Morgan, H.~Muirhead, F.~Muller, A.K. Nandi, L.~Naumann,
+  A.~Norton, A.~Orkin-Lecourtois, L.~Paoluzi, F.~Pauss, G.Piano Mortari,
+  E.~Pietarinen, M.~Pimiä, A.~Placci, J.P. Porte, E.~Radermacher, J.~Ransdell,
+  H.~Reithler, J.-P. Revol, J.~Rich, M.~Rijssenbeek, C.~Roberts, J.~Rohlf,
+  P.~Rossi, C.~Rubbia, B.~Sadoulet, G.~Sajot, G.~Salvi, G.~Salvini, J.~Sass,
+  J.~Saudraix, A.~Savoy-Navarro, D.~Schinzel, W.~Scott, T.P. Shah, M.~Spiro,
+  J.~Strauss, J.~Streets, K.~Sumorok, F.~Szoncso, D.~Smith, C.~Tao,
+  G.~Thompson, J.~Timmer, E.~Tscheslog, J.~Touminiemi, B.~{Van Eijk}, J.-P.
+  Vialle, J.~Vrana, V.~Vuillemin, H.D. Wahl, P.~Watkins, J.~Wilson, C.~Wulz,
+  G.Y. Xie, M.~Yvert, and E.~Zurfluh.
+\newblock Experimental observation of lepton pairs of invariant mass around 95
+  gev/c2 at the cern sps collider.
+\newblock \emph{Physics Letters B}, 126\penalty0 (5):\penalty0 398 -- 410,
+  1983{\natexlab{b}}.
+\newblock ISSN 0370-2693.
+\newblock \doi{https://doi.org/10.1016/0370-2693(83)90188-0}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0370269383901880}.
+
+\bibitem[Lefèvre(2008)]{Article:CernComplex}
+Christiane Lefèvre.
+\newblock {The CERN accelerator complex. Complexe des accélérateurs du CERN}.
+\newblock Dec 2008.
+\newblock URL \url{https://cds.cern.ch/record/1260465}.
+
+\bibitem[Assmann et~al.(2002)Assmann, Lamont, and Myers]{LEPHistory}
+R.~Assmann, M.~Lamont, and S.~Myers.
+\newblock {A brief history of the LEP collider}.
+\newblock \emph{Nucl. Phys. B Proc. Suppl.}, 109:\penalty0 17--31, 2002.
+\newblock \doi{10.1016/S0920-5632(02)90005-8}.
+
+\bibitem[LEP(1983)]{LEPDesign1}
+\emph{{LEP design report}}.
+\newblock CERN, Geneva, 1983.
+\newblock URL \url{https://cds.cern.ch/record/98881}.
+\newblock By the LEP Injector Study Group.
+
+\bibitem[LEP(1984)]{LEPDesign2}
+\emph{{LEP design report}}.
+\newblock CERN, Geneva, 1984.
+\newblock URL \url{https://cds.cern.ch/record/102083}.
+\newblock Copies shelved as reports in LEP, PS and SPS libraries.
+
+\bibitem[Wyss(1996)]{LEPDesign3}
+Carlo Wyss.
+\newblock \emph{{LEP design report, v.3: LEP2}}.
+\newblock CERN, Geneva, 1996.
+\newblock URL \url{https://cds.cern.ch/record/314187}.
+\newblock Vol. 1-2 publ. in 1983-84.
+
+\bibitem[Parma and Rossi(2009)]{LHCMagnets}
+V~Parma and L~Rossi.
+\newblock {Performance of the LHC magnet system}.
+\newblock \penalty0 (CERN-ATS-2009-023):\penalty0 6 p, Sep 2009.
+\newblock URL \url{https://cds.cern.ch/record/1204578}.
+
+\bibitem[Collaboration et~al.(2008{\natexlab{a}})Collaboration, Aad, Abat,
+  Abdallah, Abdelalim, Abdesselam, Abdinov, Abi, Abolins, Abramowicz, Acerbi,
+  Acharya, Achenbach, Ackers, Adams, Adamyan, Addy, Aderholz, Adorisio,
+  Adragna, Aharrouche, Ahlen, Ahles, Ahmad, Ahmed, Aielli, {\AA}kesson,
+  {\AA}kesson, Akimov, Alam, Albert, Albrand, Aleksa, Aleksandrov, Aleppo,
+  Alessandria, Alexa, Alexander, Alexopoulos, Alimonti, Aliyev, Allport,
+  Allwood-Spiers, Aloisio, Alonso, Alves, Alviggi, Amako, Amaral, Amaral,
+  Ambrosini, Ambrosio, Amelung, Ammosov, Amorim, Amram, Anastopoulos, Anderson,
+  Anderson, Anderssen, Andreazza, Andrei, Andricek, Andrieux, Anduaga,
+  Anghinolfi, Antonaki, Antonelli, Antonelli, Apsimon, Arabidze, Aracena, Arai,
+  Arce, Archambault, Arguin, Arik, Arik, Arms, Armstrong, Arnaud, Arnault,
+  Artamonov, Asai, Ask, {\AA}sman, Asner, Asquith, Assamagan, Astbury, Athar,
+  Atkinson, Aubert, Auerbach, Auge, Augsten, Aulchenko, Austin, Avolio,
+  Avramidou, Axen, Ay, Azuelos, Baccaglioni, Bacci, Bachacou, Bachas, Bachy,
+  Badescu, Bagnaia, Bailey, Baines, Baker, Ballester, Pedrosa, Banas, Banfi,
+  Bangert, Bansal, Baranov, Baranov, Barashkou, Barberio, Barberis, Barbier,
+  Barclay, Bardin, Bargassa, Barillari, Barisonzi, Barnett, Barnett, Baron,
+  Baroncelli, Barone, Barr, Barreiro, da~Costa, Barrillon, Poy, Barros,
+  Bartheld, Bartko, Bartoldus, Basiladze, Bastos, Batchelor, Bates, Batley,
+  Batraneanu, Battistin, Battistoni, Batusov, Bauer, Bauss, Baynham, Bazalova,
+  Bazan, Beauchemin, Beaugiraud, Beccherle, Beck, Beck, Becks, Bedajanek,
+  Beddall, Beddall, Bedn{\'{a}}r, Bednyakov, Bee, Harpaz, Belanger,
+  Belanger-Champagne, Belhorma, Bell, Bell, Bella, Bellachia, Bellagamba,
+  Bellina, Bellomo, Bellomo, Beltramello, Belymam, Ami, Moshe, Benary,
+  Benchekroun, Benchouk, Bendel, Benedict, Benekos, Benes, Benhammou,
+  Benincasa, Benjamin, Bensinger, Benslama, Bentvelsen, Beretta, Berge,
+  Bergeaas, Berger, Berghaus, Berglund, Bergsma, Beringer, Bernab{\'{e}}u,
+  Bernardet, Berriaud, Berry, Bertelsen, Bertin, Bertinelli, Bertolucci,
+  Besson, Beteille, Bethke, Bialas, Bianchi, Bianco, Biebel, Bieri, Biglietti,
+  Bilokon, Binder, Binet, Bingefors, Bingul, Bini, Biscarat, Bischof,
+  Bischofberger, Bitadze, Bizzell, Black, Blair, Blaising, Blanch, Blanchot,
+  Blocker, Blocki, Blondel, Blum, Blumenschein, Boaretto, Bobbink, Bocci,
+  Bocian, Bock, Boehm, Boek, Bogaerts, Bogouch, Bohm, Bohm, Boisvert, Bold,
+  Boldea, Bondarenko, Bonino, Bonis, Bonivento, Bonneau, Boonekamp, Boorman,
+  Boosten, Booth, Booth, Booth, Booth, Borer, Borisov, Borjanovic, Bos,
+  Boscherini, Bosi, Bosman, Bosteels, Botchev, Boterenbrood, Botterill,
+  Boudreau, Bouhova-Thacker, Boulahouache, Bourdarios, Boutemeur, Bouzakis,
+  Boyd, Boyd, Boyer, Boyko, Bozhko, Braccini, Braem, Branchini, Brandenburg,
+  Brandt, Brandt, Bratzler, Braun, Bravo, Brawn, Brelier, Bremer, Brenner,
+  Bressler, Breton, Brett, Breugnon, Bright-Thomas, Brochu, Brock, Brock,
+  Brodbeck, Brodet, Broggi, Broklova, Bromberg, Brooijmans, Brouwer, Broz,
+  Brubaker, de~Renstrom, Bruncko, Bruni, Bruni, Bruschi, Buanes, Buchanan,
+  Buchholz, Budagov, Büscher, Bugge, Buira-Clark, Buis, Bujor, Buran,
+  Burckhart, Burckhart-Chromek, Burdin, Burns, Busato, Buskop, Buszello, Butin,
+  Butler, Buttar, Butterworth, Butterworth, Byatt, Urb{\'{a}}n, Casas, Caccia,
+  Caforio, Cakir, Calafiura, Calderini, Terol, Callahan, Caloba, Caloi, Calvet,
+  Camard, Camarena, Camarri, Cambiaghi, Cameron, Cammin, Segura, Campana,
+  Canale, Cantero, Garrido, Caprini, Caprini, Caprio, Caracinha, Caramarcu,
+  Carcagno, Cardarelli, Cardeira, Sas, Cardini, Carli, Carlino, Carminati,
+  Caron, Caron, Carpentieri, Carr, Carter, Carter, Carvalho, Casadei, Casado,
+  Cascella, Caso, Castelo, Gimenez, Castro, Castrovillari, Cataldi, Cataneo,
+  Catinaccio, Catmore, Cattai, Caughron, Cauz, Cavallari, Cavalleri, Cavalli,
+  Cavalli-Sforza, Cavasinni, Ceradini, Cerna, Cernoch, Cerqueira, Cerri,
+  Cerutti, Cervetto, Cetin, Cevenini, Chalifour, llatas, Chan, Chapman,
+  Charlton, Charron, Chekulaev, Chelkov, Chen, Chen, Chen, Chen, Cheng, Cheng,
+  Cheplakov, Chepurnov, Moursli, Chesneanu, Cheu, Chevalier, Chevalley,
+  Chevallier, Chiarella, Chiefari, Chikovani, Chilingarov, Chiodini, Chouridou,
+  Chren, Christiansen, Christidi, Christov, Chu, Chudoba, Chuguev, Ciapetti,
+  Cicalini, Ciftci, Cindro, Ciobotaru, Ciocio, Cirilli, Citterio, Ciubancan,
+  Civera, Clark, Cleland, Clemens, Clement, Cl{\'{e}}ment, Clements, Clifft,
+  Cobal, Coccaro, Cochran, Coco, Coe, Coelli, Cogneras, Cojocaru, Colas,
+  Colijn, Collard, Collins-Tooth, Collot, Coluccia, Comune, Mui{\~{n}}o,
+  Coniavitis, Consonni, Constantinescu, Conta, Conventi, Cook, Cooke,
+  Cooper-Smith, Cornelissen, Corradi, Correard, Corso-Radu, Coss, Costa, Costa,
+  Costanzo, Costin, Torres, Courneyea, Couyoumtzelis, Cowan, Cox, Cox, Cragg,
+  Cranmer, Cranshaw, Cristinziani, Crosetti, Almenar, Cuneo, Cunha, Curatolo,
+  Curtis, Cwetanski, Czyczula, D{\textquotesingle}Auria,
+  D{\textquotesingle}Onofrio, Mello, Silva, Silva, Dabrowski, Dael, Dahlhoff,
+  Dai, Dallapiccola, Dallison, Dalmau, Daly, Dam, Damazio, Dameri, Danielsen,
+  Danielsson, Dankers, Dannheim, Darbo, Dargent, Daum, Dauvergne, David,
+  Davidek, Davidson, Davidson, Dawson, Dawson, Daya, De, de~Asmundis, de~Boer,
+  Castro, Groot, de~Jong, de~La~Broise, Cruz-Burelo, Taille, Lotto, Branco,
+  Pedis, de~Saintignon, Salvo, Sanctis, Santo, Regie, Zorzi, Dean, Dedes,
+  Dedovich, Defay, Degele, Dehchar, Deile, Papa, Peso, Prete, Delagnes,
+  Delebecque, Dell{\textquotesingle}Acqua, Pietra, della Volpe, Delmastro,
+  Delpierre, Delruelle, Delsart, Silberberg, Demers, Demichev, Demierre,
+  Demirköz, Deng, Denisov, Dennis, Densham, Dentan, Derkaoui, Derue, Dervan,
+  Desch, Dewhurst, Ciaccio, Ciaccio, Domenico, Girolamo, Girolamo, Luise,
+  Mattia, Simone, Gomez, Diehl, Dietl, Dietrich, Dietsche, Diglio, Dima,
+  Dindar, Dinkespiler, Dionisi, Dipanjan, Dita, Dita, Dittus, Dixon, Djama,
+  Djilkibaev, Djobava, do~Vale, Dobbs, Dobinson, Dobos, Dobson, Dobson, Dodd,
+  Dogan, Doherty, Doi, Dolejsi, Dolenc, Dolezal, Dolgoshein, Domingo, Donega,
+  Dopke, Dorfan, Dorholt, Doria, Anjos, Dosil, Dotti, Dova, Dowell, Doyle,
+  Drake, Drakoulakos, Drasal, Drees, Dressnandt, Drevermann, Driouichi, Dris,
+  Drohan, Dubbert, Dubbs, Duchovni, Duckeck, Dudarev, Dührssen, Dür,
+  Duerdoth, Duffin, Duflot, Dufour, Dayot, Yildiz, Durand, Dushkin, Duxfield,
+  Dwuznik, Dydak, Dzahini, Cornell, Düren, Ebenstein, Eckert, Eckweiler,
+  Eerola, Efthymiopoulos, Egede, Egorov, Ehrenfeld, Eifert, Eigen, Einsweiler,
+  Eisenhandler, Ekelof, Eklund, Kacimi, Ellert, Elles, Ellis, Elmsheuser,
+  Elsing, Ely, Emeliyanov, Engelmann, Engström, Ennes, Epp, Eppig, Epshteyn,
+  Ereditato, Eremin, Eriksson, Ermoline, Ernwein, Errede, Errede, Escalier,
+  Escobar, Curull, Esposito, Esteves, Etienne, Etienvre, Etzion, Evans,
+  Evdokimov, Evtoukhovitch, Eyring, Fabbri, Fabjan, Fabre, Faccioli, Facius,
+  Fadeyev, Fakhrutdinov, Falciano, Falleau, Falou, Fang, Fanti, Farbin,
+  Farilla, Farrell, Farthouat, Fasching, Fassi, Fassnacht, Fassouliotis, Fawzi,
+  Fayard, Fayette, Febbraro, Fedin, Fedorko, Feld, Feldman, Feligioni, Feng,
+  Feng, Fent, Fenyuk, Ferencei, Ferguson, Ferland, Fernando, Ferrag, Ferrari,
+  Ferrari, Ferrari, Ferrer, Ferrer, Ferrere, Ferretti, Ferro, Fiascaris,
+  Fichet, Fiedler, Filimonov, Filip{\v{c}}i{\v{c}}, Filippas, Filthaut,
+  Fincke-Keeler, Finocchiaro, Fiorini, Firan, Fischer, Fisher, Fisher,
+  Flaminio, Flammer, Flechl, Fleck, Flegel, Fleischmann, Fleischmann, Corral,
+  Fleuret, Flick, Flix, Castillo, Flowerdew, Föhlisch, Fokitis, Martin, Fopma,
+  Forbush, Formica, Foster, Fournier, Foussat, Fowler, Fox, Francavilla,
+  Francis, Franz, Fraser, Fraternali, Fratianni, Freestone, French, Fritsch,
+  Froidevaux, Frost, Fukunaga, Fulachier, Torregrosa, Fuster, Gabaldon,
+  Gadomski, Gagliardi, Gagnon, Gallas, Gallas, Gallop, Gan, Gannaway, Gao,
+  Gapienko, Gaponenko, Garci{\'{a}}, Garcia-Sciveres, Navarro, Garde, Gardner,
+  Garelli, Garitaonandia, Garonne, Garvey, Gatti, Gaudio, Gaumer, Gautard,
+  Gauzzi, Gavrilenko, Gay, Gayde, Gazis, Gazo, Gee, Geich-Gimbel, Gellerstedt,
+  Gemme, Genest, Gentile, George, George, Gerlach, Gernizky, Geweniger,
+  Ghazlane, Ghete, Ghez, Ghodbane, Giacobbe, Giagu, Giakoumopoulou, Giangiobbe,
+  Gianotti, Gibbard, Gibson, Gibson, Gibson, Gieraltowski, Botella, Gilbert,
+  Gilchriese, Gildemeister, Gilewsky, Gillman, Gingrich, Ginzburg, Giokaris,
+  Giordani, Girard, Giraud, Girtler, Giugni, Giusti, Gjelsten, Glasman, Glazov,
+  Glitza, Glonti, Gnanvo, Godlewski, Göpfert, Gössling, Göttfert, Goldfarb,
+  Goldin, Goldschmidt, Golling, Gollub, Golonka, Golovnia, Gomes, Gomes,
+  Gon{\c{c}}alo, Gongadze, Gonidec, Gonzalez, de~la Hoz, Mill{\'{a}}n, Silva,
+  Gonzalez-Pineiro, Gonz{\'{a}}lez-Sevilla, Goodrick, Goodson, Goossens,
+  Gorbounov, Gordeev, Gordon, Gorelov, Gorfine, Gorini, Gorini, Gori{\v{s}}ek,
+  Gornicki, Gorokhov, Gorski, Goryachev, Goryachev, Gosselink, Gostkin,
+  Gouan{\`{e}}re, Eschrich, Goujdami, Goulette, Gousakov, Gouveia, Gowdy, Goy,
+  Grabowska-Bold, Grabski, Grafström, Grah, Grahn, Grancagnolo, Grancagnolo,
+  Grassmann, Gratchev, Gray, Graziani, Green, Greenall, Greenfield, Greenwood,
+  Gregor, Grewal, Griesmayer, Grigalashvili, Grigson, Grillo, Grimaldi, Grimm,
+  Gris, Grishkevich, Groenstege, Groer, Grognuz, Groh, Gross, Grosse-Knetter,
+  Grothe, Grudzinski, Gruse, Gruwe, Grybel, Grybos, Gschwendtner, Guarino,
+  Guicheney, Guilhem, Guillemin, Gunther, Guo, Gupta, Gurriana, Gushchin,
+  Gutierrez, Guy, Guyot, Gwenlan, Gwilliam, Haas, Haas, Haber, Haboubi,
+  Hackenburg, Hadash, Hadavand, Haeberli, Härtel, Haggerty, Hahn, Haider,
+  Hajduk, Hakimi, Hakobyan, Hakobyan, Haller, Hallewell, Hallgren, Hamacher,
+  Hamilton, Han, Han, Hanagaki, Hance, Hanke, Hansen, Hansen, Hansen, Hansen,
+  Hansen, Hansen, Hansl-Kozanecka, Hanson, Hansson, Hara, Harder, Harel,
+  Harenberg, Harper, Hart, Hart, Hartjes, Hartman, Haruyama, Harvey, Hasegawa,
+  Hashemi, Hassani, Hatch, Hatley, Haubold, Hauff, Haug, Haug, Hauschild,
+  Hauser, Hauviller, Havranek, Hawes, Hawkings, Hawkins, Hayler, Hayward,
+  Haywood, Hazen, He, He, Head, Hedberg, Heelan, Heinemann, Heldmann, Hellman,
+  Helsens, Henderson, Hendriks, Correia, Henrot-Versille, Henry-Couannier,
+  Hen{\ss}, Herten, Hertenberger, Hervas, Hess, Hessey, Hicheur, Hidvegi,
+  Hig{\'{o}}n-Rodriguez, Hill, Hill, Hill, Hill, Hillier, Hinchliffe, Hindson,
+  Hinkelbein, Hodges, Hodgkinson, Hodgson, Hoecker, Hoeferkamp, Hoffman,
+  Hoffmann, Hoffmann, Hoffmann, Holder, Hollins, Hollyman, Holmes, Holmgren,
+  Holt, Holtom, Holy, Homer, Homma, Homola, Honerbach, Honma, Hooton,
+  Horazdovsky, Horn, Horvat, Hostachy, Hott, Hou, Houlden, Hoummada, Hover,
+  Howell, Hrivnac, Hruska, Hryn{\textquotesingle}ova, Huang, Hubacek, Hubaut,
+  Huegging, Huffman, Hughes, Hughes, Hughes-Jones, Hulsbergen, Hurst, Hurwitz,
+  Huse, Huseynov, Huston, Huth, Iacobucci, Ibbotson, Ibragimov, Ichimiya,
+  Iconomidou-Fayard, Idarraga, Idzik, Iengo, Escudero, Igonkina, Ikegami,
+  Ikeno, Ilchenko, Ilyushenka, Imbault, Imbert, Imhaeuser, Imori, Ince,
+  Inigo-Golfin, Inoue, Ioannou, Iodice, Ionescu, Ishii, Ishino, Ishizawa,
+  Ishmukhametov, Issever, Ito, Ivashin, Iwanski, Iwasaki, Izen, Izzo, Jackson,
+  Jackson, Jaekel, Jagielski, Jahoda, Jain, Jakobs, Jakubek, Jansen,
+  Jansweijer, Jared, Jarlskog, Jarp, Jarron, Jelen, Plante, Jenni, Jeremie,
+  Jez, J{\'{e}}z{\'{e}}quel, Jiang, Jin, Jin, Jinnouchi, Joffe, Johansen,
+  Johansen, Johansson, Johansson, Johns, Jon-And, Jones, Jones, Jones, Jones,
+  Jones, Jones, Jonsson, Joo, Joos, Joos, Joram, Jorgensen, Joseph, Jovanovic,
+  Junnarkar, Juranek, Jussel, Kabachenko, Kabana, Kaci, Kaczmarska, Kado,
+  Kagan, Kagawa, Kaiser, Kajomovitz, Kakurin, Kalinovskaya, Kama, Kambara,
+  Kanaya, Kandasamy, Kandasamy, Kaneda, Kantserov, Kanzaki, Kaplan, Kapliy,
+  Kaplon, Karagounis, Unel, Karr, Karst, Kartvelishvili, Karyukhin, Kashif,
+  Kasmi, Kass, Kastanas, Kataoka, Kataoka, Katsoufis, Katunin, Kawagoe, Kawai,
+  Kawamoto, Kayumov, Kazanin, Kazarinov, Kazarov, Kazi, Keates, Keeler, Keener,
+  Kehoe, Keil, Kekelidze, Kelly, Kennedy, Kenyon, Kepka, Kerschen,
+  Ker{\v{s}}evan, Kersten, Ketterer, Khakzad, Khalilzade, Khandanyan, Khanov,
+  Kharchenko, Khodinov, Kholodenko, Khomich, Khomutnikov, Khoriauli,
+  Khovanskiy, Khovanskiy, Khramov, Khubua, Kieft, Kierstead, Kilvington, Kim,
+  Kim, Kim, Kind, King, Kirk, Kirsch, Kirsch, Kiryunin, Kisielewska,
+  Kisielewski, Kittelmann, Kiver, Kiyamura, Kladiva, Klaiber-Lodewigs,
+  Kleinknecht, Klier, Klimentov, Kline, Klingenberg, Klinkby, Klioutchnikova,
+  Klok, Klous, Kluge, Kluit, Klute, Kluth, Knecht, Kneringer, Knezo, Knobloch,
+  Ko, Kobayashi, Kobel, Kodys, König, König, Köpke, Koetsveld, Koffas,
+  Koffeman, Kohout, Kohriki, Kokott, Kolachev, Kolanoski, Kolesnikov, Koletsou,
+  Kollefrath, Kolos, Kolya, Komar, Komaragiri, Kondo, Kondo, Kondratyeva, Kono,
+  Kononov, Konoplich, Konovalov, Konstantinidis, Kootz, Koperny, Kopikov,
+  Korcyl, Kordas, Koreshev, Korn, Korolkov, Korotkov, Korsmo, Kortner,
+  Kostrikov, Kostyukhin, Kotamäki, Kotchetkov, Kotov, Kotov, Kotov,
+  Kourkoumelis, Koutsman, Kovalenko, Kowalewski, Kowalski, Kowalski, Kozanecki,
+  Kozhin, Kral, Kramarenko, Kramberger, Kramer, Krasel, Krasny, Krasznahorkay,
+  Krepouri, Krieger, Krivkova, Krobath, Kroha, Krstic, Kruchonak, Krüger,
+  Kruger, Krumshteyn, Kubik, Kubischta, Kubota, Kudin, Kudlaty, Kugel, Kuhl,
+  Kuhn, Kukhtin, Kulchitsky, Kundu, Kupco, Kupper, Kurashige, Kurchaninov,
+  Kurochkin, Kus, Kuykendall, Kuzhir, Kuznetsova, Kvasnicka, Kwee, Marra, Rosa,
+  Rotonda, Labarga, Labbe, Lacasta, Lacava, Lacker, Lacour, Lacuesta, Ladygin,
+  Lafaye, Laforge, Lagouri, Lai, Lamanna, Lambacher, Lambert, Lampl, Lancon,
+  Landgraf, Landon, Landsman, Langstaff, Lankford, Lanni, Lantzsch, Lanza,
+  Lapin, Laplace, Laporte, Lara, Lari, Larionov, Lasseur, Lau, Laurelli,
+  Lavorato, Lavrijsen, Lazarev, Bihan, Dortz, Maner, Vine, Leahu, Leahu, Lebel,
+  Lechowski, LeCompte, Ledroit-Guillon, Lee, Lee, Lee, Lefebvre, Lefevre,
+  Legendre, Leger, LeGeyt, Leggett, Lehmacher, Miotto, Lehto, Leitner, Lelas,
+  Lellouch, Leltchouk, Lendermann, Leney, Lenz, Lenzen, Lepidis, Leroy,
+  Lessard, Lesser, Lester, Letheren, Cheong, Lev{\^{e}}que, Levin, Levinson,
+  Levitski, Lewandowska, Leyton, Li, Li, Liabline, Liang, Liang, Liberti,
+  Lichard, Liebig, Lifshitz, Liko, Lim, Limper, Lin, Lindahl, Linde, Lindquist,
+  Lindsay, Linhart, Lintern, Liolios, Lipniacka, Liss, Lissauer, List, Litke,
+  Liu, Liu, Liu, Livan, Lleres, Ll{\'{a}}cer, Lloyd, Lobkowicz, Loch, Lockman,
+  Loddenkoetter, Loebinger, Loginov, Loh, Lohse, Lohwasser, Lokajicek, Loken,
+  Lokwitz, Long, Lopes, Mateos, Losty, Lou, Loureiro, Lovas, Love, Lowe,
+  Fantoba, Lu, Lu, Lu, Lubatti, Lucas, Luci, Lucotte, Ludwig, Ludwig, Ludwig,
+  Luehring, Lüke, Luijckx, Luisa, Lumb, Luminari, Lund, Lund-Jensen, Lundberg,
+  Lundquist, Lupi, Lupu, Lutz, Lynn, Lynn, Lys, Lysan, Lytken,
+  L{\'{o}}pez-Amengual, Ma, Ma, en, Maccarrone, Mace, Macina, Mackeprang,
+  Macpherson, MacQueen, Macwaters, Madaras, Mader, Maenner, Maeno, Mättig,
+  Mättig, Magrath, Mahalalel, Mahboubi, Mahout, Maidantchik, Maio, Mair, Mair,
+  Makida, Makowiecki, Malecki, Maleev, Malek, Malon, Maltezos, Malychev,
+  Malyukov, Mambelli, Mameghani, Mamuzic, Manabe, Manara, Manca, Mandelli,
+  Mandi{\'{c}}, Mandl, Maneira, Maneira, Mangeard, Mangin-Brinet, Manjavidze,
+  Mann, Manolopoulos, Manousakis-Katsikakis, Mansoulie, Manz, Mapelli, Mapelli,
+  March, Marchand, Marchesotti, Marcisovsky, Marin, Marques, Marroquim,
+  Marshall, Marshall, Martens, i~Garcia, Martin, Martin, Martin, Martin,
+  Martin, Martin, Martinez, Lacambra, Outschoorn, Martini, Martins, Maruyama,
+  Marzano, Mashimo, Mashinistov, Masik, Maslennikov, Ma{\ss}, Massa, Massaro,
+  Massol, Mathes, Matheson, Matricon, Matsumoto, Matsunaga, Maugain, Maxfield,
+  May, Mayer, Mayri, Mazini, Mazzanti, Mazzanti, Mazzoni, Mazzucato, Kee,
+  McCarthy, McCormick, McCubbin, McDonald, McFarlane, McGarvie, McGlone,
+  McLaren, McMahon, McMahon, McMahon, McPherson, Mechtel, Meder-Marouelli,
+  Medinnis, Meera-Lebbai, Meessen, Mehdiyev, Mehta, Meier, Meinhard, Meinhardt,
+  Meirosu, Meisel, Melamed-Katz, Garcia, Jorge, Mendez, Menke, Menot, Meoni,
+  Merkl, Merola, Meroni, Merritt, Messmer, Metcalfe, Meuser, Meyer, Meyer,
+  Meyer, Mialkovski, Michelotto, Micu, Middleton, Miele, Migliaccio,
+  Mijovi{\'{c}}, Mikenberg, Mikestikova, Mikestikova, Mikulec, Miku{\v{z}},
+  Miller, Miller, Miller, Milosavljevic, Milstead, Mima, Minaenko, Minano,
+  Minashvili, Mincer, Mindur, Mineev, Mir, Mirabelli, Verge, Misawa, Miscetti,
+  Misiejuk, Mitra, Mitrofanov, Mitsou, Miyagawa, Miyazaki, Mjörnmark,
+  Mkrtchyan, Mladenov, Moa, Moch, Mochizuki, Mockett, Modesto, Moed, Mönig,
+  Möser, Mohn, Mohr, Mohrdieck-Möck, Moisseev, Valls, Molina-Perez, Moll,
+  Moloney, Mommsen, Moneta, Monnier, Montarou, Montesano, Monticelli, Moore,
+  Moore, Moorhead, Moraes, Morel, Moreno, Moreno, Morettini, Morgan, Morii,
+  Morin, Morley, Mornacchi, Morone, Morozov, Morris, Morris, Morrissey, Moser,
+  Mosidze, Moszczynski, Mouraviev, Mouthuy, Moye, Moyse, Mueller, Müller,
+  Muijs, Muller, Munar, Munday, Murakami, Garcia, Murray, Myagkov, Myska,
+  Nagai, Nagai, Nagano, Nagasaka, Nairz, Naito, Nakamura, Nakamura, Nakano,
+  Nanava, Napier, Nassiakou, Nasteva, Nation, Naumann, Nauyock, Nderitu, Neal,
+  Nebot, Nechaeva, Neganov, Negri, Negroni, Nelson, Nemecek, Nemethy,
+  Nepomuceno, Nessi, Nesterov, Neukermans, Nevski, Newcomer, Nichols,
+  Nicholson, Nicholson, Nickerson, Nicolaidou, Nicoletti, Nicquevert,
+  Niculescu, Nielsen, Niinikoski, Niinimaki, Nikitin, Nikolaev, Nikolic-Audit,
+  Nikolopoulos, Nilsen, Nilsson, Nilsson, Nisati, Nisius, Nodulman, Nomachi,
+  Nomoto, Noppe, Nordberg, Francisco, Norton, Novakova, Nowak, Nozaki, Nunes,
+  Hanninger, Nunnemann, Nyman, O{\textquotesingle}Connor,
+  O{\textquotesingle}Neale, O{\textquotesingle}Neil, O{\textquotesingle}Neill,
+  O{\textquotesingle}Shea, Oakham, Oberlack, Obermaier, Oberson, Ochi,
+  Ockenfels, Odaka, Odenthal, Odino, Ogren, Oh, Ohshima, Ohshita, Okawa,
+  Olcese, Olchevski, Oliver, Oliver, Gomez, Olszewski, Olszowska, Omachi, Onea,
+  Onofre, Oram, Ordonez, Oreglia, Orellana, Oren, Orestano, Orlov, Orr, Orsini,
+  Osborne, Osculati, Osuna, Otec, Othegraven, Ottewell, Ould-Saada, Ouraou,
+  Ouyang, {\O}ye, Ozcan, Ozone, Ozturk, Pages, Padhi, Aranda, Paganis, Paige,
+  Pailler, Pajchel, Palestini, Palla, Pallin, Palmer, Pan, Panikashvili, Panin,
+  Panitkin, Pantea, Panuskova, Paolone, Paoloni, Papadopoulos, Papadopoulou,
+  Park, Park, Parker, Parker, Parkman, Parodi, Parsons, Parzefall, Pasqualucci,
+  Passardi, Passeri, Passmore, Pastore, Pastore, Pataraia, Pate, Pater,
+  Patricelli, Pauly, Pauna, Peak, Peeters, Peez, Pei, Peleganchuk, Pellegrini,
+  Pengo, Pequenao, Perantoni, Perazzo, Pereira, Perepelkin, Perera, Codina,
+  Reale, Peric, Perini, Pernegger, Perrin, Perrino, Perrodo, Perrot, Perus,
+  Peshekhonov, Petereit, Petersen, Petersen, Petit, Petridou, Petrolo,
+  Petrucci, Petti, Pezzetti, Pfeifer, Phan, Phillips, and
+  Phillips]{ATLAS_Collab}
+The~ATLAS Collaboration, G~Aad, E~Abat, J~Abdallah, A~A Abdelalim,
+  A~Abdesselam, O~Abdinov, B~A Abi, M~Abolins, H~Abramowicz, E~Acerbi, B~S
+  Acharya, R~Achenbach, M~Ackers, D~L Adams, F~Adamyan, T~N Addy, M~Aderholz,
+  C~Adorisio, P~Adragna, M~Aharrouche, S~P Ahlen, F~Ahles, A~Ahmad, H~Ahmed,
+  G~Aielli, P~F {\AA}kesson, T~P~A {\AA}kesson, A~V Akimov, S~M Alam, J~Albert,
+  S~Albrand, M~Aleksa, I~N Aleksandrov, M~Aleppo, F~Alessandria, C~Alexa,
+  G~Alexander, T~Alexopoulos, G~Alimonti, M~Aliyev, P~P Allport, S~E
+  Allwood-Spiers, A~Aloisio, J~Alonso, R~Alves, M~G Alviggi, K~Amako, P~Amaral,
+  S~P Amaral, G~Ambrosini, G~Ambrosio, C~Amelung, V~V Ammosov, A~Amorim,
+  N~Amram, C~Anastopoulos, B~Anderson, K~J Anderson, E~C Anderssen,
+  A~Andreazza, V~Andrei, L~Andricek, M-L Andrieux, X~S Anduaga, F~Anghinolfi,
+  A~Antonaki, M~Antonelli, S~Antonelli, R~Apsimon, G~Arabidze, I~Aracena,
+  Y~Arai, A~T~H Arce, J~P Archambault, J-F Arguin, E~Arik, M~Arik, K~E Arms,
+  S~R Armstrong, M~Arnaud, C~Arnault, A~Artamonov, S~Asai, S~Ask, B~{\AA}sman,
+  D~Asner, L~Asquith, K~Assamagan, A~Astbury, B~Athar, T~Atkinson, B~Aubert,
+  B~Auerbach, E~Auge, K~Augsten, V~M Aulchenko, N~Austin, G~Avolio,
+  R~Avramidou, A~Axen, C~Ay, G~Azuelos, G~Baccaglioni, C~Bacci, H~Bachacou,
+  K~Bachas, G~Bachy, E~Badescu, P~Bagnaia, D~C Bailey, J~T Baines, O~K Baker,
+  F~Ballester, F~Baltasar Dos~Santos Pedrosa, E~Banas, D~Banfi, A~Bangert,
+  V~Bansal, S~P Baranov, S~Baranov, A~Barashkou, E~L Barberio, D~Barberis,
+  G~Barbier, P~Barclay, D~Y Bardin, P~Bargassa, T~Barillari, M~Barisonzi, B~M
+  Barnett, R~M Barnett, S~Baron, A~Baroncelli, M~Barone, A~J Barr, F~Barreiro,
+  J~Barreiro~Guimar{\~{a}}es da~Costa, P~Barrillon, A~Barriuso Poy, N~Barros,
+  V~Bartheld, H~Bartko, R~Bartoldus, S~Basiladze, J~Bastos, L~E Batchelor, R~L
+  Bates, J~R Batley, S~Batraneanu, M~Battistin, G~Battistoni, V~Batusov,
+  F~Bauer, B~Bauss, D~E Baynham, M~Bazalova, A~Bazan, P~H Beauchemin,
+  B~Beaugiraud, R~B Beccherle, G~A Beck, H~P Beck, K~H Becks, I~Bedajanek, A~J
+  Beddall, A~Beddall, P~Bedn{\'{a}}r, V~A Bednyakov, C~Bee, S~Behar Harpaz,
+  G~A~N Belanger, C~Belanger-Champagne, B~Belhorma, P~J Bell, W~H Bell,
+  G~Bella, F~Bellachia, L~Bellagamba, F~Bellina, G~Bellomo, M~Bellomo,
+  O~Beltramello, A~Belymam, S~Ben Ami, M~Ben Moshe, O~Benary, D~Benchekroun,
+  C~Benchouk, M~Bendel, B~H Benedict, N~Benekos, J~Benes, Y~Benhammou, G~P
+  Benincasa, D~P Benjamin, J~R Bensinger, K~Benslama, S~Bentvelsen, M~Beretta,
+  D~Berge, E~Bergeaas, N~Berger, F~Berghaus, S~Berglund, F~Bergsma, J~Beringer,
+  J~Bernab{\'{e}}u, K~Bernardet, C~Berriaud, T~Berry, H~Bertelsen, A~Bertin,
+  F~Bertinelli, S~Bertolucci, N~Besson, A~Beteille, S~Bethke, W~Bialas, R~M
+  Bianchi, M~Bianco, O~Biebel, M~Bieri, M~Biglietti, H~Bilokon, M~Binder,
+  S~Binet, N~Bingefors, A~Bingul, C~Bini, C~Biscarat, R~Bischof,
+  M~Bischofberger, A~Bitadze, J~P Bizzell, K~M Black, R~E Blair, J~J Blaising,
+  O~Blanch, G~Blanchot, C~Blocker, J~Blocki, A~Blondel, W~Blum, U~Blumenschein,
+  C~Boaretto, G~J Bobbink, A~Bocci, D~Bocian, R~Bock, M~Boehm, J~Boek, J~A
+  Bogaerts, A~Bogouch, C~Bohm, J~Bohm, V~Boisvert, T~Bold, V~Boldea, V~G
+  Bondarenko, R~Bonino, J~Bonis, W~Bonivento, P~Bonneau, M~Boonekamp,
+  G~Boorman, M~Boosten, C~N Booth, P~S~L Booth, P~Booth, J~R~A Booth, K~Borer,
+  A~Borisov, I~Borjanovic, K~Bos, D~Boscherini, F~Bosi, M~Bosman, M~Bosteels,
+  B~Botchev, H~Boterenbrood, D~Botterill, J~Boudreau, E~V Bouhova-Thacker,
+  C~Boulahouache, C~Bourdarios, M~Boutemeur, K~Bouzakis, G~R Boyd, J~Boyd, B~H
+  Boyer, I~R Boyko, N~I Bozhko, S~Braccini, A~Braem, P~Branchini, G~W
+  Brandenburg, A~Brandt, O~Brandt, U~Bratzler, H~M Braun, S~Bravo, I~P Brawn,
+  B~Brelier, J~Bremer, R~Brenner, S~Bressler, D~Breton, N~D Brett, P~Breugnon,
+  P~G Bright-Thomas, F~M Brochu, I~Brock, R~Brock, T~J Brodbeck, E~Brodet,
+  F~Broggi, Z~Broklova, C~Bromberg, G~Brooijmans, G~Brouwer, J~Broz,
+  E~Brubaker, P~A~Bruckman de~Renstrom, D~Bruncko, A~Bruni, G~Bruni, M~Bruschi,
+  T~Buanes, N~J Buchanan, P~Buchholz, I~A Budagov, V~Büscher, L~Bugge,
+  D~Buira-Clark, E~J Buis, F~Bujor, T~Buran, H~Burckhart, D~Burckhart-Chromek,
+  S~Burdin, R~Burns, E~Busato, J~J~F Buskop, K~P Buszello, F~Butin, J~M Butler,
+  C~M Buttar, J~Butterworth, J~M Butterworth, T~Byatt, S~Cabrera Urb{\'{a}}n,
+  E~Cabruja Casas, M~Caccia, D~Caforio, O~Cakir, P~Calafiura, G~Calderini,
+  D~Calder{\'{o}}n Terol, J~Callahan, L~P Caloba, R~Caloi, D~Calvet, A~Camard,
+  F~Camarena, P~Camarri, M~Cambiaghi, D~Cameron, J~Cammin, F~Campabadal Segura,
+  S~Campana, V~Canale, J~Cantero, M~D M~Capeans Garrido, I~Caprini, M~Caprini,
+  M~Caprio, D~Caracinha, C~Caramarcu, Y~Carcagno, R~Cardarelli, C~Cardeira,
+  L~Cardiel Sas, A~Cardini, T~Carli, G~Carlino, L~Carminati, B~Caron, S~Caron,
+  C~Carpentieri, F~S Carr, A~A Carter, J~R Carter, J~Carvalho, D~Casadei, M~P
+  Casado, M~Cascella, C~Caso, J~Castelo, V~Castillo Gimenez, N~Castro,
+  F~Castrovillari, G~Cataldi, F~Cataneo, A~Catinaccio, J~R Catmore, A~Cattai,
+  S~Caughron, D~Cauz, A~Cavallari, P~Cavalleri, D~Cavalli, M~Cavalli-Sforza,
+  V~Cavasinni, F~Ceradini, C~Cerna, C~Cernoch, A~S Cerqueira, A~Cerri,
+  F~Cerutti, M~Cervetto, S~A Cetin, F~Cevenini, M~Chalifour, M~Chamizo llatas,
+  A~Chan, J~W Chapman, D~G Charlton, S~Charron, S~V Chekulaev, G~A Chelkov,
+  H~Chen, L~Chen, T~Chen, X~Chen, S~Cheng, T~L Cheng, A~Cheplakov, V~F
+  Chepurnov, R~Cherkaoui~El Moursli, D~Chesneanu, E~Cheu, L~Chevalier, J~L
+  Chevalley, F~Chevallier, V~Chiarella, G~Chiefari, L~Chikovani, A~Chilingarov,
+  G~Chiodini, S~Chouridou, D~Chren, T~Christiansen, I~A Christidi, A~Christov,
+  M~L Chu, J~Chudoba, A~G Chuguev, G~Ciapetti, E~Cicalini, A~K Ciftci,
+  V~Cindro, M~D Ciobotaru, A~Ciocio, M~Cirilli, M~Citterio, M~Ciubancan, J~V
+  Civera, A~Clark, W~Cleland, J~C Clemens, B~C Clement, C~Cl{\'{e}}ment,
+  D~Clements, R~W Clifft, M~Cobal, A~Coccaro, J~Cochran, R~Coco, P~Coe,
+  S~Coelli, E~Cogneras, C~D Cojocaru, J~Colas, A~P Colijn, C~Collard,
+  C~Collins-Tooth, J~Collot, R~Coluccia, G~Comune, P~Conde Mui{\~{n}}o,
+  E~Coniavitis, M~Consonni, S~Constantinescu, C~Conta, F~A Conventi, J~Cook,
+  M~Cooke, N~J Cooper-Smith, T~Cornelissen, M~Corradi, S~Correard,
+  A~Corso-Radu, J~Coss, G~Costa, M~J Costa, D~Costanzo, T~Costin, R~Coura
+  Torres, L~Courneyea, C~Couyoumtzelis, G~Cowan, B~E Cox, J~Cox, D~A Cragg,
+  K~Cranmer, J~Cranshaw, M~Cristinziani, G~Crosetti, C~Cuenca Almenar, S~Cuneo,
+  A~Cunha, M~Curatolo, C~J Curtis, P~Cwetanski, Z~Czyczula,
+  S~D{\textquotesingle}Auria, M~D{\textquotesingle}Onofrio, A~Da Rocha~Gesualdi
+  Mello, P~V M~Da Silva, R~Da Silva, W~Dabrowski, A~Dael, A~Dahlhoff, T~Dai,
+  C~Dallapiccola, S~J Dallison, J~Dalmau, C~H Daly, M~Dam, D~Damazio, M~Dameri,
+  K~M Danielsen, H~O Danielsson, R~Dankers, D~Dannheim, G~Darbo, P~Dargent,
+  C~Daum, J~P Dauvergne, M~David, T~Davidek, N~Davidson, R~Davidson, I~Dawson,
+  J~W Dawson, R~K Daya, K~De, R~de~Asmundis, R~de~Boer, S~De Castro, N~De
+  Groot, P~de~Jong, X~de~La~Broise, E~De~La Cruz-Burelo, C~De~La Taille, B~De
+  Lotto, M~De~Oliveira Branco, D~De Pedis, P~de~Saintignon, A~De Salvo, U~De
+  Sanctis, A~De Santo, J~B De Vivie~De Regie, G~De Zorzi, S~Dean, G~Dedes, D~V
+  Dedovich, P~O Defay, R~Degele, M~Dehchar, M~Deile, C~Del Papa, J~Del Peso,
+  T~Del Prete, E~Delagnes, P~Delebecque, A~Dell{\textquotesingle}Acqua, M~Della
+  Pietra, D~della Volpe, M~Delmastro, P~Delpierre, N~Delruelle, P~A Delsart,
+  C~Deluca Silberberg, S~Demers, M~Demichev, P~Demierre, B~Demirköz, W~Deng,
+  S~P Denisov, C~Dennis, C~J Densham, M~Dentan, J~E Derkaoui, F~Derue,
+  P~Dervan, K~K Desch, A~Dewhurst, A~Di Ciaccio, L~Di Ciaccio, A~Di Domenico,
+  A~Di Girolamo, B~Di Girolamo, S~Di Luise, A~Di Mattia, A~Di Simone, M~M~Diaz
+  Gomez, E~B Diehl, H~Dietl, J~Dietrich, W~Dietsche, S~Diglio, M~Dima,
+  K~Dindar, B~Dinkespiler, C~Dionisi, R~Dipanjan, P~Dita, S~Dita, F~Dittus, S~D
+  Dixon, F~Djama, R~Djilkibaev, T~Djobava, M~A~B do~Vale, M~Dobbs, R~Dobinson,
+  D~Dobos, E~Dobson, M~Dobson, J~Dodd, O~B Dogan, T~Doherty, Y~Doi, J~Dolejsi,
+  I~Dolenc, Z~Dolezal, B~A Dolgoshein, E~Domingo, M~Donega, J~Dopke, D~E
+  Dorfan, O~Dorholt, A~Doria, A~Dos Anjos, M~Dosil, A~Dotti, M~T Dova, J~D
+  Dowell, A~T Doyle, G~Drake, D~Drakoulakos, Z~Drasal, J~Drees, N~Dressnandt,
+  H~Drevermann, C~Driouichi, M~Dris, J~G Drohan, J~Dubbert, T~Dubbs,
+  E~Duchovni, G~Duckeck, A~Dudarev, M~Dührssen, H~Dür, I~P Duerdoth,
+  S~Duffin, L~Duflot, M-A Dufour, N~Dumont Dayot, H~Duran Yildiz, D~Durand,
+  A~Dushkin, R~Duxfield, M~Dwuznik, F~Dydak, D~Dzahini, S~D{\'{\i}}ez Cornell,
+  M~Düren, W~L Ebenstein, S~Eckert, S~Eckweiler, P~Eerola, I~Efthymiopoulos,
+  U~Egede, K~Egorov, W~Ehrenfeld, T~Eifert, G~Eigen, K~Einsweiler,
+  E~Eisenhandler, T~Ekelof, L~M Eklund, M~El Kacimi, M~Ellert, S~Elles,
+  N~Ellis, J~Elmsheuser, M~Elsing, R~Ely, D~Emeliyanov, R~Engelmann,
+  M~Engström, P~Ennes, B~Epp, A~Eppig, V~S Epshteyn, A~Ereditato, V~Eremin,
+  D~Eriksson, I~Ermoline, J~Ernwein, D~Errede, S~Errede, M~Escalier, C~Escobar,
+  X~Espinal Curull, B~Esposito, F~Esteves, F~Etienne, A~I Etienvre, E~Etzion,
+  H~Evans, V~N Evdokimov, P~Evtoukhovitch, A~Eyring, L~Fabbri, C~W Fabjan,
+  C~Fabre, P~Faccioli, K~Facius, V~Fadeyev, R~M Fakhrutdinov, S~Falciano,
+  I~Falleau, A~C Falou, Y~Fang, M~Fanti, A~Farbin, A~Farilla, J~Farrell,
+  P~Farthouat, D~Fasching, F~Fassi, P~Fassnacht, D~Fassouliotis, F~Fawzi,
+  L~Fayard, F~Fayette, R~Febbraro, O~L Fedin, I~Fedorko, L~Feld, G~Feldman,
+  L~Feligioni, C~Feng, E~J Feng, J~Fent, A~B Fenyuk, J~Ferencei, D~Ferguson,
+  J~Ferland, W~Fernando, S~Ferrag, A~Ferrari, P~Ferrari, R~Ferrari, A~Ferrer,
+  M~L Ferrer, D~Ferrere, C~Ferretti, F~Ferro, M~Fiascaris, S~Fichet, F~Fiedler,
+  V~Filimonov, A~Filip{\v{c}}i{\v{c}}, A~Filippas, F~Filthaut, M~Fincke-Keeler,
+  G~Finocchiaro, L~Fiorini, A~Firan, P~Fischer, M~J Fisher, S~M Fisher,
+  V~Flaminio, J~Flammer, M~Flechl, I~Fleck, W~Flegel, P~Fleischmann,
+  S~Fleischmann, C~M~Fleta Corral, F~Fleuret, T~Flick, J~Flix, L~R~Flores
+  Castillo, M~J Flowerdew, F~Föhlisch, M~Fokitis, T~M~Fonseca Martin, J~Fopma,
+  D~A Forbush, A~Formica, J~M Foster, D~Fournier, A~Foussat, A~J Fowler, H~Fox,
+  P~Francavilla, D~Francis, S~Franz, J~T Fraser, M~Fraternali, S~Fratianni,
+  J~Freestone, R~S French, K~Fritsch, D~Froidevaux, J~A Frost, C~Fukunaga,
+  J~Fulachier, E~Fullana Torregrosa, J~Fuster, C~Gabaldon, S~Gadomski,
+  G~Gagliardi, P~Gagnon, E~J Gallas, M~V Gallas, B~J Gallop, K~K Gan, F~C
+  Gannaway, Y~S Gao, V~A Gapienko, A~Gaponenko, C~Garci{\'{a}},
+  M~Garcia-Sciveres, J~E~Garc{\`{\i}}a Navarro, V~Garde, R~W Gardner,
+  N~Garelli, H~Garitaonandia, V~G Garonne, J~Garvey, C~Gatti, G~Gaudio,
+  O~Gaumer, V~Gautard, P~Gauzzi, I~L Gavrilenko, C~Gay, J-C Gayde, E~N Gazis,
+  E~Gazo, C~N~P Gee, C~Geich-Gimbel, K~Gellerstedt, C~Gemme, M~H Genest,
+  S~Gentile, M~A George, S~George, P~Gerlach, Y~Gernizky, C~Geweniger,
+  H~Ghazlane, V~M Ghete, P~Ghez, N~Ghodbane, B~Giacobbe, S~Giagu,
+  V~Giakoumopoulou, V~Giangiobbe, F~Gianotti, B~Gibbard, A~Gibson, M~D Gibson,
+  S~M Gibson, G~F Gieraltowski, I~Gil Botella, L~M Gilbert, M~Gilchriese,
+  O~Gildemeister, V~Gilewsky, A~R Gillman, D~M Gingrich, J~Ginzburg,
+  N~Giokaris, M~P Giordani, C~G Girard, P~F Giraud, P~Girtler, D~Giugni,
+  P~Giusti, B~K Gjelsten, C~Glasman, A~Glazov, K~W Glitza, G~L Glonti, K~G
+  Gnanvo, J~Godlewski, T~Göpfert, C~Gössling, T~Göttfert, S~Goldfarb,
+  D~Goldin, N~Goldschmidt, T~Golling, N~P Gollub, P~J Golonka, S~N Golovnia,
+  A~Gomes, J~Gomes, R~Gon{\c{c}}alo, A~Gongadze, A~Gonidec, S~Gonzalez,
+  S~Gonz{\'{a}}lez de~la Hoz, V~Gonz{\'{a}}lez Mill{\'{a}}n, M~L~Gonzalez
+  Silva, B~Gonzalez-Pineiro, S~Gonz{\'{a}}lez-Sevilla, M~J Goodrick, J~J
+  Goodson, L~Goossens, P~A Gorbounov, A~Gordeev, H~Gordon, I~Gorelov,
+  G~Gorfine, B~Gorini, E~Gorini, A~Gori{\v{s}}ek, E~Gornicki, S~A Gorokhov, B~T
+  Gorski, S~V Goryachev, V~N Goryachev, M~Gosselink, M~I Gostkin,
+  M~Gouan{\`{e}}re, I~Gough Eschrich, D~Goujdami, M~Goulette, I~Gousakov,
+  J~Gouveia, S~Gowdy, C~Goy, I~Grabowska-Bold, V~Grabski, P~Grafström, C~Grah,
+  K-J Grahn, F~Grancagnolo, S~Grancagnolo, H~Grassmann, V~Gratchev, H~M Gray,
+  E~Graziani, B~Green, A~Greenall, D~Greenfield, D~Greenwood, I~M Gregor,
+  A~Grewal, E~Griesmayer, N~Grigalashvili, C~Grigson, A~A Grillo, F~Grimaldi,
+  K~Grimm, P~L~Y Gris, Y~Grishkevich, H~Groenstege, L~S Groer, J~Grognuz,
+  M~Groh, E~Gross, J~Grosse-Knetter, M~E~M Grothe, J~Grudzinski, C~Gruse,
+  M~Gruwe, K~Grybel, P~Grybos, E~M Gschwendtner, V~J Guarino, C~J Guicheney,
+  G~Guilhem, T~Guillemin, J~Gunther, B~Guo, A~Gupta, L~Gurriana, V~N Gushchin,
+  P~Gutierrez, L~Guy, C~Guyot, C~Gwenlan, C~B Gwilliam, A~Haas, S~Haas,
+  C~Haber, G~Haboubi, R~Hackenburg, E~Hadash, H~K Hadavand, C~Haeberli,
+  R~Härtel, R~Haggerty, F~Hahn, S~Haider, Z~Hajduk, M~Hakimi, H~Hakobyan,
+  H~Hakobyan, J~Haller, G~D Hallewell, B~Hallgren, K~Hamacher, A~Hamilton,
+  H~Han, L~Han, K~Hanagaki, M~Hance, P~Hanke, C~J Hansen, F~H Hansen, J~R
+  Hansen, J~B Hansen, J~D Hansen, P~H Hansen, T~Hansl-Kozanecka, G~Hanson,
+  P~Hansson, K~Hara, S~Harder, A~Harel, T~Harenberg, R~Harper, J~C Hart, R~G~G
+  Hart, F~Hartjes, N~Hartman, T~Haruyama, A~Harvey, Y~Hasegawa, K~Hashemi,
+  S~Hassani, M~Hatch, R~W Hatley, T~G Haubold, D~Hauff, F~Haug, S~Haug,
+  M~Hauschild, R~Hauser, C~Hauviller, M~Havranek, B~M Hawes, R~J Hawkings,
+  D~Hawkins, T~Hayler, H~S Hayward, S~J Haywood, E~Hazen, M~He, Y~P He, S~J
+  Head, V~Hedberg, L~Heelan, F~E~W Heinemann, M~Heldmann, S~Hellman, C~Helsens,
+  R~C~W Henderson, P~J Hendriks, A~M~Henriques Correia, S~Henrot-Versille,
+  F~Henry-Couannier, T~Hen{\ss}, G~Herten, R~Hertenberger, L~Hervas, M~Hess,
+  N~P Hessey, A~Hicheur, A~Hidvegi, E~Hig{\'{o}}n-Rodriguez, D~Hill, J~Hill,
+  J~C Hill, N~Hill, S~J Hillier, I~Hinchliffe, D~Hindson, C~Hinkelbein, T~A
+  Hodges, M~C Hodgkinson, P~Hodgson, A~Hoecker, M~R Hoeferkamp, J~Hoffman, A~E
+  Hoffmann, D~Hoffmann, H~F Hoffmann, M~Holder, T~I Hollins, G~Hollyman,
+  A~Holmes, S~O Holmgren, R~Holt, E~Holtom, T~Holy, R~J Homer, Y~Homma,
+  P~Homola, W~Honerbach, A~Honma, I~Hooton, T~Horazdovsky, C~Horn, S~Horvat,
+  J-Y Hostachy, T~Hott, S~Hou, M~A Houlden, A~Hoummada, J~Hover, D~F Howell,
+  J~Hrivnac, I~Hruska, T~Hryn{\textquotesingle}ova, G~S Huang, Z~Hubacek,
+  F~Hubaut, F~Huegging, B~T Huffman, E~Hughes, G~Hughes, R~E Hughes-Jones,
+  W~Hulsbergen, P~Hurst, M~Hurwitz, T~Huse, N~Huseynov, J~Huston, J~Huth,
+  G~Iacobucci, M~Ibbotson, I~Ibragimov, R~Ichimiya, L~Iconomidou-Fayard,
+  J~Idarraga, M~Idzik, P~Iengo, M~C~Iglesias Escudero, O~Igonkina, Y~Ikegami,
+  M~Ikeno, Y~Ilchenko, Y~Ilyushenka, D~Imbault, P~Imbert, M~Imhaeuser, M~Imori,
+  T~Ince, J~Inigo-Golfin, K~Inoue, P~Ioannou, M~Iodice, G~Ionescu, K~Ishii,
+  M~Ishino, Y~Ishizawa, R~Ishmukhametov, C~Issever, H~Ito, A~V Ivashin,
+  W~Iwanski, H~Iwasaki, J~M Izen, V~Izzo, J~Jackson, J~N Jackson, M~Jaekel,
+  S~Jagielski, M~Jahoda, V~Jain, K~Jakobs, J~Jakubek, E~Jansen, P~P~M
+  Jansweijer, R~C Jared, G~Jarlskog, S~Jarp, P~Jarron, K~Jelen, I~Jen-La
+  Plante, P~Jenni, A~Jeremie, P~Jez, S~J{\'{e}}z{\'{e}}quel, Y~Jiang, G~Jin,
+  S~Jin, O~Jinnouchi, D~Joffe, L~G Johansen, M~Johansen, K~E Johansson,
+  P~Johansson, K~A Johns, K~Jon-And, M~Jones, R~Jones, R~W~L Jones, T~W Jones,
+  T~J Jones, A~Jones, O~Jonsson, K~K Joo, D~Joos, M~Joos, C~Joram, S~Jorgensen,
+  J~Joseph, P~Jovanovic, S~S Junnarkar, V~Juranek, P~Jussel, V~V Kabachenko,
+  S~Kabana, M~Kaci, A~Kaczmarska, M~Kado, H~Kagan, S~Kagawa, S~Kaiser,
+  E~Kajomovitz, S~Kakurin, L~V Kalinovskaya, S~Kama, H~Kambara, N~Kanaya,
+  A~Kandasamy, S~Kandasamy, M~Kaneda, V~A Kantserov, J~Kanzaki, B~Kaplan,
+  A~Kapliy, J~Kaplon, M~Karagounis, M~Karagoz Unel, K~Karr, P~Karst,
+  V~Kartvelishvili, A~N Karyukhin, L~Kashif, A~Kasmi, R~D Kass, A~Kastanas,
+  M~Kataoka, Y~Kataoka, E~Katsoufis, S~Katunin, K~Kawagoe, M~Kawai, T~Kawamoto,
+  F~Kayumov, V~A Kazanin, M~Y Kazarinov, A~Kazarov, S~I Kazi, J~R Keates,
+  R~Keeler, P~T Keener, R~Kehoe, M~Keil, G~D Kekelidze, M~Kelly, J~Kennedy,
+  M~Kenyon, O~Kepka, N~Kerschen, B~P Ker{\v{s}}evan, S~Kersten, C~Ketterer,
+  M~Khakzad, F~Khalilzade, H~Khandanyan, A~Khanov, D~Kharchenko, A~Khodinov,
+  A~G Kholodenko, A~Khomich, V~P Khomutnikov, G~Khoriauli, N~Khovanskiy,
+  V~Khovanskiy, E~Khramov, J~Khubua, G~Kieft, J~A Kierstead, G~Kilvington,
+  H~Kim, H~Kim, S~H Kim, P~Kind, B~T King, J~Kirk, G~P Kirsch, L~E Kirsch, A~E
+  Kiryunin, D~Kisielewska, B~Kisielewski, T~Kittelmann, A~M Kiver, H~Kiyamura,
+  E~Kladiva, J~Klaiber-Lodewigs, K~Kleinknecht, A~Klier, A~Klimentov, C~R
+  Kline, R~Klingenberg, E~B Klinkby, T~Klioutchnikova, P~F Klok, S~Klous, E-E
+  Kluge, P~Kluit, M~Klute, S~Kluth, N~K Knecht, E~Kneringer, E~Knezo,
+  J~Knobloch, B~R Ko, T~Kobayashi, M~Kobel, P~Kodys, A~C König, S~König,
+  L~Köpke, F~Koetsveld, T~Koffas, E~Koffeman, Z~Kohout, T~Kohriki, T~Kokott,
+  G~M Kolachev, H~Kolanoski, V~Kolesnikov, I~Koletsou, M~Kollefrath, S~Kolos,
+  S~D Kolya, A~A Komar, J~R Komaragiri, T~Kondo, Y~Kondo, N~V Kondratyeva,
+  T~Kono, A~I Kononov, R~Konoplich, S~P Konovalov, N~Konstantinidis, A~Kootz,
+  S~Koperny, S~V Kopikov, K~Korcyl, K~Kordas, V~Koreshev, A~Korn, I~Korolkov,
+  V~A Korotkov, H~Korsmo, O~Kortner, M~E Kostrikov, V~V Kostyukhin, M~J
+  Kotamäki, D~Kotchetkov, S~Kotov, V~M Kotov, K~Y Kotov, C~Kourkoumelis,
+  A~Koutsman, S~Kovalenko, R~Kowalewski, H~Kowalski, T~Z Kowalski, W~Kozanecki,
+  A~S Kozhin, V~Kral, V~Kramarenko, G~Kramberger, A~Kramer, O~Krasel, M~W
+  Krasny, A~Krasznahorkay, A~Krepouri, P~Krieger, P~Krivkova, G~Krobath,
+  H~Kroha, J~Krstic, U~Kruchonak, H~Krüger, K~Kruger, Z~V Krumshteyn, P~Kubik,
+  W~Kubischta, T~Kubota, L~G Kudin, J~Kudlaty, A~Kugel, T~Kuhl, D~Kuhn,
+  V~Kukhtin, Y~Kulchitsky, N~Kundu, A~Kupco, M~Kupper, H~Kurashige, L~L
+  Kurchaninov, Y~A Kurochkin, V~Kus, W~Kuykendall, P~Kuzhir, E~K Kuznetsova,
+  O~Kvasnicka, R~Kwee, D~La Marra, M~La Rosa, L~La Rotonda, L~Labarga, J~A
+  Labbe, C~Lacasta, F~Lacava, H~Lacker, D~Lacour, V~R Lacuesta, E~Ladygin,
+  R~Lafaye, B~Laforge, T~Lagouri, S~Lai, E~Lamanna, M~Lambacher, F~Lambert,
+  W~Lampl, E~Lancon, U~Landgraf, M~P~J Landon, H~Landsman, R~R Langstaff, A~J
+  Lankford, F~Lanni, K~Lantzsch, A~Lanza, V~V Lapin, S~Laplace, J~F Laporte,
+  V~Lara, T~Lari, A~V Larionov, C~Lasseur, W~Lau, P~Laurelli, A~Lavorato,
+  W~Lavrijsen, A~B Lazarev, A-C~Le Bihan, O~Le Dortz, C~Le Maner, M~Le Vine,
+  L~Leahu, M~Leahu, C~Lebel, M~Lechowski, T~LeCompte, F~Ledroit-Guillon, H~Lee,
+  J~S~H Lee, S~C Lee, M~Lefebvre, R~P Lefevre, M~Legendre, A~Leger, B~C LeGeyt,
+  C~Leggett, M~Lehmacher, G~Lehmann Miotto, M~Lehto, R~Leitner, D~Lelas,
+  D~Lellouch, M~Leltchouk, V~Lendermann, K~J~C Leney, T~Lenz, G~Lenzen,
+  J~Lepidis, C~Leroy, J-R Lessard, J~Lesser, C~G Lester, M~Letheren,
+  A~Leung~Fook Cheong, J~Lev{\^{e}}que, D~Levin, L~J Levinson, M~S Levitski,
+  M~Lewandowska, M~Leyton, J~Li, W~Li, M~Liabline, Z~Liang, Z~Liang, B~Liberti,
+  P~Lichard, W~Liebig, R~Lifshitz, D~Liko, H~Lim, M~Limper, S~C Lin, A~Lindahl,
+  F~Linde, L~Lindquist, S~W Lindsay, V~Linhart, A~J Lintern, A~Liolios,
+  A~Lipniacka, T~M Liss, A~Lissauer, J~List, A~M Litke, S~Liu, T~Liu, Y~Liu,
+  M~Livan, A~Lleres, G~Llos{\'{a}} Ll{\'{a}}cer, S~L Lloyd, F~Lobkowicz,
+  P~Loch, W~S Lockman, T~Loddenkoetter, F~K Loebinger, A~Loginov, C~W Loh,
+  T~Lohse, K~Lohwasser, M~Lokajicek, J~Loken, S~Lokwitz, M~C Long, L~Lopes,
+  D~Lopez Mateos, M~J Losty, X~Lou, K~F Loureiro, L~Lovas, J~Love, A~Lowe,
+  M~Lozano Fantoba, F~Lu, J~Lu, L~Lu, H~J Lubatti, S~Lucas, C~Luci, A~Lucotte,
+  A~Ludwig, I~Ludwig, J~Ludwig, F~Luehring, D~Lüke, G~Luijckx, L~Luisa,
+  D~Lumb, L~Luminari, E~Lund, B~Lund-Jensen, B~Lundberg, J~Lundquist, A~Lupi,
+  N~Lupu, G~Lutz, D~Lynn, J~Lynn, J~Lys, V~Lysan, E~Lytken, J~M
+  L{\'{o}}pez-Amengual, H~Ma, L~L Ma, M~Maa{\ss} en, G~Maccarrone, G~G~R Mace,
+  D~Macina, R~Mackeprang, A~Macpherson, D~MacQueen, C~Macwaters, R~J Madaras,
+  W~F Mader, R~Maenner, T~Maeno, P~Mättig, S~Mättig, C~A Magrath,
+  Y~Mahalalel, K~Mahboubi, G~Mahout, C~Maidantchik, A~Maio, G~M Mair, K~Mair,
+  Y~Makida, D~Makowiecki, P~Malecki, V~P Maleev, F~Malek, D~Malon, S~Maltezos,
+  V~Malychev, S~Malyukov, M~Mambelli, R~Mameghani, J~Mamuzic, A~Manabe,
+  A~Manara, G~Manca, L~Mandelli, I~Mandi{\'{c}}, M~Mandl, J~Maneira, M~Maneira,
+  P~S Mangeard, M~Mangin-Brinet, I~D Manjavidze, W~A Mann, S~Manolopoulos,
+  A~Manousakis-Katsikakis, B~Mansoulie, A~Manz, A~Mapelli, L~Mapelli, L~March,
+  J~F Marchand, M~Marchesotti, M~Marcisovsky, A~Marin, C~N Marques,
+  F~Marroquim, R~Marshall, Z~Marshall, F~K Martens, S~Marti i~Garcia, A~J
+  Martin, B~Martin, B~Martin, F~F Martin, J~P Martin, Ph~Martin, G~Martinez,
+  C~Mart{\'{\i}}nez Lacambra, V~Martinez Outschoorn, A~Martini, J~Martins,
+  T~Maruyama, F~Marzano, T~Mashimo, R~Mashinistov, J~Masik, A~L Maslennikov,
+  M~Ma{\ss}, I~Massa, G~Massaro, N~Massol, M~Mathes, J~Matheson, P~Matricon,
+  H~Matsumoto, H~Matsunaga, J~M Maugain, S~J Maxfield, E~N May, J~K Mayer,
+  C~Mayri, R~Mazini, M~Mazzanti, P~Mazzanti, E~Mazzoni, F~Mazzucato, S~P~Mc
+  Kee, R~L McCarthy, C~McCormick, N~A McCubbin, J~McDonald, K~W McFarlane,
+  S~McGarvie, H~McGlone, R~A McLaren, S~J McMahon, T~R McMahon, T~J McMahon,
+  R~A McPherson, M~Mechtel, D~Meder-Marouelli, M~Medinnis, R~Meera-Lebbai,
+  C~Meessen, R~Mehdiyev, A~Mehta, K~Meier, H~Meinhard, J~Meinhardt, C~Meirosu,
+  F~Meisel, A~Melamed-Katz, B~R~Mellado Garcia, P~Mendes Jorge, P~Mendez,
+  S~Menke, C~Menot, E~Meoni, D~Merkl, L~Merola, C~Meroni, F~S Merritt,
+  I~Messmer, J~Metcalfe, S~Meuser, J-P Meyer, T~C Meyer, W~T Meyer,
+  V~Mialkovski, M~Michelotto, L~Micu, R~Middleton, P~Miele, A~Migliaccio,
+  L~Mijovi{\'{c}}, G~Mikenberg, M~Mikestikova, M~Mikestikova, B~Mikulec,
+  M~Miku{\v{z}}, D~W Miller, R~J Miller, W~Miller, M~Milosavljevic, D~A
+  Milstead, S~Mima, A~A Minaenko, M~Minano, I~A Minashvili, A~I Mincer,
+  B~Mindur, M~Mineev, L~M Mir, G~Mirabelli, L~Miralles Verge, S~Misawa,
+  S~Miscetti, A~Misiejuk, A~Mitra, G~Y Mitrofanov, V~A Mitsou, P~S Miyagawa,
+  Y~Miyazaki, J~U Mjörnmark, S~Mkrtchyan, D~Mladenov, T~Moa, M~Moch,
+  A~Mochizuki, P~Mockett, P~Modesto, S~Moed, K~Mönig, N~Möser, B~Mohn,
+  W~Mohr, S~Mohrdieck-Möck, A~M Moisseev, R~M~Moles Valls, J~Molina-Perez,
+  A~Moll, G~Moloney, R~Mommsen, L~Moneta, E~Monnier, G~Montarou, S~Montesano,
+  F~Monticelli, R~W Moore, T~B Moore, G~F Moorhead, A~Moraes, J~Morel,
+  A~Moreno, D~Moreno, P~Morettini, D~Morgan, M~Morii, J~Morin, A~K Morley,
+  G~Mornacchi, M-C Morone, S~V Morozov, E~J Morris, J~Morris, M~C Morrissey,
+  H~G Moser, M~Mosidze, A~Moszczynski, S~V Mouraviev, T~Mouthuy, T~H Moye,
+  E~J~W Moyse, J~Mueller, M~Müller, A~Muijs, T~R Muller, A~Munar, D~J Munday,
+  K~Murakami, R~Murillo Garcia, W~J Murray, A~G Myagkov, M~Myska, K~Nagai,
+  Y~Nagai, K~Nagano, Y~Nagasaka, A~M Nairz, D~Naito, K~Nakamura, Y~Nakamura,
+  I~Nakano, G~Nanava, A~Napier, M~Nassiakou, I~Nasteva, N~R Nation, T~Naumann,
+  F~Nauyock, S~K Nderitu, H~A Neal, E~Nebot, P~Nechaeva, A~Neganov, A~Negri,
+  S~Negroni, C~Nelson, S~Nemecek, P~Nemethy, A~A Nepomuceno, M~Nessi, S~Y
+  Nesterov, L~Neukermans, P~Nevski, F~M Newcomer, A~Nichols, C~Nicholson,
+  R~Nicholson, R~B Nickerson, R~Nicolaidou, G~Nicoletti, B~Nicquevert,
+  M~Niculescu, J~Nielsen, T~Niinikoski, M~J Niinimaki, N~Nikitin, K~Nikolaev,
+  I~Nikolic-Audit, K~Nikolopoulos, H~Nilsen, B~S Nilsson, P~Nilsson, A~Nisati,
+  R~Nisius, L~J Nodulman, M~Nomachi, H~Nomoto, J-M Noppe, M~Nordberg,
+  O~Norniella Francisco, P~R Norton, J~Novakova, M~Nowak, M~Nozaki, R~Nunes,
+  G~Nunes Hanninger, T~Nunnemann, T~Nyman, P~O{\textquotesingle}Connor, S~W
+  O{\textquotesingle}Neale, D~C O{\textquotesingle}Neil,
+  M~O{\textquotesingle}Neill, V~O{\textquotesingle}Shea, F~G Oakham,
+  H~Oberlack, M~Obermaier, P~Oberson, A~Ochi, W~Ockenfels, S~Odaka, I~Odenthal,
+  G~A Odino, H~Ogren, S~H Oh, T~Ohshima, H~Ohshita, H~Okawa, M~Olcese, A~G
+  Olchevski, C~Oliver, J~Oliver, M~Olivo Gomez, A~Olszewski, J~Olszowska,
+  C~Omachi, A~Onea, A~Onofre, C~J Oram, G~Ordonez, M~J Oreglia, F~Orellana,
+  Y~Oren, D~Orestano, I~O Orlov, R~S Orr, F~Orsini, L~S Osborne, B~Osculati,
+  C~Osuna, R~Otec, R~Othegraven, B~Ottewell, F~Ould-Saada, A~Ouraou, Q~Ouyang,
+  O~K {\O}ye, V~E Ozcan, K~Ozone, N~Ozturk, A~Pacheco Pages, S~Padhi, C~Padilla
+  Aranda, E~Paganis, F~Paige, P~M Pailler, K~Pajchel, S~Palestini, J~Palla,
+  D~Pallin, M~J Palmer, Y~B Pan, N~Panikashvili, V~N Panin, S~Panitkin,
+  D~Pantea, M~Panuskova, V~Paolone, A~Paoloni, I~Papadopoulos, T~Papadopoulou,
+  I~Park, W~Park, M~A Parker, S~Parker, C~Parkman, F~Parodi, J~A Parsons,
+  U~Parzefall, E~Pasqualucci, G~Passardi, A~Passeri, M~S Passmore, F~Pastore,
+  Fr~Pastore, S~Pataraia, D~Pate, J~R Pater, S~Patricelli, T~Pauly, E~Pauna,
+  L~S Peak, S~J~M Peeters, M~Peez, E~Pei, S~V Peleganchuk, G~Pellegrini,
+  R~Pengo, J~Pequenao, M~Perantoni, A~Perazzo, A~Pereira, E~Perepelkin, V~J~O
+  Perera, E~Perez Codina, V~Perez Reale, I~Peric, L~Perini, H~Pernegger,
+  E~Perrin, R~Perrino, P~Perrodo, G~Perrot, P~Perus, V~D Peshekhonov,
+  E~Petereit, J~Petersen, T~C Petersen, P~J~F Petit, C~Petridou, E~Petrolo,
+  F~Petrucci, R~Petti, M~Pezzetti, B~Pfeifer, A~Phan, A~W Phillips, and P~W
+  Phillips.
+\newblock The {ATLAS} experiment at the {CERN} large hadron collider.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08003--S08003, aug 2008{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08003}.
+\newblock URL \url{https://doi.org/10.1088/1748-0221/3/08/s08003}.
+
+\bibitem[Collaboration et~al.(2008{\natexlab{b}})Collaboration, Chatrchyan,
+  Hmayakyan, Khachatryan, Sirunyan, Adam, Bauer, Bergauer, Bergauer,
+  Dragicevic, Erö, Friedl, Frühwirth, Ghete, Glaser, Hartl, Hoermann, Hrubec,
+  Hänsel, Jeitler, Kastner, Krammer, de~Abril, Markytan, Mikulec, Neuherz,
+  Nöbauer, Oberegger, Padrta, Pernicka, Porth, Rohringer, Schmid, Schreiner,
+  Stark, Steininger, Strauss, Taurok, Uhl, Waltenberger, Walzel, Widl, Wulz,
+  Petrov, Prosolovich, Chekhovsky, Dvornikov, Emeliantchik, Litomin, Makarenko,
+  Marfin, Mossolov, Shumeiko, Solin, Stefanovitch, Gonzalez, Tikhonov, Fedorov,
+  Korzhik, Missevitch, Zuyeuski, Beaumont, Cardaci, Langhe, Wolf, Delmeire,
+  Ochesanu, Tasevsky, Mechelen, D{\textquotesingle}Hondt, Weirdt, Devroede,
+  Goorens, Hannaert, Heyninck, Maes, Mozer, Tavernier, Doninck, Lancker,
+  Mulders, Villella, Wastiels, Yu, Bouhali, Charaf, Clerbaux, Harenne,
+  Lentdecker, Dewulf, Elgammal, Gindroz, Hammad, Mahmoud, Neukermans, Pins,
+  Pins, Rugovac, Stefanescu, Sundararajan, Velde, Vanlaer, Wickens, Tytgat,
+  Assouak, Bonnet, Bruno, Caudron, Callatay, Jeneret, Visscher, Demin, Favart,
+  Felix, Florins, Forton, Giammanco, Gr{\'{e}}goire, Jonckman, Kcira, Keutgen,
+  Lemaitre, Michotte, Militaru, Ovyn, Pierzchala, Piotrzkowski, Roberfroid,
+  Rouby, Schul, der Aa, Beliy, Daubie, Herquet, Alves, Pol, Souza, Vaz, Damiao,
+  Oguri, Santoro, Sznajder, Gregores, Iope, Novaes, Tomei, Anguelov, Antchev,
+  Atanasov, Damgov, Darmenov, Dimitrov, Genchev, Iaydjiev, Marinov, Piperov,
+  Stoykova, Sultanov, Trayanov, Vankov, Cheshkov, Dimitrov, Dyulendarova,
+  Glushkov, Kozhuharov, Litov, Makariev, Marinova, Markov, Mateev, Nasteva,
+  Pavlov, Petev, Petkov, Spassov, Toteva, Velev, Verguilov, Bian, Chen, Chen,
+  Chen, Jiang, Liu, Shen, Sun, Tao, Wang, Yang, Zhang, Zhao, Zhuang, Ban, Cai,
+  Ge, Liu, Liu, Liu, Qian, Wang, Xue, Yang, Ye, Ying, Li, Liao, Xue, Yan, Yuan,
+  Montoya, Sanabria, Godinovic, Puljak, Soric, Antunovic, Dzelalija, Marasovic,
+  Brigljevic, Kadija, Morovic, Fereos, Nicolaou, Papadakis, Ptochos, Razis,
+  Tsiakkouri, Zinonos, Hektor, Kadastik, Kannike, Lippmaa, Müntel, Raidal,
+  Rebane, Aarnio, Anttila, Banzuzi, Bulteau, Czellar, Eiden, Eklund, Engstrom,
+  Heikkinen, Honkanen, Härkönen, Karimäki, Katajisto, Kinnunen, Klem,
+  Kortesmaa, Kotamäki, Kuronen, Lamp{\'{e}}n, Lassila-Perini, Lef{\'{e}}bure,
+  Lehti, Lind{\'{e}}n, Luukka, Michal, Brigido, Mäenpää, Nyman,
+  Nyst{\'{e}}n, Pietarinen, Skog, Tammi, Tuominen, Tuominiemi, Ungaro, Vanhala,
+  Wendland, Williams, Iskanius, Korpela, Polese, Tuuva, Bassompierre, Bazan,
+  David, Ditta, Drobychev, Fouque, Guillaud, Hermel, Karneyeu, Flour, Lieunard,
+  Maire, Mendiburu, Nedelec, Peigneux, Schneegans, Sillou, Vialle, Anfreville,
+  Bard, Besson, Bougamont, Boyer, Bredy, Chipaux, Dejardin, Denegri, Descamps,
+  Fabbro, Faure, Ganjour, Gentit, Givernaud, Gras, de~Monchenault, Jarry,
+  Jeanney, Kircher, Lemaire, Lemoigne, Levesy, Locci, Lottin, Mandjavidze, Mur,
+  Pansart, Payn, Rander, Reymond, Rolquin, Rondeaux, Rosowsky, Rousse, Sun,
+  Tartas, Lysebetten, Venault, Verrecchia, Anduze, Badier, Baffioni, Bercher,
+  Bernet, Berthon, Bourotte, Busata, Busson, Cerutti, Chamont, Charlot,
+  Collard, Debraine, Decotigny, Dobrzynski, Ferreira, Geerebaert, Gilly,
+  Gregory, Riveros, Haguenauer, Karar, Koblitz, Lecouturier, Mathieu, Milleret,
+  Min{\'{e}}, Paganini, Poilleux, Pukhaeva, Regnault, Romanteau, Semeniouk,
+  Sirois, Thiebaux, Vanel, Zabi, Agram, Albert, Anckenmann, Andrea, Anstotz,
+  Bergdolt, Berst, Blaes, Bloch, Brom, Cailleret, Charles, Christophel, Claus,
+  Coffin, Colledani, Croix, Dangelser, Dick, Didierjean, Drouhin, Dulinski,
+  Ernenwein, Fang, Fontaine, Gaudiot, Geist, Gel{\'{e}}, Goeltzenlichter,
+  Goerlach, Graehling, Gross, Hu, Helleboid, Henkes, Hoffer, Hoffmann,
+  Hosselet, Houchu, Hu, Huss, Illinger, Jeanneau, Juillot, Kachelhoffer, Kapp,
+  Kettunen, Ayat, Bihan, Lounis, Maazouzi, Mack, Majewski, Mangeol, Michel,
+  Moreau, Olivetto, Pallar{\`{e}}s, Patois, Pralavorio, Racca, Riahi,
+  Ripp-Baudot, Schmitt, Schunck, Schuster, Schwaller, Sigward, Sohler, Speck,
+  Strub, Todorov, Turchetta, Hove, Vintache, Zghiche, Ageron, Augustin, Baty,
+  Baulieu, Bedjidian, Blaha, Bonnevaux, Boudoul, Brunet, Chabanat, Chabert,
+  Chierici, Chorowicz, Combaret, Contardo, Negra, Depasse, Drapier, Dupanloup,
+  Dupasquier, Mamouni, Estre, Fay, Gascon, Giraud, Girerd, Guillot,
+  Haroutunian, Ille, Lethuillier, Lumb, Martin, Mathez, Maurelli, Muanza,
+  Pangaud, Perries, Ravat, Schibler, Schirra, Smadja, Tissot, Trocme, Vanzetto,
+  Walder, Bagaturia, Mjavia, Mzhavia, Tsamalaidze, Roinishvili, Adolphi,
+  Anagnostou, Brauer, Braunschweig, Esser, Feld, Karpinski, Khomich, Klein,
+  Kukulies, Lübelsmeyer, Olzem, Ostaptchouk, Pandoulas, Pierschel, Raupach,
+  Schael, von Dratzig, Schwering, Siedling, Thomas, Weber, Wittmer, Wlochal,
+  Adamczyk, Adolf, Altenhöfer, Bechstein, Bethke, Biallass, Biebel,
+  Bontenackels, Bosseler, Böhm, Erdmann, Faissner, Fehr, Fesefeldt,
+  Fetchenhauer, Frangenheim, Frohn, Grooten, Hebbeker, Hermann, Hermens,
+  Hilgers, Hoepfner, Hof, Jacobi, Kappler, Kirsch, Kreuzer, Kupper, Lampe,
+  Lanske, Mameghani, Meyer, Meyer, Moers, Müller, Pahlke, Philipps, Rein,
+  Reithler, Reuter, Rütten, Schulz, Schwarthoff, Sobek, Sowa, Stapelberg,
+  Szczesny, Teykal, Teyssier, Tomme, Tomme, Tonutti, Tsigenov, Tutas,
+  Vandenhirtz, Wagner, Wegner, Zeidler, Beissel, Davids, Duda, Flügge,
+  Giffels, Hermanns, Heydhausen, Kalinin, Kasselmann, Kaussen, Kress, Linn,
+  Nowack, Perchalla, Poettgens, Pooth, Sauerland, Stahl, Tornier, Zoeller,
+  Behrens, Borras, Flossdorf, Hatton, Hegner, Kasemann, Mankel, Meyer, Mnich,
+  Rosemann, Youngman, Zeuner, Bechtel, Buhmann, Butz, Flucke, Hamdorf, Holm,
+  Klanner, Pein, Schirm, Schleper, Steinbrück, Staa, Wolf, Atz, Barvich,
+  Blüm, Boegelspacher, Bol, Chen, Chowdhury, Boer, Dehm, Dirkes, Fahrer,
+  Felzmann, Frey, Furgeri, Gregoriev, Hartmann, Hauler, Heier, Kärcher,
+  Ledermann, Mueller, Müller, Neuberger, Piasecki, Quast, Rabbertz, Sabellek,
+  Scheurer, Schilling, Simonis, Skiba, Steck, Theel, Thümmel, Trunov, Vest,
+  Weiler, Weiser, Weseler, Zhukov, Barone, Daskalakis, Dimitriou, Fanourakis,
+  Filippidis, Geralis, Kalfas, Karafasoulis, Koimas, Kyriakis, Kyriazopoulou,
+  Loukas, Markou, Markou, Mastroyiannopoulos, Mavrommatis, Mousa, Papadakis,
+  Petrakou, Siotis, Theofilatos, Tzamarias, Vayaki, Vermisoglou, Zachariadou,
+  Gouskos, Karapostoli, Katsas, Panagiotou, Papadimitropoulos, Aslanoglou,
+  Evangelou, Kokkas, Manthos, Papadopoulos, Triantis, Bencze, Boldizsar,
+  Debreczeni, Hajdu, Hidas, Horvath, Kovesarki, Laszlo, Odor, Patay, Sikler,
+  Veres, Vesztergombi, Zalan, Fenyvesi, Imrek, Molnar, Novak, Palinkas,
+  Szekely, Beni, Kapusi, Marian, Radics, Raics, Szabo, Szillasi, Trocsanyi,
+  Zilizi, Bawa, Beri, Bhandari, Bhatnagar, Kaur, Kohli, Kumar, Singh, Singh,
+  Arora, Bhattacharya, Chatterji, Chauhan, Choudhary, Gupta, Jha, Ranjan,
+  Shivpuri, Srivastava, Choudhury, Dutta, Ghodgaonkar, Kailas, Kataria,
+  Mohanty, Pant, Shukla, Topkar, Aziz, Banerjee, Bose, Chendvankar, Deshpande,
+  Guchait, Gurtu, Maity, Majumder, Mazumdar, Nayak, Patil, Sharma, Sudhakar,
+  Acharya, Banerjee, Bheesette, Dugad, Kalmani, Lakkireddi, Mondal, Panyam,
+  Verma, Arfaei, Hashemi, Najafabadi, Moshaii, Mehdiabadi, Felcini, Grunewald,
+  Abadjiev, Abbrescia, Barbone, Cariola, Chiumarulo, Clemente, Colaleo,
+  Creanza, Filippis, Palma, Robertis, Donvito, Ferorelli, Fiore, Franco,
+  Giordano, Guida, Iaselli, Lacalamita, Loddo, Maggi, Maggi, Manna, Marangelli,
+  Mennea, My, Natali, Nuzzo, Papagni, Pinto, Pompili, Pugliese, Ranieri,
+  Romano, Roselli, Sala, Selvaggi, Silvestris, Tempesta, Trentadue, Tupputi,
+  Zito, Abbiendi, Bacchi, Battilana, Benvenuti, Boldini, Bonacorsi,
+  Braibant-Giacomelli, Cafaro, Capiluppi, Castro, Cavallo, Ciocca, Codispoti,
+  Cuffiani, D{\textquotesingle}Antone, Dallavalle, Fabbri, Fanfani, Finelli,
+  Giacomelli, Giordano, Giunta, Grandi, Guerzoni, Guiducci, Marcellini,
+  Masetti, Montanari, Navarria, Odorici, Paolucci, Pellegrini, Perrotta, Rossi,
+  Rovelli, Siroli, Torromeo, Travaglini, Veronese, Albergo, Chiorboli, Costa,
+  Galanti, Rotondo, Giudice, Guardone, Noto, Potenza, Saizu, Salemi, Sutera,
+  Tricomi, Tuve, Bellucci, Brianzi, Broccolo, Catacchini, Ciulli, Civinini,
+  D{\textquotesingle}Alessandro, Focardi, Frosali, Genta, Landi, Lenzi,
+  Macchiolo, Maletta, Manolescu, Marchettini, Masetti, Mersi, Meschini,
+  Minelli, Paoletti, Parrini, Scarlini, Sguazzoni, Benussi, Bertani, Bianco,
+  Caponero, Colonna, Daniello, Fabbri, Felli, Giardoni, Monaca, Ortenzi,
+  Pallotta, Paolozzi, Paris, Passamonti, Pierluigi, Ponzio, Pucci, Russo,
+  Saviano, Fabbricatore, Farinon, Greco, Musenich, Badoer, Berti, Biasotto,
+  Fantinel, Frizziero, Gastaldi, Gulmini, Lelli, Maron, Squizzato, Toniolo,
+  Traldi, Banfi, Bertoni, Bonesini, Carbone, Cerati, Chignoli,
+  D{\textquotesingle}Angelo, Min, Dini, Farina, Ferri, Govoni, Magni, Malberti,
+  Malvezzi, Mazza, Menasce, Miccio, Moroni, Negri, Paganoni, Pedrini, Pullia,
+  Ragazzi, Redaelli, Rovere, Sala, Sala, Salerno, de~Fatis, Tancini, Taroni,
+  Boiano, Cassese, Cassese, Cimmino, D{\textquotesingle}Aquino, Lista, Lomidze,
+  Noli, Paolucci, Passeggio, Piccolo, Roscilli, Sciacca, Vanzanella, Azzi,
+  Bacchetta, Barcellan, Bellato, Benettoni, Bisello, Borsato, Candelori,
+  Carlin, Castellani, Checchia, Ciano, Colombo, Conti, Rold, Corso, Giorgi,
+  Mattia, Dorigo, Dosselli, Fanin, Galet, Gasparini, Gasparini, Giraldo,
+  Giubilato, Gonella, Gresele, Griggio, Guaita, Kaminskiy, Karaevskii,
+  Khomenkov, Kostylev, Lacaprara, Lazzizzera, Lippi, Loreti, Margoni,
+  Martinelli, Mattiazzo, Mazzucato, Meneguzzo, Modenese, Montecassiano,
+  Neviani, Nigro, Paccagnella, Pantano, Parenti, Passaseo, Pedrotta, Pegoraro,
+  Rampazzo, Reznikov, Ronchese, Daponte, Sartori, Stavitskiy, Tessaro, Torassa,
+  Triossi, Vanini, Ventura, Ventura, Verlato, Zago, Zatti, Zotto, Zumerle,
+  Baesso, Belli, Berzano, Bricola, Grelli, Musitelli, Nard{\`{o}}, Necchi,
+  Pagano, Ratti, Riccardi, Torre, Vicini, Vitulo, Viviani, Aisa, Aisa,
+  Ambroglini, Angarano, Babucci, Benedetti, Biasini, Bilei, Bizzaglia,
+  Brunetti, Caponeri, Checcucci, Covarelli, Dinu, Fan{\`{o}}, Farnesini,
+  Giorgi, Lariccia, Mantovani, Moscatelli, Passeri, Piluso, Placidi,
+  Postolache, Santinelli, Santocchia, Servoli, Spiga, Azzurri, Bagliesi,
+  Balestri, Basti, Bellazzini, Benucci, Bernardini, Berretta, Bianucci,
+  Boccali, Bocci, Borrello, Bosi, Bracci, Brez, Calzolari, Castaldi, Cazzola,
+  Ceccanti, Cecchi, Cerri, Cucoanes, Dell{\textquotesingle}Orso, Dobur, Dutta,
+  Fiori, Fo{\`{a}}, Gaggelli, Gennai, Giassi, Giusti, Kartashov, Kraan,
+  Latronico, Ligabue, Linari, Lomtadze, Lungu, Magazzu, Mammini, Mariani,
+  Martinelli, Massa, Messineo, Moggi, Palla, Palmonari, Petragnani,
+  Petrucciani, Profeti, Raffaelli, Rizzi, Sanguinetti, Sarkar, Segneri,
+  Sentenac, Serban, Slav, Spagnolo, Spandre, Tenchini, Tolaini, Tonelli,
+  Venturi, Verdini, Vos, Zaccarelli, Baccaro, Barone, Bartoloni, Borgia,
+  Capradossi, Cavallari, Cecilia, D{\textquotesingle}Angelo, Dafinei, Re,
+  Marco, Diemoz, Ferrara, Gargiulo, Guerra, Iannone, Longo, Montecchi,
+  Nuccetelli, Organtini, Palma, Paramatti, Pellegrino, Rahatlou, Rovelli,
+  Tehrani, Zullo, Alampi, Amapane, Arcidiacono, Argiro, Arneodo, Bellan,
+  Benotto, Biino, Bolognesi, Borgia, Botta, Brasolin, Cartiglia, Castello,
+  Cerminara, Cirio, Cordero, Costa, Dattola, Daudo, Dellacasa, Demaria,
+  Dughera, Dumitrache, Farano, Ferrero, Filoni, Kostyleva, Larsen, Mariotti,
+  Marone, Maselli, Menichetti, Mereu, Migliore, Mila, Monaco, Musich, Nervo,
+  Obertino, Panero, Parussa, Pastrone, Peroni, Petrillo, Romero, Ruspa, Sacchi,
+  Scalise, Solano, Staiano, Trapani, Trocino, Vaniev, Pereira, Zampieri,
+  Belforte, Cossutti, Ricca, Gobbo, Kavka, Penzo, Kim, Nam, Kim, Kim, Kim,
+  Kong, Ro, Son, Park, Kim, Kim, Lim, Pac, Lee, Jung, Rhee, Ahn, Hong, Jeng,
+  Kang, Kim, Kim, Kim, Lee, Lim, Moon, Park, Park, Ryu, Sim, Son, Hong, Choi,
+  Valdez, Hernandez, Moreno, Pineda, Aerts, der Stok, Weffers, Allfrey, Gray,
+  Hashimoto, Krofcheck, Bell, Rodrigues, Butler, Churchwell, Knegjens,
+  Whitehead, Williams, Aftab, Ahmad, Ahmed, Ahmed, Asghar, Asghar, Dad, Hafeez,
+  Hoorani, Hussain, Hussain, Iftikhar, Khan, Mehmood, Osman, Shahzad, Zafar,
+  Ali, Bashir, Jan, Kamal, Khan, Saeed, Tanwir, Zafar, Blocki, Cyz,
+  Gladysz-Dziadus, Mikocki, Rybczynski, Turnau, Wlodarczyk, Zychowski,
+  Bunkowski, Cwiok, Czyrkowski, Dabrowski, Dominik, Doroba, Kalinowski,
+  Kierzkowski, Konecki, Krolikowski, Kudla, Pietrusinski, Pozniak, Zabolotny,
+  Zych, Gokieli, Goscilo, G{\'{o}}rski, Nawrocki, Traczyk, Wrochna, Zalewski,
+  Pozniak, Romaniuk, Zabolotny, Alemany-Fernandez, Almeida, Almeida, Verde,
+  Monteiro, Bluj, Silva, Mendes, Ferreira, Gallinaro, Husejko, Jain, Kazana,
+  Musella, Nobrega, Silva, Ribeiro, Santos, Silva, Silva, Teixeira, Teixeira,
+  Varela, Varner, Cardoso, Altsybeev, Babich, Belkov, Belotelov, Bunin,
+  Chesnevskaya, Elsha, Ershov, Filozova, Finger, Finger, Golunov, Golutvin,
+  Gorbounov, Gramenitski, Kalagin, Kamenev, Karjavin, Khabarov, Khabarov,
+  Kiryushin, Konoplyanikov, Korenkov, Kozlov, Kurenkov, Lanev, Lysiakov,
+  Malakhov, Melnitchenko, Mitsyn, Moisenz, Moisenz, Movchan, Nikonov, Oleynik,
+  Palichik, Perelygin, Petrosyan, Rogalev, Samsonov, Savina, Semenov, Sergeev,
+  Shmatov, Shulha, Smirnov, Smolin, Tcheremoukhine, Teryaev, Tikhonenko,
+  Urkinbaev, Vasil{\textquotesingle}ev, Vishnevskiy, Volodko, Zamiatin,
+  Zarubin, Zarubin, Zubarev, Bondar, Gavrikov, Golovtsov, Ivanov, Kim, Kozlov,
+  Lebedev, Makarenkov, Moroz, Neustroev, Obrant, Orishchin, Petrunin,
+  Shcheglov, Shchetkovskiy, Sknar, Skorobogatov, Smirnov, Sulimov, Tarakanov,
+  Uvarov, Vavilov, Velichko, Volkov, Vorobyev, Chmelev, Druzhkin, Ivanov,
+  Kudinov, Logatchev, Onishchenko, Orlov, Sakharov, Smetannikov, Tikhomirov,
+  Zavodthikov, Andreev, Anisimov, Duk, Gninenko, Golubev, Gorbunov, Kirsanov,
+  Krasnikov, Matveev, Pashenkov, Pastsyak, Postoev, Sadovski, Skassyrskaia,
+  Solovey, Solovey, Soloviev, Toropin, Troitsky, Alekhin, Baldov, Epshteyn,
+  Gavrilov, Ilina, Kaftanov, Karpishin, Kiselevich, Kolosov, Kossov, Krokhotin,
+  Kuleshov, Oulianov, Pozdnyakov, Safronov, Semenov, Stepanov, Stolin, Vlasov,
+  Zaytsev, Boos, Dubinin, Dudko, Ershov, Eyyubova, Gribushin, Ilyin, Klyukhin,
+  Kodolova, Kruglov, Kryukov, Lokhtin, Malinina, Mikhaylin, Petrushanko,
+  Sarycheva, Savrin, Shamardin, Sherstnev, Snigirev, Teplov, Vardanyan,
+  Fomenko, Konovalova, Kozlov, Lebedev, Lvova, Rusakov, Terkulov, Abramov,
+  Akimenko, Artamonov, Ashimova, Azhgirey, Bitioukov, Chikilev, Datsko, Filine,
+  Godizov, Goncharov, Grishin, Inyakin, Kachanov, Kalinin, Khmelnikov,
+  Konstantinov, Korablev, Krychkine, Krinitsyn, Levine, Lobov, Lukanin,
+  Mel{\textquotesingle}nik, Molchanov, Petrov, Petukhov, Pikalov, Ryazanov,
+  Ryutin, Shelikhov, Skvortsov, Slabospitsky, Sobol, Sytine, Talov,
+  Tourtchanovitch, Troshin, Tyurin, Uzunian, Volkov, Zelepoukine, Lukyanov,
+  Mamaeva, Prilutskaya, Rumyantsev, Sokha, Tataurschikov, Vasilyev, Adzic,
+  Anicin, Djordjevic, Jovanovic, Maletic, Puzovic, Smiljkovic, Navarrete,
+  Aguilar-Benitez, Munoz, Vega, Alberdi, Maestre, Martin, Arce, Barcala,
+  Berdugo, Ramos, Lazaro, Bejar, Calvo, Cerrada, Llatas, Catal{\'{a}}n, Colino,
+  Daniel, Cruz, Peris, Bedoya, Ferrando, Fouz, Ferrero, Romero, Garcia-Abia,
+  Lopez, Hernandez, Josa, Marin, Merino, Molinero, Navarrete, Oller, Pelayo,
+  Sanchez, Ramirez, Romero, Munoz, Willmott, Yuste, Albajar, de~Troc{\'{o}}niz,
+  Jimenez, Macias, Teixeira, Cuevas, Men{\'{e}}ndez, Caballero, Lopez-Garcia,
+  Sordo, Garcia, Cabrillo, Calderon, Fernandez, Merino, Campderros, Fernandez,
+  Menendez, Figueroa, Moral, Gomez, Casademunt, Sanchez, Suarez, Jorda, Pardo,
+  Garcia, Virto, Marco, Marco, Rivero, del Arbol, Matorras, Fernandez,
+  Revuelta, Rodrigo, Gonzalez, Jimeno, Scodellaro, Sanudo, Vila, Cortabitarte,
+  Barbero, Goldin, Henrich, Tauscher, Vlachos, Wadhwa, Abbaneo, Abbas, Ahmed,
+  Akhtar, Akhtar, Albert, Alidra, Ashby, Aspell, Auffray, Baillon, Ball, Bally,
+  Bangert, Barill{\`{e}}re, Barney, Beauceron, Beaudette, Benelli, Benetta,
+  Benichou, Bialas, Bjorkebo, Blechschmidt, Bloch, Bloch, Bonacini, Bos,
+  Bosteels, Boyer, Branson, Breuker, Bruneliere, Buchmuller, Campi, Camporesi,
+  Caner, Cano, Carrone, Cattai, Chatelain, Chauvey, Christiansen, Ciganek,
+  Cittolin, Cogan, Garcia, Cornet, Corrin, Corvo, Cucciarelli, Cur{\'{e}},
+  D{\textquotesingle}Enterria, Roeck, de~Visser, Delaere, Delattre, Deldicque,
+  Delikaris, Deyrail, Vincenzo, Domeniconi, Santos, Duthion, Edera,
+  Elliott-Peisert, Eppard, Fanzago, Favre, Foeth, Folch, Frank, Fratianni,
+  Freire, Frey, Fucci, Funk, Gaddi, Gagliardi, Gastal, Gateau, Gayde, Gerwig,
+  Ghezzi, Gigi, Gill, Giolo-Nicollerat, Girod, Glege, Glessing, Garrido,
+  Goudard, Grabit, Grillet, Llamas, Mlot, Gutleber, Hall-wilton, Hammarstrom,
+  Hansen, Harvey, Herv{\'{e}}, Hill, Hoffmann, Holzner, Honma, Hufnagel,
+  Huhtinen, Ilie, Innocente, Jank, Janot, Jarron, Jeanrenaud, Jouvel, Kerkach,
+  Kloukinas, Kottelat, Labb{\'{e}}, Lacroix, Lagrue, Lasseur, Laure, Laurens,
+  Lazeyras, Goff, Lebeau, Lecoq, Lemeilleur, Lenzi, Leonardo, Leonidopoulos,
+  Letheren, Liendl, Limia-Conde, Linssen, Ljuslin, Lofstedt, Loos, Perez,
+  Lourenco, Lyonnet, Machard, Mackenzie, Magini, Maire, Malgeri, Malina,
+  Mannelli, Marchioro, Martin, Meijers, Meridiani, Meschi, Meyer, Cordonnier,
+  Michaud, Mirabito, Moser, Mossiere, Muffat-Joly, Mulders, Mulon, Murer,
+  Mättig, Oh, Onnela, Oriunno, Orsini, Osborne, Paillard, Pal, Papotti,
+  Passardi, Patino-Revuelta, Patras, Solano, Perez, Perinic, Pernot, Petagna,
+  Petiot, Petit, Petrilli, Pfeiffer, Piccut, Pimiä, Pintus, Pioppi, Placci,
+  Pollet, Postema, Price, Principe, Racz, Radermacher, Ranieri, Raymond,
+  Rebecchi, Rehn, Reynaud, Naraghi, Ricci, Ridel, Risoldi, Moreira, Rohlev,
+  Roiron, Rolandi, Rumerio, Runolfsson, Ryjov, Sakulin, Samyn, Amaral, Sauce,
+  Sbrissa, Scharff-Hansen, Schieferdecker, Schlatter, Schmitt, Schmuecker,
+  Schröder, Schwick, Schäfer, Segoni, Rold{\'{a}}n, Sgobba, Sharma, Siegrist,
+  Sigaud, Sinanis, Sobrier, Sphicas, Spiropulu, Stefanini, Strandlie,
+  Szoncs{\'{o}}, Taylor, Teller, Thea, Tournefier, Treille, Tropea, Troska,
+  Tsesmelis, Tsirou, Valls, Vulpen, Donckt, Vasey, Acosta, Veillet, Vichoudis,
+  Waurick, Wellisch, Wertelaers, Wilhelmsson, Willers, Winkler, Zanetti, Bertl,
+  Deiters, Dick, Erdmann, Feichtinger, Gabathuler, Hochman, Horisberger,
+  Ingram, Kaestli, Kotlinski, König, Poerschke, Renker, Rohe, Sakhelashvili,
+  Starodumov, Aleksandrov, Behner, Beniozef, Betev, Blau, Brett, Caminada,
+  Chen, Chivarov, Calafiori, Dambach, Davatz, Delachenal, Marina, Dimov,
+  Dissertori, Dittmar, Djambazov, Dröge, Eggel, Ehlers, Eichler, Elmiger,
+  Faber, Freudenreich, Fuchs, Georgiev, Grab, Haller, Herrmann, Hilgers, Hintz,
+  Hofer, Hofer, Horisberger, Horvath, Hristov, Humbertclaude, Iliev, Kastli,
+  Kruse, Kuipers, Langenegger, Lecomte, Lejeune, Leshev, Lesmond, List, Luckey,
+  Lustermann, Maillefaud, Marchica, Maurisset, Meier, Milenovic, Milesi,
+  Moortgat, Nanov, Nardulli, Nessi-Tedaldi, Panev, Pape, Pauss, Petrov, Petrov,
+  Peynekov, Pitzl, Punz, and Riboni]{CMSCollab}
+The~CMS Collaboration, S~Chatrchyan, G~Hmayakyan, V~Khachatryan, A~M Sirunyan,
+  W~Adam, T~Bauer, T~Bergauer, H~Bergauer, M~Dragicevic, J~Erö, M~Friedl,
+  R~Frühwirth, V~M Ghete, P~Glaser, C~Hartl, N~Hoermann, J~Hrubec, S~Hänsel,
+  M~Jeitler, K~Kastner, M~Krammer, I~Magrans de~Abril, M~Markytan, I~Mikulec,
+  B~Neuherz, T~Nöbauer, M~Oberegger, M~Padrta, M~Pernicka, P~Porth,
+  H~Rohringer, S~Schmid, T~Schreiner, R~Stark, H~Steininger, J~Strauss,
+  A~Taurok, D~Uhl, W~Waltenberger, G~Walzel, E~Widl, C-E Wulz, V~Petrov,
+  V~Prosolovich, V~Chekhovsky, O~Dvornikov, I~Emeliantchik, A~Litomin,
+  V~Makarenko, I~Marfin, V~Mossolov, N~Shumeiko, A~Solin, R~Stefanovitch,
+  J~Suarez Gonzalez, A~Tikhonov, A~Fedorov, M~Korzhik, O~Missevitch,
+  R~Zuyeuski, W~Beaumont, M~Cardaci, E~De Langhe, E~A~De Wolf, E~Delmeire,
+  S~Ochesanu, M~Tasevsky, P~Van Mechelen, J~D{\textquotesingle}Hondt, S~De
+  Weirdt, O~Devroede, R~Goorens, S~Hannaert, J~Heyninck, J~Maes, M~U Mozer,
+  S~Tavernier, W~Van Doninck, L~Van Lancker, P~Van Mulders, I~Villella,
+  C~Wastiels, C~Yu, O~Bouhali, O~Charaf, B~Clerbaux, P~De Harenne, G~De
+  Lentdecker, J~P Dewulf, S~Elgammal, R~Gindroz, G~H Hammad, T~Mahmoud,
+  L~Neukermans, M~Pins, R~Pins, S~Rugovac, J~Stefanescu, V~Sundararajan,
+  C~Vander Velde, P~Vanlaer, J~Wickens, M~Tytgat, S~Assouak, J~L Bonnet,
+  G~Bruno, J~Caudron, B~De Callatay, J~De Favereau~De Jeneret, S~De Visscher,
+  P~Demin, D~Favart, C~Felix, B~Florins, E~Forton, A~Giammanco,
+  G~Gr{\'{e}}goire, M~Jonckman, D~Kcira, T~Keutgen, V~Lemaitre, D~Michotte,
+  O~Militaru, S~Ovyn, T~Pierzchala, K~Piotrzkowski, V~Roberfroid, X~Rouby,
+  N~Schul, O~Van der Aa, N~Beliy, E~Daubie, P~Herquet, G~Alves, M~E Pol, M~H~G
+  Souza, M~Vaz, D~De~Jesus Damiao, V~Oguri, A~Santoro, A~Sznajder, E~De~Moraes
+  Gregores, R~L Iope, S~F Novaes, T~Tomei, T~Anguelov, G~Antchev, I~Atanasov,
+  J~Damgov, N~Darmenov, L~Dimitrov, V~Genchev, P~Iaydjiev, A~Marinov,
+  S~Piperov, S~Stoykova, G~Sultanov, R~Trayanov, I~Vankov, C~Cheshkov,
+  A~Dimitrov, M~Dyulendarova, I~Glushkov, V~Kozhuharov, L~Litov, M~Makariev,
+  E~Marinova, S~Markov, M~Mateev, I~Nasteva, B~Pavlov, P~Petev, P~Petkov,
+  V~Spassov, Z~Toteva, V~Velev, V~Verguilov, J~G Bian, G~M Chen, H~S Chen,
+  M~Chen, C~H Jiang, B~Liu, X~Y Shen, H~S Sun, J~Tao, J~Wang, M~Yang, Z~Zhang,
+  W~R Zhao, H~L Zhuang, Y~Ban, J~Cai, Y~C Ge, S~Liu, H~T Liu, L~Liu, S~J Qian,
+  Q~Wang, Z~H Xue, Z~C Yang, Y~L Ye, J~Ying, P~J Li, J~Liao, Z~L Xue, D~S Yan,
+  H~Yuan, C~A~Carrillo Montoya, J~C Sanabria, N~Godinovic, I~Puljak, I~Soric,
+  Z~Antunovic, M~Dzelalija, K~Marasovic, V~Brigljevic, K~Kadija, S~Morovic,
+  R~Fereos, C~Nicolaou, A~Papadakis, F~Ptochos, P~A Razis, D~Tsiakkouri,
+  Z~Zinonos, A~Hektor, M~Kadastik, K~Kannike, E~Lippmaa, M~Müntel, M~Raidal,
+  L~Rebane, P~A Aarnio, E~Anttila, K~Banzuzi, P~Bulteau, S~Czellar, N~Eiden,
+  C~Eklund, P~Engstrom, A~Heikkinen, A~Honkanen, J~Härkönen, V~Karimäki, H~M
+  Katajisto, R~Kinnunen, J~Klem, J~Kortesmaa, M~Kotamäki, A~Kuronen,
+  T~Lamp{\'{e}}n, K~Lassila-Perini, V~Lef{\'{e}}bure, S~Lehti, T~Lind{\'{e}}n,
+  P~R Luukka, S~Michal, F~Moura Brigido, T~Mäenpää, T~Nyman, J~Nyst{\'{e}}n,
+  E~Pietarinen, K~Skog, K~Tammi, E~Tuominen, J~Tuominiemi, D~Ungaro, T~P
+  Vanhala, L~Wendland, C~Williams, M~Iskanius, A~Korpela, G~Polese, T~Tuuva,
+  G~Bassompierre, A~Bazan, P~Y David, J~Ditta, G~Drobychev, N~Fouque, J~P
+  Guillaud, V~Hermel, A~Karneyeu, T~Le Flour, S~Lieunard, M~Maire, P~Mendiburu,
+  P~Nedelec, J~P Peigneux, M~Schneegans, D~Sillou, J~P Vialle, M~Anfreville,
+  J~P Bard, P~Besson, E~Bougamont, M~Boyer, P~Bredy, R~Chipaux, M~Dejardin,
+  D~Denegri, J~Descamps, B~Fabbro, J~L Faure, S~Ganjour, F~X Gentit,
+  A~Givernaud, P~Gras, G~Hamel de~Monchenault, P~Jarry, C~Jeanney, F~Kircher,
+  M~C Lemaire, Y~Lemoigne, B~Levesy, E~Locci, J~P Lottin, I~Mandjavidze, M~Mur,
+  J~P Pansart, A~Payn, J~Rander, J~M Reymond, J~Rolquin, F~Rondeaux,
+  A~Rosowsky, J~Y~A Rousse, Z~H Sun, J~Tartas, A~Van Lysebetten, P~Venault,
+  P~Verrecchia, M~Anduze, J~Badier, S~Baffioni, M~Bercher, C~Bernet, U~Berthon,
+  J~Bourotte, A~Busata, P~Busson, M~Cerutti, D~Chamont, C~Charlot, C~Collard,
+  A~Debraine, D~Decotigny, L~Dobrzynski, O~Ferreira, Y~Geerebaert, J~Gilly,
+  C~Gregory, L~Guevara Riveros, M~Haguenauer, A~Karar, B~Koblitz,
+  D~Lecouturier, A~Mathieu, G~Milleret, P~Min{\'{e}}, P~Paganini, P~Poilleux,
+  N~Pukhaeva, N~Regnault, T~Romanteau, I~Semeniouk, Y~Sirois, C~Thiebaux, J~C
+  Vanel, A~Zabi, J~L Agram, A~Albert, L~Anckenmann, J~Andrea, F~Anstotz, A~M
+  Bergdolt, J~D Berst, R~Blaes, D~Bloch, J~M Brom, J~Cailleret, F~Charles,
+  E~Christophel, G~Claus, J~Coffin, C~Colledani, J~Croix, E~Dangelser, N~Dick,
+  F~Didierjean, F~Drouhin, W~Dulinski, J~P Ernenwein, R~Fang, J~C Fontaine,
+  G~Gaudiot, W~Geist, D~Gel{\'{e}}, T~Goeltzenlichter, U~Goerlach, P~Graehling,
+  L~Gross, C~Guo Hu, J~M Helleboid, T~Henkes, M~Hoffer, C~Hoffmann, J~Hosselet,
+  L~Houchu, Y~Hu, D~Huss, C~Illinger, F~Jeanneau, P~Juillot, T~Kachelhoffer,
+  M~R Kapp, H~Kettunen, L~Lakehal Ayat, A~C~Le Bihan, A~Lounis, C~Maazouzi,
+  V~Mack, P~Majewski, D~Mangeol, J~Michel, S~Moreau, C~Olivetto,
+  A~Pallar{\`{e}}s, Y~Patois, P~Pralavorio, C~Racca, Y~Riahi, I~Ripp-Baudot,
+  P~Schmitt, J~P Schunck, G~Schuster, B~Schwaller, M~H Sigward, J~L Sohler,
+  J~Speck, R~Strub, T~Todorov, R~Turchetta, P~Van Hove, D~Vintache, A~Zghiche,
+  M~Ageron, J~E Augustin, C~Baty, G~Baulieu, M~Bedjidian, J~Blaha, A~Bonnevaux,
+  G~Boudoul, P~Brunet, E~Chabanat, E~C Chabert, R~Chierici, V~Chorowicz,
+  C~Combaret, D~Contardo, R~Della Negra, P~Depasse, O~Drapier, M~Dupanloup,
+  T~Dupasquier, H~El Mamouni, N~Estre, J~Fay, S~Gascon, N~Giraud, C~Girerd,
+  G~Guillot, R~Haroutunian, B~Ille, M~Lethuillier, N~Lumb, C~Martin, H~Mathez,
+  G~Maurelli, S~Muanza, P~Pangaud, S~Perries, O~Ravat, E~Schibler, F~Schirra,
+  G~Smadja, S~Tissot, B~Trocme, S~Vanzetto, J~P Walder, Y~Bagaturia, D~Mjavia,
+  A~Mzhavia, Z~Tsamalaidze, V~Roinishvili, R~Adolphi, G~Anagnostou, R~Brauer,
+  W~Braunschweig, H~Esser, L~Feld, W~Karpinski, A~Khomich, K~Klein, C~Kukulies,
+  K~Lübelsmeyer, J~Olzem, A~Ostaptchouk, D~Pandoulas, G~Pierschel, F~Raupach,
+  S~Schael, A~Schultz von Dratzig, G~Schwering, R~Siedling, M~Thomas, M~Weber,
+  B~Wittmer, M~Wlochal, F~Adamczyk, A~Adolf, G~Altenhöfer, S~Bechstein,
+  S~Bethke, P~Biallass, O~Biebel, M~Bontenackels, K~Bosseler, A~Böhm,
+  M~Erdmann, H~Faissner, B~Fehr, H~Fesefeldt, G~Fetchenhauer, J~Frangenheim,
+  J~H Frohn, J~Grooten, T~Hebbeker, S~Hermann, E~Hermens, G~Hilgers,
+  K~Hoepfner, C~Hof, E~Jacobi, S~Kappler, M~Kirsch, P~Kreuzer, R~Kupper, H~R
+  Lampe, D~Lanske, R~Mameghani, A~Meyer, S~Meyer, T~Moers, E~Müller, R~Pahlke,
+  B~Philipps, D~Rein, H~Reithler, W~Reuter, P~Rütten, S~Schulz, H~Schwarthoff,
+  W~Sobek, M~Sowa, T~Stapelberg, H~Szczesny, H~Teykal, D~Teyssier, H~Tomme,
+  W~Tomme, M~Tonutti, O~Tsigenov, J~Tutas, J~Vandenhirtz, H~Wagner, M~Wegner,
+  C~Zeidler, F~Beissel, M~Davids, M~Duda, G~Flügge, M~Giffels, T~Hermanns,
+  D~Heydhausen, S~Kalinin, S~Kasselmann, G~Kaussen, T~Kress, A~Linn, A~Nowack,
+  L~Perchalla, M~Poettgens, O~Pooth, P~Sauerland, A~Stahl, D~Tornier, M~H
+  Zoeller, U~Behrens, K~Borras, A~Flossdorf, D~Hatton, B~Hegner, M~Kasemann,
+  R~Mankel, A~Meyer, J~Mnich, C~Rosemann, C~Youngman, W~D Zeuner, F~Bechtel,
+  P~Buhmann, E~Butz, G~Flucke, R~H Hamdorf, U~Holm, R~Klanner, U~Pein,
+  N~Schirm, P~Schleper, G~Steinbrück, R~Van Staa, R~Wolf, B~Atz, T~Barvich,
+  P~Blüm, F~Boegelspacher, H~Bol, Z~Y Chen, S~Chowdhury, W~De Boer, P~Dehm,
+  G~Dirkes, M~Fahrer, U~Felzmann, M~Frey, A~Furgeri, E~Gregoriev, F~Hartmann,
+  F~Hauler, S~Heier, K~Kärcher, B~Ledermann, S~Mueller, Th~Müller,
+  D~Neuberger, C~Piasecki, G~Quast, K~Rabbertz, A~Sabellek, A~Scheurer, F~P
+  Schilling, H~J Simonis, A~Skiba, P~Steck, A~Theel, W~H Thümmel, A~Trunov,
+  A~Vest, T~Weiler, C~Weiser, S~Weseler, V~Zhukov, M~Barone, G~Daskalakis,
+  N~Dimitriou, G~Fanourakis, C~Filippidis, T~Geralis, C~Kalfas, K~Karafasoulis,
+  A~Koimas, A~Kyriakis, S~Kyriazopoulou, D~Loukas, A~Markou, C~Markou,
+  N~Mastroyiannopoulos, C~Mavrommatis, J~Mousa, I~Papadakis, E~Petrakou,
+  I~Siotis, K~Theofilatos, S~Tzamarias, A~Vayaki, G~Vermisoglou, A~Zachariadou,
+  L~Gouskos, G~Karapostoli, P~Katsas, A~Panagiotou, C~Papadimitropoulos,
+  X~Aslanoglou, I~Evangelou, P~Kokkas, N~Manthos, I~Papadopoulos, F~A Triantis,
+  G~Bencze, L~Boldizsar, G~Debreczeni, C~Hajdu, P~Hidas, D~Horvath,
+  P~Kovesarki, A~Laszlo, G~Odor, G~Patay, F~Sikler, G~Veres, G~Vesztergombi,
+  P~Zalan, A~Fenyvesi, J~Imrek, J~Molnar, D~Novak, J~Palinkas, G~Szekely,
+  N~Beni, A~Kapusi, G~Marian, B~Radics, P~Raics, Z~Szabo, Z~Szillasi, Z~L
+  Trocsanyi, G~Zilizi, H~S Bawa, S~B Beri, V~Bhandari, V~Bhatnagar, M~Kaur, J~M
+  Kohli, A~Kumar, B~Singh, J~B Singh, S~Arora, S~Bhattacharya, S~Chatterji,
+  S~Chauhan, B~C Choudhary, P~Gupta, M~Jha, K~Ranjan, R~K Shivpuri, A~K
+  Srivastava, R~K Choudhury, D~Dutta, M~Ghodgaonkar, S~Kailas, S~K Kataria, A~K
+  Mohanty, L~M Pant, P~Shukla, A~Topkar, T~Aziz, Sunanda Banerjee, S~Bose,
+  S~Chendvankar, P~V Deshpande, M~Guchait, A~Gurtu, M~Maity, G~Majumder,
+  K~Mazumdar, A~Nayak, M~R Patil, S~Sharma, K~Sudhakar, B~S Acharya, Sudeshna
+  Banerjee, S~Bheesette, S~Dugad, S~D Kalmani, V~R Lakkireddi, N~K Mondal,
+  N~Panyam, P~Verma, H~Arfaei, M~Hashemi, M~Mohammadi Najafabadi, A~Moshaii,
+  S~Paktinat Mehdiabadi, M~Felcini, M~Grunewald, K~Abadjiev, M~Abbrescia,
+  L~Barbone, P~Cariola, F~Chiumarulo, A~Clemente, A~Colaleo, D~Creanza, N~De
+  Filippis, M~De Palma, G~De Robertis, G~Donvito, R~Ferorelli, L~Fiore,
+  M~Franco, D~Giordano, R~Guida, G~Iaselli, N~Lacalamita, F~Loddo, G~Maggi,
+  M~Maggi, N~Manna, B~Marangelli, M~S Mennea, S~My, S~Natali, S~Nuzzo,
+  G~Papagni, C~Pinto, A~Pompili, G~Pugliese, A~Ranieri, F~Romano, G~Roselli,
+  G~Sala, G~Selvaggi, L~Silvestris, P~Tempesta, R~Trentadue, S~Tupputi, G~Zito,
+  G~Abbiendi, W~Bacchi, C~Battilana, A~C Benvenuti, M~Boldini, D~Bonacorsi,
+  S~Braibant-Giacomelli, V~D Cafaro, P~Capiluppi, A~Castro, F~R Cavallo,
+  C~Ciocca, G~Codispoti, M~Cuffiani, I~D{\textquotesingle}Antone, G~M
+  Dallavalle, F~Fabbri, A~Fanfani, S~Finelli, P~Giacomelli, V~Giordano,
+  M~Giunta, C~Grandi, M~Guerzoni, L~Guiducci, S~Marcellini, G~Masetti,
+  A~Montanari, F~L Navarria, F~Odorici, A~Paolucci, G~Pellegrini, A~Perrotta,
+  A~M Rossi, T~Rovelli, G~P Siroli, G~Torromeo, R~Travaglini, G~P Veronese,
+  S~Albergo, M~Chiorboli, S~Costa, M~Galanti, G~Gatto Rotondo, N~Giudice,
+  N~Guardone, F~Noto, R~Potenza, M~A Saizu, G~Salemi, C~Sutera, A~Tricomi,
+  C~Tuve, L~Bellucci, M~Brianzi, G~Broccolo, E~Catacchini, V~Ciulli,
+  C~Civinini, R~D{\textquotesingle}Alessandro, E~Focardi, S~Frosali, C~Genta,
+  G~Landi, P~Lenzi, A~Macchiolo, F~Maletta, F~Manolescu, C~Marchettini,
+  L~Masetti, S~Mersi, M~Meschini, C~Minelli, S~Paoletti, G~Parrini, E~Scarlini,
+  G~Sguazzoni, L~Benussi, M~Bertani, S~Bianco, M~Caponero, D~Colonna,
+  L~Daniello, F~Fabbri, F~Felli, M~Giardoni, A~La Monaca, B~Ortenzi,
+  M~Pallotta, A~Paolozzi, C~Paris, L~Passamonti, D~Pierluigi, B~Ponzio,
+  C~Pucci, A~Russo, G~Saviano, P~Fabbricatore, S~Farinon, M~Greco, R~Musenich,
+  S~Badoer, L~Berti, M~Biasotto, S~Fantinel, E~Frizziero, U~Gastaldi,
+  M~Gulmini, F~Lelli, G~Maron, S~Squizzato, N~Toniolo, S~Traldi, S~Banfi,
+  R~Bertoni, M~Bonesini, L~Carbone, G~B Cerati, F~Chignoli,
+  P~D{\textquotesingle}Angelo, A~De Min, P~Dini, F~M Farina, F~Ferri, P~Govoni,
+  S~Magni, M~Malberti, S~Malvezzi, R~Mazza, D~Menasce, V~Miccio, L~Moroni,
+  P~Negri, M~Paganoni, D~Pedrini, A~Pullia, S~Ragazzi, N~Redaelli, M~Rovere,
+  L~Sala, S~Sala, R~Salerno, T~Tabarelli de~Fatis, V~Tancini, S~Taroni,
+  A~Boiano, F~Cassese, C~Cassese, A~Cimmino, B~D{\textquotesingle}Aquino,
+  L~Lista, D~Lomidze, P~Noli, P~Paolucci, G~Passeggio, D~Piccolo, L~Roscilli,
+  C~Sciacca, A~Vanzanella, P~Azzi, N~Bacchetta, L~Barcellan, M~Bellato,
+  M~Benettoni, D~Bisello, E~Borsato, A~Candelori, R~Carlin, L~Castellani,
+  P~Checchia, L~Ciano, A~Colombo, E~Conti, M~Da Rold, F~Dal Corso, M~De Giorgi,
+  M~De Mattia, T~Dorigo, U~Dosselli, C~Fanin, G~Galet, F~Gasparini,
+  U~Gasparini, A~Giraldo, P~Giubilato, F~Gonella, A~Gresele, A~Griggio,
+  P~Guaita, A~Kaminskiy, S~Karaevskii, V~Khomenkov, D~Kostylev, S~Lacaprara,
+  I~Lazzizzera, I~Lippi, M~Loreti, M~Margoni, R~Martinelli, S~Mattiazzo,
+  M~Mazzucato, A~T Meneguzzo, L~Modenese, F~Montecassiano, A~Neviani, M~Nigro,
+  A~Paccagnella, D~Pantano, A~Parenti, M~Passaseo, R~Pedrotta, M~Pegoraro,
+  G~Rampazzo, S~Reznikov, P~Ronchese, A~Sancho Daponte, P~Sartori,
+  I~Stavitskiy, M~Tessaro, E~Torassa, A~Triossi, S~Vanini, S~Ventura,
+  L~Ventura, M~Verlato, M~Zago, F~Zatti, P~Zotto, G~Zumerle, P~Baesso, G~Belli,
+  U~Berzano, S~Bricola, A~Grelli, G~Musitelli, R~Nard{\`{o}}, M~M Necchi,
+  D~Pagano, S~P Ratti, C~Riccardi, P~Torre, A~Vicini, P~Vitulo, C~Viviani,
+  D~Aisa, S~Aisa, F~Ambroglini, M~M Angarano, E~Babucci, D~Benedetti,
+  M~Biasini, G~M Bilei, S~Bizzaglia, M~T Brunetti, B~Caponeri, B~Checcucci,
+  R~Covarelli, N~Dinu, L~Fan{\`{o}}, L~Farnesini, M~Giorgi, P~Lariccia,
+  G~Mantovani, F~Moscatelli, D~Passeri, A~Piluso, P~Placidi, V~Postolache,
+  R~Santinelli, A~Santocchia, L~Servoli, D~Spiga, P~Azzurri, G~Bagliesi,
+  G~Balestri, A~Basti, R~Bellazzini, L~Benucci, J~Bernardini, L~Berretta,
+  S~Bianucci, T~Boccali, A~Bocci, L~Borrello, F~Bosi, F~Bracci, A~Brez,
+  F~Calzolari, R~Castaldi, U~Cazzola, M~Ceccanti, R~Cecchi, C~Cerri, A~S
+  Cucoanes, R~Dell{\textquotesingle}Orso, D~Dobur, S~Dutta, F~Fiori,
+  L~Fo{\`{a}}, A~Gaggelli, S~Gennai, A~Giassi, S~Giusti, D~Kartashov, A~Kraan,
+  L~Latronico, F~Ligabue, S~Linari, T~Lomtadze, G~A Lungu, G~Magazzu,
+  P~Mammini, F~Mariani, G~Martinelli, M~Massa, A~Messineo, A~Moggi, F~Palla,
+  F~Palmonari, G~Petragnani, G~Petrucciani, A~Profeti, F~Raffaelli, D~Rizzi,
+  G~Sanguinetti, S~Sarkar, G~Segneri, D~Sentenac, A~T Serban, A~Slav,
+  P~Spagnolo, G~Spandre, R~Tenchini, S~Tolaini, G~Tonelli, A~Venturi, P~G
+  Verdini, M~Vos, L~Zaccarelli, S~Baccaro, L~Barone, A~Bartoloni, B~Borgia,
+  G~Capradossi, F~Cavallari, A~Cecilia, D~D{\textquotesingle}Angelo, I~Dafinei,
+  D~Del Re, E~Di Marco, M~Diemoz, G~Ferrara, C~Gargiulo, S~Guerra, M~Iannone,
+  E~Longo, M~Montecchi, M~Nuccetelli, G~Organtini, A~Palma, R~Paramatti,
+  F~Pellegrino, S~Rahatlou, C~Rovelli, F~Safai Tehrani, A~Zullo, G~Alampi,
+  N~Amapane, R~Arcidiacono, S~Argiro, M~Arneodo, R~Bellan, F~Benotto, C~Biino,
+  S~Bolognesi, M~A Borgia, C~Botta, A~Brasolin, N~Cartiglia, R~Castello,
+  G~Cerminara, R~Cirio, M~Cordero, M~Costa, D~Dattola, F~Daudo, G~Dellacasa,
+  N~Demaria, G~Dughera, F~Dumitrache, R~Farano, G~Ferrero, E~Filoni,
+  G~Kostyleva, H~E Larsen, C~Mariotti, M~Marone, S~Maselli, E~Menichetti,
+  P~Mereu, E~Migliore, G~Mila, V~Monaco, M~Musich, M~Nervo, M~M Obertino,
+  R~Panero, A~Parussa, N~Pastrone, C~Peroni, G~Petrillo, A~Romero, M~Ruspa,
+  R~Sacchi, M~Scalise, A~Solano, A~Staiano, P~P Trapani, D~Trocino, V~Vaniev,
+  A~Vilela Pereira, A~Zampieri, S~Belforte, F~Cossutti, G~Della Ricca, B~Gobbo,
+  C~Kavka, A~Penzo, Y~E Kim, S~K Nam, D~H Kim, G~N Kim, J~C Kim, D~J Kong, S~R
+  Ro, D~C Son, S~Y Park, Y~J Kim, J~Y Kim, I~T Lim, M~Y Pac, S~J Lee, S~Y Jung,
+  J~T Rhee, S~H Ahn, B~S Hong, Y~K Jeng, M~H Kang, H~C Kim, J~H Kim, T~J Kim,
+  K~S Lee, J~K Lim, D~H Moon, I~C Park, S~K Park, M~S Ryu, K-S Sim, K~J Son,
+  S~J Hong, Y~I Choi, H~Castilla Valdez, A~Sanchez Hernandez, S~Carrillo
+  Moreno, A~Morelos Pineda, A~Aerts, P~Van der Stok, H~Weffers, P~Allfrey,
+  R~N~C Gray, M~Hashimoto, D~Krofcheck, A~J Bell, N~Bernardino Rodrigues, P~H
+  Butler, S~Churchwell, R~Knegjens, S~Whitehead, J~C Williams, Z~Aftab,
+  U~Ahmad, I~Ahmed, W~Ahmed, M~I Asghar, S~Asghar, G~Dad, M~Hafeez, H~R
+  Hoorani, I~Hussain, N~Hussain, M~Iftikhar, M~S Khan, K~Mehmood, A~Osman,
+  H~Shahzad, A~R Zafar, A~Ali, A~Bashir, A~M Jan, A~Kamal, F~Khan, M~Saeed,
+  S~Tanwir, M~A Zafar, J~Blocki, A~Cyz, E~Gladysz-Dziadus, S~Mikocki,
+  M~Rybczynski, J~Turnau, Z~Wlodarczyk, P~Zychowski, K~Bunkowski, M~Cwiok,
+  H~Czyrkowski, R~Dabrowski, W~Dominik, K~Doroba, A~Kalinowski, K~Kierzkowski,
+  M~Konecki, J~Krolikowski, I~M Kudla, M~Pietrusinski, K~Pozniak, W~Zabolotny,
+  P~Zych, R~Gokieli, L~Goscilo, M~G{\'{o}}rski, K~Nawrocki, P~Traczyk,
+  G~Wrochna, P~Zalewski, K~T Pozniak, R~Romaniuk, W~M Zabolotny,
+  R~Alemany-Fernandez, C~Almeida, N~Almeida, A~S Araujo~Vila Verde, T~Barata
+  Monteiro, M~Bluj, S~Da~Mota Silva, A~David~Tinoco Mendes, M~Freitas Ferreira,
+  M~Gallinaro, M~Husejko, A~Jain, M~Kazana, P~Musella, R~Nobrega, J~Rasteiro~Da
+  Silva, P~Q Ribeiro, M~Santos, P~Silva, S~Silva, I~Teixeira, J~P Teixeira,
+  J~Varela, G~Varner, N~Vaz Cardoso, I~Altsybeev, K~Babich, A~Belkov,
+  I~Belotelov, P~Bunin, S~Chesnevskaya, V~Elsha, Y~Ershov, I~Filozova,
+  M~Finger, M~Finger, A~Golunov, I~Golutvin, N~Gorbounov, I~Gramenitski,
+  V~Kalagin, A~Kamenev, V~Karjavin, S~Khabarov, V~Khabarov, Y~Kiryushin,
+  V~Konoplyanikov, V~Korenkov, G~Kozlov, A~Kurenkov, A~Lanev, V~Lysiakov,
+  A~Malakhov, I~Melnitchenko, V~V Mitsyn, K~Moisenz, P~Moisenz, S~Movchan,
+  E~Nikonov, D~Oleynik, V~Palichik, V~Perelygin, A~Petrosyan, E~Rogalev,
+  V~Samsonov, M~Savina, R~Semenov, S~Sergeev, S~Shmatov, S~Shulha, V~Smirnov,
+  D~Smolin, A~Tcheremoukhine, O~Teryaev, E~Tikhonenko, A~Urkinbaev,
+  S~Vasil{\textquotesingle}ev, A~Vishnevskiy, A~Volodko, N~Zamiatin, A~Zarubin,
+  P~Zarubin, E~Zubarev, N~Bondar, Y~Gavrikov, V~Golovtsov, Y~Ivanov, V~Kim,
+  V~Kozlov, V~Lebedev, G~Makarenkov, F~Moroz, P~Neustroev, G~Obrant,
+  E~Orishchin, A~Petrunin, Y~Shcheglov, A~Shchetkovskiy, V~Sknar,
+  V~Skorobogatov, I~Smirnov, V~Sulimov, V~Tarakanov, L~Uvarov, S~Vavilov,
+  G~Velichko, S~Volkov, A~Vorobyev, D~Chmelev, D~Druzhkin, A~Ivanov, V~Kudinov,
+  O~Logatchev, S~Onishchenko, A~Orlov, V~Sakharov, V~Smetannikov, A~Tikhomirov,
+  S~Zavodthikov, Yu~Andreev, A~Anisimov, V~Duk, S~Gninenko, N~Golubev,
+  D~Gorbunov, M~Kirsanov, N~Krasnikov, V~Matveev, A~Pashenkov, A~Pastsyak, V~E
+  Postoev, A~Sadovski, A~Skassyrskaia, Alexander Solovey, Anatoly Solovey,
+  D~Soloviev, A~Toropin, S~Troitsky, A~Alekhin, A~Baldov, V~Epshteyn,
+  V~Gavrilov, N~Ilina, V~Kaftanov, V~Karpishin, I~Kiselevich, V~Kolosov,
+  M~Kossov, A~Krokhotin, S~Kuleshov, A~Oulianov, A~Pozdnyakov, G~Safronov,
+  S~Semenov, N~Stepanov, V~Stolin, E~Vlasov, V~Zaytsev, E~Boos, M~Dubinin,
+  L~Dudko, A~Ershov, G~Eyyubova, A~Gribushin, V~Ilyin, V~Klyukhin, O~Kodolova,
+  N~A Kruglov, A~Kryukov, I~Lokhtin, L~Malinina, V~Mikhaylin, S~Petrushanko,
+  L~Sarycheva, V~Savrin, L~Shamardin, A~Sherstnev, A~Snigirev, K~Teplov,
+  I~Vardanyan, A~M Fomenko, N~Konovalova, V~Kozlov, A~I Lebedev, N~Lvova, S~V
+  Rusakov, A~Terkulov, V~Abramov, S~Akimenko, A~Artamonov, A~Ashimova,
+  I~Azhgirey, S~Bitioukov, O~Chikilev, K~Datsko, A~Filine, A~Godizov,
+  P~Goncharov, V~Grishin, A~Inyakin, V~Kachanov, A~Kalinin, A~Khmelnikov,
+  D~Konstantinov, A~Korablev, V~Krychkine, A~Krinitsyn, A~Levine, I~Lobov,
+  V~Lukanin, Y~Mel{\textquotesingle}nik, V~Molchanov, V~Petrov, V~Petukhov,
+  V~Pikalov, A~Ryazanov, R~Ryutin, V~Shelikhov, V~Skvortsov, S~Slabospitsky,
+  A~Sobol, A~Sytine, V~Talov, L~Tourtchanovitch, S~Troshin, N~Tyurin,
+  A~Uzunian, A~Volkov, S~Zelepoukine, V~Lukyanov, G~Mamaeva, Z~Prilutskaya,
+  I~Rumyantsev, S~Sokha, S~Tataurschikov, I~Vasilyev, P~Adzic, I~Anicin,
+  M~Djordjevic, D~Jovanovic, D~Maletic, J~Puzovic, N~Smiljkovic, E~Aguayo
+  Navarrete, M~Aguilar-Benitez, J~Ahijado Munoz, J~M~Alarcon Vega, J~Alberdi,
+  J~Alcaraz Maestre, M~Aldaya Martin, P~Arce, J~M Barcala, J~Berdugo,
+  C~L~Blanco Ramos, C~Burgos Lazaro, J~Caballero Bejar, E~Calvo, M~Cerrada,
+  M~Chamizo Llatas, J~J~Chercoles Catal{\'{a}}n, N~Colino, M~Daniel, B~De~La
+  Cruz, A~Delgado Peris, C~Fernandez Bedoya, A~Ferrando, M~C Fouz, D~Francia
+  Ferrero, J~Garcia Romero, P~Garcia-Abia, O~Gonzalez Lopez, J~M Hernandez, M~I
+  Josa, J~Marin, G~Merino, A~Molinero, J~J Navarrete, J~C Oller, J~Puerta
+  Pelayo, J~C~Puras Sanchez, J~Ramirez, L~Romero, C~Villanueva Munoz,
+  C~Willmott, C~Yuste, C~Albajar, J~F de~Troc{\'{o}}niz, I~Jimenez, R~Macias,
+  R~F Teixeira, J~Cuevas, J~Fern{\'{a}}ndez Men{\'{e}}ndez, I~Gonzalez
+  Caballero, J~Lopez-Garcia, H~Naves Sordo, J~M~Vizan Garcia, I~J Cabrillo,
+  A~Calderon, D~Cano Fernandez, I~Diaz Merino, J~Duarte Campderros,
+  M~Fernandez, J~Fernandez Menendez, C~Figueroa, L~A~Garcia Moral, G~Gomez,
+  F~Gomez Casademunt, J~Gonzalez Sanchez, R~Gonzalez Suarez, C~Jorda, P~Lobelle
+  Pardo, A~Lopez Garcia, A~Lopez Virto, J~Marco, R~Marco, C~Martinez Rivero,
+  P~Martinez~Ruiz del Arbol, F~Matorras, P~Orviz Fernandez, A~Patino Revuelta,
+  T~Rodrigo, D~Rodriguez Gonzalez, A~Ruiz Jimeno, L~Scodellaro, M~Sobron
+  Sanudo, I~Vila, R~Vilar Cortabitarte, M~Barbero, D~Goldin, B~Henrich,
+  L~Tauscher, S~Vlachos, M~Wadhwa, D~Abbaneo, S~M Abbas, I~Ahmed, S~Akhtar, M~I
+  Akhtar, E~Albert, M~Alidra, S~Ashby, P~Aspell, E~Auffray, P~Baillon, A~Ball,
+  S~L Bally, N~Bangert, R~Barill{\`{e}}re, D~Barney, S~Beauceron, F~Beaudette,
+  G~Benelli, R~Benetta, J~L Benichou, W~Bialas, A~Bjorkebo, D~Blechschmidt,
+  C~Bloch, P~Bloch, S~Bonacini, J~Bos, M~Bosteels, V~Boyer, A~Branson,
+  H~Breuker, R~Bruneliere, O~Buchmuller, D~Campi, T~Camporesi, A~Caner, E~Cano,
+  E~Carrone, A~Cattai, J~P Chatelain, M~Chauvey, T~Christiansen, M~Ciganek,
+  S~Cittolin, J~Cogan, A~Conde Garcia, H~Cornet, E~Corrin, M~Corvo,
+  S~Cucciarelli, B~Cur{\'{e}}, D~D{\textquotesingle}Enterria, A~De Roeck,
+  T~de~Visser, C~Delaere, M~Delattre, C~Deldicque, D~Delikaris, D~Deyrail, S~Di
+  Vincenzo, A~Domeniconi, S~Dos Santos, G~Duthion, L~M Edera,
+  A~Elliott-Peisert, M~Eppard, F~Fanzago, M~Favre, H~Foeth, R~Folch, N~Frank,
+  S~Fratianni, M~A Freire, A~Frey, A~Fucci, W~Funk, A~Gaddi, F~Gagliardi,
+  M~Gastal, M~Gateau, J~C Gayde, H~Gerwig, A~Ghezzi, D~Gigi, K~Gill, A~S
+  Giolo-Nicollerat, J~P Girod, F~Glege, W~Glessing, R~Gomez-Reino Garrido,
+  R~Goudard, R~Grabit, J~P Grillet, P~Gutierrez Llamas, E~Gutierrez Mlot,
+  J~Gutleber, R~Hall-wilton, R~Hammarstrom, M~Hansen, J~Harvey, A~Herv{\'{e}},
+  J~Hill, H~F Hoffmann, A~Holzner, A~Honma, D~Hufnagel, M~Huhtinen, S~D Ilie,
+  V~Innocente, W~Jank, P~Janot, P~Jarron, M~Jeanrenaud, P~Jouvel, R~Kerkach,
+  K~Kloukinas, L~J Kottelat, J~C Labb{\'{e}}, D~Lacroix, X~Lagrue, C~Lasseur,
+  E~Laure, J~F Laurens, P~Lazeyras, J~M~Le Goff, M~Lebeau, P~Lecoq,
+  F~Lemeilleur, M~Lenzi, N~Leonardo, C~Leonidopoulos, M~Letheren, M~Liendl,
+  F~Limia-Conde, L~Linssen, C~Ljuslin, B~Lofstedt, R~Loos, J~A~Lopez Perez,
+  C~Lourenco, A~Lyonnet, A~Machard, R~Mackenzie, N~Magini, G~Maire, L~Malgeri,
+  R~Malina, M~Mannelli, A~Marchioro, J~Martin, F~Meijers, P~Meridiani,
+  E~Meschi, T~Meyer, A~Meynet Cordonnier, J~F Michaud, L~Mirabito, R~Moser,
+  F~Mossiere, J~Muffat-Joly, M~Mulders, J~Mulon, E~Murer, P~Mättig, A~Oh,
+  A~Onnela, M~Oriunno, L~Orsini, J~A Osborne, C~Paillard, I~Pal, G~Papotti,
+  G~Passardi, A~Patino-Revuelta, V~Patras, B~Perea Solano, E~Perez, G~Perinic,
+  J~F Pernot, P~Petagna, P~Petiot, P~Petit, A~Petrilli, A~Pfeiffer, C~Piccut,
+  M~Pimiä, R~Pintus, M~Pioppi, A~Placci, L~Pollet, H~Postema, M~J Price,
+  R~Principe, A~Racz, E~Radermacher, R~Ranieri, G~Raymond, P~Rebecchi, J~Rehn,
+  S~Reynaud, H~Rezvani Naraghi, D~Ricci, M~Ridel, M~Risoldi, P~Rodrigues~Simoes
+  Moreira, A~Rohlev, G~Roiron, G~Rolandi, P~Rumerio, O~Runolfsson, V~Ryjov,
+  H~Sakulin, D~Samyn, L~C~Santos Amaral, H~Sauce, E~Sbrissa, P~Scharff-Hansen,
+  P~Schieferdecker, W~D Schlatter, B~Schmitt, H~G Schmuecker, M~Schröder,
+  C~Schwick, C~Schäfer, I~Segoni, P~Sempere Rold{\'{a}}n, S~Sgobba, A~Sharma,
+  P~Siegrist, C~Sigaud, N~Sinanis, T~Sobrier, P~Sphicas, M~Spiropulu,
+  G~Stefanini, A~Strandlie, F~Szoncs{\'{o}}, B~G Taylor, O~Teller, A~Thea,
+  E~Tournefier, D~Treille, P~Tropea, J~Troska, E~Tsesmelis, A~Tsirou, J~Valls,
+  I~Van Vulpen, M~Vander Donckt, F~Vasey, M~Vazquez Acosta, L~Veillet,
+  P~Vichoudis, G~Waurick, J~P Wellisch, P~Wertelaers, M~Wilhelmsson, I~M
+  Willers, M~Winkler, M~Zanetti, W~Bertl, K~Deiters, P~Dick, W~Erdmann,
+  D~Feichtinger, K~Gabathuler, Z~Hochman, R~Horisberger, Q~Ingram, H~C Kaestli,
+  D~Kotlinski, S~König, P~Poerschke, D~Renker, T~Rohe, T~Sakhelashvili,
+  A~Starodumov, V~Aleksandrov, F~Behner, I~Beniozef, B~Betev, B~Blau, A~M
+  Brett, L~Caminada, Z~Chen, N~Chivarov, D~Da Silva~Di Calafiori, S~Dambach,
+  G~Davatz, V~Delachenal, R~Della Marina, H~Dimov, G~Dissertori, M~Dittmar,
+  L~Djambazov, M~Dröge, C~Eggel, J~Ehlers, R~Eichler, M~Elmiger, G~Faber,
+  K~Freudenreich, J~F Fuchs, G~M Georgiev, C~Grab, C~Haller, J~Herrmann,
+  M~Hilgers, W~Hintz, Hans Hofer, Heinz Hofer, U~Horisberger, I~Horvath,
+  A~Hristov, C~Humbertclaude, B~Iliev, W~Kastli, A~Kruse, J~Kuipers,
+  U~Langenegger, P~Lecomte, E~Lejeune, G~Leshev, C~Lesmond, B~List, P~D Luckey,
+  W~Lustermann, J~D Maillefaud, C~Marchica, A~Maurisset, B~Meier, P~Milenovic,
+  M~Milesi, F~Moortgat, I~Nanov, A~Nardulli, F~Nessi-Tedaldi, B~Panev, L~Pape,
+  F~Pauss, E~Petrov, G~Petrov, M~M Peynekov, D~Pitzl, T~Punz, and P~Riboni.
+\newblock The {CMS} experiment at the {CERN} {LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08004--S08004, aug 2008{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08004}.
+\newblock URL \url{https://doi.org/10.1088/1748-0221/3/08/s08004}.
+
+\bibitem[Collaboration et~al.(2008{\natexlab{c}})Collaboration, Aamodt,
+  Quintana, Achenbach, Acounis, Adamov{\'{a}}, Adler, Aggarwal, Agnese,
+  Rinella, Ahammed, Ahmad, Ahmad, Ahmad, Akindinov, Akishin, Aleksandrov,
+  Alessandro, Alfaro, Alfarone, Alici, Alme, Alt, Altinpinar, Amend, Andrei,
+  Andres, Andronic, Anelli, Anfreville, Angelov, Anzo, Anson, Antici{\'{c}},
+  Antonenko, Antonczyk, Antinori, Antinori, Antonioli, Aphecetche,
+  Appelshäuser, Aprodu, Arba, Arcelli, Argentieri, Armesto, Arnaldi, Arefiev,
+  Arsene, Asryan, Augustinus, Awes, Äysto, Azmi, Bablock, Badal{\`{a}},
+  Badyal, Baechler, Bagnasco, Bailhache, Bala, Baldisseri, Baldit, B{\'{a}}n,
+  Barbera, Barberis, Barbet, Barnäfoldi, Barret, Bartke, Bartos, Basile,
+  Basmanov, Bastid, Batigne, Batyunya, Baudot, Baumann, Bearden, Becker,
+  Belikov, Bellwied, Belmont-Moreno, Belogianni, Belyaev, Benato, Beney,
+  Benhabib, Benotto, Beol{\'{e}}, Berceanu, Bercuci, Berdermann, Berdnikov,
+  Bernard, Berny, Berst, Bertelsen, Betev, Bhasin, Baskar, Bhati, Bianchi,
+  Biel{\v{c}}ik, Biel{\v{c}}ikov{\'{a}}, Bimbot, Blanchard, Blanco, Blanco,
+  Blau, Blume, Blyth, Boccioli, Bogdanov, B{\o}ggild, Bogolyubsky,
+  Boldizs{\'{a}}r, Bombara, Bombonati, Bondila, Bonnet, Bonvicini, Borel,
+  Borotto, Borshchov, Bortoli, Borysov, Bose, Bosisio, Botje, Böttger,
+  Bourdaud, Bourrion, Bouvier, Braem, Braun, Braun-Munzinger, Bravina, Bregant,
+  Bruckner, Brun, Bruna, Brunasso, Bruno, Bucher, Budilov, Budnikov, Buesching,
+  Buncic, Burns, Burachas, Busch, Bushop, Cai, Caines, Calaon, Caldogno, Cali,
+  Camerini, Campagnolo, Campbell, Cao, Capitani, Romeo, Cardenas-Montes,
+  Carduner, Carena, Carena, Cariola, Carminati, Casado, Diaz, Caselle,
+  Castellanos, Castor, Catanescu, Cattaruzza, Cavazza, Cerello, Ceresa,
+  {\v{C}}ern{\'{y}}, Chambert, Chapeland, Charpy, Charrier, Chartoire, Charvet,
+  Chattopadhyay, Chattopadhyay, Chepurnov, Chernenko, Cherney, Cheshkov,
+  Cheynis, Chochula, Chiavassa, Barroso, Choi, Christakoglou, Christiansen,
+  Christensen, Chykalov, Cicalo, Cifarelli-Strolin, Ciobanu, Cindolo, Cirstoiu,
+  Clausse, Cleymans, Cobanoglu, Coffin, Coli, Colla, Colledani, Combaret,
+  Combet, Comets, Balbastre, del Valle, Contin, Contreras, Cormier, Corsi,
+  Cortese, Costa, Crescio, Crochet, Cuautle, Cussonneau, Dahlinger, Dainese,
+  Dalsgaard, Daniel, Das, Das, Dash, Silva, Davenport, Daues, Caro, de~Cataldo,
+  Cuveland, Falco, de~Gaspari, de~Girolamo, de~Groot, Gruttola, Haas, Marco,
+  Pasquale, Remigis, de~Vaux, Decock, Delagrange, Franco, Dellacasa,
+  Dell{\textquotesingle}Olio, Dell{\textquotesingle}Olio, Deloff, Demanov,
+  D{\'{e}}nes, D{\textquotesingle}Erasmo, Derkach, Devaux, Bari, Bartelomen,
+  Giglio, Liberto, Mauro, Nezza, Dialinas, Diaz, Valdes, Dietel, Dima, Ding,
+  Dinca, Divi{\`{a}}, Dobretsov, Dobrin, Doenigus, Dobrowolski,
+  Dom{\'{\i}}nguez, Dorn, Drouet, Dubey, Ducroux, Dumitrache, Dumonteil,
+  Dupieux, Duta, Majumdar, Majumdar, Dyhre, Efimov, Efremov, Elia, Emschermann,
+  Engster, Enokizono, Espagnon, Estienne, Evangelista, Evans, Evrard, Fabjan,
+  Fabris, Faivre, Falchieri, Fantoni, Farano, Fearick, Fedorov, Fekete, Felea,
+  Feofilov, T{\'{e}}llez, Ferretti, Fichera, Filchagin, Filoni, Finck, Fini,
+  Fiore, Flierl, Floris, Fodor, Foka, Fokin, Force, Formenti, Fragiacomo,
+  Fragkiadakis, Fraissard, Franco, Franco, Frankenfeld, Fratino, Fresneau,
+  Frolov, Fuchs, Fujita, Furget, Furini, Girard, Gaardh{\o}je, Gabrielli,
+  Gadrat, Gagliardi, Gago, Gaido, Torreira, Gallio, Gandolfi, Ganoti, Ganti,
+  Garabatos, Lopez, Garizzo, Gaudichet, Gemme, Germain, Gheata, Gheata,
+  Ghidini, Ghosh, Giolu, Giraudo, Giubellino, Glasow, Glässel, Ferreiro,
+  Gutierrez, Gonzales-Trueba, Gorbunov, Gorbunov, Gos, Gosset, Gotovac,
+  Gottschlag, Gottschalk, Grabski, Grassi, Gray, Grebenyuk, Grebieszkow,
+  Gregory, Grigoras, Grion, Grigoriev, Grigoryan, Grigoryan, Grigoryan,
+  Grishuk, Gros, Grosse-Oetringhaus, Grossiord, Grosso, Grynyov, Guarnaccia,
+  Guber, Guerin, Guernane, Guerzoni, Guichard, Guida, Guilloux, Gulkanyan,
+  Gulbrandsen, Gunji, Gupta, Gupta, Gustafsson, Gutbrod, Hadjidakis, Haiduc,
+  Hamar, Hamagaki, Hamblen, Hansen, Hardy, Hatzifotiadou, Harris, Hartig,
+  Harutyunyan, Hayrapetyan, Hasch, Hasegan, Hehner, Heine, Heinz, Helstrup,
+  Herghelegiu, Herlant, Corral, Herrmann, Hetland, Hille, Hinke, Hippolyte,
+  Hoch, Hoebbel, Hoedlmoser, Horaguchi, Horner, Hristov,
+  H{\v{r}}ivn{\'{a}}{\v{c}}ov{\'{a}}, Hu, Guo, Humanic, Hurtado, Hwang,
+  Ianigro, Idzik, Igolkin, Ilkaev, Ilkiv, Imhoff, Innocenti, Ionescu,
+  Ippolitov, Irfan, Insa, Inuzuka, Ivan, Ivanov, Ivanov, Ivanov, Jacobs,
+  Jacholkowski, Jan{\v{c}}urov{\'{a}}, Janik, Jasper, Jena, Jirden, Johnson,
+  Jones, Jorgensen, Jouve, Jovanovi{\'{c}}, Junique, Jusko, Jung, Jung, Kadija,
+  Kamal, Kamermans, Kapusta, Kaidalov, Kakoyan, Kalcher, Kang, Kapitan, Kaplin,
+  Karadzhev, Karavichev, Karavicheva, Karpechev, Karpio, Kazantsev, Kebschull,
+  Keidel, Khan, Khanzadeev, Kharlov, Kikola, Kileng, Kim, Kim, Kim, Kim, Kim,
+  Kim, Kinson, Kiprich, Kisel, Kiselev, Kisiel, Kiss, Kiworra, Klay, Bösing,
+  Kliemant, Klimov, Klovning, Kluge, Kluit, Kniege, Kolevatov, Kollegger,
+  Kolojvari, Kondratiev, Kornas, Koshurnikov, Kotov, Kour, Kowalski, Kox,
+  Kozlov, Kr{\'{a}}lik, Kramer, Kraus, Krav{\v{c}}{\'{a}}kov{\'{a}},
+  Krawutschke, Krivda, Kryshen, Kucheriaev, Kugler, Kuhn, Kuijer, Kumar, Kumar,
+  Kumpumaeki, Kurepin, Kurepin, Kushpil, Kushpil, Kutovsky, Kvaerno, Kweon,
+  Labb{\'{e}}, Lackner, de~Guevara, Lafage, Rocca, Lamont, Lara, Larsen,
+  Laurenti, Lazzeroni, Bornec, Bris, Gailliard, Lebedev, Lecoq, Lee, Lee,
+  Lef{\'{e}}vre, Legrand, Lehmann, Leistam, Lenoir, Lenti, Leon, Monzon,
+  L{\'{e}}vai, Li, Li, Librizzi, Lietava, Lindegaard, Lindenstruth, Lippmann,
+  Lisa, Listratenko, Littel, Liu, Lo, Lobanov, Loginov, Noriega,
+  L{\'{o}}pez-Ram{\'{\i}}rez, Torres, Lorenzo, L{\o}vh{\o}iden, Lu, Ludolphs,
+  Lunardon, Luquin, Lusso, Lutz, Luvisetto, Lyapin, Maevskaya, Magureanu,
+  Mahajan, Majahan, Mahmoud, Mairani, Mahapatra, Makarov, Makhlyueva, Malek,
+  Malkiewicz, Mal{\textquotesingle}Kevich, Malzacher, Mamonov, Manea, Mangotra,
+  Maniero, Manko, Manso, Manzari, Mao, Marcel, Marchini, Mare{\v{s}},
+  Margagliotti, Margotti, Marin, Marin, Marras, Martinengo, Mart{\'{\i}}nez,
+  Martinez-Davalos, Garcia, Martini, Chiesa, Marzocca, Masciocchi, Masera,
+  Masetti, Maslov, Masoni, Massera, Mast, Mastroserio, Matthews, Mayer, Mazza,
+  Mazzaro, Mazzoni, Meddi, Meleshko, Menchaca-Rocha, Meneghini, Meoni, Perez,
+  Mereu, Meunier, Miake, Michalon, Michinelli, Miftakhov, Mignone, Mikhailov,
+  Milosevic, Minaev, Minafra, Mischke, Mi{\'{s}}kowiec, Mitsyn, Mitu, Mohanty,
+  Moisa, Molnar, Mondal, Mondal, Zetina, Monteno, Morando, Morel, Moretto,
+  Morhardt, Morsch, Moukhanova, Mucchi, Muccifora, Mudnic, Müller, Müller,
+  Munoz, Mura, Musa, Muraz, Musso, Nania, Nandi, Nappi, Navach, Navin, Nayak,
+  Nazarenko, Nazarov, Nellen, Nendaz, Nianine, Nicassio, Nielsen, Nikolaev,
+  Nikolic, Nikulin, Nikulin, Nilsen, Nitti, Noferini, Nomokonov, Nooren, Noto,
+  Nouais, Nyiri, Nystrand, Odyniec, Oeschler, Oinonen, Oldenburg, Oleks, Olsen,
+  Onuchin, Oppedisano, Orsini, Ortiz-Vel{\'{a}}zquez, Oskamp, Oskarsson, Osmic,
+  Österman, Otterlund, Ovrebekk, Oyama, Pachr, Pagano, Pai{\'{c}}, Pajares,
+  Pal, Pal, P{\'{a}}lla, Palmeri, Pancaldi, Panse, Pantaleo, Pappalardo,
+  Pastir{\v{c}}{\'{a}}k, Pastore, Patarakin, Paticchio, Patimo, Pavlinov,
+  Pawlak, Peitzmann, P{\'{e}}nichot, Pepato, Pereira, Peresunko, Perez, Griffo,
+  Perini, Perrino, Peryt, Pesci, Peskov, Pestov, Peters, Petr{\'{a}}{\v{c}}ek,
+  Petridis, Petris, Petrov, Petrov, Petrovici, Peyr{\'{e}}, Piano, Piccotti,
+  Pichot, Piemonte, Pikna, Pilastrini, Pillot, Pinazza, Pini, Pinsky, Morais,
+  Pismennaya, Piuz, Platt, Ploskon, Plumeri, Pluta, Pocheptsov, Podesta,
+  Poggio, Poghosyan, Poghosyan, Pol{\'{a}}k, Polichtchouk, Polozov, Polyakov,
+  Pommeresch, Pompei, Pop, Popescu, Posa, Posp{\'{\i}}{\v{s}}il, Potukuchi,
+  Pouthas, Prasad, Preghenella, Prino, Prodan, Prono, Protsenko, Pruneau,
+  Przybyla, Pshenichnov, Puddu, Pujahari, Pulvirenti, Punin, Punin, Putschke,
+  Quartieri, Quercigh, Rachevskaya, Rachevski, Rademakers, Radomski, Radu, Rak,
+  Ramello, Raniwala, Raniwala, Rasmussen, Rasson, Razin, Read, Real, Redlich,
+  Reichling, Renard, Renault, Renfordt, Reolon, Reshetin, Revol, Reygers,
+  Ricaud, Riccati, Ricci, Richter, Riedler, Rigalleau, Riggi, Riegler, Rindel,
+  Riso, Rivetti, Rizzi, Rizzi, Cahuantzi, R{\o}ed, Röhrich,
+  Rom{\'{a}}n-L{\'{o}}pez, Romanato, Romita, Ronchetti, Rosinsky, Rosnet,
+  Rossegger, Rossi, Rostchin, Rotondo, Roukoutakis, Rousseau, Roy, Roy, Roy,
+  Royer, Rubin, Rubio, Rui, Rusanov, Russo, Ruuskanen, Ryabinkin, Rybicki,
+  Sadovsky, {\v{S}}afa{\v{r}}{\'{\i}}k, Sahoo, Saini, Saiz, Salur, Sambyal,
+  Samsonov, {\v{S}}{\'{a}}ndor, Sandoval, Sann, Santiard, Santo, Santoro,
+  Sargsyan, Saturnini, Scapparone, Scarlassara, Schackert, Schiaua, Schicker,
+  Schioler, Schippers, Schmidt, Schmidt, Schneider, Schossmaier, Schukraft,
+  Schutz, Schwarz, Schweda, Schyns, Scioli, Scomparin, Snow, Sedykh, Segato,
+  Sellitto, Semeria, Senyukov, Seppänen, Serci, Serkin, Serra, Sesselmann,
+  Sevcenco, Sgura, Shabratova, Shahoyan, Sharkov, Sharma, Shigaki, Shileev,
+  Shukla, Shurygin, Shurygina, Sibiriak, Siddi, Siemiarczuk, Sigward, Silenzi,
+  Silvermyr, Silvestri, Simili, Simion, Simon, Simonetti, Singaraju, Singhal,
+  Sinha, Sinha, Siska, Sit{\'{a}}r, Sitta, Skaali, Skowronski, Slodkowski,
+  Smirnov, Smykov, Snellings, Snoeys, Soegaard, Soerensen, Sokolov, Soldatov,
+  Soloviev, Soltveit, Soltz, Sommer, Soos, Soramel, Sorensen, Soyk,
+  Spyropoulou-Stassinaki, Stachel, Staley, Stan, Stavinskiy, Steckert,
+  Stefanini, Stefanek, Steinbeck, Stelzer, Stenlund, Stocco, Stockmeier,
+  Stoicea, Stolpovsky, Strme{\v{n}}, Stutzmann, Su, Sugitate, {\v{S}}umbera,
+  Suire, Susa, Kumar, Swoboda, Symons, Szarka, Szostak, Szuba, Szymanski,
+  Tadel, Tagridis, Tan, Takaki, Taureg, Tauro, Tavlet, Munoz, Thäder,
+  Tieulent, Timmer, Tolyhy, Topilskaya, de~Matos, Torii, Toscano, Tosello,
+  Tournaire, Traczyk, Tröger, Tromeur, Truesdale, Trzaska, Tsiledakis, Tsilis,
+  Tsvetkov, Turcato, Turrisi, Tuveri, Tveter, Tydesjo, Tykarski, Tywoniuk,
+  Ugolini, Ullaland, Urb{\'{a}}n, Urciuoli, Usai, Usseglio, Vacchi, Vala,
+  Valiev, Vyvre, Brink, Eijndhoven, Kolk, van Leeuwen, Vannucci, Vanzetto,
+  Vanuxem, Vargas, Varma, Vascotto, Vasiliev, Vassiliou, Vasta, Vechernin,
+  Venaruzzo, Vercellin, Vergara, Verhoeven, Veronese, Vetlitskiy, Vernet,
+  Victorov, Vidak, Viesti, Vikhlyantsev, Vilakazi, Baillie, Vinogradov,
+  Vinogradov, Vinogradov, Virgili, Viyogi, Vodopianov, Volpe, Vranic,
+  Vrl{\'{a}}kov{\'{a}}, Vulpescu, Wabnitz, Wagner, Wallet, Wan, Wang, Wang,
+  Wheadon, Weis, Wen, Wessels, Westergaard, Wiechula, Wiesenaecker, Wikne,
+  Wilk, Wilk, Williams, Willis, Windelband, Witt, Woehri, Wyllie, Xu, Yang,
+  Yang, Yermia, Yin, Yin, Ky, Yushmanov, Yuting, Zabrodin, Zagato, Zagreev,
+  Zaharia, Zalite, Zampa, Zampolli, Zanevskiy, Zarochentsev, Zaudtke,
+  Z{\'{a}}vada, Zbroszczyk, Zepeda, Zeter, Zgura, Zhalov, Zhou, Zhou, Zhu,
+  Zichichi, Zinchenko, Zinovjev, Zoccarato, Zubarev, Zucchini, and
+  Zuffa]{ALICECollab}
+The~ALICE Collaboration, K~Aamodt, A~Abrahantes Quintana, R~Achenbach,
+  S~Acounis, D~Adamov{\'{a}}, C~Adler, M~Aggarwal, F~Agnese, G~Aglieri Rinella,
+  Z~Ahammed, A~Ahmad, N~Ahmad, S~Ahmad, A~Akindinov, P~Akishin, D~Aleksandrov,
+  B~Alessandro, R~Alfaro, G~Alfarone, A~Alici, J~Alme, T~Alt, S~Altinpinar,
+  W~Amend, C~Andrei, Y~Andres, A~Andronic, G~Anelli, M~Anfreville, V~Angelov,
+  A~Anzo, C~Anson, T~Antici{\'{c}}, V~Antonenko, D~Antonczyk, F~Antinori,
+  S~Antinori, P~Antonioli, L~Aphecetche, H~Appelshäuser, V~Aprodu, M~Arba,
+  S~Arcelli, A~Argentieri, N~Armesto, R~Arnaldi, A~Arefiev, I~Arsene, A~Asryan,
+  A~Augustinus, T~C Awes, J~Äysto, M~Danish Azmi, S~Bablock, A~Badal{\`{a}},
+  S~K Badyal, J~Baechler, S~Bagnasco, R~Bailhache, R~Bala, A~Baldisseri,
+  A~Baldit, J~B{\'{a}}n, R~Barbera, P-L Barberis, J~M Barbet, G~Barnäfoldi,
+  V~Barret, J~Bartke, D~Bartos, M~Basile, V~Basmanov, N~Bastid, G~Batigne,
+  B~Batyunya, J~Baudot, C~Baumann, I~Bearden, B~Becker, J~Belikov, R~Bellwied,
+  E~Belmont-Moreno, A~Belogianni, S~Belyaev, A~Benato, J~L Beney, L~Benhabib,
+  F~Benotto, S~Beol{\'{e}}, I~Berceanu, A~Bercuci, E~Berdermann, Y~Berdnikov,
+  C~Bernard, R~Berny, J~D Berst, H~Bertelsen, L~Betev, A~Bhasin, P~Baskar,
+  A~Bhati, N~Bianchi, J~Biel{\v{c}}ik, J~Biel{\v{c}}ikov{\'{a}}, L~Bimbot,
+  G~Blanchard, F~Blanco, F~Blanco, D~Blau, C~Blume, S~Blyth, M~Boccioli,
+  A~Bogdanov, H~B{\o}ggild, M~Bogolyubsky, L~Boldizs{\'{a}}r, M~Bombara,
+  C~Bombonati, M~Bondila, D~Bonnet, V~Bonvicini, H~Borel, F~Borotto,
+  V~Borshchov, Y~Bortoli, O~Borysov, S~Bose, L~Bosisio, M~Botje, S~Böttger,
+  G~Bourdaud, O~Bourrion, S~Bouvier, A~Braem, M~Braun, P~Braun-Munzinger,
+  L~Bravina, M~Bregant, G~Bruckner, R~Brun, E~Bruna, O~Brunasso, G~E Bruno,
+  D~Bucher, V~Budilov, D~Budnikov, H~Buesching, P~Buncic, M~Burns, S~Burachas,
+  O~Busch, J~Bushop, X~Cai, H~Caines, F~Calaon, M~Caldogno, I~Cali, P~Camerini,
+  R~Campagnolo, M~Campbell, X~Cao, G~P Capitani, G~Cara Romeo,
+  M~Cardenas-Montes, H~Carduner, F~Carena, W~Carena, P~Cariola, F~Carminati,
+  J~Casado, A~Casanova Diaz, M~Caselle, J~Castillo Castellanos, J~Castor,
+  V~Catanescu, E~Cattaruzza, D~Cavazza, P~Cerello, S~Ceresa,
+  V~{\v{C}}ern{\'{y}}, V~Chambert, S~Chapeland, A~Charpy, D~Charrier,
+  M~Chartoire, J~L Charvet, S~Chattopadhyay, S~Chattopadhyay, V~Chepurnov,
+  S~Chernenko, M~Cherney, C~Cheshkov, B~Cheynis, P~Chochula, E~Chiavassa,
+  V~Chibante Barroso, J~Choi, P~Christakoglou, P~Christiansen, C~Christensen,
+  O~A Chykalov, C~Cicalo, L~Cifarelli-Strolin, M~Ciobanu, F~Cindolo,
+  C~Cirstoiu, O~Clausse, J~Cleymans, O~Cobanoglu, J-P Coffin, S~Coli, A~Colla,
+  C~Colledani, C~Combaret, M~Combet, M~Comets, G~Conesa Balbastre, Z~Conesa del
+  Valle, G~Contin, J~Contreras, T~Cormier, F~Corsi, P~Cortese, F~Costa,
+  E~Crescio, P~Crochet, E~Cuautle, J~Cussonneau, M~Dahlinger, A~Dainese, H~H
+  Dalsgaard, L~Daniel, I~Das, T~Das, A~Dash, R~Da Silva, M~Davenport, H~Daues,
+  A~De Caro, G~de~Cataldo, J~De Cuveland, A~De Falco, M~de~Gaspari,
+  P~de~Girolamo, J~de~Groot, D~De Gruttola, A~De Haas, N~De Marco, S~De
+  Pasquale, P~De Remigis, D~de~Vaux, G~Decock, H~Delagrange, M~Del Franco,
+  G~Dellacasa, C~Dell{\textquotesingle}Olio, D~Dell{\textquotesingle}Olio,
+  A~Deloff, V~Demanov, E~D{\'{e}}nes, G~D{\textquotesingle}Erasmo, D~Derkach,
+  A~Devaux, D~Di Bari, A~Di Bartelomen, C~Di Giglio, S~Di Liberto, A~Di Mauro,
+  P~Di Nezza, M~Dialinas, L~Diaz, R~D{\'{\i}}az Valdes, T~Dietel, R~Dima,
+  H~Ding, C~Dinca, R~Divi{\`{a}}, V~Dobretsov, A~Dobrin, B~Doenigus,
+  T~Dobrowolski, I~Dom{\'{\i}}nguez, M~Dorn, S~Drouet, A~E Dubey, L~Ducroux,
+  F~Dumitrache, E~Dumonteil, P~Dupieux, V~Duta, A~Dutta Majumdar, M~Dutta
+  Majumdar, Th~Dyhre, L~Efimov, A~Efremov, D~Elia, D~Emschermann, C~Engster,
+  A~Enokizono, B~Espagnon, M~Estienne, A~Evangelista, D~Evans, S~Evrard, C~W
+  Fabjan, D~Fabris, J~Faivre, D~Falchieri, A~Fantoni, R~Farano, R~Fearick,
+  O~Fedorov, V~Fekete, D~Felea, G~Feofilov, A~F{\'{e}}rnandez T{\'{e}}llez,
+  A~Ferretti, F~Fichera, S~Filchagin, E~Filoni, C~Finck, R~Fini, E~M Fiore,
+  D~Flierl, M~Floris, Z~Fodor, Y~Foka, S~Fokin, P~Force, F~Formenti,
+  E~Fragiacomo, M~Fragkiadakis, D~Fraissard, A~Franco, M~Franco, U~Frankenfeld,
+  U~Fratino, S~Fresneau, A~Frolov, U~Fuchs, J~Fujita, C~Furget, M~Furini,
+  M~Fusco Girard, J-J Gaardh{\o}je, A~Gabrielli, S~Gadrat, M~Gagliardi, A~Gago,
+  L~Gaido, A~Gallas Torreira, M~Gallio, E~Gandolfi, P~Ganoti, M~Ganti,
+  J~Garabatos, A~Garcia Lopez, L~Garizzo, L~Gaudichet, R~Gemme, M~Germain,
+  A~Gheata, M~Gheata, B~Ghidini, P~Ghosh, G~Giolu, G~Giraudo, P~Giubellino,
+  R~Glasow, P~Glässel, E~G Ferreiro, C~Gonzalez Gutierrez, L~H
+  Gonzales-Trueba, S~Gorbunov, Y~Gorbunov, H~Gos, J~Gosset, S~Gotovac,
+  H~Gottschlag, D~Gottschalk, V~Grabski, T~Grassi, H~Gray, O~Grebenyuk,
+  K~Grebieszkow, C~Gregory, C~Grigoras, N~Grion, V~Grigoriev, A~Grigoryan,
+  C~Grigoryan, S~Grigoryan, Y~Grishuk, P~Gros, J~Grosse-Oetringhaus, J-Y
+  Grossiord, R~Grosso, B~Grynyov, C~Guarnaccia, F~Guber, F~Guerin, R~Guernane,
+  M~Guerzoni, A~Guichard, M~Guida, G~Guilloux, H~Gulkanyan, K~Gulbrandsen,
+  T~Gunji, A~Gupta, V~Gupta, H-A Gustafsson, H~Gutbrod, C~Hadjidakis, M~Haiduc,
+  G~Hamar, H~Hamagaki, J~Hamblen, J~C Hansen, P~Hardy, D~Hatzifotiadou, J~W
+  Harris, M~Hartig, A~Harutyunyan, A~Hayrapetyan, D~Hasch, D~Hasegan, J~Hehner,
+  N~Heine, M~Heinz, H~Helstrup, A~Herghelegiu, S~Herlant, G~Herrera Corral,
+  N~Herrmann, K~Hetland, P~Hille, H~Hinke, B~Hippolyte, M~Hoch, H~Hoebbel,
+  H~Hoedlmoser, T~Horaguchi, M~Horner, P~Hristov,
+  I~H{\v{r}}ivn{\'{a}}{\v{c}}ov{\'{a}}, S~Hu, C~Hu Guo, T~Humanic, A~Hurtado,
+  D~S Hwang, J~C Ianigro, M~Idzik, S~Igolkin, R~Ilkaev, I~Ilkiv, M~Imhoff, P~G
+  Innocenti, E~Ionescu, M~Ippolitov, M~Irfan, C~Insa, M~Inuzuka, C~Ivan,
+  A~Ivanov, M~Ivanov, V~Ivanov, P~Jacobs, A~Jacholkowski,
+  L~Jan{\v{c}}urov{\'{a}}, R~Janik, M~Jasper, C~Jena, L~Jirden, D~P Johnson,
+  G~T Jones, C~Jorgensen, F~Jouve, P~Jovanovi{\'{c}}, A~Junique, A~Jusko,
+  H~Jung, W~Jung, K~Kadija, A~Kamal, R~Kamermans, S~Kapusta, A~Kaidalov,
+  V~Kakoyan, S~Kalcher, E~Kang, J~Kapitan, V~Kaplin, K~Karadzhev, O~Karavichev,
+  T~Karavicheva, E~Karpechev, K~Karpio, A~Kazantsev, U~Kebschull, R~Keidel,
+  M~Mohsin Khan, A~Khanzadeev, Y~Kharlov, D~Kikola, B~Kileng, D~Kim, D~S Kim,
+  D~W Kim, H~N Kim, J~S Kim, S~Kim, J~B Kinson, S~K Kiprich, I~Kisel,
+  S~Kiselev, A~Kisiel, T~Kiss, V~Kiworra, J~Klay, C~Klein Bösing, M~Kliemant,
+  A~Klimov, A~Klovning, A~Kluge, R~Kluit, S~Kniege, R~Kolevatov, T~Kollegger,
+  A~Kolojvari, V~Kondratiev, E~Kornas, E~Koshurnikov, I~Kotov, R~Kour,
+  M~Kowalski, S~Kox, K~Kozlov, I~Kr{\'{a}}lik, F~Kramer, I~Kraus,
+  A~Krav{\v{c}}{\'{a}}kov{\'{a}}, T~Krawutschke, M~Krivda, E~Kryshen,
+  Y~Kucheriaev, A~Kugler, C~Kuhn, P~Kuijer, L~Kumar, N~Kumar, P~Kumpumaeki,
+  A~Kurepin, A~N Kurepin, S~Kushpil, V~Kushpil, M~Kutovsky, H~Kvaerno, M~Kweon,
+  J-C Labb{\'{e}}, F~Lackner, P~Ladron de~Guevara, V~Lafage, P~La Rocca,
+  M~Lamont, C~Lara, D~T Larsen, G~Laurenti, C~Lazzeroni, Y~Le Bornec, N~Le
+  Bris, C~Le Gailliard, V~Lebedev, J~Lecoq, K~S Lee, S~C Lee, F~Lef{\'{e}}vre,
+  I~Legrand, T~Lehmann, L~Leistam, P~Lenoir, V~Lenti, H~Leon, I~Leon Monzon,
+  P~L{\'{e}}vai, Q~Li, X~Li, F~Librizzi, R~Lietava, N~Lindegaard,
+  V~Lindenstruth, C~Lippmann, M~Lisa, O~M Listratenko, F~Littel, Y~Liu, J~Lo,
+  V~Lobanov, V~Loginov, M~L{\'{o}}pez Noriega, R~L{\'{o}}pez-Ram{\'{\i}}rez,
+  E~L{\'{o}}pez Torres, P~M Lorenzo, G~L{\o}vh{\o}iden, S~Lu, W~Ludolphs,
+  M~Lunardon, L~Luquin, S~Lusso, J-R Lutz, M~Luvisetto, V~Lyapin, A~Maevskaya,
+  C~Magureanu, A~Mahajan, S~Majahan, T~Mahmoud, A~Mairani, D~Mahapatra,
+  A~Makarov, I~Makhlyueva, M~Malek, T~Malkiewicz,
+  D~Mal{\textquotesingle}Kevich, P~Malzacher, A~Mamonov, C~Manea, L~K Mangotra,
+  D~Maniero, V~Manko, F~Manso, V~Manzari, Y~Mao, A~Marcel, S~Marchini,
+  J~Mare{\v{s}}, G~V Margagliotti, A~Margotti, A~Marin, J-C Marin, D~Marras,
+  P~Martinengo, M~I Mart{\'{\i}}nez, A~Martinez-Davalos, G~Mart{\'{\i}}nez
+  Garcia, S~Martini, A~Marzari Chiesa, C~Marzocca, S~Masciocchi, M~Masera,
+  M~Masetti, N~I Maslov, A~Masoni, F~Massera, M~Mast, A~Mastroserio, Z~L
+  Matthews, B~Mayer, G~Mazza, M~D Mazzaro, A~Mazzoni, F~Meddi, E~Meleshko,
+  A~Menchaca-Rocha, S~Meneghini, M~Meoni, J~Mercado Perez, P~Mereu, O~Meunier,
+  Y~Miake, A~Michalon, R~Michinelli, N~Miftakhov, M~Mignone, K~Mikhailov,
+  J~Milosevic, Y~Minaev, F~Minafra, A~Mischke, D~Mi{\'{s}}kowiec, V~Mitsyn,
+  C~Mitu, B~Mohanty, D~Moisa, L~Molnar, M~Mondal, N~Mondal, L~Monta{\~{n}}o
+  Zetina, M~Monteno, M~Morando, M~Morel, S~Moretto, Th~Morhardt, A~Morsch,
+  T~Moukhanova, M~Mucchi, V~Muccifora, E~Mudnic, H~Müller, W~Müller, J~Munoz,
+  D~Mura, L~Musa, J~F Muraz, A~Musso, R~Nania, B~Nandi, E~Nappi, F~Navach,
+  S~Navin, T~Nayak, S~Nazarenko, G~Nazarov, L~Nellen, F~Nendaz, A~Nianine,
+  M~Nicassio, B~S Nielsen, S~Nikolaev, V~Nikolic, S~Nikulin, V~Nikulin,
+  B~Nilsen, M~Nitti, F~Noferini, P~Nomokonov, G~Nooren, F~Noto, D~Nouais,
+  A~Nyiri, J~Nystrand, G~Odyniec, H~Oeschler, M~Oinonen, M~Oldenburg, I~Oleks,
+  E~K Olsen, V~Onuchin, C~Oppedisano, F~Orsini, A~Ortiz-Vel{\'{a}}zquez,
+  C~Oskamp, A~Oskarsson, F~Osmic, L~Österman, I~Otterlund, G~Ovrebekk,
+  K~Oyama, M~Pachr, P~Pagano, G~Pai{\'{c}}, C~Pajares, S~Pal, S~Pal,
+  G~P{\'{a}}lla, A~Palmeri, G~Pancaldi, R~Panse, A~Pantaleo, G~S Pappalardo,
+  B~Pastir{\v{c}}{\'{a}}k, C~Pastore, O~Patarakin, V~Paticchio, G~Patimo,
+  A~Pavlinov, T~Pawlak, T~Peitzmann, Y~P{\'{e}}nichot, A~Pepato, H~Pereira,
+  D~Peresunko, C~Perez, J~Perez Griffo, D~Perini, D~Perrino, W~Peryt, A~Pesci,
+  V~Peskov, Y~Pestov, A~J Peters, V~Petr{\'{a}}{\v{c}}ek, A~Petridis, M~Petris,
+  V~Petrov, V~Petrov, M~Petrovici, J~Peyr{\'{e}}, S~Piano, A~Piccotti,
+  P~Pichot, C~Piemonte, M~Pikna, R~Pilastrini, P~Pillot, O~Pinazza, B~Pini,
+  L~Pinsky, V~Pinto Morais, V~Pismennaya, F~Piuz, R~Platt, M~Ploskon,
+  S~Plumeri, J~Pluta, T~Pocheptsov, P~Podesta, F~Poggio, M~Poghosyan,
+  T~Poghosyan, K~Pol{\'{a}}k, B~Polichtchouk, P~Polozov, V~Polyakov,
+  B~Pommeresch, F~Pompei, A~Pop, S~Popescu, F~Posa, V~Posp{\'{\i}}{\v{s}}il,
+  B~Potukuchi, J~Pouthas, S~Prasad, R~Preghenella, F~Prino, L~Prodan, G~Prono,
+  M~A Protsenko, C~A Pruneau, A~Przybyla, I~Pshenichnov, G~Puddu, P~Pujahari,
+  A~Pulvirenti, A~Punin, V~Punin, J~Putschke, J~Quartieri, E~Quercigh,
+  I~Rachevskaya, A~Rachevski, A~Rademakers, S~Radomski, A~Radu, J~Rak,
+  L~Ramello, R~Raniwala, S~Raniwala, O~B Rasmussen, J~Rasson, V~Razin, K~Read,
+  J~Real, K~Redlich, C~Reichling, C~Renard, G~Renault, R~Renfordt, A~R Reolon,
+  A~Reshetin, J-P Revol, K~Reygers, H~Ricaud, L~Riccati, R~A Ricci, M~Richter,
+  P~Riedler, L~M Rigalleau, F~Riggi, W~Riegler, E~Rindel, J~Riso, A~Rivetti,
+  M~Rizzi, V~Rizzi, M~Rodriguez Cahuantzi, K~R{\o}ed, D~Röhrich,
+  S~Rom{\'{a}}n-L{\'{o}}pez, M~Romanato, R~Romita, F~Ronchetti, P~Rosinsky,
+  P~Rosnet, S~Rossegger, A~Rossi, V~Rostchin, F~Rotondo, F~Roukoutakis,
+  S~Rousseau, C~Roy, D~Roy, P~Roy, L~Royer, G~Rubin, A~Rubio, R~Rui, I~Rusanov,
+  G~Russo, V~Ruuskanen, E~Ryabinkin, A~Rybicki, S~Sadovsky,
+  K~{\v{S}}afa{\v{r}}{\'{\i}}k, R~Sahoo, J~Saini, P~Saiz, S~Salur, S~Sambyal,
+  V~Samsonov, L~{\v{S}}{\'{a}}ndor, A~Sandoval, H~Sann, J-C Santiard, R~Santo,
+  R~Santoro, G~Sargsyan, P~Saturnini, E~Scapparone, F~Scarlassara, B~Schackert,
+  C~Schiaua, R~Schicker, T~Schioler, J~D Schippers, C~Schmidt, H~Schmidt,
+  R~Schneider, K~Schossmaier, J~Schukraft, Y~Schutz, K~Schwarz, K~Schweda,
+  E~Schyns, G~Scioli, E~Scomparin, H~Snow, S~Sedykh, G~Segato, S~Sellitto,
+  F~Semeria, S~Senyukov, H~Seppänen, S~Serci, L~Serkin, S~Serra, T~Sesselmann,
+  A~Sevcenco, I~Sgura, G~Shabratova, R~Shahoyan, E~Sharkov, S~Sharma,
+  K~Shigaki, K~Shileev, P~Shukla, A~Shurygin, M~Shurygina, Y~Sibiriak, E~Siddi,
+  T~Siemiarczuk, M~H Sigward, A~Silenzi, D~Silvermyr, R~Silvestri, E~Simili,
+  V~Simion, R~Simon, L~Simonetti, R~Singaraju, V~Singhal, B~Sinha, T~Sinha,
+  M~Siska, B~Sit{\'{a}}r, M~Sitta, B~Skaali, P~Skowronski, M~Slodkowski,
+  N~Smirnov, L~Smykov, R~Snellings, W~Snoeys, C~Soegaard, J~Soerensen,
+  O~Sokolov, A~Soldatov, A~Soloviev, H~Soltveit, R~Soltz, W~Sommer, C~Soos,
+  F~Soramel, S~Sorensen, D~Soyk, M~Spyropoulou-Stassinaki, J~Stachel, F~Staley,
+  I~Stan, A~Stavinskiy, J~Steckert, G~Stefanini, G~Stefanek, T~Steinbeck,
+  H~Stelzer, E~Stenlund, D~Stocco, M~Stockmeier, G~Stoicea, P~Stolpovsky,
+  P~Strme{\v{n}}, J~S Stutzmann, G~Su, T~Sugitate, M~{\v{S}}umbera, C~Suire,
+  T~Susa, K~Sushil Kumar, D~Swoboda, J~Symons, I~Szarka, A~Szostak, M~Szuba,
+  P~Szymanski, M~Tadel, C~Tagridis, L~Tan, D~Tapia Takaki, H~Taureg, A~Tauro,
+  M~Tavlet, G~Tejeda Munoz, J~Thäder, R~Tieulent, P~Timmer, T~Tolyhy,
+  N~Topilskaya, C~Torcato de~Matos, H~Torii, L~Toscano, F~Tosello, A~Tournaire,
+  T~Traczyk, G~Tröger, W~Tromeur, D~Truesdale, W~Trzaska, G~Tsiledakis,
+  E~Tsilis, A~Tsvetkov, M~Turcato, R~Turrisi, M~Tuveri, T~Tveter, H~Tydesjo,
+  L~Tykarski, K~Tywoniuk, E~Ugolini, K~Ullaland, J~Urb{\'{a}}n, G~M Urciuoli,
+  G~L Usai, M~Usseglio, A~Vacchi, M~Vala, F~Valiev, P~Vande Vyvre, A~Van~Den
+  Brink, N~Van Eijndhoven, N~Van~Der Kolk, M~van Leeuwen, L~Vannucci,
+  S~Vanzetto, J-P Vanuxem, M~A Vargas, R~Varma, A~Vascotto, A~Vasiliev,
+  M~Vassiliou, P~Vasta, V~Vechernin, M~Venaruzzo, E~Vercellin, S~Vergara,
+  W~Verhoeven, F~Veronese, I~Vetlitskiy, R~Vernet, V~Victorov, L~Vidak,
+  G~Viesti, O~Vikhlyantsev, Z~Vilakazi, O~Villalobos Baillie, A~Vinogradov,
+  L~Vinogradov, Y~Vinogradov, T~Virgili, Y~Viyogi, A~Vodopianov, G~Volpe,
+  D~Vranic, J~Vrl{\'{a}}kov{\'{a}}, B~Vulpescu, C~Wabnitz, V~Wagner, L~Wallet,
+  R~Wan, Y~Wang, Y~Wang, R~Wheadon, R~Weis, Q~Wen, J~Wessels, J~Westergaard,
+  J~Wiechula, A~Wiesenaecker, J~Wikne, A~Wilk, G~Wilk, C~Williams, N~Willis,
+  B~Windelband, R~Witt, H~Woehri, K~Wyllie, C~Xu, C~Yang, H~Yang, F~Yermia,
+  Z~Yin, Z~Yin, B~Yun Ky, I~Yushmanov, B~Yuting, E~Zabrodin, S~Zagato,
+  B~Zagreev, P~Zaharia, A~Zalite, G~Zampa, C~Zampolli, Y~Zanevskiy,
+  A~Zarochentsev, O~Zaudtke, P~Z{\'{a}}vada, H~Zbroszczyk, A~Zepeda, V~Zeter,
+  I~Zgura, M~Zhalov, D~Zhou, S~Zhou, G~Zhu, A~Zichichi, A~Zinchenko,
+  G~Zinovjev, Y~Zoccarato, A~Zubarev, A~Zucchini, and M~Zuffa.
+\newblock The {ALICE} experiment at the {CERN} {LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08002--S08002, aug 2008{\natexlab{c}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08002}.
+\newblock URL \url{https://doi.org/10.1088/1748-0221/3/08/s08002}.
+
+\bibitem[Collaboration et~al.(2008{\natexlab{d}})Collaboration, Alves, Filho,
+  Barbosa, Bediaga, Cernicchiaro, Guerrer, Lima, Machado, Magnin, Marujo,
+  de~Miranda, Reis, Santos, Toledo, Akiba, Amato, de~Paula, de~Paula, da~Silva,
+  Gandelman, Lopes, Mar{\'{e}}chal, Moraes, Polycarpo, Rodrigues, Ballansat,
+  Bastian, Boget, Bonis, Coco, David, Decamp, Delebecque, Drancourt,
+  Dumont-Dayot, Girard, Lieunard, Minard, Pietrzyk, Rambure, Rospabe,
+  T{\textquotesingle}Jampens, Ajaltouni, Bohner, Bonnefoy, Borras, Carloganu,
+  Chanal, Conte, Cornat, Crouau, Delage, Deschamps, Henrard, Jacquet, Lacan,
+  Laubser, Lecoq, Lef{\`{e}}vre, Magne, Martemiyanov, Mercier, Monteil, Niess,
+  Perret, Reinmuth, Robert, Suchorski, Arnaud, Aslanides, Babel, Benchouk,
+  Cachemiche, Cogan, Derue, Dinkespiler, Duval, Garonne, Favard, Gac, Leon,
+  Leroy, Liotard, Marin, Menouni, Ollive, Poss, Roche, Sapunov, Tocco, Viaud,
+  Tsaregorodtsev, Amhis, Barrand, Barsuk, Beigbeder, Beneyton, Breton, Callot,
+  Charlet, D{\textquotesingle}Almagne, Duarte, Fulda-Quenzer, Jacholkowska,
+  Jean-Marie, Lefrancois, Machefert, Robbe, Schune, Tocut, Videau, Benayoun,
+  David, Buono, Gilles, Domke, Futterschneider, Ilgner, Kapusta, Kolander,
+  Krause, Lieng, Nedos, Rudloff, Schleich, Schwierz, Spaan, Wacker, Warda,
+  Agari, Bauer, Baumeister, Bulian, Fuchs, Fallot-Burghardt, Glebe, Hofmann,
+  Knöpfle, Löchner, Ludwig, Maciuc, Nieto, Schmelling, Schwingenheuer,
+  Sexauer, Smale, Trunk, Voss, Albrecht, Bachmann, Blouw, Deissenroth, Deppe,
+  Dreis, Eisele, Haas, Hansmann-Menzemer, Hennenberger, Knopf, Moch, Perieanu,
+  Rabenecker, Rausch, Rummel, Rusnyak, Schiller, Stange, Uwer, Walter, Ziegler,
+  Avoni, Balbi, Bonifazi, Bortolotti, Carbone, D{\textquotesingle}Antone,
+  Galli, Gregori, Lax, Marconi, Peco, Vagnoni, Valenti, Vecchi, Bonivento,
+  Cardini, Cadeddu, DeLeo, Deplano, Furcas, Lai, Oldeman, Raspino, Saitta,
+  Serra, Baldini, Brusa, Chiozzi, Ramusino, Evangelisti, Franconieri, Germani,
+  Gianoli, Guoming, Landi, Malaguti, Padoan, Pennini, Savri{\`{e}}, Squerzanti,
+  Zhao, Zhu, Bizzeti, Graziani, Lenti, Lenzi, Maletta, Pennazzi, Passaleva,
+  Veltri, Alfonsi, Anelli, Balla, Battisti, Bencivenni, Campana, Carletti,
+  Ciambrone, Corradi, Dan{\'{e}}, DiVirgilio, DeSimone, Felici, Forti, Gatta,
+  Lanfranchi, Murtas, Pistilli, Lener, Rosellini, Santoni, Saputi, Sarti,
+  Sciubba, Zossi, Ameri, Cuneo, Fontanelli, Gracco, Min{\'{\i}}, Parodi,
+  Petrolini, Sannino, Vinci, Alemi, Arnaboldi, Bellunato, Calvi, Chignoli,
+  Lucia, Galotta, Mazza, Matteuzzi, Musy, Negri, Perego, Pessina, Auriemma,
+  Bocci, Buccheri, Chiodi, Marco, Iacoangeli, Martellotti, Nobrega, Pelosi,
+  Penso, Pinci, Rinaldi, Rossi, Santacesaria, Satriano, Carboni, Iannilli,
+  Rodrigues, Messi, Paoluzzi, Sabatino, Santovetti, Satta, Amoraal, van
+  Apeldoorn, Arink, van Bakel, Band, Bauer, Berkien, van Beuzekom, Bos, Bron,
+  Ceelie, Doets, van~der Eijk, Fransen, de~Groen, Gromov, Hierck, Homma,
+  Hommels, Hoogland, Jans, Jansen, Jansen, Jaspers, Kaan, Koene, Koopstra,
+  Kroes, Kraan, Langedijk, Merk, Mos, Munneke, Palacios, Papadelis, Pellegrino,
+  van Petten, du~Pree, Roeland, Ruckstuhl, Schimmel, Schuijlenburg, Sluijk,
+  Spelt, Stolte, Terrier, Tuning, Lysebetten, Vankov, Verkooijen, Verlaat,
+  Vink, de~Vries, Wiggers, Smit, Zaitsev, Zupan, Zwart, van~den Brand, Bulten,
+  de~Jong, Ketel, Klous, Kos, M{\textquotesingle}charek, Mul, Raven, Simioni,
+  Cheng, Dai, Deng, Gao, Gong, Gong, He, Hou, Li, Qian, Shao, Xue, Yang, Zeng,
+  Muryn, Ciba, Oblakowska-Mucha, Blocki, Galuszka, Hajduk, Michalowski,
+  Natkaniec, Polok, Stodulski, Witek, Brzozowski, Chlopik, Gawor, Guzik,
+  Nawrot, Srednicki, Syryczynski, Szczekowski, Constantin, Cristian, Mihon,
+  Pavel, Stoica, Filippov, Gavrilov, Golyshkin, Gushchin, Karavichev, Klubakov,
+  Kravchuk, Kutuzov, Laptev, Popov, Aref{\textquotesingle}ev, Bobchenko,
+  Dolgoshein, Egorychev, Golutvin, Gushchin, Konoplyannikov, Korolko,
+  Kvaratskheliya, Machikhiliyan, Malyshev, Mayatskaya, Prokudin, Rusinov,
+  Rusinov, Shatalov, Shchutska, Tarkovskiy, Tayduganov, Voronchev, Zhiryakova,
+  Bobrov, Bondar, Eidelman, Kozlinsky, Shekhtman, Beloous, Dzhelyadin,
+  Gelitsky, Gouz, Kachnov, Kobelev, Matveev, Novikov, Obraztsov, Ostankov,
+  Romanovsky, Rykalin, Soldatov, Soldatov, Tchernov, Yushchenko, Bochin,
+  Bondar, Fedorov, Golovtsov, Guets, Kashchuk, Lazarev, Maev, Neustroev,
+  Sagidova, Spiridenkov, Volkov, Vorobyev, Vorobyov, Aguilo, Bota, Calvo,
+  Comerma, Cano, Dieguez, Herms, Lopez, Luengo, Garra, Garrido, Gascon,
+  de~Valenzuela, Gonzalez, Graciani, Grauges, Calero, Picatoste, Riera,
+  Rosello, Ruiz, Vilasis, Xirgu, Adeva, Vidal, Santos, Pereira, Pazos,
+  Torreira, G{\'{o}}mez, Alvarez, Trigo, Casas{\'{u}}s, Cobo, P{\'{e}}rez,
+  Saborido, Seco, Regueiro, Bartalini, Bay, Bettler, Blanc, Borel, Carron,
+  Currat, Conti, Dormond, Ermoline, Fauland, Fernandez, Frei, Gagliardi,
+  Gueissaz, Haefeli, Hicheur, Jacoby, Jalocha, Jimenez-Otero, Hertig, Knecht,
+  Legger, Locatelli, Moser, Needham, Nicolas, Perrin-Giacomin, Perroud,
+  Potterat, Ronga, Schneider, Schietinger, Steele, Studer, Tareb, Tran, van
+  Hunen, Vervink, Villa, Zwahlen, Bernet, Büchler, Gassner, Lehner,
+  Sakhelashvili, Salzmann, Sievers, Steiner, Steinkamp, Straumann, van Tilburg,
+  Vollhardt, Volyanskyy, Ziegler, Dovbnya, Ranyuk, Shapoval, Borisova,
+  Iakovenko, Kyva, Kovalchuk, Okhrimenko, Pugatch, Pylypchenko, Adinolfi,
+  Brook, Head, Imong, Lessnoff, Metlica, Muir, Rademacker, Solomin, Szczypka,
+  Barham, Buszello, Dickens, Gibson, Haines, Harrison, Jones, Katvars, Kerzel,
+  Lazzeroni, Li, Rogers, Storey, Skottowe, Wotton, Adye, Densham, Easo, Franek,
+  Loveridge, Morrow, Morris, Nandakumar, Nardulli, Papanestis, Patrick,
+  Ricciardi, Woodward, Zhang, Chamonal, Clark, Clarke, Eisenhardt, Gilardi,
+  Khan, Kim, Lambert, Lawrence, Main, McCarron, Mclean, Muheim,
+  Osorio-Oliveros, Playfer, Styles, Xie, Bates, Carson, da~Cunha~Marinho,
+  Doherty, Eklund, Gersabeck, Haddad, Macgregor, Melone, McEwan, Petrie,
+  Paterson, Parkes, Pickford, Rakotomiaramanana, Rodrigues, Saavedra, Soler,
+  Szumlak, Viret, Allebone, Awunor, Back, Barber, Barnes, Cameron, Clark,
+  Clark, Dornan, Duane, Eames, Egede, Girone, Greenwood, Hallam, Hare, Howard,
+  Jolly, Kasey, Khaleeq, Koppenburg, Miller, Plackett, Price, Reece, Savage,
+  Savidge, Simmons, Vidal-Sitjes, Websdale, Affolder, Anderson, Biagi, Bowcock,
+  Carroll, Casse, Cooke, Donleavy, Dwyer, Hennessy, Huse, Hutchcroft, Jones,
+  Lockwood, McCubbin, McNulty, Muskett, Noor, Patel, Rinnert, Shears, Smith,
+  Southern, Stavitski, Sutcliffe, Tobin, Traynor, Turner, Whitley, Wormald,
+  Wright, Bibby, Brisbane, Brock, Charles, Cioffi, Gligorov, Handford, Harnew,
+  Harris, John, Jones, Libby, Martin, McArthur, Muresan, Newby, Ottewell,
+  Powell, Rotolo, Senanayake, Somerville, Soroko, Spradlin, Sullivan,
+  Stokes-Rees, Topp-Jorgensen, Xing, Wilkinson, Artuso, Belyaev, Blusk,
+  Lefeuvre, Menaa, Menaa-Sia, Mountain, Skwarnicki, Stone, Wang, Abadie,
+  Aglieri-Rinella, Albrecht, Andr{\'{e}}, Anelli, Arnaud, Augustinus, Bal,
+  Pazos, Barczyk, Bargiotti, Lopes, Behrendt, Berni, Binko, Bobillier, Braem,
+  Brarda, Buytaert, Camilleri, Cambpell, Castellani, Cataneo, Cattaneo, Chadaj,
+  Charpentier, Cherukuwada, Chesi, Christiansen, Chytracek, Clemencic, Closier,
+  Collins, Colrain, Cooke, Corajod, Corti, D{\textquotesingle}Ambrosio,
+  Damodaran, David, de~Capua, Decreuse, Degaudenzi, Dijkstra, Droulez, Ramos,
+  Dufey, Dumps, Eckstein, Ferro-Luzzi, Fiedler, Filthaut, Flegel, Forty,
+  Fournier, Frank, Frei, Gaidioz, Gaspar, Gayde, Gavillet, Go, Abril, Graulich,
+  Giudici, Elias, Guglielmini, Gys, Hahn, Haider, Harvey, Hay, Morata, Alvarez,
+  van Herwijnen, Hilke, von Holtey, Hulsbergen, Jacobsson, Jamet, Joram, Jost,
+  Kanaya, Refolio, Koestner, Koratzinos, Kristic, Lacarr{\`{e}}re, Lasseur,
+  Lastovicka, Laub, Liko, Lippmann, Lindner, Losasso, Maier, Mair, Maley, Vila,
+  Moine, Morant, Moritz, Moscicki, Muecke, Mueller, Nakada, Neufeld, Ocariz,
+  Aranda, Parzefall, Patel, Pepe-Altarelli, Piedigrossi, Pivk, Pokorski, Ponce,
+  Ranjard, Riegler, Renaud, Roiser, Rossi, Roy, Ruf, Ruffinoni, Saladino,
+  Varela, Santinelli, Schmelling, Schmidt, Schneider, Schöning, Schopper,
+  Seguinot, Snoeys, Smith, Smith, Somogyi, Stoica, Tejessy, Teubert, Thomas,
+  Alarcon, Ullaland, Valassi, Vannerem, Veness, Wicht, Wiedner, Witzeling,
+  Wright, Wyllie, and Ypsilantis]{LHCCollab}
+The~LHCb Collaboration, A~Augusto Alves, L~M~Andrade Filho, A~F Barbosa,
+  I~Bediaga, G~Cernicchiaro, G~Guerrer, H~P Lima, A~A Machado, J~Magnin,
+  F~Marujo, J~M de~Miranda, A~Reis, A~Santos, A~Toledo, K~Akiba, S~Amato,
+  B~de~Paula, L~de~Paula, T~da~Silva, M~Gandelman, J~H Lopes, B~Mar{\'{e}}chal,
+  D~Moraes, E~Polycarpo, F~Rodrigues, J~Ballansat, Y~Bastian, D~Boget, I~De
+  Bonis, V~Coco, P~Y David, D~Decamp, P~Delebecque, C~Drancourt,
+  N~Dumont-Dayot, C~Girard, B~Lieunard, M~N Minard, B~Pietrzyk, T~Rambure,
+  G~Rospabe, S~T{\textquotesingle}Jampens, Z~Ajaltouni, G~Bohner, R~Bonnefoy,
+  D~Borras, C~Carloganu, H~Chanal, E~Conte, R~Cornat, M~Crouau, E~Delage,
+  O~Deschamps, P~Henrard, P~Jacquet, C~Lacan, J~Laubser, J~Lecoq,
+  R~Lef{\`{e}}vre, M~Magne, M~Martemiyanov, M-L Mercier, S~Monteil, V~Niess,
+  P~Perret, G~Reinmuth, A~Robert, S~Suchorski, K~Arnaud, E~Aslanides, J~Babel,
+  C~Benchouk, J-P Cachemiche, J~Cogan, F~Derue, B~Dinkespiler, P-Y Duval,
+  V~Garonne, S~Favard, R~Le Gac, F~Leon, O~Leroy, P-L Liotard, F~Marin,
+  M~Menouni, P~Ollive, S~Poss, A~Roche, M~Sapunov, L~Tocco, B~Viaud,
+  A~Tsaregorodtsev, Y~Amhis, G~Barrand, S~Barsuk, C~Beigbeder, R~Beneyton,
+  D~Breton, O~Callot, D~Charlet, B~D{\textquotesingle}Almagne, O~Duarte,
+  F~Fulda-Quenzer, A~Jacholkowska, B~Jean-Marie, J~Lefrancois, F~Machefert,
+  P~Robbe, M-H Schune, V~Tocut, I~Videau, M~Benayoun, P~David, L~Del Buono,
+  G~Gilles, M~Domke, H~Futterschneider, Ch~Ilgner, P~Kapusta, M~Kolander,
+  R~Krause, M~Lieng, M~Nedos, K~Rudloff, S~Schleich, R~Schwierz, B~Spaan,
+  K~Wacker, K~Warda, M~Agari, C~Bauer, D~Baumeister, N~Bulian, H~P Fuchs,
+  W~Fallot-Burghardt, T~Glebe, W~Hofmann, K~T Knöpfle, S~Löchner, A~Ludwig,
+  F~Maciuc, F~Sanchez Nieto, M~Schmelling, B~Schwingenheuer, E~Sexauer, N~J
+  Smale, U~Trunk, H~Voss, J~Albrecht, S~Bachmann, J~Blouw, M~Deissenroth,
+  H~Deppe, H~B Dreis, F~Eisele, T~Haas, S~Hansmann-Menzemer, S~Hennenberger,
+  J~Knopf, M~Moch, A~Perieanu, S~Rabenecker, A~Rausch, C~Rummel, R~Rusnyak,
+  M~Schiller, U~Stange, U~Uwer, M~Walter, R~Ziegler, G~Avoni, G~Balbi,
+  F~Bonifazi, D~Bortolotti, A~Carbone, I~D{\textquotesingle}Antone, D~Galli,
+  D~Gregori, I~Lax, U~Marconi, G~Peco, V~Vagnoni, G~Valenti, S~Vecchi,
+  W~Bonivento, A~Cardini, S~Cadeddu, V~DeLeo, C~Deplano, S~Furcas, A~Lai,
+  R~Oldeman, D~Raspino, B~Saitta, N~Serra, W~Baldini, S~Brusa, S~Chiozzi,
+  A~Cotta Ramusino, F~Evangelisti, A~Franconieri, S~Germani, A~Gianoli,
+  L~Guoming, L~Landi, R~Malaguti, C~Padoan, C~Pennini, M~Savri{\`{e}},
+  S~Squerzanti, T~Zhao, M~Zhu, A~Bizzeti, G~Graziani, M~Lenti, M~Lenzi,
+  F~Maletta, S~Pennazzi, G~Passaleva, M~Veltri, M~Alfonsi, M~Anelli, A~Balla,
+  A~Battisti, G~Bencivenni, P~Campana, M~Carletti, P~Ciambrone, G~Corradi,
+  E~Dan{\'{e}}, A~DiVirgilio, P~DeSimone, G~Felici, C~Forti, M~Gatta,
+  G~Lanfranchi, F~Murtas, M~Pistilli, M~Poli Lener, R~Rosellini, M~Santoni,
+  A~Saputi, A~Sarti, A~Sciubba, A~Zossi, M~Ameri, S~Cuneo, F~Fontanelli,
+  V~Gracco, G~Min{\'{\i}}, M~Parodi, A~Petrolini, M~Sannino, A~Vinci, M~Alemi,
+  C~Arnaboldi, T~Bellunato, M~Calvi, F~Chignoli, A~De Lucia, G~Galotta,
+  R~Mazza, C~Matteuzzi, M~Musy, P~Negri, D~Perego, G~Pessina, G~Auriemma,
+  V~Bocci, A~Buccheri, G~Chiodi, S~Di Marco, F~Iacoangeli, G~Martellotti,
+  R~Nobrega, A~Pelosi, G~Penso, D~Pinci, W~Rinaldi, A~Rossi, R~Santacesaria,
+  C~Satriano, G~Carboni, M~Iannilli, A~Massafferri Rodrigues, R~Messi,
+  G~Paoluzzi, G~Sabatino, E~Santovetti, A~Satta, J~Amoraal, G~van Apeldoorn,
+  R~Arink, N~van Bakel, H~Band, Th~Bauer, A~Berkien, M~van Beuzekom, E~Bos,
+  Ch~Bron, L~Ceelie, M~Doets, R~van~der Eijk, J-P Fransen, P~de~Groen,
+  V~Gromov, R~Hierck, J~Homma, B~Hommels, W~Hoogland, E~Jans, F~Jansen,
+  L~Jansen, M~Jaspers, B~Kaan, B~Koene, J~Koopstra, F~Kroes, M~Kraan,
+  J~Langedijk, M~Merk, S~Mos, B~Munneke, J~Palacios, A~Papadelis, A~Pellegrino,
+  O~van Petten, T~du~Pree, E~Roeland, W~Ruckstuhl, A~Schimmel, H~Schuijlenburg,
+  T~Sluijk, J~Spelt, J~Stolte, H~Terrier, N~Tuning, A~Van Lysebetten, P~Vankov,
+  J~Verkooijen, B~Verlaat, W~Vink, H~de~Vries, L~Wiggers, G~Ybeles Smit,
+  N~Zaitsev, M~Zupan, A~Zwart, J~van~den Brand, H~J Bulten, M~de~Jong, T~Ketel,
+  S~Klous, J~Kos, B~M{\textquotesingle}charek, F~Mul, G~Raven, E~Simioni,
+  J~Cheng, G~Dai, Z~Deng, Y~Gao, G~Gong, H~Gong, J~He, L~Hou, J~Li, W~Qian,
+  B~Shao, T~Xue, Z~Yang, M~Zeng, B~Muryn, K~Ciba, A~Oblakowska-Mucha, J~Blocki,
+  K~Galuszka, L~Hajduk, J~Michalowski, Z~Natkaniec, G~Polok, M~Stodulski,
+  M~Witek, K~Brzozowski, A~Chlopik, P~Gawor, Z~Guzik, A~Nawrot, A~Srednicki,
+  K~Syryczynski, M~Szczekowski, F~Constantin, P~Cristian, Gh~Mihon, C~Pavel,
+  S~Stoica, S~Filippov, Yu~Gavrilov, L~Golyshkin, E~Gushchin, O~Karavichev,
+  V~Klubakov, L~Kravchuk, V~Kutuzov, S~Laptev, S~Popov,
+  A~Aref{\textquotesingle}ev, B~Bobchenko, V~Dolgoshein, V~Egorychev,
+  A~Golutvin, O~Gushchin, A~Konoplyannikov, I~Korolko, T~Kvaratskheliya,
+  I~Machikhiliyan, S~Malyshev, E~Mayatskaya, M~Prokudin, D~Rusinov, V~Rusinov,
+  P~Shatalov, L~Shchutska, E~Tarkovskiy, A~Tayduganov, K~Voronchev,
+  O~Zhiryakova, A~Bobrov, A~Bondar, S~Eidelman, A~Kozlinsky, L~Shekhtman, K~S
+  Beloous, R~I Dzhelyadin, Yu~V Gelitsky, Yu~P Gouz, K~G Kachnov, A~S Kobelev,
+  V~D Matveev, V~P Novikov, V~F Obraztsov, A~P Ostankov, V~I Romanovsky, V~I
+  Rykalin, A~P Soldatov, M~M Soldatov, E~N Tchernov, O~P Yushchenko, B~Bochin,
+  N~Bondar, O~Fedorov, V~Golovtsov, S~Guets, A~Kashchuk, V~Lazarev, O~Maev,
+  P~Neustroev, N~Sagidova, E~Spiridenkov, S~Volkov, An~Vorobyev, A~Vorobyov,
+  E~Aguilo, S~Bota, M~Calvo, A~Comerma, X~Cano, A~Dieguez, A~Herms, E~Lopez,
+  S~Luengo, J~Garra, Ll~Garrido, D~Gascon, A~Gaspar de~Valenzuela, C~Gonzalez,
+  R~Graciani, E~Grauges, A~Perez Calero, E~Picatoste, J~Riera, M~Rosello,
+  H~Ruiz, X~Vilasis, X~Xirgu, B~Adeva, X~Cid Vidal, D~Mart{\'{E}}nez Santos,
+  D~Esperante Pereira, J~L~Fungueiri{\~{n}}o Pazos, A~Gallas Torreira, C~Lois
+  G{\'{o}}mez, A~Pazos Alvarez, E~P{\'{e}}rez Trigo, M~Pl{\'{o}} Casas{\'{u}}s,
+  C~Rodriguez Cobo, P~Rodr{\'{\i}}guez P{\'{e}}rez, J~J Saborido, M~Seco,
+  P~Vazquez Regueiro, P~Bartalini, A~Bay, M-O Bettler, F~Blanc, J~Borel,
+  B~Carron, C~Currat, G~Conti, O~Dormond, Y~Ermoline, P~Fauland, L~Fernandez,
+  R~Frei, G~Gagliardi, N~Gueissaz, G~Haefeli, A~Hicheur, C~Jacoby, P~Jalocha,
+  S~Jimenez-Otero, J-P Hertig, M~Knecht, F~Legger, L~Locatelli, J-R Moser,
+  M~Needham, L~Nicolas, A~Perrin-Giacomin, J-P Perroud, C~Potterat, F~Ronga,
+  O~Schneider, T~Schietinger, D~Steele, L~Studer, M~Tareb, M~T Tran, J~van
+  Hunen, K~Vervink, S~Villa, N~Zwahlen, R~Bernet, A~Büchler, J~Gassner,
+  F~Lehner, T~Sakhelashvili, C~Salzmann, P~Sievers, S~Steiner, O~Steinkamp,
+  U~Straumann, J~van Tilburg, A~Vollhardt, D~Volyanskyy, M~Ziegler, A~Dovbnya,
+  Yu~Ranyuk, I~Shapoval, M~Borisova, V~Iakovenko, V~Kyva, O~Kovalchuk,
+  O~Okhrimenko, V~Pugatch, Yu~Pylypchenko, M~Adinolfi, N~H Brook, R~D Head, J~P
+  Imong, K~A Lessnoff, F~C~D Metlica, A~J Muir, J~H Rademacker, A~Solomin, P~M
+  Szczypka, C~Barham, C~Buszello, J~Dickens, V~Gibson, S~Haines, K~Harrison,
+  C~R Jones, S~Katvars, U~Kerzel, C~Lazzeroni, Y~Y Li, G~Rogers, J~Storey,
+  H~Skottowe, S~A Wotton, T~J Adye, C~J Densham, S~Easo, B~Franek, P~Loveridge,
+  D~Morrow, J~V Morris, R~Nandakumar, J~Nardulli, A~Papanestis, G~N Patrick,
+  S~Ricciardi, M~L Woodward, Z~Zhang, R~J~U Chamonal, P~J Clark, P~Clarke,
+  S~Eisenhardt, N~Gilardi, A~Khan, Y~M Kim, R~Lambert, J~Lawrence, A~Main,
+  J~McCarron, C~Mclean, F~Muheim, A~F Osorio-Oliveros, S~Playfer, N~Styles,
+  Y~Xie, A~Bates, L~Carson, F~da~Cunha~Marinho, F~Doherty, L~Eklund,
+  M~Gersabeck, L~Haddad, A~A Macgregor, J~Melone, F~McEwan, D~M Petrie, S~K
+  Paterson, C~Parkes, A~Pickford, B~Rakotomiaramanana, E~Rodrigues, A~F
+  Saavedra, F~J~P Soler, T~Szumlak, S~Viret, L~Allebone, O~Awunor, J~Back,
+  G~Barber, C~Barnes, B~Cameron, D~Clark, I~Clark, P~Dornan, A~Duane, C~Eames,
+  U~Egede, M~Girone, S~Greenwood, R~Hallam, R~Hare, A~Howard, S~Jolly, V~Kasey,
+  M~Khaleeq, P~Koppenburg, D~Miller, R~Plackett, D~Price, W~Reece, P~Savage,
+  T~Savidge, B~Simmons, G~Vidal-Sitjes, D~Websdale, A~Affolder, J~S Anderson,
+  S~F Biagi, T~J~V Bowcock, J~L Carroll, G~Casse, P~Cooke, S~Donleavy, L~Dwyer,
+  K~Hennessy, T~Huse, D~Hutchcroft, D~Jones, M~Lockwood, M~McCubbin, R~McNulty,
+  D~Muskett, A~Noor, G~D Patel, K~Rinnert, T~Shears, N~A Smith, G~Southern,
+  I~Stavitski, P~Sutcliffe, M~Tobin, S~M Traynor, P~Turner, M~Whitley,
+  M~Wormald, V~Wright, J~H Bibby, S~Brisbane, M~Brock, M~Charles, C~Cioffi, V~V
+  Gligorov, T~Handford, N~Harnew, F~Harris, M~J~J John, M~Jones, J~Libby,
+  L~Martin, I~A McArthur, R~Muresan, C~Newby, B~Ottewell, A~Powell, N~Rotolo,
+  R~S Senanayake, L~Somerville, A~Soroko, P~Spradlin, P~Sullivan,
+  I~Stokes-Rees, S~Topp-Jorgensen, F~Xing, G~Wilkinson, M~Artuso, I~Belyaev,
+  S~Blusk, G~Lefeuvre, N~Menaa, R~Menaa-Sia, R~Mountain, T~Skwarnicki, S~Stone,
+  J~C Wang, L~Abadie, G~Aglieri-Rinella, E~Albrecht, J~Andr{\'{e}}, G~Anelli,
+  N~Arnaud, A~Augustinus, F~Bal, M~C~Barandela Pazos, A~Barczyk, M~Bargiotti,
+  J~Batista Lopes, O~Behrendt, S~Berni, P~Binko, V~Bobillier, A~Braem,
+  L~Brarda, J~Buytaert, L~Camilleri, M~Cambpell, G~Castellani, F~Cataneo,
+  M~Cattaneo, B~Chadaj, P~Charpentier, S~Cherukuwada, E~Chesi, J~Christiansen,
+  R~Chytracek, M~Clemencic, J~Closier, P~Collins, P~Colrain, O~Cooke,
+  B~Corajod, G~Corti, C~D{\textquotesingle}Ambrosio, B~Damodaran, C~David,
+  S~de~Capua, G~Decreuse, H~Degaudenzi, H~Dijkstra, J-P Droulez, D~Duarte
+  Ramos, J~P Dufey, R~Dumps, D~Eckstein, M~Ferro-Luzzi, F~Fiedler, F~Filthaut,
+  W~Flegel, R~Forty, C~Fournier, M~Frank, C~Frei, B~Gaidioz, C~Gaspar, J-C
+  Gayde, P~Gavillet, A~Go, G~Gracia Abril, J-S Graulich, P-A Giudici, A~Guirao
+  Elias, P~Guglielmini, T~Gys, F~Hahn, S~Haider, J~Harvey, B~Hay, J-A~Hernando
+  Morata, J~Herranz Alvarez, E~van Herwijnen, H~J Hilke, G~von Holtey,
+  W~Hulsbergen, R~Jacobsson, O~Jamet, C~Joram, B~Jost, N~Kanaya, J~Knaster
+  Refolio, S~Koestner, M~Koratzinos, R~Kristic, D~Lacarr{\`{e}}re, C~Lasseur,
+  T~Lastovicka, M~Laub, D~Liko, C~Lippmann, R~Lindner, M~Losasso, A~Maier,
+  K~Mair, P~Maley, P~Mato Vila, G~Moine, J~Morant, M~Moritz, J~Moscicki,
+  M~Muecke, H~Mueller, T~Nakada, N~Neufeld, J~Ocariz, C~Padilla Aranda,
+  U~Parzefall, M~Patel, M~Pepe-Altarelli, D~Piedigrossi, M~Pivk, W~Pokorski,
+  S~Ponce, F~Ranjard, W~Riegler, J~Renaud, S~Roiser, A~Rossi, L~Roy, T~Ruf,
+  D~Ruffinoni, S~Saladino, A~Sambade Varela, R~Santinelli, S~Schmelling,
+  B~Schmidt, T~Schneider, A~Schöning, A~Schopper, J~Seguinot, W~Snoeys,
+  A~Smith, A~C Smith, P~Somogyi, R~Stoica, W~Tejessy, F~Teubert, E~Thomas,
+  J~Toledo Alarcon, O~Ullaland, A~Valassi, P~Vannerem, R~Veness, P~Wicht,
+  D~Wiedner, W~Witzeling, A~Wright, K~Wyllie, and T~Ypsilantis.
+\newblock The {LHCb} detector at the {LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08005--S08005, aug 2008{\natexlab{d}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08005}.
+\newblock URL \url{https://doi.org/10.1088/1748-0221/3/08/s08005}.
+
+\bibitem[Evans and Bryant(2008{\natexlab{a}})]{Evans_2008}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC} machine.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08001--S08001, aug 2008{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08001}.
+\newblock URL \url{https://doi.org/10.1088/1748-0221/3/08/s08001}.
+
+\bibitem[Robert-Démolaize(2006)]{LHCCollimation1}
+G~Robert-Démolaize.
+\newblock {Design and Performance Optimization of the LHC Collimation System},
+  2006.
+\newblock URL \url{https://cds.cern.ch/record/1004869}.
+\newblock Presented on 20 Nov 2006.
+
+\bibitem[Redaelli(2016)]{LHCCollimation2}
+Stefano Redaelli.
+\newblock Beam cleaning and collimation systems.
+\newblock 08 2016.
+\newblock \doi{10.5170/CERN-2016-002.403}.
+
+\bibitem[Boussard and Linnecar(1999)]{LHCRF}
+Daniel Boussard and Trevor Paul~R Linnecar.
+\newblock {The LHC Superconducting RF System}.
+\newblock Technical Report LHC-Project-Report-316. CERN-LHC-Project-Report-316,
+  CERN, Geneva, Dec 1999.
+\newblock URL \url{https://cds.cern.ch/record/410377}.
+
+\bibitem[Bailey and Collier(2003)]{LHCBeam}
+R~Bailey and Paul Collier.
+\newblock {Standard Filling Schemes for Various LHC Operation Modes}.
+\newblock Technical Report LHC-PROJECT-NOTE-323, CERN, Geneva, Sep 2003.
+\newblock URL \url{https://cds.cern.ch/record/691782}.
+
+\bibitem[Taylor(2002)]{LHCBunches}
+B~G Taylor.
+\newblock {Timing distribution at the LHC}.
+\newblock 2002.
+\newblock \doi{10.5170/CERN-2002-003.63}.
+\newblock URL \url{https://cds.cern.ch/record/592719}.
+
+\bibitem[Evans and Bryant(2008{\natexlab{b}})]{Article:LHCDesignPaper}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC Machine}.
+\newblock \emph{JINST}, 3:\penalty0 S08001, 2008{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/3/08/S08001}.
+
+\bibitem[Airapetian et~al.(1999{\natexlab{a}})]{ATLAS-TDR-01}
+A.~Airapetian et~al.
+\newblock {ATLAS: Detector and physics performance technical design report.
+  Volume 1}.
+\newblock 1999{\natexlab{a}}.
+
+\bibitem[Airapetian et~al.(1999{\natexlab{b}})]{ATLAS-TDR-02}
+A.~Airapetian et~al.
+\newblock {ATLAS: Detector and physics performance technical design report.
+  Volume 2}.
+\newblock 1999{\natexlab{b}}.
+
+\bibitem[Aad et~al.(2008)]{Article:ATLASDesignPaper}
+G.~Aad et~al.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
+
+\bibitem[ten Kate(2008)]{Article:CernMagnets}
+H.H.J. ten Kate.
+\newblock The atlas superconducting magnet system at the large hadron collider.
+\newblock \emph{Physica C: Superconductivity}, 468\penalty0 (15):\penalty0 2137
+  -- 2142, 2008.
+\newblock ISSN 0921-4534.
+\newblock \doi{https://doi.org/10.1016/j.physc.2008.05.146}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0921453408004541}.
+\newblock Proceedings of the 20th International Symposium on Superconductivity
+  (ISS 2007).
+
+\bibitem[Aharrouche and Collaboration(2006)]{Article:ECALCalibration}
+M.~Aharrouche and ATLAS Electromagnetic Barrel~Calorimeter Collaboration.
+\newblock Energy linearity and resolution of the atlas electromagnetic barrel
+  calorimeter in an electron test-beam.
+\newblock 2006.
+\newblock \doi{10.1016/j.nima.2006.07.053}.
+
+\bibitem[Adragna et~al.(2009)]{Article:FCALCalibration}
+P.~Adragna et~al.
+\newblock {Testbeam studies of production modules of the ATLAS tile
+  calorimeter}.
+\newblock \emph{Nucl. Instrum. Meth.}, A606:\penalty0 362--394, 2009.
+\newblock \doi{10.1016/j.nima.2009.04.009}.
+
+\end{thebibliography}

@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Prog_2.aux
+The style file: unsrtnat.bst
+Database file #1: Prog_2.bib
+Warning--entry type for "LHCCollimation1" isn't style-file defined
+--line 1630 of file Prog_2.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty note in Article:CernComplex
+Warning--empty author and editor in LEPDesign1
+Warning--empty author and editor in LEPDesign2
+Warning--empty journal in LHCMagnets
+Warning--there's a number but no volume in LHCMagnets
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--empty journal in LHCCollimation2
+Warning--empty journal in LHCBunches
+Warning--empty journal in ATLAS-TDR-01
+Warning--empty journal in ATLAS-TDR-02
+Warning--empty journal in Article:ECALCalibration
+You've used 45 entries,
+            2481 wiz_defined-function locations,
+            890 strings with 113041 characters,
+and the built_in function-call counts, 190524 in all, are:
+= -- 1540
+> -- 40817
+< -- 28
++ -- 13667
+- -- 13570
+* -- 28069
+:= -- 42830
+add.period$ -- 205
+call.type$ -- 45
+change.case$ -- 84
+chr.to.int$ -- 38
+cite$ -- 57
+duplicate$ -- 830
+empty$ -- 1524
+format.name$ -- 13635
+if$ -- 30288
+int.to.chr$ -- 8
+int.to.str$ -- 46
+missing$ -- 44
+newline$ -- 300
+num.names$ -- 129
+pop$ -- 287
+preamble$ -- 1
+purify$ -- 45
+quote$ -- 0
+skip$ -- 444
+stack$ -- 0
+substring$ -- 731
+swap$ -- 110
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 297
+warning$ -- 10
+while$ -- 124
+width$ -- 0
+write$ -- 718
+(There were 11 warnings)

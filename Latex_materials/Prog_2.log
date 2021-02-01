@@ -1,0 +1,397 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  1 FEB 2021 15:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/jake/Desktop/Thesis/Latex_materials/Prog_2.tex
+(/home/jake/Desktop/Thesis/Latex_materials/Prog_2.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen137
+\epsfysize=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count175
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count176
+\leftroot@=\count177
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count178
+\DOTSCASE@=\count179
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count180
+\c@MaxMatrixCols=\count181
+\dotsspace@=\muskip16
+\c@parentequation=\count182
+\dspbrk@lvl=\count183
+\tag@help=\toks16
+\row@=\count184
+\column@=\count185
+\maxfields@=\count186
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box47
+\shadowsize=\dimen148
+\@Sbox=\box48
+\do@VerbBox=\toks20
+\the@fancyput=\toks21
+\this@fancyput=\toks22
+\EndVerbatimTokens=\toks23
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read2
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count187
+\rotFPtop=\skip52
+\rotFPbot=\skip53
+\rot@float@box=\box49
+\rot@mess@toks=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen149
+\captionmargin@=\dimen150
+\captionwidth=\dimen151
+\caption@tempdima=\dimen152
+\caption@indent=\dimen153
+\caption@parindent=\dimen154
+\caption@hangindent=\dimen155
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count188
+\c@continuedfloat=\count189
+Package caption Info: rotating package is loaded.
+)
+\c@subfigure=\count190
+\c@subtable=\count191
+) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count192
+\float@exts=\toks25
+\float@box=\box50
+\@float@everytoks=\toks26
+\@floatcapt=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count193
+) (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+   defining Unicode char U+0227 (decimal 551)
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count194
+\l__pdf_internal_box=\box52
+)
+
+LaTeX Warning: Unused global option(s):
+    [epsf,portrait,times,epsfig].
+
+(/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux
+
+LaTeX Warning: Label `Fig:CERNRings' multiply defined.
+
+)
+\openout1 = `Prog_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count195
+\scratchdimen=\dimen156
+\scratchbox=\box53
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen157
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks30
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.toc)
+\tf@toc=\write5
+\openout5 = `Prog_2.toc'.
+
+ [1] Excluding 'comment' comment. Excluding 'comment' comment. [1] [2]
+<Standard_Model.png, id=21, 1027.84pt x 983.675pt>
+File: Standard_Model.png Graphic file (type png)
+<use Standard_Model.png>
+Package pdftex.def Info: Standard_Model.png  used on input line 101.
+(pdftex.def)             Requested size: 308.35437pt x 295.10478pt.
+ [3 </home/jake/Desktop/Thesis/Latex_materials/Standard_Model.png>] [4] [5] [6] [7] [8] [9] [10]
+<Zbb_2.png, id=53, 394.47375pt x 228.855pt>
+File: Zbb_2.png Graphic file (type png)
+<use Zbb_2.png>
+Package pdftex.def Info: Zbb_2.png  used on input line 432.
+(pdftex.def)             Requested size: 197.23639pt x 114.42722pt.
+<Gluon_Pair.png, id=54, 445.665pt x 265.99374pt>
+File: Gluon_Pair.png Graphic file (type png)
+<use Gluon_Pair.png>
+Package pdftex.def Info: Gluon_Pair.png  used on input line 438.
+(pdftex.def)             Requested size: 187.17802pt x 111.7166pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 430--442
+[]$[]$ $[]$ 
+ []
+
+Excluding 'comment' comment. [11 </home/jake/Desktop/Thesis/Latex_materials/Zbb_2.png> </home/jake/Desktop/Thesis/Latex_materials/Gluon_Pair.png>] Excluding 'comment' comment.
+<Zbb_3.png, id=62, 280.79906pt x 307.90031pt>
+File: Zbb_3.png Graphic file (type png)
+<use Zbb_3.png>
+Package pdftex.def Info: Zbb_3.png  used on input line 476.
+(pdftex.def)             Requested size: 140.39919pt x 153.94977pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
+<Gluon_ttbar.png, id=66, 680.5425pt x 474.77374pt>
+File: Gluon_ttbar.png Graphic file (type png)
+<use Gluon_ttbar.png>
+Package pdftex.def Info: Gluon_ttbar.png  used on input line 492.
+(pdftex.def)             Requested size: 238.19344pt x 166.1733pt.
+
+Overfull \hbox (10.5714pt too wide) in paragraph at lines 492--493
+ [][] 
+ []
+
+<Single_Quark.png, id=67, 403.5075pt x 328.22626pt>
+File: Single_Quark.png Graphic file (type png)
+<use Single_Quark.png>
+Package pdftex.def Info: Single_Quark.png  used on input line 498.
+(pdftex.def)             Requested size: 181.57669pt x 147.70044pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 490--502
+[]$[]$ $[]$ 
+ []
+
+Excluding 'comment' comment. [13 </home/jake/Desktop/Thesis/Latex_materials/Zbb_3.png> </home/jake/Desktop/Thesis/Latex_materials/Gluon_ttbar.png> </home/jake/Desktop/Thesis/Latex_materials/Single_Quark.png>]
+<ZqqZll.png, id=73, 490.83376pt x 315.1775pt>
+File: ZqqZll.png Graphic file (type png)
+<use ZqqZll.png>
+Package pdftex.def Info: ZqqZll.png  used on input line 521.
+(pdftex.def)             Requested size: 233.14845pt x 149.71086pt.
+
+Overfull \hbox (5.52641pt too wide) in paragraph at lines 521--522
+ [][] 
+ []
+
+<WqqZll.png, id=74, 483.8075pt x 337.26pt>
+File: WqqZll.png Graphic file (type png)
+<use WqqZll.png>
+Package pdftex.def Info: WqqZll.png  used on input line 527.
+(pdftex.def)             Requested size: 217.71136pt x 151.7656pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 519--531
+[]$[]$ $[]$ 
+ []
+
+<ZZ4l.png, id=75, 483.8075pt x 337.26pt>
+File: ZZ4l.png Graphic file (type png)
+<use ZZ4l.png>
+Package pdftex.def Info: ZZ4l.png  used on input line 537.
+(pdftex.def)             Requested size: 217.71136pt x 151.7656pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 </home/jake/Desktop/Thesis/Latex_materials/ZqqZll.png> </home/jake/Desktop/Thesis/Latex_materials/WqqZll.png>] [15 </home/jake/Desktop/Thesis/Latex_materials/ZZ4l.png>]
+<LHC_Rings.jpg, id=85, 803.0pt x 563.10374pt>
+File: LHC_Rings.jpg Graphic file (type jpg)
+<use LHC_Rings.jpg>
+Package pdftex.def Info: LHC_Rings.jpg  used on input line 569.
+(pdftex.def)             Requested size: 401.49902pt x 281.55118pt.
+ [16] [17 </home/jake/Desktop/Thesis/Latex_materials/LHC_Rings.jpg>]
+<LHC_Octants.jpeg, id=93, 498.86375pt x 433.62pt>
+File: LHC_Octants.jpeg Graphic file (type jpg)
+<use LHC_Octants.jpeg>
+Package pdftex.def Info: LHC_Octants.jpeg  used on input line 584.
+(pdftex.def)             Requested size: 249.43126pt x 216.80946pt.
+ [18] [19 </home/jake/Desktop/Thesis/Latex_materials/LHC_Octants.jpeg>]
+<LHC_Beam_Structure.png, id=100, 1384.17125pt x 449.68pt>
+File: LHC_Beam_Structure.png Graphic file (type png)
+<use LHC_Beam_Structure.png>
+Package pdftex.def Info: LHC_Beam_Structure.png  used on input line 605.
+(pdftex.def)             Requested size: 415.25458pt x 134.90503pt.
+ [20 </home/jake/Desktop/Thesis/Latex_materials/LHC_Beam_Structure.png>] [21]
+File: LHC_Rings.jpg Graphic file (type jpg)
+<use LHC_Rings.jpg>
+Package pdftex.def Info: LHC_Rings.jpg  used on input line 656.
+(pdftex.def)             Requested size: 401.49902pt x 281.55118pt.
+ [22]
+<ATLAS.jpg, id=112, 308.352pt x 180.4341pt>
+File: ATLAS.jpg Graphic file (type jpg)
+<use ATLAS.jpg>
+Package pdftex.def Info: ATLAS.jpg  used on input line 674.
+(pdftex.def)             Requested size: 308.35124pt x 180.43364pt.
+ [23 </home/jake/Desktop/Thesis/Latex_materials/ATLAS.jpg>]
+<Magnetic_Field.png, id=117, 1104.125pt x 511.9125pt>
+File: Magnetic_Field.png Graphic file (type png)
+<use Magnetic_Field.png>
+Package pdftex.def Info: Magnetic_Field.png  used on input line 694.
+(pdftex.def)             Requested size: 441.64218pt x 204.76137pt.
+ [24] Excluding 'comment' comment. [25 </home/jake/Desktop/Thesis/Latex_materials/Magnetic_Field.png>]
+<Inner_Detector.png, id=126, 424.58624pt x 285.065pt>
+File: Inner_Detector.png Graphic file (type png)
+<use Inner_Detector.png>
+Package pdftex.def Info: Inner_Detector.png  used on input line 726.
+(pdftex.def)             Requested size: 297.20834pt x 199.54413pt.
+ [26 </home/jake/Desktop/Thesis/Latex_materials/Inner_Detector.png>] [27]
+<ATLAS_Calorimeters.png, id=134, 853.1875pt x 557.08125pt>
+File: ATLAS_Calorimeters.png Graphic file (type png)
+<use ATLAS_Calorimeters.png>
+Package pdftex.def Info: ATLAS_Calorimeters.png  used on input line 758.
+(pdftex.def)             Requested size: 341.26895pt x 222.82855pt.
+ [28 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Calorimeters.png>]
+<Muon_System.png, id=138, 1027.84pt x 770.88pt>
+File: Muon_System.png Graphic file (type png)
+<use Muon_System.png>
+Package pdftex.def Info: Muon_System.png  used on input line 787.
+(pdftex.def)             Requested size: 308.35437pt x 231.26578pt.
+ [29] [30 </home/jake/Desktop/Thesis/Latex_materials/Muon_System.png (PNG copy)>] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.bbl [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58]) [59]
+Overfull \hbox (10.66159pt too wide) in paragraph at lines 828--829
+[]$[]$  
+ []
+
+[1] [2] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4207 strings out of 483183
+ 63599 string characters out of 5966291
+ 510799 words of memory out of 5000000
+ 19173 multiletter control sequences out of 15000+600000
+ 542955 words of font info for 61 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 48i,20n,46p,18899b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on /home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf (63 pages, 3277028 bytes).
+PDF statistics:
+ 308 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+
