@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex Prog_2"] 1612273376 "Prog_2.aux" "Prog_2.bbl" "Prog_2" 1612273484
-  "Prog_2.aux" 1612273484 12630 86871925329a1aafcd679646d966ce77 "pdflatex"
+["bibtex Prog_2"] 1612273566 "Prog_2.aux" "Prog_2.bbl" "Prog_2" 1612273567
+  "Prog_2.aux" 1612273567 12180 e0c1d5038f18ec020e176b55f4ebb686 "pdflatex"
   "Prog_2.bib" 1612196259 167379 82909bdef32e69ad46bac040f53f0e63 ""
   "Thesis.bst.bst" 0 -1 0 ""
   (generated)
-  "Prog_2.bbl"
   "Prog_2.blg"
-["pdflatex"] 1612273483 "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.tex" "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf" "Prog_2" 1612273484
+  "Prog_2.bbl"
+["pdflatex"] 1612273566 "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.tex" "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf" "Prog_2" 1612273567
   "/etc/texmf/web2c/texmf.cnf" 1601380630 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1611575047 12644 fc90a15d943ff2fca0106506bbf8c01a ""
   "/home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1611575048 14040 755fb59de49d5ad87d86221c130d7026 ""
-  "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux" 1612273484 12630 86871925329a1aafcd679646d966ce77 ""
-  "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.tex" 1612273482 84006 ade7c2206908191798361547ad608472 ""
+  "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux" 1612273567 12180 e0c1d5038f18ec020e176b55f4ebb686 ""
+  "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.tex" 1612273563 82234 5318d2127e0bfda500bbde03a0f3cdea ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -99,10 +99,10 @@
   "LHC_Rings.jpg" 1612195322 188111 c29bb8ea0019ffb5f12707269109bad9 ""
   "Magnetic_Field.png" 1612195322 498081 0b4ef1f8111e46b984ebfcbe1bf9c438 ""
   "Muon_System.png" 1612195322 1002469 b57b085313d11dbf7419e5af0860bf66 ""
-  "Prog_2.aux" 1612273484 12630 86871925329a1aafcd679646d966ce77 "pdflatex"
-  "Prog_2.bbl" 1612273376 12286 751161e67e263880bc25b7d518fd49b7 "bibtex Prog_2"
-  "Prog_2.tex" 1612273482 84006 ade7c2206908191798361547ad608472 ""
-  "Prog_2.toc" 1612273484 1433 bfd78f43c87e58e36b210b0b2a0f2703 "pdflatex"
+  "Prog_2.aux" 1612273567 12180 e0c1d5038f18ec020e176b55f4ebb686 "pdflatex"
+  "Prog_2.bbl" 1612273566 12080 0f3fb3db133073c729de83e806687479 "bibtex Prog_2"
+  "Prog_2.tex" 1612273563 82234 5318d2127e0bfda500bbde03a0f3cdea ""
+  "Prog_2.toc" 1612273567 1433 46156e998b82b65c2733325aad38b403 "pdflatex"
   "Single_Quark.png" 1612195322 11857 3302f17eb5d0d7692f643d76607164ad ""
   "Standard_Model.png" 1612195322 267327 feedfe9079ff600d9ce2f9759f8a53d6 ""
   "WqqZll.png" 1612195322 11268 df59ec49d364847de0fb7e01787700a5 ""
@@ -111,9 +111,9 @@
   "Zbb_3.png" 1612195322 10474 cae7bef76ea7f9c358599eeda9fc5a68 ""
   "ZqqZll.png" 1612195322 11288 a74f35a4f306be8d2b8cd8bfd39addc0 ""
   (generated)
-  "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.log"
-  "Prog_2.aux"
-  "Prog_2.toc"
   "Prog_2.pdf"
   "Prog_2.log"
   "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf"
+  "Prog_2.aux"
+  "Prog_2.toc"
+  "/home/jake/Desktop/Thesis/Latex_materials/Prog_2.log"
