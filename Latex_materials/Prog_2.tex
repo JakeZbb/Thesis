@@ -596,11 +596,11 @@ An example of this process can be seen by considering the constraint placed on t
 			\label{Fig:CERNOctants}
 		\end{figure}
 
-		Point 3 and Point 7 contain the beam cleaning and collimation systems, essential systems that protect the components of the LHC. As proton beams travel around the LHC ring, they do not exist as a single some protons are unavoidably lost from the focussed central beam core and diffuse into a "beam halo", the fraction of the beam that will physically collide with the components of the LHC. These collisions from the beam halo can damage these components: for example, collisions with the LHC's superconducting magnets could cause a rise in temperature forcing the magnets out of a superconducting state (this is known as a "quench") \cite{LHCCollimation1}. The collimator systems restrict the potential aperture of the beam, deliberately causing collisions with the beam halo to occur safely in the collimators (instead of in the LHC's more delicate subsystems) \cite{LHCCollimation2}. \par 
+		Point 3 and Point 7 contain the beam cleaning and collimation systems, essential systems that protect the components of the LHC. As proton beams travel around the LHC ring, they do not exist as a single some protons are unavoidably lost from the focussed central beam core and diffuse into a "beam halo", the fraction of the beam that will physically collide with the components of the LHC. These collisions from the beam halo can damage these components: for example, collisions with the LHC's superconducting magnets could cause a rise in temperature forcing the magnets out of a superconducting state (this is known as a magnet "quench") \cite{LHCCollimation1}. The collimator systems restrict the potential aperture of the beam, deliberately causing collisions with the beam halo to occur safely in the collimators (instead of in the LHC's more delicate subsystems) \cite{LHCCollimation2}. \par 
 
 		The beam dump is located at Point 6, and is another important subsystem for the efficiency and safety of the LHC. When the particle beam within the LHC has served its purpose, the beam (or the remnants of it) needs to be safely removed from the LHC ring. The beam may also be dumped in the event of instability observed by the LHC or one of the detectors observing each of the IPs, or in the event of issues with one of the detectors. In the event that the beam needs to be dumped for any of these reasons, the LHC employs the use of kicker magnets that rapidly and safely diver the beam out of the LHC ring and into dump blocks: cylinders of graphite encased in concrete that can absorb the full energy of the beam without melting \cite{LHCDesignV2}. \par 
 		
-		The actual acceleration of the particle beam within the LHC occurs at the superconducting radio-frequency (RF) cavities located at Point 4. The LHC employs 8 RF cavities per beam, which use an alternating electric field to accelerate the beam through the cavity. By increasing the frequency of these oscillations, the particle beam can gradually increase to its maximum energy. Much like the dipole and quadrapole magnets used within the LHC, the RF cavities also operate at an extremely low temperature (4.5 K). The accelerating field provided by the RF cavities is 5 MV/m at 400MHz \cite{LHCRF}. Accelerating particles using the alternating electric field of the RF cavities causes the particle beam not to be a single continuous beam, but to instead be divided into "bunches".
+		The actual acceleration of the particle beam within the LHC occurs at the superconducting radio-frequency (RF) cavities located at Point 4. The LHC employs 8 RF cavities per beam, which use an alternating electric field to accelerate the beam through the cavity. By increasing the frequency of these oscillations, the particle beam can gradually increase to its maximum energy. Much like the dipole and quadrapole magnets used within the LHC, the RF cavities also operate at an extremely low temperature (4.5 K). The accelerating field provided by the RF cavities is 5 MV/m at 400MHz \cite{LHCRF}. Accelerating particles using the alternating electric field of the RF cavities causes the particle beam not to be a single continuous beam, but to instead be divided into \textit{bunches}.
 		
 		\subsubsection{Beam Structure}
 		
@@ -621,7 +621,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		\subsubsection{Luminosity}
 
-		In order to evaluate the performance of an accelerator, it is important to consider a metric that adequately describes the collisions taking place. In the case of accelerator physics "luminosity", a measure of how effectively an accelerator is able to deliver particle collisions, is used. For a process with a known cross section of $\sigma_{i}$, the event rate is given by:
+		In order to evaluate the performance of an accelerator, it is important to consider a metric that adequately describes the collisions taking place. In the case of accelerator physics \textit{luminosity}, a measure of how effectively an accelerator is able to deliver particle collisions, is used. For a process with a known cross section of $\sigma_{i}$, the event rate is given by:
 		
 		\begin{equation}
 			\frac{\,dN}{\,dt} = \mathcal{L}_{i}\sigma_{i}
@@ -705,7 +705,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		\subsection{ATLAS}
 
-		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS_Collab}, located at Point 1 of the LHC ring, is the largest general-purpose experiment at CERN. ATLAS is cylindrical in shape, with a length of 46 metres and a diameter of 25 metres. The immense scale of ATLAS can be difficult to picture without adequate reference: the ATLAS detector is as long as the Statue of Liberty is tall\footnote{The statue of liberty itself, excluding the 47 m pedestal that the statue stands upon.}, and stands a metre higher than buckingham palace.  
+		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS_Collab}, located at Point 1 of the LHC ring, is the largest general-purpose experiment at CERN. ATLAS is cylindrical in shape, with a length of 46 metres and a diameter of 25 metres. The immense scale of ATLAS can be difficult to picture without adequate reference: the diameter of ATLAS is 1 metre greater than the height of Buckingham palace, and its length is the same as the Statue of Liberty's height\footnote{The statue of liberty itself, excluding the 47 m pedestal that the statue stands upon.}. It would take a tower of 9 giraffes carefully lying head to hoof in the ATLAS cavern while wearing the appropriate personal protective equipment to occupy the same length as the ATLAS detector\footnote{This would likely irritate the giraffes.}. 
 		
 		% The immense size of ATLAS can be difficult to picture without adequate reference:
 		%\begin{itemize}
@@ -715,7 +715,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		%02/02/21
 
-		
+		The ATLAS detector is constructed around the LHC beamline at Point 1 with it's cylindrical geometry divided into two categories: the \textit{barrel} and the \textit{endcap}, which can be visualised as the sides and top/bottom of a standard cylinder respectively. The ATLAS detector is designed to have forward-backward symmetry across the IP, hence the IP is located at the perfect centre of the barrel region in the heart of the detector. As particles collide at the IP their products travel outward and through different sub-detectors, each sensitive to particular properties of various particles, in order to identify and reconstruct physics objects in each event.   
 
 		%03/03/21
 
