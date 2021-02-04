@@ -268,6 +268,12 @@ Richard~Hawkings Eric~Torrence.
 \newblock
   \urlprefix\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
 
+\bibitem{Article:ATLASDesignPaper}
+G.~Aad et~al. (ATLAS).
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:S08003, 2008.
+\newblock \urlprefix\url{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}.
+
 \bibitem{ATLAS-TDR-01}
 A.~Airapetian et~al. (ATLAS).
 \newblock {ATLAS: Detector and physics performance technical design report.
@@ -279,12 +285,6 @@ A.~Airapetian et~al. (ATLAS).
 \newblock {ATLAS: Detector and physics performance technical design report.
   Volume 2}.
 \newblock 1999.
-
-\bibitem{Article:ATLASDesignPaper}
-G.~Aad et~al. (ATLAS).
-\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
-\newblock \emph{JINST}, 3:S08003, 2008.
-\newblock \urlprefix\url{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}.
 
 \bibitem{Article:CernMagnets}
 H.H.J. ten Kate.

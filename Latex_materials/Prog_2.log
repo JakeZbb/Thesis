@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  3 FEB 2021 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  4 FEB 2021 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -291,7 +291,11 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [epsf,portrait,times,epsfig].
 
-(/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux)
+(/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux
+
+LaTeX Warning: Label `Fig:ATLASDetector' multiply defined.
+
+)
 \openout1 = `Prog_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -362,24 +366,24 @@ LaTeX Info: Redefining \nameref on input line 42.
                    \relax 
 l.95 	
        [1] [2]
-<Standard_Model.png, id=176, 1027.84pt x 983.675pt>
+<Standard_Model.png, id=188, 1027.84pt x 983.675pt>
 File: Standard_Model.png Graphic file (type png)
 <use Standard_Model.png>
 Package pdftex.def Info: Standard_Model.png  used on input line 111.
 (pdftex.def)             Requested size: 308.35437pt x 295.10478pt.
  [3 </home/jake/Desktop/Thesis/Latex_materials/Standard_Model.png>] [4] [5] [6] [7] [8] [9] [10]
-<Zbb_2.png, id=267, 394.47375pt x 228.855pt>
+<Zbb_2.png, id=279, 394.47375pt x 228.855pt>
 File: Zbb_2.png Graphic file (type png)
 <use Zbb_2.png>
 Package pdftex.def Info: Zbb_2.png  used on input line 442.
 (pdftex.def)             Requested size: 197.23639pt x 114.42722pt.
-<Gluon_Pair.png, id=268, 445.665pt x 265.99374pt>
+<Gluon_Pair.png, id=280, 445.665pt x 265.99374pt>
 File: Gluon_Pair.png Graphic file (type png)
 <use Gluon_Pair.png>
 Package pdftex.def Info: Gluon_Pair.png  used on input line 448.
 (pdftex.def)             Requested size: 187.17802pt x 111.7166pt.
  Excluding 'comment' comment. [11 </home/jake/Desktop/Thesis/Latex_materials/Zbb_2.png> </home/jake/Desktop/Thesis/Latex_materials/Gluon_Pair.png>] Excluding 'comment' comment.
-<Zbb_3.png, id=283, 280.79906pt x 307.90031pt>
+<Zbb_3.png, id=295, 280.79906pt x 307.90031pt>
 File: Zbb_3.png Graphic file (type png)
 <use Zbb_3.png>
 Package pdftex.def Info: Zbb_3.png  used on input line 486.
@@ -389,28 +393,28 @@ Package pdftex.def Info: Zbb_3.png  used on input line 486.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12]
-<Gluon_ttbar.png, id=292, 680.5425pt x 474.77374pt>
+<Gluon_ttbar.png, id=305, 680.5425pt x 474.77374pt>
 File: Gluon_ttbar.png Graphic file (type png)
 <use Gluon_ttbar.png>
 Package pdftex.def Info: Gluon_ttbar.png  used on input line 502.
 (pdftex.def)             Requested size: 204.16432pt x 142.43321pt.
-<Single_Quark.png, id=293, 403.5075pt x 328.22626pt>
+<Single_Quark.png, id=306, 403.5075pt x 328.22626pt>
 File: Single_Quark.png Graphic file (type png)
 <use Single_Quark.png>
 Package pdftex.def Info: Single_Quark.png  used on input line 508.
 (pdftex.def)             Requested size: 161.40013pt x 131.28816pt.
  Excluding 'comment' comment. [13 </home/jake/Desktop/Thesis/Latex_materials/Zbb_3.png> </home/jake/Desktop/Thesis/Latex_materials/Gluon_ttbar.png> </home/jake/Desktop/Thesis/Latex_materials/Single_Quark.png>]
-<ZqqZll.png, id=305, 490.83376pt x 315.1775pt>
+<ZqqZll.png, id=317, 490.83376pt x 315.1775pt>
 File: ZqqZll.png Graphic file (type png)
 <use ZqqZll.png>
 Package pdftex.def Info: ZqqZll.png  used on input line 531.
 (pdftex.def)             Requested size: 220.87314pt x 141.82855pt.
-<WqqZll.png, id=306, 483.8075pt x 337.26pt>
+<WqqZll.png, id=318, 483.8075pt x 337.26pt>
 File: WqqZll.png Graphic file (type png)
 <use WqqZll.png>
 Package pdftex.def Info: WqqZll.png  used on input line 537.
 (pdftex.def)             Requested size: 203.19775pt x 141.64822pt.
-<ZZ4l.png, id=307, 483.8075pt x 337.26pt>
+<ZZ4l.png, id=319, 483.8075pt x 337.26pt>
 File: ZZ4l.png Graphic file (type png)
 <use ZZ4l.png>
 Package pdftex.def Info: ZZ4l.png  used on input line 547.
@@ -420,103 +424,112 @@ Package pdftex.def Info: ZZ4l.png  used on input line 547.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14 </home/jake/Desktop/Thesis/Latex_materials/ZqqZll.png> </home/jake/Desktop/Thesis/Latex_materials/WqqZll.png>] [15 </home/jake/Desktop/Thesis/Latex_materials/ZZ4l.png>]
-<LHC_Rings.jpg, id=330, 803.0pt x 563.10374pt>
+<LHC_Rings.jpg, id=342, 803.0pt x 563.10374pt>
 File: LHC_Rings.jpg Graphic file (type jpg)
 <use LHC_Rings.jpg>
 Package pdftex.def Info: LHC_Rings.jpg  used on input line 579.
 (pdftex.def)             Requested size: 401.49902pt x 281.55118pt.
  [16] [17 </home/jake/Desktop/Thesis/Latex_materials/LHC_Rings.jpg>]
-<LHC_Octants.jpeg, id=355, 498.86375pt x 433.62pt>
+<LHC_Octants.jpeg, id=367, 498.86375pt x 433.62pt>
 File: LHC_Octants.jpeg Graphic file (type jpg)
 <use LHC_Octants.jpeg>
 Package pdftex.def Info: LHC_Octants.jpeg  used on input line 594.
 (pdftex.def)             Requested size: 249.43126pt x 216.80946pt.
  [18] [19 </home/jake/Desktop/Thesis/Latex_materials/LHC_Octants.jpeg>]
-<LHC_Beam_Structure.png, id=387, 1384.17125pt x 449.68pt>
+<LHC_Beam_Structure.png, id=399, 1384.17125pt x 449.68pt>
 File: LHC_Beam_Structure.png Graphic file (type png)
 <use LHC_Beam_Structure.png>
 Package pdftex.def Info: LHC_Beam_Structure.png  used on input line 615.
 (pdftex.def)             Requested size: 415.25458pt x 134.90503pt.
  [20 </home/jake/Desktop/Thesis/Latex_materials/LHC_Beam_Structure.png>]
-<ATLAS_Luminosity_Time.png, id=401, 798.985pt x 574.145pt>
+<ATLAS_Luminosity_Time.png, id=413, 798.985pt x 574.145pt>
 File: ATLAS_Luminosity_Time.png Graphic file (type png)
 <use ATLAS_Luminosity_Time.png>
 Package pdftex.def Info: ATLAS_Luminosity_Time.png  used on input line 663.
 (pdftex.def)             Requested size: 215.72884pt x 155.02122pt.
-<ATLAS_Luminosity_Total.png, id=402, 798.985pt x 574.145pt>
+<ATLAS_Luminosity_Total.png, id=414, 798.985pt x 574.145pt>
 File: ATLAS_Luminosity_Total.png Graphic file (type png)
 <use ATLAS_Luminosity_Total.png>
 Package pdftex.def Info: ATLAS_Luminosity_Total.png  used on input line 669.
 (pdftex.def)             Requested size: 215.72884pt x 155.02122pt.
  [21] [22 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Time.png> </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Total.png>]
-<ATLAS_Pileup_Run2.png, id=421, 798.985pt x 574.145pt>
+<ATLAS_Pileup_Run2.png, id=433, 798.985pt x 574.145pt>
 File: ATLAS_Pileup_Run2.png Graphic file (type png)
 <use ATLAS_Pileup_Run2.png>
 Package pdftex.def Info: ATLAS_Pileup_Run2.png  used on input line 701.
 (pdftex.def)             Requested size: 319.58833pt x 229.65393pt.
  [23 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Pileup_Run2.png>]
-<ATLAS.jpg, id=439, 308.352pt x 180.4341pt>
+<ATLAS.jpg, id=451, 308.352pt x 180.4341pt>
 File: ATLAS.jpg Graphic file (type jpg)
 <use ATLAS.jpg>
-Package pdftex.def Info: ATLAS.jpg  used on input line 735.
+Package pdftex.def Info: ATLAS.jpg  used on input line 726.
 (pdftex.def)             Requested size: 308.35124pt x 180.43364pt.
- [24]
-<Magnetic_Field.png, id=452, 1104.125pt x 511.9125pt>
+ [24 </home/jake/Desktop/Thesis/Latex_materials/ATLAS.jpg>] [25]
+File: ATLAS.jpg Graphic file (type jpg)
+<use ATLAS.jpg>
+Package pdftex.def Info: ATLAS.jpg  used on input line 770.
+(pdftex.def)             Requested size: 308.35124pt x 180.43364pt.
+ [26]
+<Magnetic_Field.png, id=481, 1104.125pt x 511.9125pt>
 File: Magnetic_Field.png Graphic file (type png)
 <use Magnetic_Field.png>
-Package pdftex.def Info: Magnetic_Field.png  used on input line 755.
+Package pdftex.def Info: Magnetic_Field.png  used on input line 790.
 (pdftex.def)             Requested size: 441.64218pt x 204.76137pt.
- [25 </home/jake/Desktop/Thesis/Latex_materials/ATLAS.jpg>] Excluding 'comment' comment. [26 </home/jake/Desktop/Thesis/Latex_materials/Magnetic_Field.png>]
-<Inner_Detector.png, id=472, 424.58624pt x 285.065pt>
+ [27 </home/jake/Desktop/Thesis/Latex_materials/Magnetic_Field.png>] Excluding 'comment' comment. [28]
+<Inner_Detector.png, id=500, 424.58624pt x 285.065pt>
 File: Inner_Detector.png Graphic file (type png)
 <use Inner_Detector.png>
-Package pdftex.def Info: Inner_Detector.png  used on input line 787.
+Package pdftex.def Info: Inner_Detector.png  used on input line 822.
 (pdftex.def)             Requested size: 297.20834pt x 199.54413pt.
- [27 </home/jake/Desktop/Thesis/Latex_materials/Inner_Detector.png>] [28]
-<ATLAS_Calorimeters.png, id=488, 853.1875pt x 557.08125pt>
+ [29 </home/jake/Desktop/Thesis/Latex_materials/Inner_Detector.png>]
+<ATLAS_Calorimeters.png, id=513, 853.1875pt x 557.08125pt>
 File: ATLAS_Calorimeters.png Graphic file (type png)
 <use ATLAS_Calorimeters.png>
-Package pdftex.def Info: ATLAS_Calorimeters.png  used on input line 819.
+Package pdftex.def Info: ATLAS_Calorimeters.png  used on input line 854.
 (pdftex.def)             Requested size: 341.26895pt x 222.82855pt.
- [29 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Calorimeters.png>] [30]
-<Muon_System.png, id=506, 1027.84pt x 770.88pt>
+ [30] [31 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Calorimeters.png>]
+<Muon_System.png, id=529, 1027.84pt x 770.88pt>
 File: Muon_System.png Graphic file (type png)
 <use Muon_System.png>
-Package pdftex.def Info: Muon_System.png  used on input line 848.
+Package pdftex.def Info: Muon_System.png  used on input line 883.
 (pdftex.def)             Requested size: 308.35437pt x 231.26578pt.
- [31 </home/jake/Desktop/Thesis/Latex_materials/Muon_System.png (PNG copy)>] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.bbl [32] [33] [34] [35]) [36]
-Overfull \hbox (5.06497pt too wide) in paragraph at lines 889--890
+ [32] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.bbl [33 </home/jake/Desktop/Thesis/Latex_materials/Muon_System.png (PNG copy)>] [34] [35] [36]) [37]
+Overfull \hbox (5.06497pt too wide) in paragraph at lines 924--925
 []$[]$  
  []
 
 [1]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 917.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 952.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.917 \end{document}
+l.952 \end{document}
                      [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 917.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 952.
  (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 917.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 917.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 952.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 952.
 Package rerunfilecheck Info: File `Prog_2.out' has not changed.
-(rerunfilecheck)             Checksum: 58A8206B907D3F699C24487C5A21A409;1498.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 917.
+(rerunfilecheck)             Checksum: 4E9C1893A5DDE209C8F140E54DDF1FA4;1649.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 952.
  ) 
 Here is how much of TeX's memory you used:
- 8385 strings out of 483183
- 129901 string characters out of 5966291
- 393452 words of memory out of 5000000
- 23079 multiletter control sequences out of 15000+600000
+ 8395 strings out of 483183
+ 130067 string characters out of 5966291
+ 393544 words of memory out of 5000000
+ 23082 multiletter control sequences out of 15000+600000
  543465 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,20n,46p,1326b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,20n,46p,1303b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on /home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf (40 pages, 3296579 bytes).
+Output written on /home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf (41 pages, 3301406 bytes).
 PDF statistics:
- 709 PDF objects out of 1000 (max. 8388607)
- 599 compressed objects within 6 object streams
- 160 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 167 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
