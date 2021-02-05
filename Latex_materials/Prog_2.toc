@@ -15,10 +15,11 @@
 \contentsline {subsubsection}{\numberline {3.1.4}Pileup}{22}{subsubsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.2}ATLAS}{23}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Coordinate System}{24}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Inner Detector}{25}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}ATLAS}{25}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{26}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{27}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{29}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Muon System}{32}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{33}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.2.2}The Magnet System}{25}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Inner Detector}{26}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}ATLAS}{28}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{29}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{30}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{32}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Muon System}{35}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{36}{subsubsection.3.3.5}%

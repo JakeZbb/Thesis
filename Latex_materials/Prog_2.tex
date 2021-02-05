@@ -750,9 +750,63 @@ An example of this process can be seen by considering the constraint placed on t
 			\Delta R = \sqrt{ (\Delta\eta)^{2} + (\Delta\phi)^{2} }
 		\end{equation}
 
+		%04/02/21
+
+		\subsubsection{The Magnet System}
+
+		The ATLAS magnet system consists of four magnets: a single solenoid magnet \cite{ATLASSolenoidMagnet}, and three toroidal magnets (which contribute an important part of the ATLAS name). The central solenoid provides the magnetic field for the inner detector, and the toroidal magnets provide the magnetic field	for the muon system. \par
+
+		The solenoid magnet is named the Central Solenoid Magnet. It is aligned with the $z$-axis (i.e. the beam pipe) and exerts a 2T axial magnetic field which bends the path of charged particles within the inner detector. The magnet weighs 5 tonnes but is only 5 cm thick (which corresponds to 0.66 radiation lengths) in order to minimize the probability of particle interactions with the magnet itself. The solenoid is cooled to a temperature of 4.5 K in order to maintain its superconducting state, and is capable of storing a total of 38 MJ of energy. \par
+		
+		In the case of the toroidal magnets, there is one toroidal magnet located in the barrel region and one toroidal magnet in each endcap region. The magnetic fields produced by the toroids are orthogonal to each other, creating an overall magnetic field of 0.5 T in the barrel region and 1 T in each endcap. Together, these magnetic fields bend the path of muons in the outermost region of the detector. The position of each toroid's coils can be seen in Figure . Each magnet contains eight coils, however the coils for the barrel region are by far the largest with a length of 25.3 metres each whereas the length of the endcap coils are only 5 metres. Each endcap toroid weighs 240 tonnes and stores 0.25 GJ of energy, while the much larger barrel toroid weights a total of 830 tonnes and stores a total of 1.08 GJ of energy. 
+		
+		The shape of the magnetic field created within ATLAS by both the solenoid and toroidal magnet can be seen in Figure \ref{Fig:CernMagneticField}. 
+		
+		The barrel toroid is The magnetic fields produced by the toroids are orthogonal to each other, creating an overall magnetic field of 0.5 T in the barrel region and 1 T in each endcap. 
+		
+		The endcap magnets are large, doughnut shaped magnets that rest at either end of the detector and provide the magnetic field in the end-cap regions of the muon system. The barrel toroid is longer, with 25.3m toroidal coils that span the length of the muon system and provide a constant toroidal magnetic field to that system. The contributions of the barrel and end-cap toroids to the toroidal field around the muon detectors is as follows: 0.5T from the barrel toroid, and 1T from each of the end-cap toroids. Each end-cap magnet weighs 240 tonnes and stores 0.25GJ of energy. The barrel toroid consists of eight individual coils stored within vacuum vessels that surround both the end-cap magnets and the calorimeter systems. The barrel toroid weighs a total of 830 tonnes, and stores a total of 1.08GJ of energy. The shape of the ATLAS magnetic field can be seen in Figure \ref{Fig:CernMagneticField}. 
+		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}
+		
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.4]{Magnetic_Field}
+			\caption{The shape of the magnetic field within the ATLAS detector. The left plot shows the magnetic field as if looking down the beamline. The right plot shows the magnetic field when viewed from above \cite{Article:CernMagnets}. }
+			\label{Fig:CernMagneticField}
+		\end{figure}
+
 		\subsubsection{Inner Detector}\label{Section:InnerDetector}
 
-		%04/02/21
+		The inner detector is the most central component of ATLAS and makes the most immediate measurements after a collision such as those of the primary and secondary vertex, and of particle momentum. The inner detector covers a pseudorapidity range of $|\eta| <$ 2.5	and consists of the Pixel Detector, Semiconductor Tracker (SCT), and the Transition
+		Radiation Tracker (TRT). These components can be seen in Figure \ref{Fig:InnerDetector}. \par
+		
+		Both the pixel detector and SCT consist of thousands of silicon sensors. The pixel detector consists of 1744 silicon wafers (each 250 $\upmu$m thick), and the SCT of 15912 silicon wafers (each 285±15 $\upmu$m thick). The charged particles that pass through the pixel detector and SCT ionise within the submodules’ silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these wafers that these ion-electron pairs are created, the path of the charged particles that pass through the inner detector can be measured 
+		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}.
+		\par
+		
+		
+		\begin{comment}
+		While these two systems can perform a preliminary identification of particles, and preliminary measurements of momentum, the most essential function of the pixel detector and SCT is its ability to identify and distinguish charged particle tracks. 
+		\end{comment}
+		
+		
+		 The inner detector performs several crucial functions within ATLAS: By performing measurements of charged particles that pass through the inner detector as their paths are bent by the magnet system, the inner detector can perform preliminary momentum measurements and track the paths of these charged particles throughout ATLAS. The measurements of momentum performed by the inner detector are supplemented by readings from other detector subsystems (such as energy deposits in the calorimeters), however the inner detector performs the most precise measurement of muon momentum. The paths measured by the inner detector provide excellent measurements of the tracks of charged particles, and are crucial for reconstructing events within ATLAS as they allow the detector triggers to correlate particle tracks to hits in other detector systems. By mapping hits in other detector subsystems with the paths tracked by the inner detector, it is possible to identify the kinematics and flavour of each particle travelling through ATLAS in order to fully describe each event. The inner detector is also responsible	for identifying the main interaction point of each collision, by tracing the particle tracks back to the point where they originate. \par
+		
+		The number of particle tracks that occur within each event is very high, and in order to perform these measurements the inner detector must have a very high spatial resolution. The pixel detector and SCT have spatial resolutions of 12$\upmu$m and 16$\upmu$m respectively, which is	essential to allow the detector to discern between the tracks of charged particles within the
+		inner detector. The large number of events that occur within ATLAS every second can only be measured if the detector is able to accurately measure each involved particle, hence being	able to distinguish each event’s tracks and collision points is essential to all measurements
+		performed by ATLAS. \par
+		
+		As charged particles pass through the TRT, they pass through drift tubes filled with a mixture of xenon, carbon dioxide, and oxygen gas. The charged particles emit transition radiation as they pass from the detector material into the gas, and also ionise the gas as they travel through it. The number of photons produced via transition radiation and
+		electrons produced from EM-ionisation can be used to help distinguish between charged	particles such as electrons and pions. By observing which of the drift tubes detected a	signal, the TRT can supplement the measurement of the path of the charged particle	performed by the pixel detector and SCT. \par
+		
+		
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.7]{Inner_Detector}
+			\caption{A figure showing the layout of the inner detector within ATLAS \cite{Article:ATLASDesignPaper}. }
+			\label{Fig:InnerDetector}
+		\end{figure}
+
+		%05/02/21
 
 		\subsection{ATLAS}
 		
