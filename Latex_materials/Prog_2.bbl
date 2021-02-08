@@ -268,6 +268,18 @@ Richard~Hawkings Eric~Torrence.
 \newblock
   \urlprefix\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
 
+\bibitem{ATLAS-TDR-01}
+A.~Airapetian et~al. (ATLAS).
+\newblock {ATLAS: Detector and physics performance technical design report.
+  Volume 1}.
+\newblock 1999.
+
+\bibitem{ATLAS-TDR-02}
+A.~Airapetian et~al. (ATLAS).
+\newblock {ATLAS: Detector and physics performance technical design report.
+  Volume 2}.
+\newblock 1999.
+
 \bibitem{Article:ATLASDesignPaper}
 G.~Aad et~al. (ATLAS).
 \newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
@@ -281,17 +293,25 @@ A~Yamamoto, T~Kondo, Y~Doi, et~al.
   1998.
 \newblock \urlprefix\url{http://dx.doi.org/10.1109/77.783430}.
 
-\bibitem{ATLAS-TDR-01}
-A.~Airapetian et~al. (ATLAS).
-\newblock {ATLAS: Detector and physics performance technical design report.
-  Volume 1}.
-\newblock 1999.
+\bibitem{ATLASBarrelToroid}
+J~P Badiou, J~Beltramelli, J~M Baze, et~al. (ATLAS Collaboration).
+\newblock \emph{{ATLAS barrel toroid: Technical Design Report}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1997.
+\newblock Electronic version not available,
+  \urlprefix\url{http://cds.cern.ch/record/331065}.
 
-\bibitem{ATLAS-TDR-02}
-A.~Airapetian et~al. (ATLAS).
-\newblock {ATLAS: Detector and physics performance technical design report.
-  Volume 2}.
-\newblock 1999.
+\bibitem{ATLASEndcapToroid}
+\emph{{ATLAS end-cap toroids: Technical Design Report}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1997.
+\newblock Electronic version not available,
+  \urlprefix\url{http://cds.cern.ch/record/331066}.
+
+\bibitem{ATLASToroids}
+J.J. Goodson.
+\newblock Search for Supersymmetry in States with Large Missing Transverse
+  Momentum and Three Leptons including a Z-Boson.
+\newblock Ph.D. thesis, Stony Brook University, May 2012.
+\newblock Presented 17 Apr 2012.
 
 \bibitem{Article:CernMagnets}
 H.H.J. ten Kate.
@@ -300,6 +320,23 @@ H.H.J. ten Kate.
 \newblock Proceedings of the 20th International Symposium on Superconductivity
   (ISS 2007),
   \urlprefix\url{http://dx.doi.org/https://doi.org/10.1016/j.physc.2008.05.146}.
+
+\bibitem{ATLASID1}
+\emph{{ATLAS inner detector: Technical Design Report, 1}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1997.
+\newblock \urlprefix\url{https://cds.cern.ch/record/331063}.
+
+\bibitem{ATLASID2}
+S~Haywood, L~Rossi, R~Nickerson, et~al. (ATLAS Collaboration).
+\newblock \emph{{ATLAS inner detector: Technical Design Report, 2}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1997.
+\newblock \urlprefix\url{https://cds.cern.ch/record/331064}.
+
+\bibitem{IBL-TDR}
+M~Capeans, G~Darbo, K~Einsweiller, et~al. (ATLAS Collaboration).
+\newblock {ATLAS Insertable B-Layer Technical Design Report}.
+\newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
+\newblock \urlprefix\url{https://cds.cern.ch/record/1291633}.
 
 \bibitem{Article:ECALCalibration}
 M.~Aharrouche and ATLAS Electromagnetic Barrel~Calorimeter Collaboration.

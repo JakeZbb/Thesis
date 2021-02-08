@@ -705,7 +705,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		\subsection{ATLAS}
 
-		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS_Collab}, located at Point 1 of the LHC ring, is the largest general-purpose experiment at CERN. ATLAS is cylindrical in shape, with a length of 46 metres and a diameter of 25 metres. The immense scale of ATLAS can be difficult to picture without adequate reference: the diameter of ATLAS is 1 metre greater than the height of Buckingham palace, and its length is the same as the Statue of Liberty's height\footnote{The statue of liberty itself, excluding the 47 m pedestal that the statue stands upon.}. It would take a tower of 9 giraffes carefully lying head to hoof in the ATLAS cavern while wearing the appropriate personal protective equipment (PPE) to occupy the same length as the ATLAS detector\footnote{This would likely irritate the giraffes.}. 
+		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS_Collab}, located at Point 1 of the LHC ring, is the largest general-purpose experiment at CERN. The design of ATLAS is carefully engineered in order to maximise its capabilities as a general-purpose particle detector \cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}. ATLAS is cylindrical in shape, with a length of 46 metres and a diameter of 25 metres. The immense scale of ATLAS can be difficult to picture without adequate reference: the diameter of ATLAS is 1 metre greater than the height of Buckingham palace, and its length is the same as the Statue of Liberty's height\footnote{The statue of liberty itself, excluding the 47 m pedestal that the statue stands upon.}. It would take a tower of 9 giraffes carefully lying head to hoof in the ATLAS cavern while wearing the appropriate personal protective equipment (PPE) to occupy the same length as the ATLAS detector\footnote{This would likely irritate the giraffes.}. 
 		
 		% The immense size of ATLAS can be difficult to picture without adequate reference:
 		%\begin{itemize}
@@ -715,7 +715,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		%02/02/21
 
-		The ATLAS detector is constructed around the LHC beamline at Point 1 with it's cylindrical geometry divided into two categories: the \textit{barrel} and the \textit{endcap}, which can be visualised as the sides and top/bottom of a standard cylinder respectively. The cylindrical design of the ATLAS detector allows almost full coverage of 4$\pi$ and forward-backward symmetry across the IP, hence the IP is located at the perfect centre of the barrel region in the heart of the detector. Particles originating from collisions at the IP travel outward and through different sub-systems, each sensitive to particular properties of various particles, in order to identify and reconstruct physics objects in each event. \par 
+		The ATLAS detector is constructed around the LHC beamline at Point 1 with its cylindrical geometry divided into two categories: the \textit{barrel} and the \textit{endcap}, which can be visualised as the sides and top/bottom of a standard cylinder respectively. The cylindrical design of the ATLAS detector allows almost full coverage of 4$\pi$ and forward-backward symmetry across the IP, hence the IP is located at the perfect centre of the barrel region in the heart of the detector. Particles originating from collisions at the IP travel outward and through different sub-systems, each sensitive to particular properties of various particles, in order to identify and reconstruct physics objects in each event. \par 
 
 		%03/02/21
 
@@ -754,18 +754,20 @@ An example of this process can be seen by considering the constraint placed on t
 
 		\subsubsection{The Magnet System}
 
-		The ATLAS magnet system consists of four magnets: a single solenoid magnet \cite{ATLASSolenoidMagnet}, and three toroidal magnets (which contribute an important part of the ATLAS name). The central solenoid provides the magnetic field for the inner detector, and the toroidal magnets provide the magnetic field	for the muon system. \par
+		The ATLAS magnet system consists of four magnets: a single solenoid magnet \cite{ATLASSolenoidMagnet}, and three toroidal magnets \cite{ATLASBarrelToroid, ATLASEndcapToroid} (which contribute an important part of the ATLAS name). The central solenoid provides the magnetic field for the inner detector, and the toroidal magnets provide the magnetic field	for the muon system. The arrangement of the magnet systems within ATLAS can be seen in Figure . \par
+
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.15]{Magnet_Layout.png}
+			\caption{The relative location of the solenoid, barrel toroids, and endcap toroids \cite{ATLASToroids}. }
+			\label{Fig:CernMagneticLayout}
+		\end{figure}
 
 		The solenoid magnet is named the Central Solenoid Magnet. It is aligned with the $z$-axis (i.e. the beam pipe) and exerts a 2T axial magnetic field which bends the path of charged particles within the inner detector. The magnet weighs 5 tonnes but is only 5 cm thick (which corresponds to 0.66 radiation lengths) in order to minimize the probability of particle interactions with the magnet itself. The solenoid is cooled to a temperature of 4.5 K in order to maintain its superconducting state, and is capable of storing a total of 38 MJ of energy. \par
 		
-		In the case of the toroidal magnets, there is one toroidal magnet located in the barrel region and one toroidal magnet in each endcap region. The magnetic fields produced by the toroids are orthogonal to each other, creating an overall magnetic field of 0.5 T in the barrel region and 1 T in each endcap. Together, these magnetic fields bend the path of muons in the outermost region of the detector. The position of each toroid's coils can be seen in Figure . Each magnet contains eight coils, however the coils for the barrel region are by far the largest with a length of 25.3 metres each whereas the length of the endcap coils are only 5 metres. Each endcap toroid weighs 240 tonnes and stores 0.25 GJ of energy, while the much larger barrel toroid weights a total of 830 tonnes and stores a total of 1.08 GJ of energy. 
+		In the case of the toroidal magnets, there is one toroidal magnet located in the barrel region and one toroidal magnet in each endcap region. The magnetic fields produced by the toroids are orthogonal to each other, creating an overall magnetic field of 0.5 T in the barrel region and 1 T in each endcap. Together, these magnetic fields bend the path of muons in the outermost region of the detector. The position of each toroid's coils can be seen in Figure \ref{Fig:CernMagneticLayout}. Each magnet contains eight coils, however the coils for the barrel region are by far the largest with a length of 25.3 metres each whereas the length of the endcap coils are only 5 metres. Each endcap toroid weighs 240 tonnes and stores 0.25 GJ of energy, while the much larger barrel toroid weights a total of 830 tonnes and stores a total of 1.08 GJ of energy. 
 		
 		The shape of the magnetic field created within ATLAS by both the solenoid and toroidal magnet can be seen in Figure \ref{Fig:CernMagneticField}. 
-		
-		The barrel toroid is The magnetic fields produced by the toroids are orthogonal to each other, creating an overall magnetic field of 0.5 T in the barrel region and 1 T in each endcap. 
-		
-		The endcap magnets are large, doughnut shaped magnets that rest at either end of the detector and provide the magnetic field in the end-cap regions of the muon system. The barrel toroid is longer, with 25.3m toroidal coils that span the length of the muon system and provide a constant toroidal magnetic field to that system. The contributions of the barrel and end-cap toroids to the toroidal field around the muon detectors is as follows: 0.5T from the barrel toroid, and 1T from each of the end-cap toroids. Each end-cap magnet weighs 240 tonnes and stores 0.25GJ of energy. The barrel toroid consists of eight individual coils stored within vacuum vessels that surround both the end-cap magnets and the calorimeter systems. The barrel toroid weighs a total of 830 tonnes, and stores a total of 1.08GJ of energy. The shape of the ATLAS magnetic field can be seen in Figure \ref{Fig:CernMagneticField}. 
-		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}
 		
 		\begin{figure}
 			\centering
@@ -776,8 +778,21 @@ An example of this process can be seen by considering the constraint placed on t
 
 		\subsubsection{Inner Detector}\label{Section:InnerDetector}
 
-		The inner detector is the most central component of ATLAS and makes the most immediate measurements after a collision such as those of the primary and secondary vertex, and of particle momentum. The inner detector covers a pseudorapidity range of $|\eta| <$ 2.5	and consists of the Pixel Detector, Semiconductor Tracker (SCT), and the Transition
-		Radiation Tracker (TRT). These components can be seen in Figure \ref{Fig:InnerDetector}. \par
+		The Inner Detector \cite{ATLASID1, ATLASID2} is the most central component of ATLAS providing precise measurements of both particle charge and momentum, in addition to tracking charged particles to a pseudorapidity range of $|\eta| < 2.5$. Using both an impact parameter, $d_{0}$, and a longitudinal impact parameter, $z_{0}$, the ID is able to characterise the primary vertex of each interaction. The parameter $d_{0}$ is defined as the distance between the vertex's point of closest approach and the $z$-axis, and the parameter $z_{0}$ is defined as the $z$-coordinate of the primary vertex's point of closest approach. A high precision measurement of the primary vertex is crucial to this analysis as the delayed secondary vertex of b-tagged events is an extremely important in their identification, and an excellent resolution for $d_{0}$ and $z_{0}$ allows for easier identification of b-hadrons and other particles with longer lifetime. 
+
+		The ID consists of four subsystems which work in conjunction to track charged particles and perform high resolution measurements of their charge and momentum. These subsystems are the \hyperref[Section:IBL]{Insertable B-Layer (IBL)}, the \hyperref[Section:PixelDetector]{Pixel Detector}, the \hyperref[Section:SCT]{Semiconductor Tracker (SCT)}, and the \hyperref[Section:TRT]{Transition Radiation Tracker (TRT)}.  
+
+		\paragraph{The Insertable B-Layer (IBL)}\label{Section:IBL}
+
+		The most central component of the ID is the IBL \cite{IBL-TDR}, which was added to ATLAS during the shutdown between Run 1 and Run 2. The IBL increased the resolution of $d_{0}$ and vertex measurements when compared with the pixel detector alone, which was an important addition due to the much higher pileup during Run 2 (which can easily obfuscate the primary vertex as discussed in Section \ref{Section:Pileup}).
+
+		\paragraph{The Pixel Detector}\label{Section:PixelDetector}
+
+		\paragraph{The Semiconductor Tracker (SCT)}\label{Section:SCT}
+
+		\paragraph{The Transition Radiation Tracker (TRT)}\label{Section:TRT}
+
+		The inner detector is the most central component of ATLAS and aims to take extremely precise measurements of charged particles, with primary focus on momentum and vertex resolution. The inner detector covers a pseudorapidity range of $|\eta| <$ 2.5 and consists of the Pixel Detector, Semiconductor Tracker (SCT), and the Transition Radiation Tracker (TRT). These components can be seen in Figure \ref{Fig:InnerDetector}. \par
 		
 		Both the pixel detector and SCT consist of thousands of silicon sensors. The pixel detector consists of 1744 silicon wafers (each 250 $\upmu$m thick), and the SCT of 15912 silicon wafers (each 285±15 $\upmu$m thick). The charged particles that pass through the pixel detector and SCT ionise within the submodules’ silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these wafers that these ion-electron pairs are created, the path of the charged particles that pass through the inner detector can be measured 
 		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}.
