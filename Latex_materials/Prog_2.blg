@@ -27,45 +27,45 @@ Warning--empty author and editor in ATLASEndcapToroid
 Warning--empty author and editor in ATLASID1
 Warning--missing institution in IBL-TDR
 Warning--empty journal in Article:ECALCalibration
-You've used 52 entries,
+You've used 53 entries,
             2525 wiz_defined-function locations,
-            1393 strings with 121896 characters,
-and the built_in function-call counts, 17928 in all, are:
-= -- 1058
-> -- 531
+            1400 strings with 121984 characters,
+and the built_in function-call counts, 18234 in all, are:
+= -- 1076
+> -- 535
 < -- 4
-+ -- 250
-- -- 123
-* -- 1006
-:= -- 1874
-add.period$ -- 206
-call.type$ -- 52
++ -- 252
+- -- 124
+* -- 1021
+:= -- 1907
+add.period$ -- 210
+call.type$ -- 53
 change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 2000
-empty$ -- 1844
-format.name$ -- 158
-if$ -- 3964
+cite$ -- 66
+duplicate$ -- 2036
+empty$ -- 1878
+format.name$ -- 159
+if$ -- 4032
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 554
-newline$ -- 309
-num.names$ -- 48
-pop$ -- 858
+int.to.str$ -- 53
+missing$ -- 564
+newline$ -- 315
+num.names$ -- 49
+pop$ -- 872
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 527
+skip$ -- 537
 stack$ -- 0
-substring$ -- 398
-swap$ -- 1216
+substring$ -- 408
+swap$ -- 1236
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 13
-while$ -- 77
-width$ -- 54
-write$ -- 670
+while$ -- 79
+width$ -- 55
+write$ -- 683
 (There were 15 warnings)

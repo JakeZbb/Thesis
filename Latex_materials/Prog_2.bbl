@@ -338,6 +338,12 @@ M~Capeans, G~Darbo, K~Einsweiller, et~al. (ATLAS Collaboration).
 \newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
 \newblock \urlprefix\url{https://cds.cern.ch/record/1291633}.
 
+\bibitem{ATLASPixel}
+Beniamino Di~Girolamo.
+\newblock {ATLAS Pixel}.
+\newblock \emph{PoS}, Vertex 2011:006, 2012.
+\newblock \urlprefix\url{http://dx.doi.org/10.22323/1.137.0006}.
+
 \bibitem{Article:ECALCalibration}
 M.~Aharrouche and ATLAS Electromagnetic Barrel~Calorimeter Collaboration.
 \newblock Energy Linearity and Resolution of the ATLAS Electromagnetic Barrel

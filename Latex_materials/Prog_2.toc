@@ -17,13 +17,13 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Coordinate System}{24}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}The Magnet System}{25}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Inner Detector}{26}{subsubsection.3.2.3}%
-\contentsline {paragraph}{The Insertable B-Layer (IBL)}{27}{section*.19}%
-\contentsline {paragraph}{The Pixel Detector}{27}{section*.20}%
-\contentsline {paragraph}{The Semiconductor Tracker (SCT)}{27}{section*.21}%
-\contentsline {paragraph}{The Transition Radiation Tracker (TRT)}{28}{section*.22}%
-\contentsline {subsection}{\numberline {3.3}ATLAS}{29}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{30}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{31}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{32}{subsubsection.3.3.3}%
+\contentsline {paragraph}{The Insertable B-Layer (IBL)}{27}{section*.20}%
+\contentsline {paragraph}{The Pixel Detector}{28}{section*.21}%
+\contentsline {paragraph}{The Semiconductor Tracker (SCT)}{28}{section*.22}%
+\contentsline {paragraph}{The Transition Radiation Tracker (TRT)}{28}{section*.23}%
+\contentsline {subsection}{\numberline {3.3}ATLAS}{30}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{31}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{32}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{33}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Muon System}{36}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{37}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{38}{subsubsection.3.3.5}%

@@ -776,21 +776,36 @@ An example of this process can be seen by considering the constraint placed on t
 			\label{Fig:CernMagneticField}
 		\end{figure}
 
+		% 05/02/21
+
 		\subsubsection{Inner Detector}\label{Section:InnerDetector}
 
 		The Inner Detector \cite{ATLASID1, ATLASID2} is the most central component of ATLAS providing precise measurements of both particle charge and momentum, in addition to tracking charged particles to a pseudorapidity range of $|\eta| < 2.5$. Using both an impact parameter, $d_{0}$, and a longitudinal impact parameter, $z_{0}$, the ID is able to characterise the primary vertex of each interaction. The parameter $d_{0}$ is defined as the distance between the vertex's point of closest approach and the $z$-axis, and the parameter $z_{0}$ is defined as the $z$-coordinate of the primary vertex's point of closest approach. A high precision measurement of the primary vertex is crucial to this analysis as the delayed secondary vertex of b-tagged events is an extremely important in their identification, and an excellent resolution for $d_{0}$ and $z_{0}$ allows for easier identification of b-hadrons and other particles with longer lifetime. 
 
-		The ID consists of four subsystems which work in conjunction to track charged particles and perform high resolution measurements of their charge and momentum. These subsystems are the \hyperref[Section:IBL]{Insertable B-Layer (IBL)}, the \hyperref[Section:PixelDetector]{Pixel Detector}, the \hyperref[Section:SCT]{Semiconductor Tracker (SCT)}, and the \hyperref[Section:TRT]{Transition Radiation Tracker (TRT)}.  
+		The ID consists of four subsystems which work in conjunction to track charged particles and perform high resolution measurements of their charge and momentum. These subsystems are the \hyperref[Section:IBL]{Insertable B-Layer (IBL)}, the \hyperref[Section:PixelDetector]{Pixel Detector}, the \hyperref[Section:SCT]{Semiconductor Tracker (SCT)}, and the \hyperref[Section:TRT]{Transition Radiation Tracker (TRT)}. The layout of these components within the ID barrel region can be seen in Figure \ref{Fig:InnerDetector}.  
+
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.7]{Inner_Detector}
+			\caption{A figure showing the layout of the ID within ATLAS \cite{Article:ATLASDesignPaper}. }
+			\label{Fig:InnerDetector}
+		\end{figure}
+
+		The IBL, pixel detector, and SCT all operate through the use of pixel modules containing tens of thousands of silicon pixel sensors. As charged particles pass through the pixel sensors, they ionise with the silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these pixel modules that these ion-electron pairs are created, the path of the charged particles that pass through the ID can be measured. 
 
 		\paragraph{The Insertable B-Layer (IBL)}\label{Section:IBL}
 
-		The most central component of the ID is the IBL \cite{IBL-TDR}, which was added to ATLAS during the shutdown between Run 1 and Run 2. The IBL increased the resolution of $d_{0}$ and vertex measurements when compared with the pixel detector alone, which was an important addition due to the much higher pileup during Run 2 (which can easily obfuscate the primary vertex as discussed in Section \ref{Section:Pileup}).
+		The most central component of the ID is the IBL \cite{IBL-TDR} (positioned a mere R = 33.25 mm away from the beam pipe), which was added to ATLAS during the shutdown between Run 1 and Run 2. The IBL increases the resolution of $d_{0}$ and vertex measurements when compared with the pixel detector alone, which is an important addition due to the high pileup of Run 2 (which can easily obfuscate the primary vertex as discussed in Section \ref{Section:Pileup}). Each individual pixel is extremely small and has dimensions of $50 \mu m \times 250 \mu m$, which allows for a tracking resolution of 8 $\mu$m and 40 $\mu$m in the $x$-$y$ plane and $z$ direction respectively.  
 
 		\paragraph{The Pixel Detector}\label{Section:PixelDetector}
+
+		The pixel detector consists of three layers of concentric cylinders coaxial to the beam pipe, and three layers of endcap disks perpendicular to the beam pipe. The barrel layers are positioned at R = 50.5, 88.5, and 122.5 mm, with the endcap disks positioned at $z$ = 495, 580, and 650 mm. These components consist of a total of 1744 pixel modules \cite{ATLASPixel} with a thickness of 250 $\mu$m, each containing 47,232 pixels with dimensions of 50 $\mu$m $\times$ 400 $\mu$m. Each pixel module contains 16 front-end chips with 2880 readout channels equating to a total of 46,080 readout channels per module, however all 47,232 pixels are readout of each module (pixels in the inter-chip regions are ganged together to be readout). Overall, the pixel detector has over 80 million readout channels and provides a spatial resolution of 10 $\mu$m in the $x$-$y$ plane and a spatial resolution of 115 $\mu$m in the $z$-axis. 
 
 		\paragraph{The Semiconductor Tracker (SCT)}\label{Section:SCT}
 
 		\paragraph{The Transition Radiation Tracker (TRT)}\label{Section:TRT}
+
+		% 08/02/21
 
 		The inner detector is the most central component of ATLAS and aims to take extremely precise measurements of charged particles, with primary focus on momentum and vertex resolution. The inner detector covers a pseudorapidity range of $|\eta| <$ 2.5 and consists of the Pixel Detector, Semiconductor Tracker (SCT), and the Transition Radiation Tracker (TRT). These components can be seen in Figure \ref{Fig:InnerDetector}. \par
 		
@@ -820,8 +835,6 @@ An example of this process can be seen by considering the constraint placed on t
 			\caption{A figure showing the layout of the inner detector within ATLAS \cite{Article:ATLASDesignPaper}. }
 			\label{Fig:InnerDetector}
 		\end{figure}
-
-		%05/02/21
 
 		\subsection{ATLAS}
 		
