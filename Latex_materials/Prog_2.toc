@@ -7,20 +7,21 @@
 \contentsline {subsubsection}{\numberline {2.2.3}Higgs Mechanism}{8}{subsubsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.3}Signal Processes}{11}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Background Processes}{12}{subsection.2.4}%
-\contentsline {section}{\numberline {3}LHC and ATLAS}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}LHC}{15}{subsection.3.1}%
+\contentsline {section}{\numberline {3}LHC and ATLAS}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}LHC}{16}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Acceleration at the LHC}{16}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Beam Structure}{19}{subsubsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.3}Luminosity}{20}{subsubsection.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.1.4}Pileup}{22}{subsubsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.2}ATLAS}{23}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Coordinate System}{24}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1}The ATLAS Coordinate System}{24}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}The Magnet System}{25}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Inner Detector}{26}{subsubsection.3.2.3}%
-\contentsline {paragraph}{The Insertable B-Layer (IBL)}{27}{section*.20}%
-\contentsline {paragraph}{The Pixel Detector}{28}{section*.21}%
-\contentsline {paragraph}{The Semiconductor Tracker (SCT)}{28}{section*.22}%
-\contentsline {paragraph}{The Transition Radiation Tracker (TRT)}{28}{section*.23}%
+\contentsline {subsubsection}{\numberline {3.2.3}The Inner Detector}{26}{subsubsection.3.2.3}%
+\contentsline {paragraph}{The Insertable B-Layer (IBL)}{27}{section*.21}%
+\contentsline {paragraph}{The Pixel Detector}{29}{section*.22}%
+\contentsline {paragraph}{The Semiconductor Tracker (SCT)}{29}{section*.23}%
+\contentsline {paragraph}{The Transition Radiation Tracker (TRT)}{29}{section*.24}%
+\contentsline {subsubsection}{\numberline {3.2.4}The Calorimeters}{30}{subsubsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.3}ATLAS}{30}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{31}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{32}{subsubsection.3.3.2}%

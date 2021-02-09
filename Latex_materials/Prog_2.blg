@@ -25,47 +25,49 @@ Warning--empty journal in ATLAS-TDR-01
 Warning--empty journal in ATLAS-TDR-02
 Warning--empty author and editor in ATLASEndcapToroid
 Warning--empty author and editor in ATLASID1
+Warning--empty note in ATLASIDImage
 Warning--missing institution in IBL-TDR
+Warning--empty author in ATLASSCT
 Warning--empty journal in Article:ECALCalibration
-You've used 53 entries,
+You've used 57 entries,
             2525 wiz_defined-function locations,
-            1400 strings with 121984 characters,
-and the built_in function-call counts, 18234 in all, are:
-= -- 1076
-> -- 535
-< -- 4
-+ -- 252
-- -- 124
-* -- 1021
-:= -- 1907
-add.period$ -- 210
-call.type$ -- 53
+            1428 strings with 125846 characters,
+and the built_in function-call counts, 19347 in all, are:
+= -- 1140
+> -- 561
+< -- 6
++ -- 265
+- -- 130
+* -- 1080
+:= -- 2025
+add.period$ -- 224
+call.type$ -- 57
 change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 66
-duplicate$ -- 2036
-empty$ -- 1878
-format.name$ -- 159
-if$ -- 4032
+cite$ -- 72
+duplicate$ -- 2170
+empty$ -- 1992
+format.name$ -- 166
+if$ -- 4270
 int.to.chr$ -- 0
-int.to.str$ -- 53
-missing$ -- 564
-newline$ -- 315
-num.names$ -- 49
-pop$ -- 872
+int.to.str$ -- 57
+missing$ -- 598
+newline$ -- 337
+num.names$ -- 52
+pop$ -- 921
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 537
+skip$ -- 564
 stack$ -- 0
-substring$ -- 408
-swap$ -- 1236
-text.length$ -- 4
+substring$ -- 427
+swap$ -- 1325
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 79
-width$ -- 55
-write$ -- 683
-(There were 15 warnings)
+warning$ -- 15
+while$ -- 83
+width$ -- 59
+write$ -- 732
+(There were 17 warnings)

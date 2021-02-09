@@ -553,6 +553,8 @@ An example of this process can be seen by considering the constraint placed on t
 		In addition to the WqqZll and ZqqZll backgrounds mentioned above, there is an additional background process named ZZ4l which corresponds to an event where the two produced Z bosons decay into four leptons. The Feynman diagram for this process can be seen in Figure \ref{Fig:ZZ4lFeynman}. This background process occurs when one of the Z bosons produces two muons, and the other two electrons. Electrons produce jets along with
 		electromagnetic showers within the electromagnetic calorimeters in ATLAS (see section 3.2.3), and a background process is found where this reconstructed jet is mistagged as a b-jet. \par
 		
+	\newpage
+
 	\section{LHC and ATLAS}
 
 		The source of all experimental data within this thesis is the ATLAS experiment at the Large Hadron Collider (LHC). The following chapters will provide an introduction to both the LHC and the ATLAS experiment with a primary focus on the subsystems of the ATLAS detector most relevant to this analysis. The data used in this thesis was collected during the second run of data collection by the LHC (appropriately named Run 2), which concluded in December of 2018. The third run of data collection will begin in 2021. 
@@ -587,7 +589,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		The LHC does not, however, accelerate the particle beams at every point along its circumference. The LHC is composed of 8 octants, in which the LHC ring is actually a straight line. The curvature of the particle beams occurs at the boundaries of each octant, where 1232 powerful dipole magnets (each 15 metres long and with a weight of 35 tonnes) create a magnetic field of 8.3 T which bends the beams towards the centre of the LHC ring. These dipoles work in conjunction with 392 quadrupoles: magnets with alternating poles in a symmetrical layout that help focus the beam \cite{LHCMagnets}. In order to remain superconducting, these magnet are cooled with super-fluid Helium which allows the magnets to operate at 1.4 K. \par
 
-		The straight sections of the LHC within each of the octants are referred to as "Points", and are numbered according to their position around the LHC ring. Each of these points can be seen in Figure \ref{Fig:CERNOctants}. Point 1, Point 2, Point 5, and Point 8 contain each of the interaction points (IPs) where the particle beams cross and interactions occur. Four large particle detectors of varying design are constructed at each of these IPs in order to observe the collisions that occur where the particle beams collide: two large general-purpose experiments (ATLAS \cite{ATLAS_Collab} and CMS \cite{CMSCollab}) at Point 1 and Point 5, the ALICE \cite{ALICECollab} experiment at Point 2 primarily examining heavy-ion collisions, and the LHCb \cite{LHCCollab} experiment at Point 8 primarily exploring flavour physics and CP-violation through bottom and charm quarks. \par
+		The straight sections of the LHC within each of the octants are referred to as "Points", and are numbered according to their position around the LHC ring. Each of these points can be seen in Figure \ref{Fig:CERNOctants}. Point 1, Point 2, Point 5, and Point 8 contain each of the interaction points (IPs) where the particle beams cross and interactions occur. Four large particle detectors of varying design are constructed at each of these IPs in order to observe the collisions that occur where the particle beams collide: two large general-purpose experiments ATLAS \cite{ATLAS_Collab} and CMS \cite{CMSCollab} at Point 1 and Point 5, the ALICE \cite{ALICECollab} experiment at Point 2 primarily examining heavy-ion collisions, and the LHCb \cite{LHCCollab} experiment at Point 8 primarily exploring flavour physics and CP-violation through bottom and charm quarks. \par
 
 		\begin{figure}
 			\centering
@@ -706,16 +708,10 @@ An example of this process can be seen by considering the constraint placed on t
 		\subsection{ATLAS}
 
 		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS_Collab}, located at Point 1 of the LHC ring, is the largest general-purpose experiment at CERN. The design of ATLAS is carefully engineered in order to maximise its capabilities as a general-purpose particle detector \cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}. ATLAS is cylindrical in shape, with a length of 46 metres and a diameter of 25 metres. The immense scale of ATLAS can be difficult to picture without adequate reference: the diameter of ATLAS is 1 metre greater than the height of Buckingham palace, and its length is the same as the Statue of Liberty's height\footnote{The statue of liberty itself, excluding the 47 m pedestal that the statue stands upon.}. It would take a tower of 9 giraffes carefully lying head to hoof in the ATLAS cavern while wearing the appropriate personal protective equipment (PPE) to occupy the same length as the ATLAS detector\footnote{This would likely irritate the giraffes.}. 
-		
-		% The immense size of ATLAS can be difficult to picture without adequate reference:
-		%\begin{itemize}
-			%\item It would take a tower of nine giraffes, carefully balanced on each other's heads, to create a structure as tall as the length of the ATLAS detector\footnote{This would likely irritate the giraffes.}.
-			%\item In would take over 56 billion tins of soup to completely fill the ATLAS detector's cavern, although it can be difficult to smuggle even a single tin past security\footnote{Allegedly.}.
-		%\end{itemize}
 
 		%02/02/21
 
-		The ATLAS detector is constructed around the LHC beamline at Point 1 with its cylindrical geometry divided into two categories: the \textit{barrel} and the \textit{endcap}, which can be visualised as the sides and top/bottom of a standard cylinder respectively. The cylindrical design of the ATLAS detector allows almost full coverage of 4$\pi$ and forward-backward symmetry across the IP, hence the IP is located at the perfect centre of the barrel region in the heart of the detector. Particles originating from collisions at the IP travel outward and through different sub-systems, each sensitive to particular properties of various particles, in order to identify and reconstruct physics objects in each event. \par 
+		The ATLAS detector is constructed around the LHC beamline at Point 1 with its cylindrical geometry divided into two categories: the \textit{barrel} and the \textit{end-cap}, which can be visualised as the sides and top/bottom of a standard cylinder respectively. The cylindrical design of the ATLAS detector allows almost full coverage of 4$\pi$ and forward-backward symmetry across the IP, hence the IP is located at the perfect centre of the barrel region in the heart of the detector. Particles originating from collisions at the IP travel outward and through different sub-systems, each sensitive to particular properties of various particles, in order to identify and reconstruct physics objects in each event. \par 
 
 		%03/02/21
 
@@ -728,7 +724,7 @@ An example of this process can be seen by considering the constraint placed on t
 			\label{Fig:ATLASDetector}
 		\end{figure}
 
-		\subsubsection{Coordinate System}
+		\subsubsection{The ATLAS Coordinate System}
 
 		In order to be able to accurately describe events relative to the detector and interaction point, ATLAS uses a well defined right-handed coordinate system. Taking the nominal IP as the origin, the $x$-axis points towards the centre of the LHC ring, the $y$-axis points vertically upwards, and the $z$-axis points along the direction of the beam pipe. A subtle yet crucial result of this coordinate system is the definition of the $x$-$y$ plane, which is tangential to the beam pipe (referred to as the \textit{transverse} plan). The nature of the fundamental colliding partons prevent the initial momentum in the $z$ direction from being known, however it is known that the partons have zero initial momentum in the transverse plane and therefore directional vector quantities such as momenta can be projected into the transverse plane. \par
 
@@ -759,13 +755,13 @@ An example of this process can be seen by considering the constraint placed on t
 		\begin{figure}
 			\centering
 			\includegraphics[scale=0.15]{Magnet_Layout.png}
-			\caption{The relative location of the solenoid, barrel toroids, and endcap toroids \cite{ATLASToroids}. }
+			\caption{The relative location of the solenoid, barrel toroids, and end-cap toroids \cite{ATLASToroids}. }
 			\label{Fig:CernMagneticLayout}
 		\end{figure}
 
 		The solenoid magnet is named the Central Solenoid Magnet. It is aligned with the $z$-axis (i.e. the beam pipe) and exerts a 2T axial magnetic field which bends the path of charged particles within the inner detector. The magnet weighs 5 tonnes but is only 5 cm thick (which corresponds to 0.66 radiation lengths) in order to minimize the probability of particle interactions with the magnet itself. The solenoid is cooled to a temperature of 4.5 K in order to maintain its superconducting state, and is capable of storing a total of 38 MJ of energy. \par
 		
-		In the case of the toroidal magnets, there is one toroidal magnet located in the barrel region and one toroidal magnet in each endcap region. The magnetic fields produced by the toroids are orthogonal to each other, creating an overall magnetic field of 0.5 T in the barrel region and 1 T in each endcap. Together, these magnetic fields bend the path of muons in the outermost region of the detector. The position of each toroid's coils can be seen in Figure \ref{Fig:CernMagneticLayout}. Each magnet contains eight coils, however the coils for the barrel region are by far the largest with a length of 25.3 metres each whereas the length of the endcap coils are only 5 metres. Each endcap toroid weighs 240 tonnes and stores 0.25 GJ of energy, while the much larger barrel toroid weights a total of 830 tonnes and stores a total of 1.08 GJ of energy. 
+		In the case of the toroidal magnets, there is one toroidal magnet located in the barrel region and one toroidal magnet in each end-cap region. The magnetic fields produced by the toroids are orthogonal to each other, creating an overall magnetic field of 0.5 T in the barrel region and 1 T in each end-cap. Together, these magnetic fields bend the path of muons in the outermost region of the detector. The position of each toroid's coils can be seen in Figure \ref{Fig:CernMagneticLayout}. Each magnet contains eight coils, however the coils for the barrel region are by far the largest with a length of 25.3 metres each whereas the length of the end-cap coils are only 5 metres. Each end-cap toroid weighs 240 tonnes and stores 0.25 GJ of energy, while the much larger barrel toroid weights a total of 830 tonnes and stores a total of 1.08 GJ of energy. 
 		
 		The shape of the magnetic field created within ATLAS by both the solenoid and toroidal magnet can be seen in Figure \ref{Fig:CernMagneticField}. 
 		
@@ -778,17 +774,24 @@ An example of this process can be seen by considering the constraint placed on t
 
 		% 05/02/21
 
-		\subsubsection{Inner Detector}\label{Section:InnerDetector}
+		\subsubsection{The Inner Detector}\label{Section:InnerDetector}
 
-		The Inner Detector \cite{ATLASID1, ATLASID2} is the most central component of ATLAS providing precise measurements of both particle charge and momentum, in addition to tracking charged particles to a pseudorapidity range of $|\eta| < 2.5$. Using both an impact parameter, $d_{0}$, and a longitudinal impact parameter, $z_{0}$, the ID is able to characterise the primary vertex of each interaction. The parameter $d_{0}$ is defined as the distance between the vertex's point of closest approach and the $z$-axis, and the parameter $z_{0}$ is defined as the $z$-coordinate of the primary vertex's point of closest approach. A high precision measurement of the primary vertex is crucial to this analysis as the delayed secondary vertex of b-tagged events is an extremely important in their identification, and an excellent resolution for $d_{0}$ and $z_{0}$ allows for easier identification of b-hadrons and other particles with longer lifetime. 
+		The Inner Detector \cite{ATLASID1, ATLASID2} is the most central component of ATLAS providing precise measurements of both particle charge and momentum, in addition to tracking charged particles to a pseudorapidity range of $|\eta| < 2.5$. Using both an impact parameter, $d_{0}$, and a longitudinal impact parameter, $z_{0}$, the ID is able to characterise the primary vertex of each interaction. The parameter $d_{0}$ is defined as the distance between the vertex's point of closest approach and the $z$-axis, and the parameter $z_{0}$ is defined as the $z$-coordinate of the primary vertex's point of closest approach. A high precision measurement of the primary vertex is crucial to this analysis as the delayed secondary vertex of b-tagged events is an extremely important in their identification, and an excellent resolution for $d_{0}$ and $z_{0}$ allows for easier identification of b-hadrons and other particles with longer lifetime. The layout of these components within the ID barrel region can be seen in Figure \ref{Fig:InnerDetector}.  
 
-		The ID consists of four subsystems which work in conjunction to track charged particles and perform high resolution measurements of their charge and momentum. These subsystems are the \hyperref[Section:IBL]{Insertable B-Layer (IBL)}, the \hyperref[Section:PixelDetector]{Pixel Detector}, the \hyperref[Section:SCT]{Semiconductor Tracker (SCT)}, and the \hyperref[Section:TRT]{Transition Radiation Tracker (TRT)}. The layout of these components within the ID barrel region can be seen in Figure \ref{Fig:InnerDetector}.  
+		The ID consists of four subsystems which work in conjunction to track charged particles and perform high resolution measurements of their charge and momentum. These subsystems are the \hyperref[Section:IBL]{Insertable B-Layer (IBL)}, the \hyperref[Section:PixelDetector]{Pixel Detector}, the \hyperref[Section:SCT]{Semiconductor Tracker (SCT)}, and the \hyperref[Section:TRT]{Transition Radiation Tracker (TRT)}. A cross section of these systems within the ID can be seen in Figure \ref{Fig:InnerDetectorXsec}.
 
 		\begin{figure}
 			\centering
 			\includegraphics[scale=0.7]{Inner_Detector}
-			\caption{A figure showing the layout of the ID within ATLAS \cite{Article:ATLASDesignPaper}. }
+			\caption{A figure showing a cut-away view of the ATLAS inner detector and its components \cite{ATLASIDImage}. }
 			\label{Fig:InnerDetector}
+		\end{figure}
+
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.4]{ATLAS_ID_Layers}
+			\caption{A figure showing a cross section of the ATLAS inner detector barrel region and its components \cite{ATLASIDImage}.}
+			\label{Fig:InnerDetectorXsec}
 		\end{figure}
 
 		The IBL, pixel detector, and SCT all operate through the use of pixel modules containing tens of thousands of silicon pixel sensors. As charged particles pass through the pixel sensors, they ionise with the silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these pixel modules that these ion-electron pairs are created, the path of the charged particles that pass through the ID can be measured. 
@@ -799,42 +802,24 @@ An example of this process can be seen by considering the constraint placed on t
 
 		\paragraph{The Pixel Detector}\label{Section:PixelDetector}
 
-		The pixel detector consists of three layers of concentric cylinders coaxial to the beam pipe, and three layers of endcap disks perpendicular to the beam pipe. The barrel layers are positioned at R = 50.5, 88.5, and 122.5 mm, with the endcap disks positioned at $z$ = 495, 580, and 650 mm. These components consist of a total of 1744 pixel modules \cite{ATLASPixel} with a thickness of 250 $\mu$m, each containing 47,232 pixels with dimensions of 50 $\mu$m $\times$ 400 $\mu$m. Each pixel module contains 16 front-end chips with 2880 readout channels equating to a total of 46,080 readout channels per module, however all 47,232 pixels are readout of each module (pixels in the inter-chip regions are ganged together to be readout). Overall, the pixel detector has over 80 million readout channels and provides a spatial resolution of 10 $\mu$m in the $x$-$y$ plane and a spatial resolution of 115 $\mu$m in the $z$-axis. 
-
-		\paragraph{The Semiconductor Tracker (SCT)}\label{Section:SCT}
-
-		\paragraph{The Transition Radiation Tracker (TRT)}\label{Section:TRT}
+		The pixel detector consists of three layers of concentric cylinders coaxial to the beam pipe, and three layers of end-cap disks perpendicular to the beam pipe. The barrel layers are positioned at R = 50.5, 88.5, and 122.5 mm, with the end-cap disks positioned at $z$ = 495, 580, and 650 mm. These components consist of a total of 1744 pixel modules \cite{ATLASPixel} with a thickness of 250 $\mu$m, each containing 47,232 pixels with dimensions of 50 $\mu$m $\times$ 400 $\mu$m. Each pixel module contains 16 front-end chips with 2880 readout channels equating to a total of 46,080 readout channels per module, however all 47,232 pixels are readout of each module (pixels in the inter-chip regions are ganged together to be readout). Overall, the pixel detector has over 80 million readout channels and provides a spatial resolution of 10 $\mu$m in the $x$-$y$ plane and a spatial resolution of 115 $\mu$m in the $z$-axis. 
 
 		% 08/02/21
 
-		The inner detector is the most central component of ATLAS and aims to take extremely precise measurements of charged particles, with primary focus on momentum and vertex resolution. The inner detector covers a pseudorapidity range of $|\eta| <$ 2.5 and consists of the Pixel Detector, Semiconductor Tracker (SCT), and the Transition Radiation Tracker (TRT). These components can be seen in Figure \ref{Fig:InnerDetector}. \par
-		
-		Both the pixel detector and SCT consist of thousands of silicon sensors. The pixel detector consists of 1744 silicon wafers (each 250 $\upmu$m thick), and the SCT of 15912 silicon wafers (each 285±15 $\upmu$m thick). The charged particles that pass through the pixel detector and SCT ionise within the submodules’ silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these wafers that these ion-electron pairs are created, the path of the charged particles that pass through the inner detector can be measured 
-		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}.
-		\par
-		
-		
-		\begin{comment}
-		While these two systems can perform a preliminary identification of particles, and preliminary measurements of momentum, the most essential function of the pixel detector and SCT is its ability to identify and distinguish charged particle tracks. 
-		\end{comment}
-		
-		
-		 The inner detector performs several crucial functions within ATLAS: By performing measurements of charged particles that pass through the inner detector as their paths are bent by the magnet system, the inner detector can perform preliminary momentum measurements and track the paths of these charged particles throughout ATLAS. The measurements of momentum performed by the inner detector are supplemented by readings from other detector subsystems (such as energy deposits in the calorimeters), however the inner detector performs the most precise measurement of muon momentum. The paths measured by the inner detector provide excellent measurements of the tracks of charged particles, and are crucial for reconstructing events within ATLAS as they allow the detector triggers to correlate particle tracks to hits in other detector systems. By mapping hits in other detector subsystems with the paths tracked by the inner detector, it is possible to identify the kinematics and flavour of each particle travelling through ATLAS in order to fully describe each event. The inner detector is also responsible	for identifying the main interaction point of each collision, by tracing the particle tracks back to the point where they originate. \par
-		
-		The number of particle tracks that occur within each event is very high, and in order to perform these measurements the inner detector must have a very high spatial resolution. The pixel detector and SCT have spatial resolutions of 12$\upmu$m and 16$\upmu$m respectively, which is	essential to allow the detector to discern between the tracks of charged particles within the
-		inner detector. The large number of events that occur within ATLAS every second can only be measured if the detector is able to accurately measure each involved particle, hence being	able to distinguish each event’s tracks and collision points is essential to all measurements
-		performed by ATLAS. \par
-		
-		As charged particles pass through the TRT, they pass through drift tubes filled with a mixture of xenon, carbon dioxide, and oxygen gas. The charged particles emit transition radiation as they pass from the detector material into the gas, and also ionise the gas as they travel through it. The number of photons produced via transition radiation and
-		electrons produced from EM-ionisation can be used to help distinguish between charged	particles such as electrons and pions. By observing which of the drift tubes detected a	signal, the TRT can supplement the measurement of the path of the charged particle	performed by the pixel detector and SCT. \par
-		
-		
-		\begin{figure}
-			\centering
-			\includegraphics[scale=0.7]{Inner_Detector}
-			\caption{A figure showing the layout of the inner detector within ATLAS \cite{Article:ATLASDesignPaper}. }
-			\label{Fig:InnerDetector}
-		\end{figure}
+		\paragraph{The Semiconductor Tracker (SCT)}\label{Section:SCT}
+
+		The Semiconductor Tracker (SCT) \cite{ATLASSCT} sits outside the pixel detector and is similar in operation, consisting of 4 barrel layers and 9 end-cap disks. The barrel layers are positioned at R = 299, 371, 443, and 514 mm, and the end-cap disks range from $z$ = 854 - 2720 mm. The 15,912 strip modules have a thickness of 285 $\mu$m and consist not of pixels as per the pixel detector but 768 silicon strips each 12 cm long, necessitating over 6.4 million readout channels. In total the SCT contains 61 m$^{2}$ of silicon strip sensors, and provides a hit resolution of 17 $\mu$m in the $x$-$y$ plane and a hit resolution of 580 $\mu$m in the $z$-axis. 
+
+		\paragraph{The Transition Radiation Tracker (TRT)}\label{Section:TRT}
+
+		The Transition Radiation Tracker (TRT) \cite{ATLASTRT} is the furthest component of the ID from the beam pipe, with a barrel region positioned at 563 $<$ R $<$ 1066 mm and $|z| <$ 712 mm and two end-caps at 644 $<$ R $<$ 1004 mm and 848 $< |z| <$ 2710 mm. The method of detection used by the TRT differs from the previous ID modules: instead of using silicon semiconductors, the TRT consists of thin-walled proportional drift tubes called "straws" containing a nominal mixture of 70\%/27\%/3\% xenon/carbon dioxide/oxygen gas. \par 
+		In addition to being filled with this gas mixture, each straw contains a central gold-plater tungsten wire of diameter 32 $\mu$m and has a potential of 1500 V applied between the central wire and outer wall of the drift tubes. When charged particles pass through the straws, atoms within the gas are ionized and drift towards the walls of the straws while electrons drift towards the wire. The wire amplifies the signal of these electrons by a factor of approximately 20,000 by releasing an avalanche of electrons which creates an interpretable signal and allows the extraction of timing information. \par
+		Additional ionization can occur from transition radiation photons which originate from the thin material between straws made of polypropylene and polyethylene fibres. Incoming charged particles moving between media with differing refraction indexes have a probability of emitting these transition radiation photons with energies proportional to their Lorentz factor. This interaction is exploited during electron identification as electrons will have higher Lorentz factors (and therefore create a larger pulse within the wire) than many other charged particles such as muons and pions. \par
+		The TRT consists of 52,544 coaxial straws of length 144 cm ie barrel region and 122,880 radial straws of length 37 cm in each end-cap, totalling almost 300000 straws across the entire TRT. Due to these numbers and the geometry of ATLAS, charged particles are guaranteed to cross 35-40 straws in a pseudorapidity interval from 0 to 2. Overall, the TRT provides a hit resolution of 130 $\mu$m per straw \cite{ATLASTRTRes}. 
+
+		\subsubsection{The Calorimeters}
+
+		% 09/02/21
 
 		\subsection{ATLAS}
 		

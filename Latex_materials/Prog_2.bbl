@@ -332,6 +332,11 @@ S~Haywood, L~Rossi, R~Nickerson, et~al. (ATLAS Collaboration).
 \newblock Technical design report. ATLAS. CERN, Geneva, 1997.
 \newblock \urlprefix\url{https://cds.cern.ch/record/331064}.
 
+\bibitem{ATLASIDImage}
+Joao Pequenao.
+\newblock {Computer generated image of the ATLAS inner detector}, Mar 2008.
+\newblock \urlprefix\url{https://cds.cern.ch/record/1095926}.
+
 \bibitem{IBL-TDR}
 M~Capeans, G~Darbo, K~Einsweiller, et~al. (ATLAS Collaboration).
 \newblock {ATLAS Insertable B-Layer Technical Design Report}.
@@ -343,6 +348,26 @@ Beniamino Di~Girolamo.
 \newblock {ATLAS Pixel}.
 \newblock \emph{PoS}, Vertex 2011:006, 2012.
 \newblock \urlprefix\url{http://dx.doi.org/10.22323/1.137.0006}.
+
+\bibitem{ATLASSCT}
+{Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
+\newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
+  2017.
+\newblock \urlprefix\url{https://cds.cern.ch/record/2257755}.
+
+\bibitem{ATLASTRT}
+The ATLAS~TRT collaboration, E~Abat, T~N Addy, et~al.
+\newblock The {ATLAS} Transition Radiation Tracker ({TRT}) proportional drift
+  tube: design and performance.
+\newblock \emph{Journal of Instrumentation}, 3(02):P02013, feb 2008.
+\newblock \urlprefix\url{http://dx.doi.org/10.1088/1748-0221/3/02/p02013}.
+
+\bibitem{ATLASTRTRes}
+A~Vogel.
+\newblock {ATLAS Transition Radiation Tracker (TRT): Straw Tube Gaseous
+  Detectors at High Rates}.
+\newblock Technical Report ATL-INDET-PROC-2013-005, CERN, Geneva, Apr 2013.
+\newblock \urlprefix\url{https://cds.cern.ch/record/1537991}.
 
 \bibitem{Article:ECALCalibration}
 M.~Aharrouche and ATLAS Electromagnetic Barrel~Calorimeter Collaboration.
