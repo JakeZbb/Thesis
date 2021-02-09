@@ -17,14 +17,16 @@
 \contentsline {subsubsection}{\numberline {3.2.1}The ATLAS Coordinate System}{24}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}The Magnet System}{25}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}The Inner Detector}{26}{subsubsection.3.2.3}%
-\contentsline {paragraph}{The Insertable B-Layer (IBL)}{27}{section*.21}%
-\contentsline {paragraph}{The Pixel Detector}{29}{section*.22}%
-\contentsline {paragraph}{The Semiconductor Tracker (SCT)}{29}{section*.23}%
-\contentsline {paragraph}{The Transition Radiation Tracker (TRT)}{29}{section*.24}%
+\contentsline {paragraph}{\numberline {3.2.3.1}The Insertable B-Layer (IBL)}{27}{paragraph.3.2.3.1}%
+\contentsline {paragraph}{\numberline {3.2.3.2}The Pixel Detector}{29}{paragraph.3.2.3.2}%
+\contentsline {paragraph}{\numberline {3.2.3.3}The Semiconductor Tracker (SCT)}{29}{paragraph.3.2.3.3}%
+\contentsline {paragraph}{\numberline {3.2.3.4}The Transition Radiation Tracker (TRT)}{29}{paragraph.3.2.3.4}%
 \contentsline {subsubsection}{\numberline {3.2.4}The Calorimeters}{30}{subsubsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.3}ATLAS}{30}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{31}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{32}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{33}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Muon System}{36}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{38}{subsubsection.3.3.5}%
+\contentsline {paragraph}{\numberline {3.2.4.1}The Electromagnetic Calorimeter}{30}{paragraph.3.2.4.1}%
+\contentsline {paragraph}{\numberline {3.2.4.2}The Hadronic Calorimeter}{33}{paragraph.3.2.4.2}%
+\contentsline {subsection}{\numberline {3.3}ATLAS}{34}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{35}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{35}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{37}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Muon System}{40}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{41}{subsubsection.3.3.5}%
