@@ -23,10 +23,20 @@
 \contentsline {paragraph}{\numberline {3.2.3.4}The Transition Radiation Tracker (TRT)}{29}{paragraph.3.2.3.4}%
 \contentsline {subsubsection}{\numberline {3.2.4}The Calorimeters}{30}{subsubsection.3.2.4}%
 \contentsline {paragraph}{\numberline {3.2.4.1}The Electromagnetic Calorimeter}{30}{paragraph.3.2.4.1}%
+\contentsline {subparagraph}{The presampler (PS) layer,}{33}{figure.caption.21}%
+\contentsline {subparagraph}{Layer 1,}{33}{figure.caption.21}%
+\contentsline {subparagraph}{Layer 2,}{33}{figure.caption.21}%
+\contentsline {subparagraph}{Layer 3,}{33}{figure.caption.21}%
 \contentsline {paragraph}{\numberline {3.2.4.2}The Hadronic Calorimeter}{33}{paragraph.3.2.4.2}%
-\contentsline {subsection}{\numberline {3.3}ATLAS}{34}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{35}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{35}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{37}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Muon System}{40}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{41}{subsubsection.3.3.5}%
+\contentsline {paragraph}{\numberline {3.2.4.3}The Forward Calorimeter}{34}{paragraph.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {3.2.5}The Muon Spectrometer}{34}{subsubsection.3.2.5}%
+\contentsline {subparagraph}{Monitored Drift Tubes (MDTs)}{35}{figure.caption.22}%
+\contentsline {subparagraph}{Resistive Plate Chambers (RPCs)}{35}{figure.caption.22}%
+\contentsline {subparagraph}{Cathode Strip Chambers (CSCs)}{36}{figure.caption.22}%
+\contentsline {subparagraph}{Thin Gap Chambers (TGCs)}{36}{figure.caption.22}%
+\contentsline {subsection}{\numberline {3.3}ATLAS}{37}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{38}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{39}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{40}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Muon System}{43}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{45}{subsubsection.3.3.5}%
