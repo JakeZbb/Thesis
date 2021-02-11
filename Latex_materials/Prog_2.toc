@@ -34,9 +34,6 @@
 \contentsline {subparagraph}{Resistive Plate Chambers (RPCs)}{35}{figure.caption.22}%
 \contentsline {subparagraph}{Cathode Strip Chambers (CSCs)}{36}{figure.caption.22}%
 \contentsline {subparagraph}{Thin Gap Chambers (TGCs)}{36}{figure.caption.22}%
-\contentsline {subsection}{\numberline {3.3}ATLAS}{37}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Magnet System}{38}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Inner Detector}{39}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Calorimeter System}{40}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Muon System}{43}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}Trigger System}{45}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}The Trigger}{36}{subsubsection.3.2.6}%
+\contentsline {subparagraph}{The L1Calo trigger}{37}{figure.caption.24}%
+\contentsline {subparagraph}{The L1Muon trigger}{37}{figure.caption.24}%

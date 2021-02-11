@@ -732,7 +732,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		In order to be able to accurately describe events relative to the detector and interaction point, ATLAS uses a well defined right-handed coordinate system. Taking the nominal IP as the origin, the $x$-axis points towards the centre of the LHC ring, the $y$-axis points vertically upwards, and the $z$-axis points along the direction of the beam pipe. A subtle yet crucial result of this coordinate system is the definition of the $x$-$y$ plane, which is tangential to the beam pipe (referred to as the \textit{transverse} plan). The nature of the fundamental colliding partons prevent the initial momentum in the $z$ direction from being known, however it is known that the partons have zero initial momentum in the transverse plane and therefore directional vector quantities such as momenta can be projected into the transverse plane. \par
 
-		In addition, cylindrical coordinates are used to describe the geometry of the detector. The azimuthal angle, $\phi$, describes the angle around the beam direction in the transverse plane where $\phi = 0$ points in the same direction as the $x$-axis (i.e. towards the centre of the LHC ring). The polar angle, $\theta$, describes the angle from the beam direction in the $y$-$z$ plane where $\theta = 0$ points in the same direction as the $z$ axis (i.e. along the beam pipe). The final coordinate of the ATLAS coordinate system is the rapidity ($y$) or pseudorapidity ($\eta$). The rapidity of a particle is defined as: 
+		In addition, cylindrical coordinates are used to describe the geometry of the detector. The azimuthal angle, $\phi$, describes the angle around the beam direction in the transverse plane where $\phi = 0$ points in the same direction as the $x$-axis (i.e. towards the centre of the LHC ring). The polar angle, $\theta$, describes the angle from the beam direction in the $y$-$z$ plane where $\theta = 0$ points in the same direction as the $y$ axis (i.e. along the beam pipe). The final coordinate of the ATLAS coordinate system is the rapidity ($y$) or pseudorapidity ($\eta$). The rapidity of a particle is defined as: 
 
 		\begin{equation}
 			y = \frac{1}{2}\ln\left(\frac{E+p_{z}}{E-p_{z}}\right)
@@ -875,7 +875,6 @@ An example of this process can be seen by considering the constraint placed on t
 
 		These layers are:
 
-
 		\subparagraph{The presampler (PS) layer,} a relatively thin cluster of LAr layers only (i.e. no absorber material) separate from the calorimeter and positioned before some infrastructure components. The aim of the PS layer is to estimate the total loss of energy upstream of the calorimeter due to material interactions (within the inner detector, cryostat, and solenoid coil up to $|\eta| < 1.5$). The PS layer is only 11 mm thick in the barrel region and only 5 mm thick in the end-caps, covering a pseudorapidity range of $|\eta| < 1.8$.
 		
 		\subparagraph{Layer 1,} which has a thickness of 4.4 $X_{0}$ at $\eta = 0$ and is segmented into strips with varying granularity across $\eta$. For $|\eta| < 1.4$ and $1.5 < |\eta| < 2.4$ these are high granularity segmentation, whereas for the range of $1.4 < |\eta| < 1.5$ and $2.4 < |\eta| < 2.5$ the segmentation is coarser. The purpose of this differing granularity is to allow for discriminating power between photon showers caused by single photons, and showers from two collimated photons decaying from neutral hadrons (such as in the case of a neutral pion producing two photons). The cells in the finer granularity $\eta$ region have the size of $0.003 \times 0.0982$ in $\Delta\eta \times \Delta\phi$, and the cells in the coarser $\eta$ region have a size of $0.025 \times 0.0982$ in $\Delta\eta \times \Delta\phi$. 
@@ -932,214 +931,53 @@ An example of this process can be seen by considering the constraint placed on t
 		CSCs are multi-wire proportional chambers, which typically consist of equally spaced parallel wires sandwiched between cathode planes \cite{MultiwirePropChamber}. The remaining unit volume is filled with gas, which is ionised by incident charged particles. The CSCs uses alternating planes of tungsten wires and two segmented cathodes in a 80\%/20\% argon/carbon dioxide gas volume, with one set of cathode strips running perpendicular to the wires and the other set of strips running parallel to the wires. This configuration of the CSCs provides a resolution of 60 $\mu$m per layer. 
 
 		\subparagraph{Thin Gap Chambers (TGCs)}\label{Section:TGCs}\mbox{}\\
-		Much like the CSCs, the TGCs are also multi-wire proportional chambers. The key difference between the two is their slightly differing design: the TGCs use  50 $\mu$m gold plated tungsten wires and a 45\%/55\% n-pentane/carbon dioxide gas volume \cite {ATLASTGCCertification}. The TGCs allow for a faster timing resolution than the CSCs alone (approximately 4 ns compared with 7 ns). 
+		Much like the CSCs, the TGCs are also multi-wire proportional chambers. The key difference between the two is their slightly differing design: the TGCs use  50 $\mu$m gold plated tungsten wires and a 45\%/55\% n-pentane/carbon dioxide gas volume \cite{ATLASTGCCertification}. The TGCs allow for a faster timing resolution than the CSCs alone (approximately 4 ns compared with 7 ns). 
 
 		The MS barrel uses a combination of MDTs and RPCs for tracking and triggering respectively. The barrel component of the MS consists of three cylindrical layers of MDTs, with RPCs surrounding the last two MDT layers. The end-cap region of the MS consists of four wheels containing MDTs and CSCs for tracking, and TGCs for triggering: the first wheel at higher pseudorapidity of $2.5 < |\eta| < 2.7$ uses CSCs in place of MDTs, as the occupancy of the MDTs is too high in this region. The remaining three wheels use MDTs, with three layers of TGCs surrounding the third wheel. The arrangement of the muon system can be seen in Figure \ref{Fig:MuonSystemLayout}. 
 
 		\begin{figure}
 			\centering
-			\includegraphics[scale=0.3]{Muon_schematic}
+			\includegraphics[scale=1.5]{Muon_schematic_transp}
 			\caption{A figure showing the arrangement of muon system components within the ATLAS detector \cite{ATLASTriggerImage}.}
 			\label{Fig:MuonSystemLayout}
 		\end{figure}
 
 		%10/02/21
 
+		\subsubsection{The Trigger}
+
+		Attempting to record every interaction that occurs within the ATLAS detector is a herculean task. Bunches accelerated by the LHC cross every 25 ns, giving a frequency of 40 MHz. If each event has a raw size of 1.5 MB, ATLAS must record and store to disk 60 TB per second. The current record for highest data throughput attained experimentally is only 178.08 Tb or 22.25 TB per second \cite{UCLThroughput}, and was only achieved in July 2020 (over a year after the beginning of Long Shutdown 2). \par
+
+		Fortunately, recording every single ATLAS interaction is not required for standard operation. The vast majority of LHC collisions are simple parton scattering and absent of the smaller scale physics that ATLAS searches for. In order for efficient operation, ATLAS filters out these insignificant events to focus its efforts on storing information that is useful for physics analyses. This is done through the use of a \textit{trigger}, a two level system that filters through these events in real time. \par
+
+		The first level of this trigger system, aptly named the Level 1 (L1) Trigger, is hardware based trigger implemented in fast custom electronics. Events are buffered into front end pipelines and fed into the L1 calorimeter (L1Calo) trigger and the L1 muon (L1Muon) triggers, which are the beginning of a trigger chain ending in the Central Trigger Processor(CTP). The full ATLAS trigger chain can be seen in Figure \ref{Fig:ATLASTriggerChain}. \par
+
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.4]{ATLAS_Trigger_Flowchart}
+			\caption{A figure showing the full ATLAS trigger chain from hits in the calorimeters and MS to delivery to CERN's Tier-0 computing infrastructure \cite{ATLASTrigger}.}
+			\label{Fig:ATLASTriggerChain}
+		\end{figure}
+		
+		\subparagraph{The L1Calo trigger} takes analogue input signals from the calorimeter, which are converted to digital signals and calibrated by the preprocessor. These digital signals are sent in parallel to the Cluster Processor (CP) and Jet/Energy-sum Processor (JEP) which identify object candidates and perform preliminary measurements. The CP identifies electron, photon, and $\tau$-lepton candidates, and the JEP identifies jet candidates and sums both the total and missing transverse energies. \par
+
+		\subparagraph{The L1Muon trigger} analyses hits from the RPCs and TGCs of the MS to understand how the detected track pattern deviates from the hit pattern of a muon of infinite momentum.  The L1Muon trigger also applies a coincidence requirement on the outer TGCs, inner TGCs, and tile calorimeter in order to reduce the event rate from events occurring outside the IP. \par
+
+		Information from the L1Calo Trigger, L1 topological (L1Topo) trigger, and L1Muon trigger passed through the L1Muon Central Trigger Processor Interface (MUCTPI) feed into the CTP where events are selected based on event-level quantities (e.g. total calorimeter energy), multiplicity of objects above thresholds (e.g. muon p$_{T}$), or topological requirements (e.g. invariant masses or angular distances) \cite{ATLASTrigger}. 
+		
+		The latency of the L1 trigger system is $< 2.5$ $\mu$s, which equates to making the full the decision to filter the event in under 2.5 $\mu$s of the bunch crossing occurring. This speed is possible by only performing initial triggering with the L1 trigger before passing events two the second stage of the ATLAS trigger system, the High Level Trigger (HLT). The L1 trigger reduces the LHC's full event rate of 40 MHz to a much more manageable size of 100 kHz. \par
+		
+		Events from the L1 trigger are sent to ReadOut Drivers (RODs) that process and format the data, then to the ReadOut System (ROS) which buffers the data in preparation for the HLT. This data contains the event information from the L1 trigger in addition to Regions-of-Interest (ROIs) in $\eta$ and $\phi$ marked by the L1 trigger, which are areas designated to be investigated by the HLT. 
+		Unlike the hardware based L1 trigger, the HLT is entirely software base trigger requiring the collaboration of a server farm of approximately 40,000 processing units (PUs). \par 
+		
+		Standard event reconstruction begins with a series of dedicated fast trigger algorithms that aim to quickly reject events, before the surviving events undergo far more CPU-intensive algorithms for final event selection. Information from the ROS is only supplied to the HLT on request, as the more intensive reconstruction cannot keep pace with the speed of the L1 trigger. Typical reconstructions will often execute at least one feature-extraction algorithm that requests fragments of event data from within the RoIs supplied by the L1 trigger, and use the reconstructed features to decide if the specified trigger condition has been satisfied. Some cases require event information from the full detector, such as in the case of reconstructing missing transverse momentum which requires the reconstruction of all present physics objects. \par
+
+		This rapid event reconstruction and analysis using the full detector granularity takes place with a latency of approximately half a second which, while far slower than the extremely high speeds of the LHC beamline and L1 trigger, is relatively quick when compared with day to day speeds. The HLT reduces the event rate from the 100 kHz input by the L1 trigger even further, to an average of 1 kHz \cite{ATLASTrigger2010}. Using the previous figure of 1.5 MB per event, this equates to a much more manageable data writing speed of 1.5 GB per second. Events passing the ATLAS trigger system are subsequently sent to CERN's Tier-0 computing infrastructure for full reconstruction. 
+
 		\newpage
-
-		\subsection{ATLAS}
-		
-		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper} is one of the larger detectors in place along the circumference of the LHC beam pipe. ATLAS is a general purpose detector, and has been carefully engineered to maximise its potential in the probing of p-p collisions at the LHC. \par
-		
-		ATLAS and its components are described in a specific coordinate system using the interaction point and axis of the proton beam as a reference: The nominal interaction point (IP) is defined as the origin of the coordinate system, and the direction of the beam axis is defined as the positive z-axis. In addition to this, the positive y-axis is defined	as pointing vertically upwards in relation to the IP, and the positive x-axis as pointing	horizontally from the IP to the centre of the LHC ring. This automatically defines the x-y plane to be the plane tangential to the direction of the beam axis (z-axis). \par
-		
-		In this coordinate system, cylindrical coordinates are used to parametrise the geometry within the detector: the polar angle $\theta$  is the angle from the beam axis and the azimuthal angle $\phi$ is the angle around the beam direction in the x-y plane. The pseudorapidity is then defined in terms of $\theta$ as $\eta = - \ln[\tan(\theta/2)]$. Using this, the distance between two points in $\eta-\phi$ space can be defined as $\Delta R =	\sqrt{\Delta\eta^{2}+\Delta\phi^{2}}$. \par
-		
-		In order to maximise the acceptance in pseudorapidity and cover the largest azimuthal angle possible (i.e. to maximise detection coverage of any events that occur within the detector), ATLAS is symmetrical with respect to the path of the accelerated protons. The	ATLAS detector operates using a combination of several subsystems, each of which can
-		be seen in Figure \ref{Fig:ATLASDetector}. \par
-		
-		\begin{figure}
-			\centering
-			\includegraphics{ATLAS}
-			\caption{A figure showing the subsystems of the ATLAS detector \cite{Article:ATLASDesignPaper}.}
-			\label{Fig:ATLASDetector}
-		\end{figure}
-		
-		These subsystems are layered outwards from the central interaction points, largely in the form of concentric cylinders (however this is not true for every component which will be discussed in the following sections). These systems can be	organised into four categories based on their function: the magnet system, the inner detector, the calorimeter system, and the muon system. Together with the trigger system, these components are designed to allow ATLAS to operate with the highest possible efficiency. \par
-		
-		\subsubsection{Magnet System}
-		
-		The ATLAS magnet system consists of four magnets: a single solenoid magnet, and three toroidal magnets (which contribute an important part of the ATLAS name). The central solenoid provides the magnetic field for the inner detector, and the toroidal magnets provide the magnetic field	for the muon system. \par
-
-		The solenoid magnet is named the Central Solenoid Magnet and serves the purpose of bending the path of charged particles within the inner detector so that their momentum	may be measured. The most important function of this system for this analysis is the 2T	axial magnetic field that it exerts within ATLAS. The magnet weighs 5 tonnes, and is aligned with the z-axis of the beam pipe. The solenoid magnet is also capable of storing	a total of 38MJ of energy. \par
-		
-		The toroidal magnets have different designs for their varying purposes. The first is the end-cap magnets: large, doughnut shaped magnets that rest at either end of the detector and provide the magnetic field in the end-cap regions of the muon system. The second is the barrel toroid - longer, 25.3m toroidal coils that span the length of the muon system
-		and provide a constant toroidal magnetic field to that system. The contributions of the barrel and end-cap toroids to the toroidal field around the muon detectors is as follows: 0.5T from the barrel toroid, and 1T from each of the end-cap toroids. Each end-cap magnet weighs 240 tonnes and stores 0.25GJ of energy. The barrel toroid consists of eight
-		individual coils stored within vacuum vessels that surround both the end-cap magnets and the calorimeter systems. The barrel toroid weighs a total of 830 tonnes, and stores a total of 1.08GJ of energy. The shape of the ATLAS magnetic field can be seen in Figure \ref{Fig:CernMagneticField}. 
-		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}
-		
-		\begin{figure}
-			\centering
-			\includegraphics[scale=0.4]{Magnetic_Field}
-			\caption{The shape of the magnetic field within the ATLAS detector \cite{Article:CernMagnets}. }
-			\label{Fig:CernMagneticField}
-		\end{figure}
-		
-		\subsubsection{Inner Detector}
-		
-		The inner detector is the most central component of ATLAS and makes the most immediate measurements after a collision such as those of the primary and secondary vertex, and of particle momentum. The inner detector covers a pseudorapidity range of $|\eta| <$ 2.5	and consists of the Pixel Detector, Semiconductor Tracker (SCT), and the Transition
-		Radiation Tracker (TRT). These components can be seen in Figure \ref{Fig:InnerDetector}. \par
-		
-		Both the pixel detector and SCT consist of thousands of silicon sensors. The pixel detector consists of 1744 silicon wafers (each 250 $\upmu$m thick), and the SCT of 15912 silicon wafers (each 285±15 $\upmu$m thick). The charged particles that pass through the pixel detector and SCT ionise within the submodules’ silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these wafers that these ion-electron pairs are created, the path of the charged particles that pass through the inner detector can be measured 
-		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}.
-		\par
-		
-		
-		\begin{comment}
-		While these two systems can perform a preliminary identification of particles, and preliminary measurements of momentum, the most essential function of the pixel detector and SCT is its ability to identify and distinguish charged particle tracks. 
-		\end{comment}
-		
-		
-		 The inner detector performs several crucial functions within ATLAS: By performing measurements of charged particles that pass through the inner detector as their paths are bent by the magnet system, the inner detector can perform preliminary momentum measurements and track the paths of these charged particles throughout ATLAS. The measurements of momentum performed by the inner detector are supplemented by readings from other detector subsystems (such as energy deposits in the calorimeters), however the inner detector performs the most precise measurement of muon momentum. The paths measured by the inner detector provide excellent measurements of the tracks of charged particles, and are crucial for reconstructing events within ATLAS as they allow the detector triggers to correlate particle tracks to hits in other detector systems. By mapping hits in other detector subsystems with the paths tracked by the inner detector, it is possible to identify the kinematics and flavour of each particle travelling through ATLAS in order to fully describe each event. The inner detector is also responsible	for identifying the main interaction point of each collision, by tracing the particle tracks back to the point where they originate. \par
-		
-		The number of particle tracks that occur within each event is very high, and in order to perform these measurements the inner detector must have a very high spatial resolution. The pixel detector and SCT have spatial resolutions of 12$\upmu$m and 16$\upmu$m respectively, which is	essential to allow the detector to discern between the tracks of charged particles within the
-		inner detector. The large number of events that occur within ATLAS every second can only be measured if the detector is able to accurately measure each involved particle, hence being	able to distinguish each event’s tracks and collision points is essential to all measurements
-		performed by ATLAS. \par
-		
-		As charged particles pass through the TRT, they pass through drift tubes filled with a mixture of xenon, carbon dioxide, and oxygen gas. The charged particles emit transition radiation as they pass from the detector material into the gas, and also ionise the gas as they travel through it. The number of photons produced via transition radiation and
-		electrons produced from EM-ionisation can be used to help distinguish between charged	particles such as electrons and pions. By observing which of the drift tubes detected a	signal, the TRT can supplement the measurement of the path of the charged particle	performed by the pixel detector and SCT. \par
-		
-		
-		\begin{figure}
-			\centering
-			\includegraphics[scale=0.7]{Inner_Detector}
-			\caption{A figure showing the layout of the inner detector within ATLAS \cite{Article:ATLASDesignPaper}. }
-			\label{Fig:InnerDetector}
-		\end{figure}
-		
-		\subsubsection{Calorimeter System}
-		
-		Two different calorimeters surround the inner detector and solenoid magnet to continue the measurements of particles travelling through ATLAS: the Electromagnetic Calorimeter and Hadronic Calorimeter (each of which consists of multiple pieces). The ATLAS calorimeters are sampling calorimeters, meaning that they work via a combination of absorber (or sampling) materials which cause an interaction within the module, and an
-		active material which produces a signal which is interpreted by ATLAS. The electromagnetic	calorimeter consists of lead absorbers with a liquid argon (LAr) activate material, and the hadronic calorimeter consists of steel absorbers with scintillators as the active material. The layout of the calorimeter system can be seen in Figure \ref{Fig:ATLASCalorimeters}. \par
-		
-		By working in tandem, the two calorimeters perform measurements of the energy deposited by the travelling particles, regardless of whether the particles are charged or neutral. Naturally, the electromagnetic calorimeter focuses on absorbing the energy produced in electromagnetic showers, and the Hadronic calorimeter absorbs energy from hadronic
-		showers. Both calorimeters surround the beam pipe, fully covering the azimuthal angle	$\phi$. Each calorimeter system is a combined effort from several pieces in order to cover a large range of $|\eta| <$ 4.9. \par
-		
-		In order to allow ATLAS to operate at maximum efficiency, incoming particles that cause electromagnetic and hadronic showers need to be fully contained within the calorimeters. This ensures that ATLAS can study the full shower, and prevents particles other than muons from penetrating through to the muon system. This is achieved by constructing the	calorimeters to be an appropriate depth: the EM calorimeter is designed to be between	24 and 27 radiation lengths (X$_{0}$) deep, and the hadronic calorimeter is designed to be 10 nuclear interaction lengths ($\uplambda$) thick. X$_{0}$ and $\uplambda$ represent the differing manners in which EM and hadronic particles lose energy, and for each unit one radiation/interaction length
-		is the distance at which a travelling particle decreases to 1/e of its original energy.\par
-		
-		The electromagnetic calorimeter consists of three parts: a barrel calorimeter and two end-cap calorimeters, with the barrel calorimeter covering 0 $< |\eta| <$ 1.475 and the end-cap calorimeters covering 1.375 $< |\eta| <$ 3.2. All of these calorimeters follow the geometry of
-		an accordion, allowing full coverage of $\phi$ within the EM calorimeter without any spaces 
-		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}. \par 
-		
-		EM particles passing through the EM calorimeter interact with lead absorbers, creating a shower of lower energy particles. The incoming particles produce photons via the bremsstrahlung process (or other means such as a pion producing two photons), which then produce additional electrons via pair production. This alternating process of emitting
-		photons which then produce electrons continues until the total energy of the shower is below that required for pair production to occur. Muons are capable of radiating photons as they pass through the EM calorimeter, which may produce additional secondary objects themselves. Typically these jets will be far less energetic than those produced by incoming electrons and photons,
-		as photons radiated by muons carry only a small portion of the incident muon’s energy. \par
-		
-		The EM calorimeter is fine-granulated, so that the calorimeter can reconstruct each showering particle. EM showers can easily have many simultaneous interactions (such as a pion decaying into two photons within proximity of an additional photon), and it is important
-		to be able to distinguish between these occurrences for a detailed analysis. \par
-		
-		Once these incident particles have lost enough energy to be beneath the energy requirement to produce an EM shower, energy loss mainly occurs by ionisation of the LAr within the EM calorimeter which frees additional electrons. The electrons produced within the LAr are attracted toward a copper electrode where they are interpreted into an electronic signal which reveals the amount of energy
-		deposited by the original incident EM particle. Within the EM calorimeter, the thickness	is $>$ 22 X$_{0}$ thick in the barrel calorimeters and $>$ 24 X$_{0}$ in the end-cap calorimeters. \par
-		
-		\begin{figure}
-			\centering
-			\includegraphics[scale=0.4]{ATLAS_Calorimeters}
-			\caption{A figure displaying the arrangement of the electromagnetic and hadronic calorimeters within the ATLAS detector \cite{Article:ATLASDesignPaper}.}
-			\label{Fig:ATLASCalorimeters} 
-		\end{figure} 
-		
-		The hadronic calorimeter is similarly consisting of three distinct parts: the hadronic tile calorimeter, LAr forward calorimeter (FCal), and the LAr hadronic end-caps (HEC). One large central barrel cylinder and two smaller extended barrel cylinders make up the tile calorimeter - a system of alternating steel absorbers and scintillating
-		plates. \par
-		
-		Travelling hadrons interact with the nuclei of the steel absorbers, producing additional particles. These particles then continue to interact, producing large showers of interactions. As these showers continue into the hadronic calorimeter, charged particles produce
-		photons within the scintillating material. The photons emitted are carried to photomultiplier tubes via wavelength shifting fibres, where the photomultiplier tubes (PMTs) convert the photons into an electronic signal. By measuring the intensity of the light that creates the electronic signal, the energy deposited by the travelling hadron can be
-		measured. The barrel tile calorimeter has a total thickness of 9.7 $\uplambda$ for the combination of both the central barrel cylinder and extended barrel cylinders 
-		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}. \par 
-		
-		In order to be able to accurately measure the energy of incoming particles, the barrel calorimeter is required to have a high energy resolution ($\sigma/E$). In an event where energy is deposited within a calorimeter, a calorimeter with high energy efficiency is better equipped to reconstruct the energy of the original event (and therefore high energy resolution was an important factor considered during the design of ATLAS). Using electron test beam measurements, the energy resolution of the EM barrel calorimeter was found to be $\sigma/E = 10\%/\sqrt{E} \oplus 2\%$ (where the simple $\oplus$ represents a quadratic sum) \cite{Article:ECALCalibration}. 
-		
-		In addition to the barrel tile calorimeter which covers a range of 0 $< |\eta| <$ 1.0 are the HEC and the FCal, which maximise the $\eta$ coverage of the calorimeters. The FCal is positioned in the very far forward and backward regions of 3.1 $< |\eta| <$ 4.9. The FCal consists of three modules, each containing a layer of a metal absorber and electrodes, plus LAr as the active detecting material. The first module is made of copper in order to allow electromagnetic measurements, and the other two layers are made of tungsten to allow measurements of hadronic interactions in the same method as the tile calorimeter. The total depth of the FCal is 10 interaction lengths. \par
-		
-		The HEC overlaps with the tile calorimeter and the FCal in order to ensure full  coverage. The HEC uses copper as its absorber and LAr as its active material, covering a range of 1.5 $< |\eta| <$ 3.2. Together these three pieces form the hadronic calorimeter and cover the
-		pseudorapidity range of 0 $< |\eta| <$ 4.9. In test beam studies, the energy resolution of hadrons in the tile calorimeter was measured to be $\sigma/E=52.9\%/\sqrt{E} \oplus 5.7\%$ \cite{Article:FCALCalibration}. 
-		
-		\subsubsection{Muon System}
-		
-		The final ATLAS detector subsystem is the muon system which rests outside the calorimeter system and inner detector. The muon system’s role is to measure the path and momentum of muons in the pseudorapidity range of $|\eta| < $ 2.7. The measurements in this region are dependent upon the toroidal magnets, which allow the tracks of charged particles able to penetrate the other detector systems to be measured. The barrel toroid provides the magnetic field in the region $|\eta| <$ 1.4, the end-cap toroids provide the field in the region 1.6 $< |\eta| <$ 2.7, and the two work in tandem to produce the field in the transition region of 1.4 $< |\eta| <$ 1.6. \par
-		
-		The bending of the muon tracks allows for measurements to be made in a similar fashion	as to within the inner detector, and this is coupled with additional measurements from four components: precision measurements from monitored drift tubes (MDT) and cathode strip chambers (CSC), and trigger measurements from resistive plate chambers (RPC) and thin gap chambers (TGC).\par
-		
-		
-		\begin{figure}
-			\centering
-			\includegraphics[scale=0.3]{Muon_System}
-			\caption{A figure showing the position of the individual muon systems within ATLAS \cite{Article:ATLASDesignPaper}.}
-			\label{Fig:MuonSystem}
-		\end{figure}
-		
-		The CSCs are located in the forward regions of 2 $< |\eta| <$ 2.7, as they are capable of dealing with the highest particle fluxes of up to 1000 Hzcm$^{-2}$. The MDTs are located cover the region $|\eta| <$ 2.7 and consist of layers of drift tubes: cylinders containing a mixture of argon and carbon dioxide gas, with a wire at the centre. Muons that travel through the drift tubes ionise the gas and produce electrons and ions which drift to the wire and edge of the drift tube respectively, and are interpreted as an electronic signal.By observing the amount of ionisation, particle drift time, and the time and position of each emitted signal, the momentum of the travelling muon can be measured. The layout of the muon system can be seen in Figure \ref{Fig:MuonSystem}. \par
-		
-		The RPCs and TGCs serve as fast trigger chambers, able to provide track information approximately 10ns after a particle penetrates. The RPCs are located in the barrel covering the range $|\eta| <$ 1.05, and the TGCs in the end-cap covering the region 1.05 $< |\eta| <$ 2.4. While the CSCs and MDTs record precision measurements regarding the incident muons, the RPCs and TGCs are utilised for providing information to the trigger systems. \par
-		
-		The RPCs are gaseous parallel electrode-plate detectors consisting of two resistive plates separated by a 2mm gas gap: incoming muons are deflected towards the anode of the RPC allowing for a signal readout. TPCs are multi-wire proportional chambers arranged into layers positioned around the MDTs and in front of the most inward positioned tracking layer. As incident muons penetrate the sub layers within the TPCs, a signal is emitted if a muon is detected in multiple layers of the detector. The time and position of where this signal originates corresponds to a muon hit, and aids the trigger system in identifying muon events 
-		\cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}. \par 
-		
-		
-		\subsubsection{Trigger System}
-		
-		The trigger system’s function is to manage the enormous number of collisions that occur within ATLAS every second, identifying events that correspond to the expected standards of ATLAS, and ignoring those that do not. This operation is performed by a combination of a hardware based Level 1 (L1) trigger and a software based High Level Trigger (HLT). \par
-		
-		The L1 trigger uses information from the calorimeters and muon system to identify regions of interest within the recorded data, and performs the first classification of the data recorded, before passing events are sent to the HLT. This operation takes place within 2.5$\mu$s, and reduces the event rate from 40MHz to less than 75kHz (although it is
-		still possible to operate with up to 100kHz output rate from the L1 trigger). \par
-		The HLT runs on a dedicated server farm, and uses high speed algorithms to further refine events in the region of interest that pass the L1 trigger. The HLT reduces the event rate further to 1kHz, processing each event in an average of 0.2s. \par
 		
 		\bibliographystyle{Thesis.bst}
 		
-		\bibliography{Prog_2}
-		
-		\newpage
-		\pagenumbering{gobble}
-		
-		\large \bf \underline{Thesis plan}
-		
-		\bigskip
-		
-		\small \bf \underline{November 2019 - January 2020: Framework Development and Validation}
-		
-		\normalfont The multiple frameworks in the Z+hf analysis group currently show promise, but are not yet ready for full analysis. During this time period, it would be ideal to achieve the following goals: 
-		
-		\begin{itemize}
-		\item Implement systematic uncertainties. Currently the ZHFReader code has functionality for the systematics, but they do not function correctly
-		\item Validate between the frameworks. This requires participation within the analysis groups and it not fully attainable by working alone, however there are some steps that could already be taken to build on the progress made during the "coding days @ CERN" event
-`		\end{itemize}
-
-		\bf \underline{February 2020 - April 2020: \newline Production of top and multijet enriched control regions}
-		
-		\normalfont Measurement of prevalent backgrounds can be performed in order to reduce uncertainties before unfolding, or even to avoid propagating negligible backgrounds through the entire analysis. During this time period, it would be ideal to achieve the following goals: 
-		\begin{itemize}
-			\item Create a multijet enriched control region to enrich multijet event numbers by deliberately requiring the presence of multijet background events (for example by required two same sign muons as opposed to two opposite sign muons)
-			\item Create a top control region to enrich top event numbers by treating emu events as a signal source as opposed to ee or mumu events 
-			\item Analyse these control regions and their systematic uncertainties in order to obtain accurate event numbers and neglecting to propagate these backgrounds through the analysis if these backgrounds are negligible
-		\end{itemize}		
-				
-		\bf \underline{May 2020 - July 2020: Flavour fit}
-		
-		\normalfont In the same way that top and multijet control regions can be used to perform accurate measurements of these backgrounds, a flavour fit can be used to distinguish between the Z + light, Z + charm, and Z + bottom backgrounds. This is especially important for the Z+b process, as z + light and Z + charm are two of the largest background contributors. During this time period, it would be ideal to achieve the following goal:
-		
-		\begin{itemize}
-			\item Perform an accurate flavour fit for both the Z+b and Z+bb channels
-			\item Investigate the expected fraction of Z+bb events in the Z+b selection and if it would be worthwhile to make an alternate Z+b selection to reduce this fraction
-		\end{itemize}
-	
-		\newpage
-		\bf \underline{August 2020 - October 2020: Unfolding and generator comparisons}
-		
-		\normalfont Unfolding is the crucial step that allows an analysis taking place at detector level to be transposed to particle level in order to obtain meaningful results. Prior to unfolding, the best possible modelling of the obtained data can be found by performing comparisons between multiple varieties of Monte Carlo generator. More MC samples from a greater variety of generators can be obtained by making the analysis appealing to PMG members. During this time period, it would be ideal to achieve the following goals
-		
-		\begin{itemize}
-			\item Reproduce existing work using a variety of different MC generators, such as with the inclusion of MadGraph samples
-			\item Unfold the analysis to a high degree of accuracy using tools developed by the analysis group during the "coding days @ CERN" event
-		\end{itemize}		
+		\bibliography{Prog_2}	
 				
 \end{document}

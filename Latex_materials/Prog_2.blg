@@ -14,6 +14,7 @@ Reallocated out_buf (elt_size=1) to 40000 items from 20000.
 Reallocated name_tok (elt_size=4) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--empty note in Article:CernComplex
 Warning--empty author and editor in LEPDesign1
 Warning--empty author and editor in LEPDesign2
@@ -34,47 +35,45 @@ Warning--empty author and editor in ATLASTileTDR
 Warning--empty author and editor in ATLASMuonTDR
 Warning--empty booktitle in MultiwirePropChamber
 Warning--empty year in ATLASTGCCertification
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Warning--empty journal in Article:ECALCalibration
-You've used 69 entries,
+You've used 70 entries,
             2525 wiz_defined-function locations,
-            1515 strings with 129601 characters,
-and the built_in function-call counts, 23556 in all, are:
-= -- 1399
-> -- 683
+            1525 strings with 130031 characters,
+and the built_in function-call counts, 24070 in all, are:
+= -- 1426
+> -- 703
 < -- 7
-+ -- 324
-- -- 158
-* -- 1316
-:= -- 2454
-add.period$ -- 272
-call.type$ -- 69
++ -- 334
+- -- 163
+* -- 1348
+:= -- 2507
+add.period$ -- 276
+call.type$ -- 70
 change.case$ -- 14
 chr.to.int$ -- 0
 cite$ -- 90
-duplicate$ -- 2636
-empty$ -- 2428
-format.name$ -- 201
-if$ -- 5218
+duplicate$ -- 2691
+empty$ -- 2479
+format.name$ -- 206
+if$ -- 5333
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 720
-newline$ -- 405
-num.names$ -- 61
-pop$ -- 1108
+int.to.str$ -- 70
+missing$ -- 735
+newline$ -- 411
+num.names$ -- 62
+pop$ -- 1118
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 707
+skip$ -- 724
 stack$ -- 0
-substring$ -- 531
-swap$ -- 1607
+substring$ -- 553
+swap$ -- 1655
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 21
-while$ -- 98
-width$ -- 71
-write$ -- 881
-(There were 23 warnings)
+warning$ -- 20
+while$ -- 100
+width$ -- 72
+write$ -- 895
+(There were 22 warnings)

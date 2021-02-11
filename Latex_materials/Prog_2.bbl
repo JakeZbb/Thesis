@@ -455,19 +455,23 @@ Georges Aad, Brad Abbott, Jalal Abdallah, et~al. (ATLAS Collaboration).
   http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/TRIG-2012-03,
   \urlprefix\url{http://dx.doi.org/10.1140/epjc/s10052-015-3325-9}.
 
-\bibitem{Article:ECALCalibration}
-M.~Aharrouche and ATLAS Electromagnetic Barrel~Calorimeter Collaboration.
-\newblock Energy Linearity and Resolution of the ATLAS Electromagnetic Barrel
-  Calorimeter in an Electron Test-Beam.
-\newblock 2006.
-\newblock \eprint{arXiv:physics/0608012},
-  \urlprefix\url{http://dx.doi.org/10.1016/j.nima.2006.07.053}.
+\bibitem{UCLThroughput}
+L.~{Galdino}, A.~{Edwards}, W.~{Yi}, et~al.
+\newblock Optical Fibre Capacity Optimisation via Continuous Bandwidth
+  Amplification and Geometric Shaping.
+\newblock \emph{IEEE Photonics Technology Letters}, 32(17):1021, 2020.
+\newblock \urlprefix\url{http://dx.doi.org/10.1109/LPT.2020.3007591}.
 
-\bibitem{Article:FCALCalibration}
-P.~Adragna et~al.
-\newblock {Testbeam studies of production modules of the ATLAS tile
-  calorimeter}.
-\newblock \emph{Nucl. Instrum. Meth.}, A606:362, 2009.
-\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.nima.2009.04.009}.
+\bibitem{ATLASTrigger}
+The~ATLAS collaboration.
+\newblock Operation of the {ATLAS} trigger system in Run 2.
+\newblock \emph{Journal of Instrumentation}, 15(10):P10004, oct 2020.
+\newblock \urlprefix\url{http://dx.doi.org/10.1088/1748-0221/15/10/p10004}.
+
+\bibitem{ATLASTrigger2010}
+G.~Aad, B.~Abbott, J.~Abdallah, et~al.
+\newblock Performance of the ATLAS Trigger System in 2010.
+\newblock \emph{The European Physical Journal C}, 72(1), Jan 2012.
+\newblock \urlprefix\url{http://dx.doi.org/10.1140/epjc/s10052-011-1849-1}.
 
 \end{thebibliography}
