@@ -108,6 +108,100 @@
 	
 	\section{Physical Theory}
 	
+	The key to advancement and understanding in particle physics is being incorrect. While it would be ideal to simply pick up a pen and write out a grand unified theory or to observe a single particle event before identifying new and unseen physics, the far more practical approach is to repeatedly and precisely measure our current understanding of the physical word to find the point at which it breaks. Only by identifying where the current description of physical behaviour is wrong can one begin to postulate new descriptions that might be right. \par
+
+	The most straightforward manner in which to find areas where current physics knowledge is not sufficient for understanding is to said knowledge in order to define a model which describes the behaviour of the fundamental constituents of matter and the interactions between them. In the case of particle physics, a combination of mathematical theories that describe just this are grouped together and named the Standard Model of particle physics (SM). 
+
+	% 16/02/21
+
+	\subsection{The Standard Model}
+
+	The SM is a non-Abelian gauge theory that fully describes the elementary particles and their interactions under three of the four fundamental forces: strong, weak, and electromagnetic (gravity is not described by the SM). Unfortunately the words to adequately explain the concept of a gauge theory are notoriously difficult to find so the role must pass to language's bigger, scarier brother: mathematics. \par
+
+	Consider a complex scalar field with mass $m$ described by the Lagrangian density (henceforth simply called "Lagrangian"):
+
+	\begin{equation}
+		\mathcal{L} = \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi
+	\end{equation}
+
+	Under a rotation in the complex plane of angle $\alpha$ where:
+
+	\begin{equation}
+		\psi(x) \rightarrow e^{iq\alpha}\psi(x)  
+		\quad\mathrm{and}\quad
+		\psi^{\dagger}(x) \rightarrow e^{-iq\alpha}\psi^{\dagger}(x)
+	\end{equation}
+
+	The lagrangian can be seen to be invariant as:
+
+	\begin{equation}
+		\begin{split}
+		&\mathcal{L} = \partial^{\mu}  e^{-iq\alpha} \psi^{\dagger} \partial_{\mu} e^{iq\alpha} \psi  - m^{2}e^{-iq\alpha} \psi^{\dagger} e^{iq\alpha}\psi  \\
+		&\mathcal{L} = (\partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi)(e^{-iq\alpha}e^{iq\alpha}) \\ 
+		&\mathcal{L} = (\partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi)(e^{0}) \\
+		&\mathcal{L} = \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi \\
+		\end{split}
+	\end{equation}
+
+	Therefore this lagrangian can be described as symmetric under global U(1) transformations: global, as $\alpha$ is invariant under transformation in $x$, and U(1) referring to the one-dimensional group of unitary transformations (which includes the previous transformation of the scalar field). Issues arise with this symmetry under a local transformation (i.e. where $\alpha$ depends on $x$). 
+	% 17/02/21	
+
+	Under this condition the mass term of the equation remains invariant, however the same is not true for the kinetic terms as
+
+	\begin{equation}
+		\begin{split}
+		\partial_{\mu}\psi &\rightarrow e^{iq\alpha}\partial_{\mu}\psi+iq\partial_{\mu}\alpha e^{iq\alpha}\psi \\
+		&= e^{iq\alpha}(\partial_{\mu}+iq\partial_{\mu}\alpha)\psi \\
+		\end{split}
+	\end{equation}
+
+	Restoring the local U(1) symmetry requires an update to the previous lagrangian: the introduction of a vector field, $A_{\mu}(x)$, that transforms as 
+	
+	\begin{equation}
+		A_{\mu} \rightarrow A_{\mu} - \frac{1}{q} \partial_{\mu} \alpha
+	\end{equation}
+
+	This allows the definition of a new derivative such that
+
+	\begin{equation}
+		D_{\mu}\psi \rightarrow e^{iq\alpha}D_{\mu}\psi
+	\end{equation}
+
+	allowing for invariance under a local U(1) transformation. This derivative is the covariant derivative, and it is defined as
+
+	\begin{equation}
+		D_{\mu} = \partial_{\mu} + iqA_{\mu}
+	\end{equation}
+
+	This can be checked by now observing the kinetic term under a local U(1) transformation:
+
+	\begin{equation}
+		\begin{split}
+		D_{\mu}\psi &\rightarrow e^{iq\alpha}\partial_{\mu}\psi + iq\partial_{\mu}\alpha e^{iq\alpha}\psi + iq(A_{\mu}-\frac{1}{q}\partial_{\mu}\alpha)\psi \\
+		&= e^{iq\alpha}(\partial_{\mu}+iq\partial_{\mu}\alpha+iqA_{\mu}-\partial_{\mu}\alpha)\psi \\
+		D^{\mu}\psi^{\dagger} &\rightarrow e^{-iq\alpha}\partial^{\mu}\psi^{\dagger} - iq\partial^{\mu}\alpha e^{-iq\alpha}\psi^{\dagger} + iq(A^{\mu}-\frac{1}{q}\partial^{\mu}\alpha)\psi^{\dagger} \\
+		&= e^{-iq\alpha}(\partial^{\mu}-iq\partial^{\mu}\alpha +iqA^{\mu}-\partial^{\mu}\alpha)\psi^{\dagger}
+		\end{split}
+	\end{equation}
+
+	Substituting this into the original kinetic term gives:
+
+	\begin{equation}
+		D^{\mu}\psi^{\dagger}D_{\mu}\psi = (e^{0})()
+	\end{equation}
+
+	\begin{equation}
+		\begin{split}
+		\mathcal{L} &= D^{\mu} \psi^{\dagger} D_{\mu} \psi - m^{2} \psi^{\dagger} \psi \\
+		&= (\partial^{\mu}+ieA^{\mu}\psi^{\dagger} (\partial_{\mu}+ieA_{\mu}\psi - m^{2} \psi^{\dagger}\psi \\
+		&= (\partial^{\mu}\psi^{\dagger}+ieA^{\mu}\psi^{\dagger})(\partial_{\mu}\psi+ieA_{\mu}\psi)-m^{2}\psi^{\dagger}\psi \\
+		&= \partial^{\mu}\psi^{\dagger}\partial_{\mu}\psi + ieA^{\mu}\psi^{\dagger}\partial_{\mu}\psi + ieA_{\mu}\psi\partial^{\mu}\psi^{\dagger} - m^{2}\psi^{\dagger}\psi \\
+		&= \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi + ie(A^{\mu}\psi^{\dagger}\partial_{\mu}\psi+A_{\mu}\psi\partial^{\mu}\psi^{\dagger}) \\
+		\end{split}
+	\end{equation}
+
+	% 25/02/21
+
 	\subsection{The Standard Model}
 
 	\begin{figure}[h!]
@@ -559,11 +653,11 @@ An example of this process can be seen by considering the constraint placed on t
 		
 	\newpage
 
-	\section{LHC and ATLAS}
+	\section{Experimental Setup}
 
 		The source of all experimental data within this thesis is the ATLAS experiment at the Large Hadron Collider (LHC). The following chapters will provide an introduction to both the LHC and the ATLAS experiment with a primary focus on the subsystems of the ATLAS detector most relevant to this analysis. The data used in this thesis was collected during the second run of data collection by the LHC (appropriately named Run 2), which concluded in December of 2018. The third run of data collection will begin in 2021. 
 
-		\subsection{LHC}
+		\subsection{The Large Hadron Collider}
 
 		100 meters beneath the site of the Conseil Européen pour la Recherche Nucléaire (CERN) at the French-Swiss border near Geneva, Switzerland lies the LHC. At approximately 27 kilometres in circumference, the LHC accelerates beams of protons to the highest energies in the world 
 		reaching speeds greater than 99.9\% the speed of light \cite{LHCDesignV1, LHCDesignV2, LHCDesignV3}. 
@@ -614,7 +708,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		When the particle beam passes through the RF cavities, some of the particles synchronize exactly with the RF frequency (these particles are aptly named "synchronous particles"). Particles that do not exactly synchronize with this frequency instead become clustered around the synchronous particle, and this travelling group of synchronized particles is referred to as a bunch. In order to allow for the necessary time for its subsystems to function correctly, the LHC beam is not a continuous stream of bunches but a combination of bunches and "missing" bunches (deliberate absences of bunches used primarily for timing). \par
 
-		The nominal LHC beam consists of 2808 bunches, each consisting of $1.15 \times 10^{11}$ protons \cite{LHCDesignV1,LHCDesignV3}. The PS supplies particles to the SPS and LHC in the form of 72-bunch PS trains, with each bunch arriving 25ns apart \cite{LHCBeam}. When these bunches are accelerated by the SPS and enter into the LHC, they are arranged into the form of 3, 3, and then 4 PS trains. The very last PS train in the very last SPS batch is deliberately suppressed to allow time for the LHC extraction kicker magnets (required in the event of a beam dump) to rise. This bunch structure can be observed in Figure \ref{Fig:LHCBunches}. 
+		The nominal LHC beam consists of 2808 bunches, each consisting of $1.15 \times 10^{11}$ protons \cite{LHCDesignV1,LHCDesignV3}. The PS supplies particles to the SPS and LHC in the form of 72-bunch PS trains, with each bunch arriving 25 ns apart \cite{LHCBeam}. When these bunches are accelerated by the SPS and enter into the LHC, they are arranged into the form of 3, 3, and then 4 PS trains. The very last PS train in the very last SPS batch is deliberately suppressed to allow time for the LHC extraction kicker magnets (required in the event of a beam dump) to rise. This bunch structure can be observed in Figure \ref{Fig:LHCBunches}. 
 
 		\begin{figure}
 			\centering
@@ -944,7 +1038,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		%10/02/21
 
-		\subsubsection{The Trigger}
+		\subsubsection{The ATLAS Trigger System}
 
 		Attempting to record every interaction that occurs within the ATLAS detector is a herculean task. Bunches accelerated by the LHC cross every 25 ns, giving a frequency of 40 MHz. If each event has a raw size of 1.5 MB, ATLAS must record and store to disk 60 TB per second. The current record for highest data throughput attained experimentally is only 178.08 Tb or 22.25 TB per second \cite{UCLThroughput}, and was only achieved in July 2020 (over a year after the beginning of Long Shutdown 2). \par
 
@@ -973,6 +1067,8 @@ An example of this process can be seen by considering the constraint placed on t
 		Standard event reconstruction begins with a series of dedicated fast trigger algorithms that aim to quickly reject events, before the surviving events undergo far more CPU-intensive algorithms for final event selection. Information from the ROS is only supplied to the HLT on request, as the more intensive reconstruction cannot keep pace with the speed of the L1 trigger. Typical reconstructions will often execute at least one feature-extraction algorithm that requests fragments of event data from within the RoIs supplied by the L1 trigger, and use the reconstructed features to decide if the specified trigger condition has been satisfied. Some cases require event information from the full detector, such as in the case of reconstructing missing transverse momentum which requires the reconstruction of all present physics objects. \par
 
 		This rapid event reconstruction and analysis using the full detector granularity takes place with a latency of approximately half a second which, while far slower than the extremely high speeds of the LHC beamline and L1 trigger, is relatively quick when compared with day to day speeds. The HLT reduces the event rate from the 100 kHz input by the L1 trigger even further, to an average of 1 kHz \cite{ATLASTrigger2010}. Using the previous figure of 1.5 MB per event, this equates to a much more manageable data writing speed of 1.5 GB per second. Events passing the ATLAS trigger system are subsequently sent to CERN's Tier-0 computing infrastructure for full reconstruction. 
+
+		% 11/02/21
 
 		\newpage
 		
