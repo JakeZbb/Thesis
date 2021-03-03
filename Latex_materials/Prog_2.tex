@@ -24,6 +24,8 @@
 }
 
 \usepackage{titlesec}
+\usepackage{csquotes}
+\MakeOuterQuote{"}
 
 \setcounter{secnumdepth}{4}
 
@@ -116,9 +118,45 @@
 
 	\subsection{The Standard Model}
 
-	The SM is a non-Abelian gauge theory that fully describes the elementary particles and their interactions under three of the four fundamental forces: strong, weak, and electromagnetic (gravity is not described by the SM). Unfortunately the words to adequately explain the concept of a gauge theory are notoriously difficult to find so the role must pass to language's bigger, scarier brother: mathematics. \par
+	The SM is a non-Abelian gauge theory that fully describes the elementary particles and their interactions under three of the four fundamental forces: strong, weak, and electromagnetic (gravity is not described by the SM). A gauge theory is a form of quantum field theory (QFT) in which particles exist in the form of space-time permeating fields, and the traditional form of a particle is simply an excitation of said field. Unfortunately the words to adequately explain the mechanics of a QFT are notoriously difficult to find so the role must pass to language's bigger, better, nerdier half: mathematics. \par
 
-	Consider a complex scalar field with mass $m$ described by the Lagrangian density (henceforth simply called "Lagrangian"):
+	\subsubsection{The SM Lagrangian}
+
+	The equations of motion for this system are governed by the Principle of Least Action: The manner in which a system evolves between two states is described by the trajectory that minimises the action (S). For example, the motion of a free particle between two points would follow the path of a straight line, as this path requires the least possible energy and therefore minimises the action. The action is defined as:
+	
+	\begin{equation}
+		S = \int \,d^{4}x \mathcal{L}[\phi(x^{\mu}),\partial_{\mu}\phi(x^{\mu})]
+	\end{equation}
+
+	where $\mathcal{L}[\phi(x^{\mu},\partial_{\mu}\phi(x^{\mu})]$ represents the Lagrangian density of the field $\phi(x^{\mu})$ and $x^{\mu}$ is the four-vector notation of $x$ such that\footnote{"Lagrangian density" and "$x^{\mu}$" will henceforth be written as "Lagrangian" and "x" respectively, so that the author may follow the Principle of Least Action while writing.}:
+	
+	\begin{equation}
+		x^{\mu} = (t, x, y, z)
+		\quad\mathrm{and}\quad
+		x_{\mu} = (t, -x, -y, -z)
+	\end{equation} 
+
+	\begin{equation}
+		\partial_{\mu} \equiv \frac{\partial}{\partial x^{\mu}}=(\frac{\partial}{\partial t}, \frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})
+		\quad\mathrm{and}\quad
+		\partial^{\mu} \equiv \frac{\partial}{\partial x_{\mu}}=(\frac{\partial}{\partial t}, -\frac{\partial}{\partial x}, -\frac{\partial}{\partial y}, -\frac{\partial}{\partial z})
+	\end{equation}
+
+	These principles allow the derivation of the Euler-Lagrange equation
+
+	\begin{equation}
+		\frac{\partial\mathcal{L}}{\partial\phi}=\partial_{\mu}\left(\frac{\partial\mathcal{L}}{\partial(\partial_{\mu}\phi)}\right)
+	\end{equation}
+
+	which is the basis for many of the classical mechanical equations of motion (e.g. Newton's Second Law). Just as the Lagrangian of a classical system would be used to obtain its equations of motion, the same is true of the SM, and the SM can be described by the Langrangian formalism:
+
+	\begin{equation}
+		\mathcal{L}_{\mathrm{SM}} = \mathcal{L}_{\mathrm{EWK}} + \mathcal{L}_{\mathrm{QCD}} + \mathcal{L}_{\mathrm{Higgs}} + \mathcal{L}_{\mathrm{Yukawa}}
+	\end{equation}
+
+	\subsubsection{Gauge Theory}
+
+	In order to understand the SM, it is important to first understand the concept of a gauge theory. Consider a complex scalar field with mass $m$ described by the Lagrangian density (henceforth simply called "Lagrangian"):
 
 	\begin{equation}
 		\mathcal{L} = \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi
@@ -127,80 +165,89 @@
 	Under a rotation in the complex plane of angle $\alpha$ where:
 
 	\begin{equation}
-		\psi(x) \rightarrow e^{iq\alpha}\psi(x)  
+		\psi(x) \rightarrow e^{i\alpha}\psi(x)  
 		\quad\mathrm{and}\quad
-		\psi^{\dagger}(x) \rightarrow e^{-iq\alpha}\psi^{\dagger}(x)
+		\psi^{\dagger}(x) \rightarrow e^{-i\alpha}\psi^{\dagger}(x)
 	\end{equation}
 
 	The lagrangian can be seen to be invariant as:
 
 	\begin{equation}
 		\begin{split}
-		&\mathcal{L} = \partial^{\mu}  e^{-iq\alpha} \psi^{\dagger} \partial_{\mu} e^{iq\alpha} \psi  - m^{2}e^{-iq\alpha} \psi^{\dagger} e^{iq\alpha}\psi  \\
-		&\mathcal{L} = (\partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi)(e^{-iq\alpha}e^{iq\alpha}) \\ 
-		&\mathcal{L} = (\partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi)(e^{0}) \\
-		&\mathcal{L} = \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi \\
+		\mathcal{L} &= \partial^{\mu}  e^{-i\alpha} \psi^{\dagger} \partial_{\mu} e^{i\alpha} \psi  - m^{2}e^{-i\alpha} \psi^{\dagger} e^{i\alpha}\psi  \\
+		&= (\partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi)(e^{-i\alpha}e^{i\alpha}) \\ 
+		&= (\partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi)(e^{0}) \\
+		&= \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi \\
 		\end{split}
 	\end{equation}
 
 	Therefore this lagrangian can be described as symmetric under global U(1) transformations: global, as $\alpha$ is invariant under transformation in $x$, and U(1) referring to the one-dimensional group of unitary transformations (which includes the previous transformation of the scalar field). Issues arise with this symmetry under a local transformation (i.e. where $\alpha$ depends on $x$). 
 	% 17/02/21	
 
-	Under this condition the mass term of the equation remains invariant, however the same is not true for the kinetic terms as
+	Under this condition the mass term of the equation remains invariant, however the same is not true for the kinetic term as
 
 	\begin{equation}
 		\begin{split}
-		\partial_{\mu}\psi &\rightarrow e^{iq\alpha}\partial_{\mu}\psi+iq\partial_{\mu}\alpha e^{iq\alpha}\psi \\
-		&= e^{iq\alpha}(\partial_{\mu}+iq\partial_{\mu}\alpha)\psi \\
+		\partial_{\mu}\psi &\rightarrow e^{i\alpha}\partial_{\mu}\psi+iq\partial_{\mu}\alpha e^{i\alpha}\psi \\
+		&= e^{i\alpha}(\partial_{\mu}+i\partial_{\mu}\alpha)\psi \\
 		\end{split}
 	\end{equation}
 
 	Restoring the local U(1) symmetry requires an update to the previous lagrangian: the introduction of a vector field, $A_{\mu}(x)$, that transforms as 
 	
 	\begin{equation}
-		A_{\mu} \rightarrow A_{\mu} - \frac{1}{q} \partial_{\mu} \alpha
+		A_{\mu} \rightarrow A_{\mu} - \frac{1}{e} \partial_{\mu} \alpha
 	\end{equation}
 
 	This allows the definition of a new derivative such that
 
 	\begin{equation}
-		D_{\mu}\psi \rightarrow e^{iq\alpha}D_{\mu}\psi
+		D_{\mu}\psi \rightarrow e^{i\alpha}D_{\mu}\psi
 	\end{equation}
 
 	allowing for invariance under a local U(1) transformation. This derivative is the covariant derivative, and it is defined as
 
 	\begin{equation}
-		D_{\mu} = \partial_{\mu} + iqA_{\mu}
+		D_{\mu} = \partial_{\mu} + ieA_{\mu}
 	\end{equation}
 
-	This can be checked by now observing the kinetic term under a local U(1) transformation:
+	This can be checked by now observing the covariant derivative under a local U(1) transformation:
 
 	\begin{equation}
 		\begin{split}
-		D_{\mu}\psi &\rightarrow e^{iq\alpha}\partial_{\mu}\psi + iq\partial_{\mu}\alpha e^{iq\alpha}\psi + iq(A_{\mu}-\frac{1}{q}\partial_{\mu}\alpha)\psi \\
-		&= e^{iq\alpha}(\partial_{\mu}+iq\partial_{\mu}\alpha+iqA_{\mu}-\partial_{\mu}\alpha)\psi \\
-		D^{\mu}\psi^{\dagger} &\rightarrow e^{-iq\alpha}\partial^{\mu}\psi^{\dagger} - iq\partial^{\mu}\alpha e^{-iq\alpha}\psi^{\dagger} + iq(A^{\mu}-\frac{1}{q}\partial^{\mu}\alpha)\psi^{\dagger} \\
-		&= e^{-iq\alpha}(\partial^{\mu}-iq\partial^{\mu}\alpha +iqA^{\mu}-\partial^{\mu}\alpha)\psi^{\dagger}
+			D_{\mu}\psi &\rightarrow (\partial_{\mu}+ie(A_{\mu}-\frac{1}{e}\partial_{\mu}\alpha))e^{i\alpha}\psi \\
+			&= e^{i\alpha}\partial_{\mu}\psi + i\partial_{\mu}\alpha e^{i \alpha}\psi + iA_{\mu}e^{i\alpha}\psi - i\partial_{\mu}\alpha e^{i\alpha}\psi \\
+			&= e^{i\alpha}(\partial_{\mu} + ieA_{\mu} + i\partial_{\mu}\alpha - i\partial_{\mu}\alpha)\psi \\
+			&= e^{i\alpha}(\partial_{\mu}+ieA_{\mu})\psi \\
+			&= e^{i\alpha}D_{\mu}\psi
 		\end{split}
 	\end{equation}
 
-	Substituting this into the original kinetic term gives:
-
-	\begin{equation}
-		D^{\mu}\psi^{\dagger}D_{\mu}\psi = (e^{0})()
-	\end{equation}
+	With this change, the new Lagrangian under a local U(1) transformation becomes:
 
 	\begin{equation}
 		\begin{split}
-		\mathcal{L} &= D^{\mu} \psi^{\dagger} D_{\mu} \psi - m^{2} \psi^{\dagger} \psi \\
-		&= (\partial^{\mu}+ieA^{\mu}\psi^{\dagger} (\partial_{\mu}+ieA_{\mu}\psi - m^{2} \psi^{\dagger}\psi \\
-		&= (\partial^{\mu}\psi^{\dagger}+ieA^{\mu}\psi^{\dagger})(\partial_{\mu}\psi+ieA_{\mu}\psi)-m^{2}\psi^{\dagger}\psi \\
-		&= \partial^{\mu}\psi^{\dagger}\partial_{\mu}\psi + ieA^{\mu}\psi^{\dagger}\partial_{\mu}\psi + ieA_{\mu}\psi\partial^{\mu}\psi^{\dagger} - m^{2}\psi^{\dagger}\psi \\
-		&= \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi + ie(A^{\mu}\psi^{\dagger}\partial_{\mu}\psi+A_{\mu}\psi\partial^{\mu}\psi^{\dagger}) \\
+			\mathcal{L} &= e^{-i\alpha}D^{\mu}\psi^{\dagger}e^{i\alpha}D_{\mu}\psi - m^{2}e^{-i\alpha}\psi^{\dagger}e^{i\alpha}\psi \\
+			&= (D^{\mu}\psi^{\dagger}D_{\mu}\psi - m^{2}\psi^{\dagger}\psi)(e^{-i\alpha}e^{i\alpha}) \\
+			&= D^{\mu}\psi^{\dagger}D_{\mu}\psi - m^{2}\psi^{\dagger}\psi
 		\end{split}
 	\end{equation}
 
 	% 25/02/21
+
+	and the symmetry is restored. The new field $A_{\mu}$ which restores the local U(1) symmetry is referred to as the gauge field, and the modified Lagrangian as the gauge theory. \par
+
+	% 02/03/21
+
+	% 03/03/21 A lot of revisions to the above today.
+
+
+	\subsubsection{Overview}
+
+	The SM Lagrangian is far more complex than in the case of the previous gauge theory. A model of physics in its most fundamental form should be the same in all reference frames, and therefore the SM must be invariant under all translations, rotations, and boosts in addition to invariance under it's gauge symmetry group. Said symmetry group arises from the combination of the mathematical description of these forces: quantum chromodynamics for the strong force, and WSG theory for electroweak.
+
+
+	% 03/03/21
 
 	\subsection{The Standard Model}
 
