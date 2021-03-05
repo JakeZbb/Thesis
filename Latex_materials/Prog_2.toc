@@ -1,43 +1,44 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Physical Theory}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}The Standard Model}{3}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}The SM Lagrangian}{3}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Gauge Theory}{4}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Overview}{6}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}The Standard Model}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Describing the Standard Model Mathematically}{9}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Quantum Chromodynamics}{9}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Electroweak Theory}{10}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Higgs Mechanism}{12}{subsubsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.4}Signal Processes}{14}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Background Processes}{16}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Experimental Setup}{18}{section.3}%
-\contentsline {subsection}{\numberline {3.1}The Large Hadron Collider}{19}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Acceleration at the LHC}{19}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Beam Structure}{22}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Luminosity}{23}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}Pileup}{24}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}ATLAS}{26}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}The ATLAS Coordinate System}{27}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}The Magnet System}{28}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}The Inner Detector}{29}{subsubsection.3.2.3}%
-\contentsline {paragraph}{\numberline {3.2.3.1}The Insertable B-Layer (IBL)}{30}{paragraph.3.2.3.1}%
-\contentsline {paragraph}{\numberline {3.2.3.2}The Pixel Detector}{32}{paragraph.3.2.3.2}%
-\contentsline {paragraph}{\numberline {3.2.3.3}The Semiconductor Tracker (SCT)}{32}{paragraph.3.2.3.3}%
-\contentsline {paragraph}{\numberline {3.2.3.4}The Transition Radiation Tracker (TRT)}{32}{paragraph.3.2.3.4}%
-\contentsline {subsubsection}{\numberline {3.2.4}The Calorimeters}{33}{subsubsection.3.2.4}%
-\contentsline {paragraph}{\numberline {3.2.4.1}The Electromagnetic Calorimeter}{33}{paragraph.3.2.4.1}%
-\contentsline {subparagraph}{The presampler (PS) layer,}{35}{figure.caption.21}%
-\contentsline {subparagraph}{Layer 1,}{36}{figure.caption.21}%
-\contentsline {subparagraph}{Layer 2,}{36}{figure.caption.21}%
-\contentsline {subparagraph}{Layer 3,}{36}{figure.caption.21}%
-\contentsline {paragraph}{\numberline {3.2.4.2}The Hadronic Calorimeter}{36}{paragraph.3.2.4.2}%
-\contentsline {paragraph}{\numberline {3.2.4.3}The Forward Calorimeter}{37}{paragraph.3.2.4.3}%
-\contentsline {subsubsection}{\numberline {3.2.5}The Muon Spectrometer}{37}{subsubsection.3.2.5}%
-\contentsline {subparagraph}{Monitored Drift Tubes (MDTs)}{38}{figure.caption.22}%
-\contentsline {subparagraph}{Resistive Plate Chambers (RPCs)}{38}{figure.caption.22}%
-\contentsline {subparagraph}{Cathode Strip Chambers (CSCs)}{38}{figure.caption.22}%
-\contentsline {subparagraph}{Thin Gap Chambers (TGCs)}{39}{figure.caption.22}%
-\contentsline {subsubsection}{\numberline {3.2.6}The ATLAS Trigger System}{39}{subsubsection.3.2.6}%
-\contentsline {subparagraph}{The L1Calo trigger}{40}{figure.caption.24}%
-\contentsline {subparagraph}{The L1Muon trigger}{41}{figure.caption.24}%
+\contentsline {subsubsection}{\numberline {2.1.1}Standard Model Particle Content}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}The SM Lagrangian}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Gauge Theory}{6}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Overview}{7}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}The Standard Model}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Describing the Standard Model Mathematically}{11}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Quantum Chromodynamics}{11}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Electroweak Theory}{12}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Higgs Mechanism}{13}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Signal Processes}{16}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Background Processes}{17}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Experimental Setup}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The Large Hadron Collider}{21}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Acceleration at the LHC}{21}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Beam Structure}{24}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Luminosity}{25}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Pileup}{27}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}ATLAS}{28}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}The ATLAS Coordinate System}{29}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}The Magnet System}{30}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}The Inner Detector}{31}{subsubsection.3.2.3}%
+\contentsline {paragraph}{\numberline {3.2.3.1}The Insertable B-Layer (IBL)}{32}{paragraph.3.2.3.1}%
+\contentsline {paragraph}{\numberline {3.2.3.2}The Pixel Detector}{34}{paragraph.3.2.3.2}%
+\contentsline {paragraph}{\numberline {3.2.3.3}The Semiconductor Tracker (SCT)}{34}{paragraph.3.2.3.3}%
+\contentsline {paragraph}{\numberline {3.2.3.4}The Transition Radiation Tracker (TRT)}{34}{paragraph.3.2.3.4}%
+\contentsline {subsubsection}{\numberline {3.2.4}The Calorimeters}{35}{subsubsection.3.2.4}%
+\contentsline {paragraph}{\numberline {3.2.4.1}The Electromagnetic Calorimeter}{35}{paragraph.3.2.4.1}%
+\contentsline {subparagraph}{The presampler (PS) layer,}{38}{figure.caption.22}%
+\contentsline {subparagraph}{Layer 1,}{38}{figure.caption.22}%
+\contentsline {subparagraph}{Layer 2,}{38}{figure.caption.22}%
+\contentsline {subparagraph}{Layer 3,}{38}{figure.caption.22}%
+\contentsline {paragraph}{\numberline {3.2.4.2}The Hadronic Calorimeter}{38}{paragraph.3.2.4.2}%
+\contentsline {paragraph}{\numberline {3.2.4.3}The Forward Calorimeter}{39}{paragraph.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {3.2.5}The Muon Spectrometer}{39}{subsubsection.3.2.5}%
+\contentsline {subparagraph}{Monitored Drift Tubes (MDTs)}{40}{figure.caption.23}%
+\contentsline {subparagraph}{Resistive Plate Chambers (RPCs)}{40}{figure.caption.23}%
+\contentsline {subparagraph}{Cathode Strip Chambers (CSCs)}{41}{figure.caption.23}%
+\contentsline {subparagraph}{Thin Gap Chambers (TGCs)}{41}{figure.caption.23}%
+\contentsline {subsubsection}{\numberline {3.2.6}The ATLAS Trigger System}{41}{subsubsection.3.2.6}%
+\contentsline {subparagraph}{The L1Calo trigger}{42}{figure.caption.25}%
+\contentsline {subparagraph}{The L1Muon trigger}{42}{figure.caption.25}%

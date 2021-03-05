@@ -29,6 +29,9 @@
 
 \setcounter{secnumdepth}{4}
 
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}}   % = `bottom' strut
+
 \setlength{\parskip}{0.2cm}
 \setlength{\parindent}{0.0cm}
 \setlength{\textheight}{8.5in}
@@ -120,6 +123,55 @@
 
 	The SM is a non-Abelian gauge theory that fully describes the elementary particles and their interactions under three of the four fundamental forces: strong, weak, and electromagnetic (gravity is not described by the SM). A gauge theory is a form of quantum field theory (QFT) in which particles exist in the form of space-time permeating fields, and the traditional form of a particle is simply an excitation of said field. Unfortunately the words to adequately explain the mechanics of a QFT are notoriously difficult to find so the role must pass to language's bigger, better, nerdier half: mathematics. \par
 
+	\subsubsection{Standard Model Particle Content}
+
+	Before beginning to describe the full model, it is important to consider what particles it contains. The particle content of the SM can be divided into two groups: 
+	
+	\begin{itemize}
+		\item fermions, particles which compose matter and antimatter within the universe
+		\item bosons, particles which mediate particle interactions under each of the forces
+	\end{itemize}
+	
+	These groups are not defined arbitrarily, but by the quantisation of each particle's intrinsic angular momentum: its spin (S). Spin is measured in units of $\hbar$ (the Planck constant, $h$, normalised to $2\pi$): fermions have half integer spin, while bosons have integer spin. Fermions obey Fermi-Dirac statistics and are therefore subject to the Pauli exclusion principle, preventing any two identical fermions within a system from occupying the same quantum state. Bosons obey Bose-Einstein statistics and face no such limitation. \par
+
+	Due to Fermi-Dirac statistics, each fermion has a corresponding anti-particle: a particle with the same mass and spin but with opposite quantum numbers under charge-parity-time (CPT) conjugation. Fermions can be further subdivided into quarks and leptons by their interactions with the strong force: both contain three generations of of fundamental fermions with increasing mass, however quarks possess a colour charge whereas leptons do not. \par
+	
+	Colour in this sense does not refer to the typical description of colour, but a quantum number that parametrises these strong interactions with the value of either red ($r$), green ($g$), or blue ($b$) for particles and anti-red ($\bar{r}$), anti-green ($\bar{g}$) or anti-blue ($\bar{b}$) for anti-particles. The strong force binds particles with complementary colour charges together in order to create colourless states with no overall colour: either an equal mixture of red, green, and blue ($rgb$), an equal mixture of anti-red, anti-green, and anti-blue ($\bar{r}\bar{g}\bar{b}$), or a colour-anticolour pair ($r\bar{r}$,$g\bar{g}$,$b\bar{b}$). This powerful binding by the strong force prevents the existence of individual quarks, causing quarks to be bound into colourless states called hadrons by the phenomenon of colour confinement. Hadrons consisting of three quarks/anti-quarks are called baryons/anti-baryons, and hadrons consisting of quark-antiquark pairs are called mesons. \par
+
+	Each generation of quark contains a pair of one up-type and one down-type quark with contrasting charge ($Q$) and unique quantum numbers. These generations in order of increasing mass are up ($u$) and down ($d$), charm ($c$) and strange ($s$), and top ($t$) and bottom ($b$). The quantum numbers for each of the quarks are:
+
+	\begin{itemize}
+		\item Charge ($Q$): Up-type quarks have charge $+\frac{2}{3}$, down-type quarks have charge $-\frac{1}{3}$
+		\item Isospin ($I_{3}$): The first generation of quarks have assigned third component isospins which is used to distinguish hadrons of similar mass. 
+		\item Charmness ($C$)/Topness ($T$): A flavour number for the heavier generations of up-type quarks. This value is 1 for its respective quark, and 0 for all other quarks.
+		\item Strangeness ($S$)/Bottomness ($B$): A flavour number for the heavier generations of down-type quarks. This value is -1 for its respective quark, and 0 for all other quarks.   
+	\end{itemize}
+
+	A list of quarks with their fully detailed quantum numbers can be seen in Table \ref{tab:SMQuarks1}.
+
+	\begin{table}
+		\begin{center}
+			\begin{tabular}{ c|c|c|c|c|c|c|c }
+				\hline \hline
+				Quark Flavour & Mass [MeV] & $Q$ (e) & $I_{3}$ & $C$ & $S$ & $T$ & $B$ \rule{0pt}{2.6ex}\rule[-0.9ex]{0pt}{0pt}\\ 
+				\hline \hline
+				u & 2.2 & $+\frac{2}{3}$ & $+\frac{1}{2}$ & 0 & 0 & 0 & 0 \rule{0pt}{2.6ex}\rule[-0.9ex]{0pt}{0pt}\\ 
+				d & 4.7 & $-\frac{1}{3}$ & $-\frac{1}{2}$ & 0 & 0 & 0 & 0 \rule{0pt}{2.6ex}\rule[-1.6ex]{0pt}{0pt}\\ 
+				\hline
+				c & 1.28$\times 10^{3}$  & $+\frac{2}{3}$ & 0 & 1 & 0 & 0 & 0 \rule{0pt}{2.6ex}\rule[-0.9ex]{0pt}{0pt}\\ 
+				s & 95 & $-\frac{1}{3}$ & 0 & 0 & -1 & 0 & 0 \rule{0pt}{2.6ex}\rule[-1.6ex]{0pt}{0pt}\\
+				\hline
+				t & 173$\times 10^{3}$ & $+\frac{2}{3}$ & 0 & 0 & 0 & 1 & 0 \rule{0pt}{2.6ex}\rule[-0.9ex]{0pt}{0pt}\\
+				b & 4.18$\times 10^{3}$ & $-\frac{1}{3}$ & 0& 0 & 0 & 0 & -1 \rule{0pt}{2.6ex}\rule[-1.6ex]{0pt}{0pt}\\
+				\hline \hline
+			\end{tabular}
+				\caption{A table showing the mass, charge, and quantum numbers of the quarks described by the SM. The first, second, and third rows correspond to the first, second, and third quark generations respectively \cite{Article:PDG}.}
+				\label{tab:SMQuarks1}
+		\end{center}
+	\end{table}
+
+	% 04/03/21
+
 	\subsubsection{The SM Lagrangian}
 
 	The equations of motion for this system are governed by the Principle of Least Action: The manner in which a system evolves between two states is described by the trajectory that minimises the action (S). For example, the motion of a free particle between two points would follow the path of a straight line, as this path requires the least possible energy and therefore minimises the action. The action is defined as:
@@ -148,7 +200,7 @@
 		\frac{\partial\mathcal{L}}{\partial\phi}=\partial_{\mu}\left(\frac{\partial\mathcal{L}}{\partial(\partial_{\mu}\phi)}\right)
 	\end{equation}
 
-	which is the basis for many of the classical mechanical equations of motion (e.g. Newton's Second Law). Just as the Lagrangian of a classical system would be used to obtain its equations of motion, the same is true of the SM, and the SM can be described by the Langrangian formalism:
+	which is the basis for many of the classical mechanical equations of motion (e.g. Newton's Second Law). Just as the Lagrangian of a classical system would be used to obtain its equations of motion, the same is true of the SM, and the SM can be described by the Lagrangian formalism:
 
 	\begin{equation}
 		\mathcal{L}_{\mathrm{SM}} = \mathcal{L}_{\mathrm{EWK}} + \mathcal{L}_{\mathrm{QCD}} + \mathcal{L}_{\mathrm{Higgs}} + \mathcal{L}_{\mathrm{Yukawa}}
@@ -156,13 +208,13 @@
 
 	\subsubsection{Gauge Theory}
 
-	In order to understand the SM, it is important to first understand the concept of a gauge theory. Consider a complex scalar field with mass $m$ described by the Lagrangian density (henceforth simply called "Lagrangian"):
+	In order to understand the SM, it is important to first understand the concept of a gauge theory. Consider a complex scalar field with mass $m$ described by the Lagrangian:
 
 	\begin{equation}
 		\mathcal{L} = \partial^{\mu} \psi^{\dagger} \partial_{\mu} \psi - m^{2}\psi^{\dagger}\psi
 	\end{equation}
 
-	Under a rotation in the complex plane of angle $\alpha$ where:
+	Under a rotation in the complex plane of angle $\alpha$ where
 
 	\begin{equation}
 		\psi(x) \rightarrow e^{i\alpha}\psi(x)  
@@ -170,7 +222,7 @@
 		\psi^{\dagger}(x) \rightarrow e^{-i\alpha}\psi^{\dagger}(x)
 	\end{equation}
 
-	The lagrangian can be seen to be invariant as:
+	the lagrangian can be seen to be invariant as:
 
 	\begin{equation}
 		\begin{split}
@@ -223,7 +275,7 @@
 		\end{split}
 	\end{equation}
 
-	With this change, the new Lagrangian under a local U(1) transformation becomes:
+	With this change, the new Lagrangian under a local U(1) transformation becomes
 
 	\begin{equation}
 		\begin{split}
@@ -238,6 +290,8 @@
 	and the symmetry is restored. The new field $A_{\mu}$ which restores the local U(1) symmetry is referred to as the gauge field, and the modified Lagrangian as the gauge theory. \par
 
 	% 02/03/21
+
+
 
 	% 03/03/21 A lot of revisions to the above today.
 
