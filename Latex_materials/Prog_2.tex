@@ -136,7 +136,14 @@
 		\item bosons, particles which mediate particle interactions under each of the forces
 	\end{itemize}
 	
-	These groups are not defined arbitrarily, but by the quantisation of each particle's intrinsic angular momentum: its spin (S). Spin is measured in units of $\hbar$ (the Planck constant, $h$, normalised to $2\pi$): fermions have half integer spin, while bosons have integer spin\footnote{Spin-0 bosons are also referred to as "scalar" bosons, and Spin-1 bosons as "vector" bosons}. Fermions obey Fermi-Dirac statistics and are therefore subject to the Pauli exclusion principle, preventing any two identical fermions within a system from occupying the same quantum state. Bosons obey Bose-Einstein statistics and face no such limitation. \par
+	These groups are not defined arbitrarily, but by the quantisation of each particle's intrinsic angular momentum: its spin (S). Spin is measured in units of $\hbar$ (the Planck constant, $h$, normalised to $2\pi$): fermions have half integer spin, while bosons have integer spin\footnote{Spin-0 bosons are also referred to as "scalar" bosons, and Spin-1 bosons as "vector" bosons}. Fermions obey Fermi-Dirac statistics and are therefore subject to the Pauli exclusion principle, preventing any two identical fermions within a system from occupying the same quantum state. Bosons obey Bose-Einstein statistics and face no such limitation. Figure \ref{Fig:StandardModel1} shows the fermions and bosons of the SM. \par
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.25]{Standard_Model.png}
+		\caption{A figure showing the fundamental fermions and bosons of the SM \cite{StandardModelImage}.}
+		\label{Fig:StandardModel1} 
+	\end{figure}
 
 	\paragraph{Fermions}
 	\mbox{}\\
@@ -240,13 +247,13 @@
 		\item The gluon ($g$) which mediates strong interactions
 	\end{itemize}
 
-	A spin-2 boson called the graviton has been proposed as a mediator of the gravitational force, however no experimental evidence of its existence has yet been observed. The ranges of each of the fundamental forces are limited by the Heisenberg uncertainty principle of $\Delta E \Delta t > \frac{\hbar}{2}$, as $\Delta E$ for each force is dependent upon the mass of the mediator boson. The more massive bosons of the weak interaction have a much shorter range than the massless photon, which allows electromagnetic interactions to occur over an infinite range. The proposed graviton would also allow an infinite range for the gravitational force, however this is not the case for the strong force due to the ability of the gluon to self-interact (see Section ). \par
+	A spin-2 boson called the graviton has been proposed as a mediator of the gravitational force, however no experimental evidence of its existence has yet been observed. The ranges of each of the fundamental forces are limited by the Heisenberg uncertainty principle of $\Delta E \Delta t > \frac{\hbar}{2}$, as $\Delta E$ for each force is dependent upon the mass of the mediator boson. The more massive bosons of the weak interaction have a much shorter range than the massless photon, which allows electromagnetic interactions to occur over an infinite range. The proposed graviton would also allow an infinite range for the gravitational force, however this is not the case for the strong force due to the ability of the gluon to self-interact (see Section \ref{Section:QCD}). \par
 
 	The final boson of the SM is the massive spin-0 Higgs boson, which does not mediate the interactions under one of the fundamental forces, but instead mediates interactions between massive particles and the Higgs field. The mass of fermions, the gauge bosons, and the Higgs boson itself are all due to various interactions with the Higgs boson. Table \ref{tab:SMBosons1} summarises the properties of the SM bosons. 
 	
 	% 08/03/21
 
-	\subsection{The SM Lagrangian}
+	\subsection{Standard Model Interactions}
 
 	The equations of motion for this system are governed by the Principle of Least Action: The manner in which a system evolves between two states is described by the trajectory that minimises the action (S). For example, the motion of a free particle between two points would follow the path of a straight line, as this path requires the least possible energy and therefore minimises the action. The action is defined as:
 	
@@ -425,7 +432,17 @@
 		\overline{\psi}(x) \rightarrow e^{-iq\alpha}\overline{\psi}(x)
 	\end{equation}
 
-	however gauge invariance is lost under a global U(1) transformation. The symmetry can be restored with the introduction of the covariant derivative $D_{\mu}$ and the photon vector field $A_{\mu}$ describing the interactions between fermions and photons. \par
+	however gauge invariance is lost under a global U(1) transformation. The symmetry can be restored with the introduction of the covariant derivative 
+	
+	\begin{equation}
+		D_{\mu} = \partial_{\mu} - iqA_{\mu}
+	\end{equation}
+
+	and the photon vector field $A_{\mu}$ describing the interactions between fermions and photons which transforms as
+	
+	\begin{equation}
+		A_{\mu} \rightarrow A_{\mu} + \partial_{\mu}\alpha(x)
+	\end{equation}
 	
 	However, in order to form a complete QED Lagrangian it is also important to consider the kinematics of the $A_{\mu}$ field itself. This can be achieved with the introduction of the antisymmetric field strength tensor $F^{\mu\nu}$ which is defined as
 
@@ -436,7 +453,7 @@
 		\end{split}
 	\end{equation}
 
-	The introduction of this tensor results in a QED Lagrangian of the form
+	The introduction of this tensor results in a gauge invariant QED Lagrangian of the form
 
 	\begin{equation}
 		\mathcal{L}_{\mathrm{QED}}=\overline{\psi}(i\slashed{D}-m)\psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu}
@@ -444,7 +461,130 @@
 
 	No other higher order terms (such as terms proportional to $A^{3}$ or proportional to $m^{2}A^{\mu}A_{\mu}$) are present in this Lagrangian, as their presence would remove the local gauge invariance. This prohibits the presence of both a mass term for the QED gauge boson (hence the massless nature of the photon), and any higher order terms for the photon field which prevents photon self interaction. 
 
-	\subsubsection{Quantum Chromodynamics}
+	\subsubsection{Quantum Chromodynamics} \label{Section:QCD}
+
+	Just as QED describes the interactions between photons and fermions, Quantum Chromodynamics (QCD) is a non-abelian gauge theory that describes the interactions between colour charged objects. Unlike QED, this theory is not dependent on the unitary gauge group U(1) but the special unitary gauge group SU(3). The SU($n$) group is a subset of the U($n$) containing all unitary $n$ dimensional matrices with determinant 1. \par
+
+	In this theory, quark fields possess one of the three colour charges ($r$, $g$, $b$) and anti-quark fields possess on of the three anti-colour charges ($\overline{r}$, $\overline{g}$, $\overline{b}$), with gluons carrying a charged colour-anticolour combination (of which there are 8 possibilities). The local transformation under the SU(3) group takes the form:
+	
+	\begin{equation}
+		\psi(x) \rightarrow e^{i\alpha_{a}(x)T^{a}}\psi(x)
+		\quad \mathrm{and} \quad
+		\overline{\psi}(x) \rightarrow e^{-i\alpha_{a}(x)T^{a}}\overline{\psi}(x)
+	\end{equation}
+
+	where $\alpha_{a}(x)$ is a local phase shift, and $T^{a} = \frac{\lambda^{a}}{2}$ representing the generators of SU(3). In this case, $\lambda^{a}$ represents the 8 Gell-Mann matrices and $a$ is an index of the gluon colour charge. The Gell-Mann matrices take the form of
+	
+	\begin{equation}
+		\begin{split}
+			\lambda^{1}=&\begin{pmatrix}
+				0 & 1 & 0 \\
+				1 & 0 & 0 \\
+				0 & 0 & 0 \\
+			\end{pmatrix},\quad
+			\lambda^{2}=\begin{pmatrix}
+				0 & -i & 0 \\
+				i & 0 & 0 \\
+				0 & 0 & 0 \\
+			\end{pmatrix},\quad
+			\lambda^{3}=\begin{pmatrix}
+				1 & 0 & 0 \\
+				0 & -1 & 0 \\
+				0 & 0 & 0 \\
+			\end{pmatrix} \\
+			\lambda^{4}=&\begin{pmatrix}
+				0 & 0 & 1 \\
+				0 & 0 & 0 \\
+				1 & 0 & 0 \\
+			\end{pmatrix},\quad
+			\lambda^{5}=\begin{pmatrix}
+				0 & 0 & -i \\
+				0 & 0 & 0 \\
+				i & 0 & 0 \\
+			\end{pmatrix} \\
+			\lambda^{6}=&\begin{pmatrix}
+				0 & 0 & 0 \\
+				0 & 0 & 1 \\
+				0 & 1 & 0 \\
+			\end{pmatrix},\quad
+			\lambda^{7}=\begin{pmatrix}
+				0 & 0 & 0 \\
+				0 & 0 & -i \\
+				0 & i & 0 \\
+			\end{pmatrix},\quad
+			\lambda^{8}=\frac{1}{\sqrt{3}}\begin{pmatrix}
+				1 & 0 & 0 \\
+				0 & 1 & 0 \\
+				0 & 0 & -2 \\
+			\end{pmatrix} \\
+		\end{split}
+	\end{equation}
+
+	Local invariance is preserved with the introduction of a new covariant derivative of the form
+
+	\begin{equation}
+		D_{\mu} = \partial_{\mu} + igT^{a}A_{\mu}^{a}
+	\end{equation}
+
+	with $g$ representing the strong coupling constant and $A_{\mu}^{a}$ the gluon field for colour charge $a$. This field transforms as
+
+	\begin{equation}
+		T^{a}A_{\mu}^{a} \rightarrow UA_{\mu}^{a}U^{\dagger}+\frac{i}{g}(\partial_{\mu}U)U^{\dagger}
+	\end{equation}
+
+	A crucial difference of QCD in comparison to QED is an additional term added to the field strength tensor: a term for the self interaction of gauge bosons. The QCD field strength tensor is defined as
+
+	\begin{equation}
+		\begin{split}
+		F_{\mu\nu}^{a}&=\partial_{\mu}A_{\nu}^{a}-\partial_{\nu}A_{\mu}^{a}-gf^{abc}A_{\mu}^{b}A_{\nu}^{a} \\
+		&=-\frac{i}{g}[D_{\mu},D_{\nu}]
+		\end{split}
+	\end{equation}
+
+	where $f^{abc}$ arises from the structure constants of SU(3) and the commutation relations of the generators of the group:
+
+	\begin{equation}
+		[T^{a},T^{b}] = if^{abc}T^{c}
+	\end{equation}
+
+	The self interaction term introduces one of the key differences between QCD and QED: the ability of multiple gluons to exchange colour between each other in the absence of fermions, and produce multi-gluon couplings. A second key difference is the asymptotic freedom exhibited by QCD. \par 
+	
+	In the case of QED interactions can occur at a potentially infinite range, with the strength of the coupling decreasing with distance. In the case of QCD, however, the coupling strength is strongest at large length scales. As two quarks bound by a virtual gluon are separated, the coupling strength also increases allowing for the creation of additional virtual gluons. \par
+	
+	Eventually, the virtual gluons would pass the energy threshold required to create quark-antiquark pairs, binding to the original quarks and preventing the creation of free colour-charged states. It is this characteristic of QCD that creates an upper limit for the range of the strong force despite the massless nature of the gluon. 
+
+	The gauge invariant QCD Lagrangian takes the form
+
+	\begin{equation}
+		\mathcal{L}_{\mathrm{QCD}} = \sum_{f = 1}^{n_{f}}\overline{\psi}_{f}(i\slashed{D}-m_{f})\psi_{f}-\frac{1}{4}F_{\mu\nu}^{a}F_{a}^{\mu\nu}  
+	\end{equation}
+
+	with $m_{f}$ representing the quark mass of a quark with flavour $f$, and $n_{f}$ representing the total number of quark flavours. 
+
+	\subsubsection{Electroweak Unification}
+
+	The Glashow-Salam-Weinberg (GSW) model describes the behaviour of electroweak (EWK) interactions: interactions that occur when the electromagnetic and weak forces unify at the electroweak unification scale ($\approx$ 250 GeV). The GSW model is a non-abelian gauge theory constructed from the groups 
+	
+	\begin{equation}
+		SU(2)_{L} \otimes U(1)_{Y}
+	\end{equation}
+
+	SU(2)$_{L}$ contributes weak isospin ($T$) to the model, where L denotes the \textit{handedness} of the fermions involved. This property is related to a fermion's chirality\footnote{A particle can also have left or right handed \textit{helicity} depending on the direction of the particle's spin relative to its direction of motion, however (unlike chirality) helicity is not Lorentz invariant.}: an intrinsic quantum property that allows a particle to be classified as "left-handed" or "right-handed". Only left-handed fermions are affected by the gauge transformations of SU(2)$_{L}$, which makes handedness a key concept of the GSW model. Figure \ref{Fig:Chirality} shows a graphical explanation of chirality. \par
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.35]{complexrotation.png}
+		\caption{A figure showing how left and right chiral fermions transform when rotated 360 degrees about their directions of motion. The circle on the right represents the complex phase of the particle's quantum state: as the particle is rotated, the value of the phase moves along the circle in a direction depending on the particle chirality \cite{ChiralityBlog}. }
+		\label{Fig:Chirality} 
+	\end{figure}
+
+	U(1)$_{Y}$ contributes weak hypercharge (Y) to the model. Both the weak hypercharge and weak isospin are related to the charge of the fermion via the equation
+
+	\begin{equation}
+		Q = T^{3} + \frac{Y}{2}
+	\end{equation}
+
+	where $T^{3}$ represents the third component of the weak isospin. 
 
 	% 09/03/21
 

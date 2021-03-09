@@ -7,6 +7,10 @@ Warning--entry type for "LHCCollimation1" isn't style-file defined
 --line 1630 of file Prog_2.bib
 Warning--entry type for "ATLASLumiPublic" isn't style-file defined
 --line 1709 of file Prog_2.bib
+Warning--entry type for "ChiralityBlog" isn't style-file defined
+--line 2082 of file Prog_2.bib
+Warning--entry type for "StandardModelImage" isn't style-file defined
+--line 2091 of file Prog_2.bib
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
@@ -35,45 +39,45 @@ Warning--empty author and editor in ATLASTileTDR
 Warning--empty author and editor in ATLASMuonTDR
 Warning--empty booktitle in MultiwirePropChamber
 Warning--empty year in ATLASTGCCertification
-You've used 70 entries,
+You've used 72 entries,
             2525 wiz_defined-function locations,
-            1525 strings with 130031 characters,
-and the built_in function-call counts, 24070 in all, are:
-= -- 1426
-> -- 703
+            1536 strings with 130458 characters,
+and the built_in function-call counts, 24484 in all, are:
+= -- 1450
+> -- 708
 < -- 7
-+ -- 334
-- -- 163
-* -- 1348
-:= -- 2507
-add.period$ -- 276
-call.type$ -- 70
-change.case$ -- 14
++ -- 337
+- -- 164
+* -- 1361
+:= -- 2540
+add.period$ -- 281
+call.type$ -- 72
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 90
-duplicate$ -- 2691
-empty$ -- 2479
-format.name$ -- 206
-if$ -- 5333
+cite$ -- 92
+duplicate$ -- 2739
+empty$ -- 2535
+format.name$ -- 207
+if$ -- 5428
 int.to.chr$ -- 0
-int.to.str$ -- 70
-missing$ -- 735
-newline$ -- 411
-num.names$ -- 62
-pop$ -- 1118
+int.to.str$ -- 72
+missing$ -- 747
+newline$ -- 420
+num.names$ -- 63
+pop$ -- 1152
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 724
+skip$ -- 738
 stack$ -- 0
-substring$ -- 553
-swap$ -- 1655
+substring$ -- 557
+swap$ -- 1680
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 20
-while$ -- 100
-width$ -- 72
-write$ -- 895
-(There were 22 warnings)
+while$ -- 101
+width$ -- 74
+write$ -- 915
+(There were 24 warnings)
