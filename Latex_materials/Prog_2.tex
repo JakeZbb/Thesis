@@ -29,6 +29,8 @@
 \usepackage{csquotes}
 \MakeOuterQuote{"}
 
+\usepackage{slashed}
+
 \setcounter{secnumdepth}{4}
 
 \newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
@@ -244,7 +246,7 @@
 	
 	% 08/03/21
 
-	\subsubsection{The SM Lagrangian}
+	\subsection{The SM Lagrangian}
 
 	The equations of motion for this system are governed by the Principle of Least Action: The manner in which a system evolves between two states is described by the trajectory that minimises the action (S). For example, the motion of a free particle between two points would follow the path of a straight line, as this path requires the least possible energy and therefore minimises the action. The action is defined as:
 	
@@ -363,10 +365,90 @@
 
 	% 02/03/21
 
-
-
 	% 03/03/21 A lot of revisions to the above today.
 
+	\subsubsection{Quantum Electrodynamics}
+
+	Quantum Electrodynamics (QED) is a gauge theory that covers the EM interactions between photons and fermions where $A_{\mu}$ represents the photon vector field and $\psi$ represents the charged fermion spinor fields. The Dirac Lagrangian describes interactions between these spinor fields
+
+	\begin{equation}
+		\mathcal{L}_{\mathrm{Dirac}} = \overline{\psi}(i\slashed{\partial}-m)\psi
+	\end{equation}
+
+	with $m$ representing the mass of the fermion, $\overline{\psi}=\psi^{\dagger}\gamma^{0}$, and $\slashed{\partial}=\gamma^{\mu}\partial_{\mu}$ where $\gamma^{\mu}$ is the four-vector notation of the Dirac gamma matrices:
+	
+	\begin{equation}
+		\gamma^{\mu}=\begin{pmatrix}
+			0 & \sigma^{\mu}  \\
+			\overline{\sigma}^{\mu} & 0  \\
+		\end{pmatrix}
+	\end{equation}
+	
+	where $\sigma^{\mu}=(1,\sigma^{i})$, $\overline{\sigma}^{\mu}=(1,-\sigma^{i})$, and $\sigma^{i}$ represents the $2 \times 2$ Pauli matrices:
+
+	\begin{equation}
+		\sigma^{1}=\begin{pmatrix}
+			0 & 1 \\
+			1 & 0 \\
+		\end{pmatrix},\quad\sigma^{2}=\begin{pmatrix}
+			0 & -i \\
+			i & 0 \\
+		\end{pmatrix},\quad\sigma^{3}=\begin{pmatrix}
+			1 & 0 \\
+			0 & -1 \\
+		\end{pmatrix}
+	\end{equation}
+
+	and under the Pauli-Dirac representation
+
+	\begin{equation}
+		\gamma^{0}=\begin{pmatrix}
+			1 & 0 \\
+			0 & -1 \\
+		\end{pmatrix}
+	\end{equation}
+
+	such that
+
+	\begin{equation}
+		\gamma^{5} \equiv i\gamma^{0}\gamma^{1}\gamma^{2}\gamma^{3}=\begin{pmatrix}
+			0 & 1 \\
+			1 & 0 \\
+		\end{pmatrix} 
+	\end{equation}
+
+	As in the previous example, this Lagrangian is invariant under a global U(1) transformation such that
+
+	\begin{equation}
+		\psi(x) \rightarrow e^{iq\alpha}\psi(x)  
+		\quad\mathrm{and}\quad
+		\overline{\psi}(x) \rightarrow e^{-iq\alpha}\overline{\psi}(x)
+	\end{equation}
+
+	however gauge invariance is lost under a global U(1) transformation. The symmetry can be restored with the introduction of the covariant derivative $D_{\mu}$ and the photon vector field $A_{\mu}$ describing the interactions between fermions and photons. \par
+	
+	However, in order to form a complete QED Lagrangian it is also important to consider the kinematics of the $A_{\mu}$ field itself. This can be achieved with the introduction of the antisymmetric field strength tensor $F^{\mu\nu}$ which is defined as
+
+	\begin{equation}
+		\begin{split}
+		F^{\mu\nu} &= \partial_{\mu}A_{\nu} - \partial{\nu}A_{\mu} \\
+		&= -\frac{i}{q}[D^{\mu},D^{\nu}] \\
+		\end{split}
+	\end{equation}
+
+	The introduction of this tensor results in a QED Lagrangian of the form
+
+	\begin{equation}
+		\mathcal{L}_{\mathrm{QED}}=\overline{\psi}(i\slashed{D}-m)\psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu}
+	\end{equation}
+
+	No other higher order terms (such as terms proportional to $A^{3}$ or proportional to $m^{2}A^{\mu}A_{\mu}$) are present in this Lagrangian, as their presence would remove the local gauge invariance. This prohibits the presence of both a mass term for the QED gauge boson (hence the massless nature of the photon), and any higher order terms for the photon field which prevents photon self interaction. 
+
+	\subsubsection{Quantum Chromodynamics}
+
+	% 09/03/21
+
+	\newpage
 
 	\subsubsection{Overview}
 
