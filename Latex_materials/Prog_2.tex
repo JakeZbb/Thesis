@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,epsf,portrait,times,epsfig]{article}
+\documentclass[12pt,a4paper,epsf,portrait,times,epsfig]{report}
 %\usepackage[dvips]{graphics}
 \usepackage{graphicx}
 \usepackage{epsfig}
@@ -30,6 +30,7 @@
 \MakeOuterQuote{"}
 
 \usepackage{slashed}
+\usepackage{titlesec}
 
 \setcounter{secnumdepth}{4}
 
@@ -83,7 +84,7 @@
 	\newpage
 	\pagenumbering{arabic}
 	
-	\section{Introduction}
+	\chapter{Introduction}
 	
 	The production of a Z boson from p-p collisions is an ideal target for analysis due to the strong identifiers of the process. The clear experimental signature of a Z boson decaying to a lepton pair is combined with the long lifetimes of b-hadrons to create a signature which is easy to observe, and that provides an excellent opportunity to study the production and dynamics of heavy flavour physics (heavy flavour physics is physics pertaining to quarks at the heavier end of the scale, namely bottom and charm, but not top quarks which have their own area of study). \par
 	
@@ -115,7 +116,7 @@
 
 	\newpage
 	
-	\section{Physical Theory}
+	\chapter{Physical Theory}
 	
 	The key to advancement and understanding in particle physics is being incorrect. While it would be ideal to simply pick up a pen and write out a grand unified theory or to observe a single particle event before identifying new and unseen physics, the far more practical approach is to repeatedly and precisely measure our current understanding of the physical word to find the point at which it breaks. Only by identifying where the current description of physical behaviour is wrong can one begin to postulate new descriptions that might be right. \par
 
@@ -123,11 +124,11 @@
 
 	% 16/02/21
 
-	\subsection{The Standard Model}
+	\section{The Standard Model}
 
 	The SM is a non-Abelian gauge theory that fully describes the elementary particles and their interactions under three of the four fundamental forces: strong, weak, and electromagnetic (gravity is not described by the SM). A gauge theory is a form of quantum field theory (QFT) in which particles exist in the form of space-time permeating fields, and the traditional form of a particle is simply an excitation of said field. Unfortunately the words to adequately explain the mechanics of a QFT are notoriously difficult to find so the role must pass to language's bigger, better, nerdier half: mathematics. \par
 
-	\subsubsection{Standard Model Particle Content}
+	\subsection{Standard Model Particle Content}
 
 	Before beginning to describe the full model, it is important to consider what particles it contains. The particle content of the SM can be divided into two groups: 
 	
@@ -145,9 +146,7 @@
 		\label{Fig:StandardModel1} 
 	\end{figure}
 
-	\paragraph{Fermions}
-	\mbox{}\\
-	\mbox{}\\ 
+	\subsubsection{Fermions}
 
 	Due to Fermi-Dirac statistics, each fermion has a corresponding anti-particle: a particle with the same mass and spin but with opposite quantum numbers under charge-parity-time (CPT) conjugation. Fermions can be further subdivided into quarks and leptons by their interactions with the strong force: both contain three generations of of fundamental fermions with increasing mass, however quarks possess a colour charge whereas leptons do not. \par
 	
@@ -235,9 +234,7 @@
 
 	Unlike the quarks, the leptons are have no colour charge and do not interact with the strong force whatsoever. While the masses of the charged leptons in each generation are well defined, neutrino masses have no intrinsic value within the SM. Experimental measurements of neutrino mixing, however, have determined an upper constraint for the neutrino masses of a small yet distinctly non-zero mass. Table \ref{tab:SMLeptons1} summarises the properties of the SM leptons. 
 
-	\paragraph{Bosons}
-	\mbox{}\\
-	\mbox{}\\
+	\subsubsection{Bosons}
 	
 	The spin-1 gauge bosons\footnote{The "gauge" in "gauge bosons" arises from the gauge theories that describe the behaviour of the fundamental forces (see Section \ref{Section:GaugeTheory} and beyond).} of the SM mediate the interactions between particles under the fundamental forces. These bosons are:
 
@@ -253,7 +250,7 @@
 	
 	% 08/03/21
 
-	\subsection{Standard Model Interactions}
+	\section{Standard Model Interactions}
 
 	The equations of motion for this system are governed by the Principle of Least Action: The manner in which a system evolves between two states is described by the trajectory that minimises the action (S). For example, the motion of a free particle between two points would follow the path of a straight line, as this path requires the least possible energy and therefore minimises the action. The action is defined as:
 	
@@ -287,7 +284,7 @@
 		\mathcal{L}_{\mathrm{SM}} = \mathcal{L}_{\mathrm{EWK}} + \mathcal{L}_{\mathrm{QCD}} + \mathcal{L}_{\mathrm{Higgs}} + \mathcal{L}_{\mathrm{Yukawa}}
 	\end{equation}
 
-	\subsubsection{Gauge Theory} \label{Section:GaugeTheory}
+	\subsection{Gauge Theory} \label{Section:GaugeTheory}
 
 	In order to understand the SM, it is important to first understand the concept of a gauge theory. Consider a complex scalar field with mass $m$ described by the Lagrangian:
 
@@ -374,7 +371,7 @@
 
 	% 03/03/21 A lot of revisions to the above today.
 
-	\subsubsection{Quantum Electrodynamics}
+	\subsection{Quantum Electrodynamics} \label{Section:QED}
 
 	Quantum Electrodynamics (QED) is a gauge theory that covers the EM interactions between photons and fermions where $A_{\mu}$ represents the photon vector field and $\psi$ represents the charged fermion spinor fields. The Dirac Lagrangian describes interactions between these spinor fields
 
@@ -461,11 +458,21 @@
 
 	No other higher order terms (such as terms proportional to $A^{3}$ or proportional to $m^{2}A^{\mu}A_{\mu}$) are present in this Lagrangian, as their presence would remove the local gauge invariance. This prohibits the presence of both a mass term for the QED gauge boson (hence the massless nature of the photon), and any higher order terms for the photon field which prevents photon self interaction. 
 
-	\subsubsection{Quantum Chromodynamics} \label{Section:QCD}
+	\subsection{Quantum Chromodynamics} \label{Section:QCD}
 
-	Just as QED describes the interactions between photons and fermions, Quantum Chromodynamics (QCD) is a non-abelian gauge theory that describes the interactions between colour charged objects. Unlike QED, this theory is not dependent on the unitary gauge group U(1) but the special unitary gauge group SU(3). The SU($n$) group is a subset of the U($n$) containing all unitary $n$ dimensional matrices with determinant 1. \par
+	Just as QED describes the interactions between photons and fermions, Quantum Chromodynamics (QCD) is a non-abelian gauge theory that describes the interactions between colour charged objects. Unlike QED, this theory is not dependent on the unitary gauge group U(1) but the special unitary gauge group SU(3)$_{\mathrm{C}}$ where C denotes the colour charge of the fermions involved. The SU($n$) group is a subset of the U($n$) containing all unitary $n$ dimensional matrices with determinant 1. \par
 
-	In this theory, quark fields possess one of the three colour charges ($r$, $g$, $b$) and anti-quark fields possess on of the three anti-colour charges ($\overline{r}$, $\overline{g}$, $\overline{b}$), with gluons carrying a charged colour-anticolour combination (of which there are 8 possibilities). The local transformation under the SU(3) group takes the form:
+	In this theory, quark fields possess one of the three colour charges ($r$, $g$, $b$) and anti-quark fields possess on of the three anti-colour charges ($\overline{r}$, $\overline{g}$, $\overline{b}$), represented by and transforming as fundamental colour triplets:
+	
+	\begin{equation}
+		\psi_{f}(x) = \begin{pmatrix}
+			\psi_{f}^{r}(x) \rule{0pt}{2.6ex}\rule[-0.9ex]{0pt}{0pt}\\
+			\psi_{f}^{g}(x) \rule{0pt}{2.6ex}\rule[-0.9ex]{0pt}{0pt}\\
+			\psi_{f}^{b}(x) \rule{0pt}{2.6ex}\rule[-0.9ex]{0pt}{0pt}\\
+		\end{pmatrix}
+	\end{equation}	
+	
+	where a single quark of flavour $f$ is represented as a superposition of the three fundamental colour states. The local transformation under the SU(3) group takes the form:
 	
 	\begin{equation}
 		\psi(x) \rightarrow e^{i\alpha_{a}(x)T^{a}}\psi(x)
@@ -520,6 +527,8 @@
 		\end{split}
 	\end{equation}
 
+	Gluons in this theory possess a combination of colour charged colour-anticolour pairs of which there are 8 possible combinations due to the interactions of the colour triplets with each of the 8 SU(3) generators. \par 
+
 	Local invariance is preserved with the introduction of a new covariant derivative of the form
 
 	\begin{equation}
@@ -534,12 +543,12 @@
 
 	A crucial difference of QCD in comparison to QED is an additional term added to the field strength tensor: a term for the self interaction of gauge bosons. The QCD field strength tensor is defined as
 
-	\begin{equation}
+	\begin{equation} \label{eq:GluonSelfInteract}
 		\begin{split}
-		F_{\mu\nu}^{a}&=\partial_{\mu}A_{\nu}^{a}-\partial_{\nu}A_{\mu}^{a}-gf^{abc}A_{\mu}^{b}A_{\nu}^{a} \\
+		F_{\mu\nu}^{a}&=\partial_{\mu}A_{\nu}^{a}-\partial_{\nu}A_{\mu}^{a}-gf^{abc}A_{\mu}^{b}A_{\nu}^{c} \\
 		&=-\frac{i}{g}[D_{\mu},D_{\nu}]
 		\end{split}
-	\end{equation}
+	\end{equation} 
 
 	where $f^{abc}$ arises from the structure constants of SU(3) and the commutation relations of the generators of the group:
 
@@ -547,7 +556,7 @@
 		[T^{a},T^{b}] = if^{abc}T^{c}
 	\end{equation}
 
-	The self interaction term introduces one of the key differences between QCD and QED: the ability of multiple gluons to exchange colour between each other in the absence of fermions, and produce multi-gluon couplings. A second key difference is the asymptotic freedom exhibited by QCD. \par 
+	The self interaction term, $gf^{abc}A_{\mu}^{b}A_{\mu}^{c}$ in equation \ref{eq:GluonSelfInteract}, introduces one of the key differences between QCD and QED: the ability of multiple gluons to exchange colour between each other in the absence of fermions, and produce multi-gluon couplings. A second key difference is the asymptotic freedom exhibited by QCD. \par 
 	
 	In the case of QED interactions can occur at a potentially infinite range, with the strength of the coupling decreasing with distance. In the case of QCD, however, the coupling strength is strongest at large length scales. As two quarks bound by a virtual gluon are separated, the coupling strength also increases allowing for the creation of additional virtual gluons. \par
 	
@@ -561,24 +570,24 @@
 
 	with $m_{f}$ representing the quark mass of a quark with flavour $f$, and $n_{f}$ representing the total number of quark flavours. 
 
-	\subsubsection{Electroweak Unification}
+	\subsection{Electroweak Unification}
 
 	The Glashow-Salam-Weinberg (GSW) model describes the behaviour of electroweak (EWK) interactions: interactions that occur when the electromagnetic and weak forces unify at the electroweak unification scale ($\approx$ 250 GeV). The GSW model is a non-abelian gauge theory constructed from the groups 
 	
 	\begin{equation}
-		SU(2)_{L} \otimes U(1)_{Y}
+		\mathrm{SU(2)}_{\mathrm{L}} \otimes \mathrm{U(1)}_{\mathrm{Y}}
 	\end{equation}
 
-	SU(2)$_{L}$ contributes weak isospin ($T$) to the model, where L denotes the \textit{handedness} of the fermions involved. This property is related to a fermion's chirality\footnote{A particle can also have left or right handed \textit{helicity} depending on the direction of the particle's spin relative to its direction of motion, however (unlike chirality) helicity is not Lorentz invariant.}: an intrinsic quantum property that allows a particle to be classified as "left-handed" or "right-handed". Only left-handed fermions are affected by the gauge transformations of SU(2)$_{L}$, which makes handedness a key concept of the GSW model. Figure \ref{Fig:Chirality} shows a graphical explanation of chirality. \par
+	SU(2)$_{\mathrm{L}}$ contributes weak isospin ($T$) to the model, where L denotes the \textit{handedness} of the fermions involved. This property is related to a fermion's chirality\footnote{A particle can also have left- or right-handed \textit{helicity} depending on the direction of the particle's spin relative to its direction of motion, however (unlike chirality) helicity is not Lorentz invariant. The fermion shown in Figure \ref{Fig:Chirality} has right-handed helicity. A standard clock thrown face-forward at one's physics rival has left-handed helicity.}: an intrinsic quantum property that allows a particle to be classified as "left-handed" or "right-handed". Only left-handed fermions are affected by the gauge transformations of SU(2)$_{\mathrm{L}}$, which makes handedness a key concept of the GSW model. Figure \ref{Fig:Chirality} shows a graphical explanation of chirality. \par
 
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.35]{complexrotation.png}
-		\caption{A figure showing how left and right chiral fermions transform when rotated 360 degrees about their directions of motion. The circle on the right represents the complex phase of the particle's quantum state: as the particle is rotated, the value of the phase moves along the circle in a direction depending on the particle chirality \cite{ChiralityBlog}. }
+		\caption{A figure showing how left- and right-chiral fermions transform when rotated 360 degrees about their directions of motion. The circle on the right represents the complex phase of the particle's quantum state: as the particle is rotated, the value of the phase moves along the circle in a direction depending on the particle chirality \cite{ChiralityBlog}. }
 		\label{Fig:Chirality} 
 	\end{figure}
 
-	U(1)$_{Y}$ contributes weak hypercharge (Y) to the model. Both the weak hypercharge and weak isospin are related to the charge of the fermion via the equation
+	U(1)$_{\mathrm{Y}}$ contributes weak hypercharge (Y) to the model. Both the weak hypercharge and weak isospin are related to the charge of the fermion via the equation
 
 	\begin{equation}
 		Q = T^{3} + \frac{Y}{2}
@@ -587,6 +596,127 @@
 	where $T^{3}$ represents the third component of the weak isospin. 
 
 	% 09/03/21
+
+	In the GSW model left-handed fermions are described by separate weak isospin doublets for quarks and leptons of the form 
+
+	\begin{align}
+		Q_{L}&=\left\{\begin{pmatrix}
+			u \\
+			d \\
+		\end{pmatrix}_{L},\begin{pmatrix}
+			c \\
+			s \\
+		\end{pmatrix}_{L},\begin{pmatrix}
+			t \\
+			b \\
+		\end{pmatrix}_{L}\right\} \\
+		L_{L}&=\left\{\begin{pmatrix}
+			\nu_{e} \\
+			e \\
+		\end{pmatrix}_{L},\begin{pmatrix}
+			\nu_{\mu} \\
+			\mu \\
+		\end{pmatrix}_{L},\begin{pmatrix}
+			\nu_{\tau} \\
+			\tau \\
+		\end{pmatrix}_{L}\right\}
+	\end{align}
+
+	where $Q_{L}$ and $L_{L}$ represent the states for quarks and leptons respectively. Right-handed fermions are described by separate weak isospin singlets for quarks and leptons of the form
+
+	\begin{align}
+		U_{R}&=\left\{u_{R},c_{R},t_{R}\right\} \\
+		D_{R}&=\left\{d_{R},s_{R},b_{R}\right\} \\
+		L_{R}&=\left\{e_{R},\mu_{R},\tau_{R}\right\}
+	\end{align}
+
+	where $U_{R}$, $D_{R}$, and $L_{R}$ represent the right handed up-type, down-type, and lepton states respectively. A notable exclusion from the right-handed singlets are the right-handed neutrinos which do not interact with the weak force. \par
+	
+	This is because while left-handed fermion doublets have $T=\frac{1}{2}$ with the upper and lower components of the doublet having $T^{3}=\pm\frac{1}{2}$ respectively, the right-handed singlets do not experience weak interactions and behave as SU(2)$_{\mathrm{L}}$ singlets. Resultantly, in the case of the right-handed neutrinos all quantum numbers relating to these states ($Q$, $T$, $T^{3}$, and $Y$) are 0 and therefore these states are not present (which follows experimental observation). \par
+
+	These left-handed and right-handed states lead to a Dirac Lagrangian of SU(2)$_{\mathrm{L}} \otimes \mathrm{U(1)}_{\mathrm{Y}}$ that is comprised of a left-handed and right handed-component:
+	
+	\begin{equation}
+		\mathcal{L}_{\mathrm{Dirac}} = \mathcal{L}_{\mathrm{Dirac},L} + \mathcal{L}_{\mathrm{Dirac},R}
+	\end{equation}
+
+	where
+
+	\begin{align}
+		\mathcal{L}_{\mathrm{Dirac},L}&=\sum_{g}\overline{Q}_{L}^{g}i\slashed{\partial}Q_{L}^{g}+\overline{L}_{L}^{g}i\slashed{\partial}L_{L}^{g} \\
+		\mathcal{L}_{\mathrm{Dirac},R}&=\sum_{g}\overline{U}_{R}^{g}i\slashed{\partial}U_{R}^{g}+\overline{D}_{R}^{g}i\slashed{\partial}D_{R}^{g}+\overline{L}_{R}^{g}i\slashed{\partial}L_{R}^{g} 
+	\end{align}
+
+	The summation over the index $g$ represents the summation over all fermion generations, which will be assumed from this point onwards. The local transformations under SU(2)$_{\mathrm{L}}$ and U(1)$_{\mathrm{Y}}$ take the respective forms
+
+	\begin{align}
+		\psi(x) &\rightarrow e^{i\alpha^{a}(x)T^{a}}\psi(x) \\
+		\psi(x) &\rightarrow e^{i\beta(x)g\prime\frac{Y_{i}}{2}}\psi(x)
+	\end{align}
+
+	with $\alpha^{a}(x)$ and $\beta(x)$ representing complex phases, and $Y_{i}$ representing the hypercharge of fermion $i$. One covariant derivative must be defined for each transformation, taking the respective forms
+
+	\begin{align}
+		\textit{\textbf{D}}_{\mu} &= \partial_{\mu} + i\frac{g\prime}{2}Y_{i}B_{\mu}+ig_{W}T^{a}W_{\mu}^{a} \\
+		D_{\mu} &= \partial_{\mu} + i\frac{g\prime}{2}Y_{i}B_{\mu} 	
+	\end{align}
+
+	where
+
+	\begin{itemize}
+		\item $B^{\mu}$ represents the hypercharge gauge field of U(1)$_{\mathrm{Y}}$ which couples to all fermions with coupling constant $g\prime$
+		\item $W_{\mu}^{a}$ represents the gauge fields of SU(2)$_{\mathrm{L}}$ which couple to all left-handed fermions with strength $g_{W}$
+		\item $T^{a}=\frac{\sigma^{a}}{2}$ which represent the generators of SU(2)$_{\mathrm{L}}$ where $\sigma^{a}$ represents the $2 \times 2$ Pauli matrices as discussed in Section \ref{Section:QED}
+	\end{itemize}
+
+	The gauge fields $B^{\mu}$ and $W_{\mu}^{a}$ transform as
+
+	\begin{align}
+		B_{\mu} &\rightarrow U_{\mathrm{Y}}B_{\mu}U_{\mathrm{Y}}^{\dagger}-(ig\prime\frac{Y_{i}}{2})^{-1}U_{\mathrm{Y}}^{\dagger}(\partial_{\mu}U_{\mathrm{Y}}) \\
+		\textit{\textbf{W}}_{\mu} &\rightarrow U_{\mathrm{L}}\textit{\textbf{W}}_{\mu}U_{\mathrm{L}}^{\dagger}-(ig_{W})^{-1}(\partial_{\mu}U_{\mathrm{L}})U_{\mathrm{L}}^{\dagger}
+	\end{align}
+
+	where $\textit{\textbf{W}}_{\mu} = T^{a}W_{\mu}^{a}$. The field strength tensors for each field are defined as
+
+	\begin{equation}
+		\begin{split}
+		B_{\mu\nu} &= -(i\frac{g\prime}{2}Y_{i})^{-1}[D_{\mu},D_{\nu}] \\
+		&= \partial_{\mu}B_{\nu} - \partial_{\nu}B_{\mu} \\
+		\end{split}
+	\end{equation}
+
+	and
+
+	\begin{equation} \label{eq:WSelfInteract}
+		\begin{split}
+			\textit{\textbf{W}}_{\mu\nu} &= -\frac{i}{g_{W}}[\textit{\textbf{D}}_{\mu},\textit{\textbf{D}}_{\nu}] \\
+			&= T^{a}(\partial_{\mu}W_{\nu}^{a}-\partial_{\nu}W_{\mu}^{a}-g\epsilon^{abc}W_{\mu}^{b}W_{\nu}^{c}) \\
+			&= T^{a}W_{\mu\nu}^{a} \\
+		\end{split}
+	\end{equation}
+
+	where $\epsilon^{abc}$ is the Levi-Civita symbol which arises from the structure constants of SU(2)$_{\mathrm{L}}$ and the commutation relations of the generators of the group:
+
+	\begin{equation}
+		[\sigma^{a},\sigma^{b}]=i\epsilon^{abc}\sigma^{c}
+	\end{equation}
+
+	Just as the $gf^{abc}A_{\mu}^{b}A_{\nu}^{c}$ term in equation \ref{eq:GluonSelfInteract} allows for the self-interaction of gluons, the $g\epsilon^{abc}W_{\mu}^{b}W_{\nu}^{c}$ term in equation \ref{eq:WSelfInteract} allows for the self-interactions of the $W^{a}$ fields. \par
+
+	The full electroweak Lagrangian including the field strength tensors to account for gauge field kinematics takes the form of
+
+	\begin{equation}
+		\begin{split}
+		\mathcal{L}_{\mathrm{EWK}}=\overline{Q}_{L}i\slashed{D}Q_{L}+\overline{L}_{L}i\slashed{D}L_{L} &+ \overline{U}_{R}i\slashed{D}U_{R}+\overline{D}_{R}i\slashed{D}D_{R}+\overline{L}_{R}i\slashed{D}L_{R}\\
+		&- \frac{1}{4}B_{\mu\nu}B^{\mu\nu}-\frac{1}{4}W_{\mu\nu}^{a}W^{\mu\nu,a}\\
+		\end{split}
+	\end{equation}
+
+	Similarly to the previously derived $\mathcal{L}_{\mathrm{QED}}$ and $\mathcal{L}_{\mathrm{QCD}}$, there are no terms present in $\mathcal{L}_{\mathrm{EWK}}$ to account for the masses of fermions or gauge boson masses despite the experimental evidence to the contrary. This is due to the fact that these terms would violate the local SU(2)$_{\mathrm{L}} \otimes \mathrm{U(1)}_{\mathrm{L}}$ gauge invariance. In order to preserve this invariance, the source of the fermion and boson masses must be contributed by another source. 
+
+	\subsection{Spontaneous Symmetry Breaking and the Higgs Mechanism}
+
+	% 10/03/21
 
 	\newpage
 
@@ -1048,16 +1178,16 @@ An example of this process can be seen by considering the constraint placed on t
 		
 	\newpage
 
-	\section{Experimental Setup}
+	\chapter{Experimental Setup}
 
 		The source of all experimental data within this thesis is the ATLAS experiment at the Large Hadron Collider (LHC). The following chapters will provide an introduction to both the LHC and the ATLAS experiment with a primary focus on the subsystems of the ATLAS detector most relevant to this analysis. The data used in this thesis was collected during the second run of data collection by the LHC (appropriately named Run 2), which concluded in December of 2018. The third run of data collection will begin in 2021. 
 
-		\subsection{The Large Hadron Collider}
+		\section{The Large Hadron Collider}
 
 		100 meters beneath the site of the Conseil Européen pour la Recherche Nucléaire (CERN) at the French-Swiss border near Geneva, Switzerland lies the LHC. At approximately 27 kilometres in circumference, the LHC accelerates beams of protons to the highest energies in the world 
 		reaching speeds greater than 99.9\% the speed of light \cite{LHCDesignV1, LHCDesignV2, LHCDesignV3}. 
 
-		\subsubsection{Acceleration at the LHC}
+		\subsection{Acceleration at the LHC}
 
 		Beginning with it's initial flagship accelerator, CERN has constantly upgraded its accelerators and included the work of previous experiments in each new effort to collect even greater amounts of particle collision data. The full acceleration of the particle beams within the LHC is not reliant on a single static machine but a combined effort from multiple component accelerators, each of which further accelerates beams of particles to higher and higher energies prior to collision. Each particle accelerated by the LHC experiences not just a chain of particle accelerators, but a timeline of CERN's remarkable history.   
 		
@@ -1097,7 +1227,7 @@ An example of this process can be seen by considering the constraint placed on t
 		
 		The actual acceleration of the particle beam within the LHC occurs at the superconducting radio-frequency (RF) cavities located at Point 4. The LHC employs 8 RF cavities per beam, which use an alternating electric field to accelerate the beam through the cavity. By increasing the frequency of these oscillations, the particle beam can gradually increase to its maximum energy. Much like the dipole and quadrapole magnets used within the LHC, the RF cavities also operate at an extremely low temperature (4.5 K). The accelerating field provided by the RF cavities is 5 MV/m at 400MHz \cite{LHCRF}. Accelerating particles using the alternating electric field of the RF cavities causes the particle beam not to be a single continuous beam, but to instead be divided into \textit{bunches}.
 		
-		\subsubsection{Beam Structure}
+		\subsection{Beam Structure}
 		
 		% 27/01/21
 
@@ -1114,7 +1244,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		% 28/01/21
 
-		\subsubsection{Luminosity}
+		\subsection{Luminosity}
 
 		In order to evaluate the performance of an accelerator, it is important to consider a metric that adequately describes the collisions taking place. In the case of accelerator physics \textit{luminosity}, a measure of how effectively an accelerator is able to deliver particle collisions, is used. For a process with a known cross section of $\sigma_{i}$, the event rate is given by:
 		
@@ -1171,7 +1301,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		%01/02/21
 
-		\subsubsection{Pileup}\label{Section:Pileup}
+		\subsection{Pileup}\label{Section:Pileup}
 
 		In the collision of two nominally filled bunches there are a total of $2.3 \times 10^{11}$ protons available to collide, allowing a high number of hard $pp$ interactions. Ideally the experiments at CERN would only record these hard interactions however this is not always the case, as additional interactions between bunches can occur. These additional interactions are referred to as pileup and can cause a multitude of issues in the reconstruction of hard events such as track mis-reconstructions, degradation of object resolution, and ambiguity in primary vertex location. \par
 		
@@ -1198,7 +1328,7 @@ An example of this process can be seen by considering the constraint placed on t
 			\label{Fig:ATLASPileup}
 		\end{figure}
 
-		\subsection{ATLAS}
+		\section{ATLAS}
 
 		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS_Collab}, located at Point 1 of the LHC ring, is the largest general-purpose experiment at CERN. The design of ATLAS is carefully engineered in order to maximise its capabilities as a general-purpose particle detector \cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}. ATLAS is cylindrical in shape, with a length of 46 metres and a diameter of 25 metres. The immense scale of ATLAS can be difficult to picture without adequate reference: the diameter of ATLAS is 1 metre greater than the height of Buckingham palace, and its length is the same as the Statue of Liberty's height\footnote{The statue of liberty itself, excluding the 47 m pedestal that the statue stands upon.}. It would take a tower of 9 giraffes carefully lying head to hoof in the ATLAS cavern while wearing the appropriate personal protective equipment (PPE) to occupy the same length as the ATLAS detector\footnote{This would likely irritate the giraffes.}. 
 
@@ -1217,7 +1347,7 @@ An example of this process can be seen by considering the constraint placed on t
 			\label{Fig:ATLASDetector}
 		\end{figure}
 
-		\subsubsection{The ATLAS Coordinate System}
+		\subsection{The ATLAS Coordinate System}
 
 		In order to be able to accurately describe events relative to the detector and interaction point, ATLAS uses a well defined right-handed coordinate system. Taking the nominal IP as the origin, the $x$-axis points towards the centre of the LHC ring, the $y$-axis points vertically upwards, and the $z$-axis points along the direction of the beam pipe. A subtle yet crucial result of this coordinate system is the definition of the $x$-$y$ plane, which is tangential to the beam pipe (referred to as the \textit{transverse} plan). The nature of the fundamental colliding partons prevent the initial momentum in the $z$ direction from being known, however it is known that the partons have zero initial momentum in the transverse plane and therefore directional vector quantities such as momenta can be projected into the transverse plane. \par
 
@@ -1241,7 +1371,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		%04/02/21
 
-		\subsubsection{The Magnet System}\label{Section:Magnets}
+		\subsection{The Magnet System}\label{Section:Magnets}
 
 		The ATLAS magnet system consists of four magnets: a single solenoid magnet \cite{ATLASSolenoidMagnet}, and three toroidal magnets \cite{ATLASBarrelToroid, ATLASEndcapToroid} (which contribute an important part of the ATLAS name). The central solenoid provides the magnetic field for the inner detector, and the toroidal magnets provide the magnetic field	for the muon system. The arrangement of the magnet systems within ATLAS can be seen in Figure . \par
 
@@ -1267,7 +1397,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		% 05/02/21
 
-		\subsubsection{The Inner Detector}\label{Section:InnerDetector}
+		\subsection{The Inner Detector}\label{Section:InnerDetector}
 
 		The Inner Detector \cite{ATLASID1, ATLASID2} is the most central component of ATLAS providing precise measurements of both particle charge and momentum, in addition to tracking charged particles to a pseudorapidity range of $|\eta| < 2.5$. Using both an impact parameter, $d_{0}$, and a longitudinal impact parameter, $z_{0}$, the ID is able to characterise the primary vertex of each interaction. The parameter $d_{0}$ is defined as the distance between the vertex's point of closest approach and the $z$-axis, and the parameter $z_{0}$ is defined as the $z$-coordinate of the primary vertex's point of closest approach. A high precision measurement of the primary vertex is crucial to this analysis as the delayed secondary vertex of b-tagged events is an extremely important in their identification, and an excellent resolution for $d_{0}$ and $z_{0}$ allows for easier identification of b-hadrons and other particles with longer lifetime. The layout of these components within the ID barrel region can be seen in Figure \ref{Fig:InnerDetector}.  
 
@@ -1289,29 +1419,21 @@ An example of this process can be seen by considering the constraint placed on t
 
 		The IBL, pixel detector, and SCT all operate through the use of pixel modules containing tens of thousands of silicon pixel sensors. As charged particles pass through the pixel sensors, they ionise with the silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these pixel modules that these ion-electron pairs are created, the path of the charged particles that pass through the ID can be measured. 
 
-		\paragraph{The Insertable B-Layer (IBL)}\label{Section:IBL}
-		\mbox{}\\
-		\mbox{} \\
+		\subsubsection{The Insertable B-Layer (IBL)}\label{Section:IBL}
 
 		The most central component of the ID is the IBL \cite{IBL-TDR} (positioned a mere R = 33.25 mm away from the beam pipe), which was added to ATLAS during the shutdown between Run 1 and Run 2. The IBL increases the resolution of $d_{0}$ and vertex measurements when compared with the pixel detector alone, which is an important addition due to the high pileup of Run 2 (which can easily obfuscate the primary vertex as discussed in Section \ref{Section:Pileup}). Each individual pixel is extremely small and has dimensions of $50 \mu m \times 250 \mu m$, which allows for a tracking resolution of 8 $\mu$m and 40 $\mu$m in the $x$-$y$ plane and $z$ direction respectively.  
 
-		\paragraph{The Pixel Detector}\label{Section:PixelDetector}
-		\mbox{}\\
-		\mbox{} \\
+		\subsubsection{The Pixel Detector}\label{Section:PixelDetector}
 
 		The pixel detector consists of three layers of concentric cylinders coaxial to the beam pipe, and three layers of end-cap disks perpendicular to the beam pipe. The barrel layers are positioned at R = 50.5, 88.5, and 122.5 mm, with the end-cap disks positioned at $z$ = 495, 580, and 650 mm. These components consist of a total of 1744 pixel modules \cite{ATLASPixel} with a thickness of 250 $\mu$m, each containing 47,232 pixels with dimensions of 50 $\mu$m $\times$ 400 $\mu$m. Each pixel module contains 16 front-end chips with 2880 readout channels equating to a total of 46,080 readout channels per module, however all 47,232 pixels are readout of each module (pixels in the inter-chip regions are ganged together to be readout). Overall, the pixel detector has over 80 million readout channels and provides a spatial resolution of 10 $\mu$m in the $x$-$y$ plane and a spatial resolution of 115 $\mu$m in the $z$-axis. 
 
 		% 08/02/21
 
-		\paragraph{The Semiconductor Tracker (SCT)}\label{Section:SCT}
-		\mbox{}\\
-		\mbox{} \\
+		\subsubsection{The Semiconductor Tracker (SCT)}\label{Section:SCT}
 
 		The Semiconductor Tracker (SCT) \cite{ATLASSCT} sits outside the pixel detector and is similar in operation, consisting of 4 barrel layers and 9 end-cap disks. The barrel layers are positioned at R = 299, 371, 443, and 514 mm, and the end-cap disks range from $z$ = 854 - 2720 mm. The 15,912 strip modules have a thickness of 285 $\mu$m and consist not of pixels as per the pixel detector but 768 silicon strips each 12 cm long, necessitating over 6.4 million readout channels. In total the SCT contains 61 m$^{2}$ of silicon strip sensors, and provides a hit resolution of 17 $\mu$m in the $x$-$y$ plane and a hit resolution of 580 $\mu$m in the $z$-axis. 
 
-		\paragraph{The Transition Radiation Tracker (TRT)}\label{Section:TRT} 
-		\mbox{}\\
-		\mbox{} \\
+		\subsubsection{The Transition Radiation Tracker (TRT)}\label{Section:TRT} 
 
 		The Transition Radiation Tracker (TRT) \cite{ATLASTRT} is the furthest component of the ID from the beam pipe, with a barrel region positioned at 563 $<$ R $<$ 1066 mm and $|z| <$ 712 mm and two end-caps at 644 $<$ R $<$ 1004 mm and 848 $< |z| <$ 2710 mm. The method of detection used by the TRT differs from the previous ID modules: instead of using silicon semiconductors, the TRT consists of thin-walled proportional drift tubes called "straws" containing a nominal mixture of 70\%/27\%/3\% xenon/carbon dioxide/oxygen gas. \par 
 
@@ -1321,7 +1443,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		The TRT consists of 52,544 coaxial straws of length 144 cm ie barrel region and 122,880 radial straws of length 37 cm in each end-cap, totalling almost 300,000 straws across the entire TRT. Due to these numbers and the geometry of ATLAS, charged particles are guaranteed to cross 35-40 straws in a pseudorapidity interval of $|\eta| < 2$. Overall, the TRT provides a hit resolution of 130 $\mu$m per straw \cite{ATLASTRTRes}. 
 
-		\subsubsection{The Calorimeters}\label{Section:Calorimeters}
+		\subsection{The Calorimeters}\label{Section:Calorimeters}
 
 		Calorimeters are instruments that measure the energy of particles: incoming particles are absorbed by the calorimeter and deposit their full energy which is converted into a measurable signal. The calorimeter system within ATLAS uses two main types of calorimeters: electromagnetic calorimeters for energy measurements of electromagnetic particles, and hadronic calorimeters for energy measurements of hadronic particles. These calorimeters measure all SM particles excluding muons and neutrinos, with a coverage up to $|\eta| < 4.9$. The layout of these calorimeters within ATLAS can be seen in Figure \ref{Fig:ATLASCalorimeters}. \par
 
@@ -1334,9 +1456,7 @@ An example of this process can be seen by considering the constraint placed on t
 			\label{Fig:ATLASCalorimeters} 
 		\end{figure} 
 
-		\paragraph{The Electromagnetic Calorimeter}\label{Section:ECal}
-		\mbox{}\\
-		\mbox{} \\
+		\subsubsection{The Electromagnetic Calorimeter}\label{Section:ECal}
 
 		The electromagnetic calorimeter or LAr calorimeter \cite{ATLASECalTDR} has the primary function of measuring the energy of electrons and photons in the pseudorapidity region $|\eta| < 3.2$. Lead is chosen as the absorber material, with liquid argon (LAr) as the active material. Two main processes occur within the lead absorber material that lead to showering and a measurement of incoming particle energy:
 		
@@ -1372,9 +1492,7 @@ An example of this process can be seen by considering the constraint placed on t
 		
 		\subparagraph{Layer 3,} which has a thickness of 2 $X_{0}$ designed to measure and correct for the leakage of higher energy calorimeter showers beyond the EM cal and potentially into the hadronic calorimeter. The cells in this layer have a size of $0.05 \times 0.0245$ in $\Delta\eta \times \Delta\phi$. 
 		
-		\paragraph{The Hadronic Calorimeter}\label{Section:HCal}
-		\mbox{}\\
-		\mbox{} \\
+		\subsubsection{The Hadronic Calorimeter}\label{Section:HCal}
 
 		Just as the EM calorimeter performs energy measurements of incoming EM particles, the hadronic calorimeter or Tile calorimeter \cite{ATLASTileTDR} measures energies of incoming hadronic particles in the region of $|\eta| < 4.9$. The Tile calorimeter consists of three barrel layers and two wheels per end-cap, each using differing absorber and active materials:
 		
@@ -1389,15 +1507,13 @@ An example of this process can be seen by considering the constraint placed on t
 
 		The barrel region of the hadronic calorimeter has a depth of 9.7 $\lambda$ and cell sizes of $0.1 \times 0.1$ in $\Delta\eta \times \Delta\phi$ for the first two layers, and $0.2 \times 0.1$ in $\Delta\eta \times \Delta\phi$ in the last layer. The end-cap wheels have a depth of 10 $\lambda$ and similar granularity to the barrel region of  $0.1 \times 0.1$ in $\Delta\eta \times \Delta\phi$ in the first wheel, and $0.2 \times 0.1$ in $\Delta\eta \times \Delta\phi$ for the second. 
 
-		\paragraph{The Forward Calorimeter}\label{Section:FCal}
-		\mbox{}\\
-		\mbox{}\\
+		\subsubsection{The Forward Calorimeter}\label{Section:FCal}
 
 		ATLAS uses an additional calorimeter in the forward region of $3.2 < |\eta| < 4.9$ in order to increase the calorimeter coverage within ATLAS up to the pseudorapidity range of $|\eta| < 4.9$. The forward calorimeter (FCal) is a sampling calorimeter capable of performing energy measurements of both EM and hadronic particles via its use of a combination of multiple absorber materials. \par
 		
 		The FCal has a depth of 10 $\lambda$ and is segmented into three layers: while the FCal consistently uses LAr as its active material, the first layer uses copper layers as its absorber material in order to perform measurements of EM particles before switching to a tungsten absorber material in the second and third layers for hadronic energy measurements.  
 
-		\subsubsection{The Muon Spectrometer}\label{Section:MuonSystem}
+		\subsection{The Muon Spectrometer}\label{Section:MuonSystem}
 
 		The final and outermost subsystem of the ATLAS detector is the Muon Spectrometer (MS) \cite{ATLASMuonTDR}. Interspersed between the toroidal magnet, the muon system is composed of two systems made up of pairs of triggering and tracking systems with the aim to track and measure muons in the pseudorapidity range of $|\eta| < 2.7$. Muons that pass through the system are subjected to ATLAS' magnetic field (discussed in Section \ref{Section:Magnets}), bending the muon tracks and allowing for muon momentum measurements. \par
 
@@ -1433,7 +1549,7 @@ An example of this process can be seen by considering the constraint placed on t
 
 		%10/02/21
 
-		\subsubsection{The ATLAS Trigger System}
+		\subsection{The ATLAS Trigger System}
 
 		Attempting to record every interaction that occurs within the ATLAS detector is a herculean task. Bunches accelerated by the LHC cross every 25 ns, giving a frequency of 40 MHz. If each event has a raw size of 1.5 MB, ATLAS must record and store to disk 60 TB per second. The current record for highest data throughput attained experimentally is only 178.08 Tb or 22.25 TB per second \cite{UCLThroughput}, and was only achieved in July 2020 (over a year after the beginning of Long Shutdown 2). \par
 
