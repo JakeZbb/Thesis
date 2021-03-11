@@ -19,6 +19,8 @@ Reallocated name_tok (elt_size=4) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--empty author in 2012SpontaneousSB
+Warning--empty booktitle in 2012SpontaneousSB
 Warning--empty note in Article:CernComplex
 Warning--empty author and editor in LEPDesign1
 Warning--empty author and editor in LEPDesign2
@@ -39,45 +41,45 @@ Warning--empty author and editor in ATLASTileTDR
 Warning--empty author and editor in ATLASMuonTDR
 Warning--empty booktitle in MultiwirePropChamber
 Warning--empty year in ATLASTGCCertification
-You've used 72 entries,
+You've used 74 entries,
             2525 wiz_defined-function locations,
-            1536 strings with 130458 characters,
-and the built_in function-call counts, 24484 in all, are:
-= -- 1450
-> -- 708
+            1545 strings with 130732 characters,
+and the built_in function-call counts, 24895 in all, are:
+= -- 1471
+> -- 713
 < -- 7
-+ -- 337
-- -- 164
-* -- 1361
-:= -- 2540
-add.period$ -- 281
-call.type$ -- 72
++ -- 340
+- -- 165
+* -- 1372
+:= -- 2581
+add.period$ -- 286
+call.type$ -- 74
 change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 2739
-empty$ -- 2535
-format.name$ -- 207
-if$ -- 5428
+cite$ -- 96
+duplicate$ -- 2794
+empty$ -- 2588
+format.name$ -- 208
+if$ -- 5518
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 747
-newline$ -- 420
-num.names$ -- 63
-pop$ -- 1152
+int.to.str$ -- 74
+missing$ -- 760
+newline$ -- 429
+num.names$ -- 64
+pop$ -- 1188
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 738
+skip$ -- 753
 stack$ -- 0
 substring$ -- 557
-swap$ -- 1680
+swap$ -- 1700
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 20
-while$ -- 101
-width$ -- 74
-write$ -- 915
-(There were 24 warnings)
+warning$ -- 22
+while$ -- 102
+width$ -- 76
+write$ -- 933
+(There were 26 warnings)

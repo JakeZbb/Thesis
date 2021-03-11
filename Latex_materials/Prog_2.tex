@@ -32,6 +32,9 @@
 \usepackage{slashed}
 \usepackage{titlesec}
 
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning,shadows.blur,decorations.pathreplacing,arrows,trees,decorations.pathmorphing,decorations.markings}
+
 \setcounter{secnumdepth}{4}
 
 \newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
@@ -475,12 +478,12 @@
 	where a single quark of flavour $f$ is represented as a superposition of the three fundamental colour states. The local transformation under the SU(3) group takes the form:
 	
 	\begin{equation}
-		\psi(x) \rightarrow e^{i\alpha_{a}(x)T^{a}}\psi(x)
+		\psi(x) \rightarrow e^{i\alpha^{a}(x)T^{a}}\psi(x)
 		\quad \mathrm{and} \quad
-		\overline{\psi}(x) \rightarrow e^{-i\alpha_{a}(x)T^{a}}\overline{\psi}(x)
+		\overline{\psi}(x) \rightarrow e^{-i\alpha^{a}(x)T^{a}}\overline{\psi}(x)
 	\end{equation}
 
-	where $\alpha_{a}(x)$ is a local phase shift, and $T^{a} = \frac{\lambda^{a}}{2}$ representing the generators of SU(3). In this case, $\lambda^{a}$ represents the 8 Gell-Mann matrices and $a$ is an index of the gluon colour charge. The Gell-Mann matrices take the form of
+	where $\alpha^{a}(x)$ is a local phase shift, and $T^{a} = \frac{\lambda^{a}}{2}$ representing the generators of SU(3). In this case, $\lambda^{a}$ represents the 8 Gell-Mann matrices and $a$ is an index of the gluon colour charge. The Gell-Mann matrices take the form of
 	
 	\begin{equation}
 		\begin{split}
@@ -714,9 +717,106 @@
 
 	Similarly to the previously derived $\mathcal{L}_{\mathrm{QED}}$ and $\mathcal{L}_{\mathrm{QCD}}$, there are no terms present in $\mathcal{L}_{\mathrm{EWK}}$ to account for the masses of fermions or gauge boson masses despite the experimental evidence to the contrary. This is due to the fact that these terms would violate the local SU(2)$_{\mathrm{L}} \otimes \mathrm{U(1)}_{\mathrm{L}}$ gauge invariance. In order to preserve this invariance, the source of the fermion and boson masses must be contributed by another source. 
 
-	\subsection{Spontaneous Symmetry Breaking and the Higgs Mechanism}
+	\subsection{Spontaneous Symmetry Breaking and the Higgs}
 
 	% 10/03/21
+
+	Just as each QFT of the SM is built upon a foundation of understanding the concept of gauge theory, the Higgs mechanism relies on an understanding of the concept of spontaneous symmetry breaking. A useful analogy for this concept is the behaviour of a ferromagnet. \par
+
+	A ferromagnet held at a temperature above the Curie temperature effectively loses its magnetic properties: individual magnetic moments still exist within individual atoms, but the thermal agitation of the material causes such chaos amongst the alignment of these moments that the spacial average of the magnetic moment is zero. This creates a rotational symmetry for the system: rotating the ferromagnetic effects the spacial average of the magnetic moment in a similar manner that rotating a brick might, which is to say that it has no effect at all. \par
+	
+	However, if the temperature of the ferromagnet is reduced to a point \textit{below} the Curie temperature, the individual magnetic moments align in a direction parallel to each other and create an overall magnetic moment within the ferromagnet\footnote{The aforementioned brick is indifferent to the change in temperature as it is not ferromagnetic, and is thus a material that will not spontaneously break your symmetry or your heart.}. At this point the ferromagnet system now loses its rotational symmetry, causing this symmetry to be "spontaneously" broken as nothing in the Lagrangian of the system can account for this symmetry breaking effect. Figure \ref{Fig:SymmetryBreaking} shows a graphical description of this symmetry breaking. \par
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.3]{Spontaneous_Symmetry_Breaking_HQ.png}
+		\caption{A figure showing a two dimensional model of spontaneous global rotational symmetry breaking in a ferromagnet \cite{2012SpontaneousSB}.}
+		\label{Fig:SymmetryBreaking} 
+	\end{figure}
+
+	While the description of this effect in field theory is far more quantitative than qualitative, the concept is the same and can be used as a basis for constructing a model that justifies the observed masses of the SM bosons. \par 
+
+	\subsubsection{Global Spontaneous Gauge Symmetry Breaking}
+
+	Consider the following scalar field theory:
+
+	\begin{equation}
+		\mathcal{L} = \frac{1}{2}(\partial_{\mu}\phi)^{2}-V(\phi)
+	\end{equation}
+
+	with
+
+	\begin{equation} \label{eq:HiggsPotential}
+		V(\phi) = \frac{1}{2}\mu^{2}\phi^{2} + \frac{1}{4}\lambda\phi^{4}
+	\end{equation}
+
+	where $\lambda > 0$. Note that this Lagrangian has gauge invariance under transformations of the form $\phi \rightarrow -\phi$. There exists a value of $\phi$ such that the potential V($\phi$) is minimised, named the vacuum expectation value ($v$) of the field. This minimum of V($\phi$) can be determined by taking the derivative of V($\phi$) with respect to the field $\phi$ which takes the form of
+
+	\begin{equation}
+		\frac{dV}{d\phi}=(\mu^{2} + \lambda\phi^{2})\phi
+	\end{equation}
+
+	In the case where $\mu^{2}$ is real (i.e. $\mu^{2} > 0$) there is only a single solution where simply $v = 0$, named the vacuum field state configuration. This configuration has a unique minimum which preserves the gauge symmetry of the Lagrangian and leads to a conventional scalar particle mass term. \par
+
+	The remaining solutions apply for the case where $\mu^{2} < 0$: in this configuration the vacuum field state configuration is instead a local maximum at $\phi = 0$ and two true degenerate minima are found at $\phi = \pm \sqrt{\frac{-\mu^{2}}{\lambda}}$. Figure \ref{Fig:HiggsPotential} shows the shapes of the potential for both $\mu^2$ cases.  
+
+	\begin{figure}[ht]
+		\begin{subfigure}{.48\textwidth}
+			\centering
+			\includegraphics[scale=0.38]{HiggsPot_muEven.pdf}
+			\label{Fig:HiggsPot_muEven}
+		\end{subfigure}
+		\begin{subfigure}{.48\textwidth}
+			\centering
+			\includegraphics[scale=0.38]{HiggsPot_muOdd.pdf}
+			\label{Fig:HiggsPot_muOdd}
+		\end{subfigure}
+		\caption{A figure showing the scalar field potential of Equation \ref{eq:HiggsPotential} for the case of $\mu^2 > 0$ (left) and $\mu^2 < 0$ (right) \cite{AntonyFrayThesis}.}
+		\label{Fig:HiggsPotential} 
+	\end{figure}
+
+	In the $\mu^2 < 0$ case where $v = \pm \sqrt{\frac{-\mu^{2}}{\lambda}}$, the scalar field $\phi$ can be redefined as
+
+	\begin{equation}
+		\phi(x) = v + \eta(x)
+	\end{equation}
+
+	where $\eta(x)$ represents a perturbation of the field about $v$. Using these definitions of $v$ and $\eta(x)$, the Lagrangian can now be rewritten as
+
+	\begin{equation}
+		\mathcal{L}(v + \eta) = \frac{1}{2}(\partial_{\mu}\eta)^{2}-\lambda v^{2}\eta^{2}-\lambda v\eta^{3}-\frac{1}{4}\lambda\eta^{4}+\frac{1}{4}\lambda v^{4}
+	\end{equation}
+
+	comparing this with the Klein-Gordon Lagrangian
+
+	\begin{equation}
+		\mathcal{L}_{\mathrm{KG}} = \frac{1}{2}\partial_{\mu}\phi\partial^{\mu}\phi-\frac{1}{2}m^{2}\phi^{2}
+	\end{equation}
+
+	it can be seen that the original mass term of the form
+
+	\begin{equation}
+		\begin{split}
+		-\frac{1}{2}m^{2}\phi^{2} &= \frac{1}{2}(-|\mu^{2}|)\phi^{2} \\
+		&= +\frac{1}{2}|\mu^{2}|\phi^{2}
+		\end{split}
+	\end{equation}
+
+	has experienced a change in sign i.e.
+
+	\begin{equation}
+		+\frac{1}{2}|\mu^{2}|\phi^{2} \rightarrow -\lambda v^{2}\eta^{2}
+	\end{equation}
+
+	corresponding to a change from an imaginary configuration to a real configuration. 
+
+	While the Lagrangian in this form retains its previous gauge symmetry under a transformation of the form $\phi \rightarrow -\phi$\footnote{In the form $\eta \rightarrow -2v-\eta$}, the vacuum field state configuration no longer satisfies this symmetry. The selection of either of the degenerate $v$ minima to expand about causes the original system's gauge symmetry to be spontaneously broken. 
+
+	\subsubsection{The Higgs Mechanism}
+
+	The mechanism that allows the introduction of gauge boson masses into the SM without violating $\mathrm{SU(2)}_{\mathrm{L}} \otimes \mathrm{U(1)}_{\mathrm{Y}}$ gauge invariance is provided by spontaneous symmetry breaking. 
+
+	% 11/03/21
 
 	\newpage
 
@@ -727,238 +827,15 @@
 
 	% 03/03/21
 
-	\subsection{The Standard Model}
+	
 
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[scale=0.3]{Standard_Model.png}
-		\caption{The Standard Model of particle physics.}
-		\label{Fig:StandardModel} 
-	\end{figure}
-
-To study particle physics is to study the fundamental constituents of matter, and the interactions between them. In order to describe both these constituents and the interactions between them, a model called the Standard Model (SM) is used. The SM is a local, Lorentz-invariant quantum field theory. These interactions arise from the requirement of local gauge invariance within the SM, and can be described by group theory. The SM gauge group is as follows: 
-
-\begin{center}
-	\begin{equation}
-	SU(3)_{C} \otimes SU(2)_{L} \otimes U(1)_{Y}
-	\end{equation}
-\end{center}
-
-where $C$ is colour, $L$ is left-handedness, and $Y$ is hypercharge. 
-In the SM, constituent matter particles are titled \textit{fermions}: half integer spin particles that obey Fermi Dirac statistics. The forces that cause the interactions between fermions are described by \textit{gauge bosons}: integer spin particles that obey Bose Einstein statistics. Each force is carried by a particular type of these mediator bosons: photons ($\gamma$) carry the electromagnetic force, gluons (g) carry the strong force, and W$^{\pm}$ and Z$^{0}$ bosons carry the weak force. Gravity is the only known fundamental force that is not described by the SM. Table \ref{tab:SMBosons} summarises the properties of the SM bosons. \par
-
-\begin{table}
-	\begin{center}
-		\begin{tabular}{ |c|c|c|c|c|c| }
-			\hline \hline
-			Gauge Boson & Mass & Charge & Spin & Force & Theory \\
-			\hline
-			gluon & 0 & 0 & 1 & strong & QCD \\
-			\hline
-			W$^{\pm}$ & 80.379 $\pm$ 0.012 & $\pm$1 & 1 & weak & Electroweak \\
-			\hline
-			Z$^{0}$ & 91.1876 $\pm$ 0.0021 & 0 & 1 & weak & Electroweak \\
-			\hline
-			$\gamma$ & $ < 1 \times 10^{-18}$ & 0 & 1 & electromagnetic & Electroweak \\
-			\hline \hline
-		\end{tabular}
-		\caption{A table showing the properties of the Standard Model gauge bosons\cite{Article:PDG}.}
-		\label{tab:SMBosons}
-	\end{center}
-\end{table}
-
-Fermions can be further subsectioned into two separate groups: quarks and leptons. Each group has three generations which, as a general rule of thumb, have increasing particle mass from generation to generation. \par
-
-Leptons are classified by their charge ($Q$), lepton flavour number (the lepton flavour number is different for each generation of lepton and can be electron number (L$_{e}$), muon number (L$_{\mu}$), or tau number (L$_{\tau}$)), and the third component of weak isospin ($T_{3}$). It is also important to consider the additional quantity of weak hypercharge ($Y_{W}$) which is directly related to both the lepton charge and weak isospin by the equation:
-
-\begin{center}
-	\begin{equation}
-	Y_{W} = 2\cdot(Q-T_{3})
-	\end{equation}
-\end{center}
-
-The charged leptons (i.e. $e$, $\mu$, and $\tau$) are able to interact via both the weak and the electromagnetic force, however the neutral leptons ($\nu_{e}$, $\nu_{\mu}$, and $\nu_{\tau}$) can only interact with the weak force. Table \ref{tab:SMLeptons} summarises the properties of leptons within the SM. 
-
-\begin{table}
-	\begin{center}
-		\begin{tabular}{ |c|c|c|c|c|c|c| }
-			\hline \hline
-			Lepton Flavour & Mass & Q & Y$_{W}$ & L$_{e}$ & L${\mu}$ & L$_{\tau}$ \\
-			\hline
-			e$^{-}$ & 0.511 MeV & -1 & -1 & 1 & 0 & 0 \\
-			\hline
-			$\nu_{e}$ & $<$ 2 eV & 0 & -1 & 1 & 0 & 0 \\
-			\hline
-			$\mu$ & 105.7 MeV & -1 & -1 & 0 & 1 & 0 \\
-			\hline
-			$\nu_{\mu}$ & $<$ 0.19 MeV & 0 & -1 & 0 & 1 & 0 \\
-			\hline
-			$\tau$ & 1776.8 MeV & -1 & -1 & 0 & 0 & 1 \\
-			\hline
-			$\nu_{\tau}$ & $<$ 18.2 MeV & -1 & -1 & 0 & 0 & 1 \\
-			\hline \hline
-		\end{tabular}
-		\caption{A table showing the properties of the Standard Model leptons\cite{Article:PDG}.}
-		\label{tab:SMLeptons}
-	\end{center}
-\end{table}
-
-For each lepton a left-handed weak isospin doublet is formed:
-
-\begin{equation}
-	\begin{pmatrix}
-		T_{3} = +1/2  \\
-		T_{3} = -1/2  \\
-	\end{pmatrix}=\begin{pmatrix}
-		\nu_{eL} \\
-		e_{L}^{-} \\
-	\end{pmatrix},\begin{pmatrix}
-		\nu_{\mu L} \\
-		\mu_{L}^{-} \\
-	\end{pmatrix},\begin{pmatrix}
-		\nu_{\tau L} \\
-		\tau_{L}^{-} \\
-	\end{pmatrix}
-\end{equation}
-
-The SM forbids right-handed neutrinos, and as such weak isospin singlets (T$_{3}$ = 0) are formed by the right handed leptons in each generation: $e^{-}_{R}$, $\mu^{-}_{R}$, and $\tau^{-}_{R}$. 
-
-Quarks are classified by their charge ($Q$), and their flavour quantum numbers: baryon number (the third component of the isospin ($I_{3}$)), strangeness ($S$), charmness ($C$), bottomness ($B$), and topness ($T$). Unlike the SM bosons and leptons, quarks are able to interact via all three of the fundamental forces. In addition to these flavour quantum numbers, quarks also have an additional quantum number named colour charge which can take one of three values (often referred to as red, blue, or green). The term colour only describes this quantum numbers, and not the colour of visible light. Table \ref{tab:SMQuarks} summarises the properties of the SM quarks.  
-
-
-\begin{table}
-	\begin{center}
-		\begin{tabular}{ |c|c|c|c|c|c|c|c| }
-			\hline \hline
-			Quark Flavour & Mass & $Q$ & $I_{3}$ & $C$ & $S$ & $T$ & $B$ \\
-			\hline
-			u & 2.3$_{-0.5}^{+0.7}$ MeV & 2/3 & 1/2 & 0 & 0 & 0 & 0 \\
-			\hline
-			d & 4.8$_{-0.3}^{+0.7}$ MeV & -1/3 & -1/2 & 0 & 0 & 0 & 0 \\
-			\hline
-			c & 1.275 $\pm$ 0.025 GeV & 2/3 & 0 & 1 & 0 & 0 & 0 \\
-			\hline
-			s & 95 $\pm$ 5 MeV & -1/3 & 0 & 0 & -1 & 0 & 0 \\
-			\hline
-			t & 173.2 $\pm$ 0.9 GeV & 2/3 & 0 & 0 & 0 & 1 & 0 \\
-			\hline 
-			b & 4.18 $\pm 0.03$ GeV & -1/3 & 0& 0 & 0 & 0 & -1 \\
-			\hline \hline
-		\end{tabular}
-			\caption{A table showing the properties and quantum numbers of the SM quarks\cite{Article:PDG}.}
-			\label{tab:SMQuarks}
-	\end{center}
-\end{table}
-
-In addition to the quarks and leptons, each fermion has its own antiparticle. These antiparticles are opposites to their matter particles, with reversed signs for all quantum numbers. We can obtain the total number of fermions in the standard model by simply summing their number: 6 leptons, 6 anti-leptons, 18 quarks (there are three variations for each quark flavour due to the three colour charges), and 18 antiquarks. This gives the SM a total of 12 leptons and 36 quarks. \par
-
-The SM is a highly successful model and the predictions of the models have been tested to very high levels of accuracy by CERN, however it is known that the model is imperfect (hence the need for experimental physics). In order to improve the model, it must be rigorously tested in every facet until it is broken (such that it can then be revised and improved). \par
-
-An example of this process can be seen by considering the constraint placed on the SM by electroweak (EW) theory: under EW theory, the masses of the W$^{\pm}$ and Z$^{0}$ bosons (i.e. the gauge bosons of the weak force) violate invariance under local gauge transformations. However, despite this the W$^{\pm}$ and Z$^{0}$ bosons have large masses. In order to account for this within the SM, the Higgs mechanism is required. The Higgs mechanism results in the presence of an additional gauge boson with a mass of 125 GeV in the SM known as the Higgs boson \cite{DiscoHiggsATLAS}\cite{DiscoHiggsCMS}. The Higgs mechanism is described in greater detail in section 2.2.3. \par
+ 		The Higgs mechanism results in the presence of an additional gauge boson with a mass of 125 GeV in the SM known as the Higgs boson \cite{DiscoHiggsATLAS}\cite{DiscoHiggsCMS}. The Higgs mechanism is described in greater detail in section 2.2.3. \par
 
 		\subsection{Describing the Standard Model Mathematically}
 		
 		\subsubsection{Quantum Chromodynamics}
 		
 		The strong interaction is described by a process known as Quantum Chromodynamics (QCD)\cite{Article:PDG}\cite{Article:QCDPrimer}: a non-Abelian gauge theory based on the SU(3) symmetry group of colour. This group has eight generators which correspond to the eight massless gluons that mediate the interactions of coloured quarks. These quarks are described by colour triplets:
-		
-		\begin{center}
-			\begin{equation}
-				q_{f}^{T} = (q_{f}^{1},q_{f}^{2},q_{f}^{3})
-			\end{equation}
-		\end{center}
-	
-		with 1, 2, and 3 representing the three colour states of red, green, and blue. 
-		The Lagrangian density of QCD is given by
-		
-		\begin{center}
-			\begin{equation}
-				L_{QCD}=\sum_{j=1}^{n_{f}}\overline{q}_{j}(iD_{\mu}\gamma^{\mu}-m_{j})q_{j}-\frac{1}{4}\sum_{A=1}^{8}F^{A_{\mu\nu}}F_{\mu\nu}^{A}
-			\end{equation}
-		\end{center}
-		
-		The first sum of this equation corresponds to the quark contribution, and the second the gluon contribution. This equation is written with the quark-field spinors, $q_{j}$, and the quark masses $m_{j}$. $D_{\mu} = \partial_{\mu}-ig_{s}T_{A}\mathcal{A}_{\mu}^{A}$ is the covariant derivative, where $\mathcal{A}_{\mu}^{A}$ correspond to the gluon fields and $T_{A}$ to the eight generators of the SU(3) symmetry group. The $\gamma^{\mu}$ represent the Dirac matrices and $F_{\mu\nu}^{A}$ represents the field strength tensor based on the gluon field $\mathcal{A}_{\mu}^{A}$
-		
-		\begin{center}
-			\begin{equation}
-				F_{\mu\nu}^{A} = \partial_{\mu}\mathcal{A}_{\nu}^{A}-\partial_{\nu}\mathcal{A}_{\mu}^{A}-g_{s}f_{ABC}\mathcal{A}_{\mu}^{B}\mathcal{A}_{\nu}^{C}
-			\end{equation}
-		\end{center}
-		
-		with the QCD coupling constant, $g_{s} = \sqrt{4\pi\alpha_{s}}$, and the structure constants of the SU(3) symmetry group. \par 
-		The SU(3) group is a non-Abelian group and as such the third term in Eq. 6 does not vanish and thus the present gluon fields are able to self-interact. The self interaction leads to asymptotic freedom as the effective coupling constant of the strong interaction decreases with increasing energy. In this case, quarks and gluons can be treated as free and their interactions can be calculated within perturbative theory. This is only allowed at short distance (equivalent to high energy), where the strong coupling constant converges asymptotically against zero. However, with increasing distance between two quarks (i.e. decreasing energy), the quarks become bounded in hadrons through a process called confinement.
-		
-		\subsubsection{Electroweak Theory} 
-		
-		The full gauge group of the SM gauge theory is SU(3)$\otimes$SU(2)$\otimes$U(1). Just as the non-Abelian group SU(3) gives rise to QCD, the non-Abelian group SU(2) and Abelian group U(1) give rise to the electroweak (EW) theory: the gauge theory behind the electroweak force. The electromagnetic and weak interactions can be unified under the SU(2)$\otimes$U(1) symmetry group, and this is described by EW theory. The SU(2) group involves three gauge fields with a corresponding gauge bosons of $W_{\mu}^{i}$ with $i = 1, 2, 3$. The U(1) group involves a single gauge field and a corresponding gauge boson of $B_{\mu}$. The Lagrangian of EW theory is
-		
-		\begin{center}
-			\begin{equation}
-				\mathcal{L}_{EW} = \sum_{j=1}^{3}i\overline{\psi}_{j}(x)\gamma^{\mu}D_{\mu}\psi_{j}(x)-\frac{1}{4}B_{\mu\nu}B^{\mu\nu}-\frac{1}{4}W_{\mu\nu}^{j}W_{j}^{\mu\nu}
-			\end{equation}
-		\end{center}
-		
-		with $\sum_{j=1}^{3}i\overline{\psi}_{j}(x)\gamma^{\mu}D_{\mu}\psi_{j}(x)$ corresponding to the fermion contribution and the remainder of the equation corresponding to the contribution from the gauge field. In this equation, the field strength tensors arise from the corresponding gauge bosons and have the following form
-		
-		\begin{align}
-			\begin{split}
-				&W_{\mu\nu}^{i} = \partial_{\mu}W_{\nu}^{i}-\partial_{\nu}W_{\mu}^{i}+g\epsilon_{ijk}W_{\mu}^{j}W_{\nu}^{k} \\
-				&B_{\mu\nu} = \partial_{\mu}B_{\nu}-\partial_{\nu}B_{\mu}
-			\end{split}
-		\end{align}
-			$D_{\mu}$ describes the covariant derivative
-		
-		\begin{center}
-			\begin{equation}
-				D_{\mu} = \partial_{\mu}-ig\frac{\sigma_{j}}{2}W_{\mu}^{j}(x)-ig'\frac{Y}{2}B_{\mu}(x)
-			\end{equation}
-		\end{center}
-		
-		with the coupling constants $g$ and $g'$ corresponding to SU(2) and U(1) respectively, and $\sigma_{j}$ the $j^{th}$ member of the Pauli matrices:
-		
-		\begin{center}
-			\begin{equation}
-				\sigma_{1}=\begin{pmatrix}
-				0 & 1 \\
-				1 & 0  \\
-				\end{pmatrix},\;\;\;\;\sigma_{2}=\begin{pmatrix}
-				0 & -i \\
-				i & 0 \\
-				\end{pmatrix},\;\;\;\;\sigma_{3}=\begin{pmatrix}
-				1 & 0 \\
-				0 & -1 \\
-				\end{pmatrix}
-			\end{equation}
-		\end{center} The fermionic half of the equation contains a term corresponding to the kinetic energy of the fermions along with the a covariant derivative term which describes the interaction of fermions with the gauge field. No explicit mass term for the fermions is allowed in this Lagrangian as such a term would would result in a mixture of left-handed multiplets and right-handed singlets. As the weak interaction can only couple to left-handed fermions, this would require a violation of local gauge invariance which is forbidden. \par
-		
-		Similarly to the fermionic half of the equation, the gauge field portion of the equation contains a term for kinetic energy and a term for the self interaction between the gauge fields. It is the non-Abelian nature of SU(2) that gives rise to this self interacting term. In order to avoid violation of the invariance of local gauge transformations, this portion of the Lagrangian also excludes any explicit mass term. \par
-		
-		The four gauge bosons resultant of the SU(2)$ \otimes$U(1) symmetry group do not directly translate into the SM bosons of W$^{\pm}$, Z, and $\gamma$. W$^{\pm}$ are linear combinations of W$_{\mu}^{1}$ and W$_{\mu}^{2}$
-		
-		\begin{center}
-			\begin{equation}
-				W_{\mu}^{\pm} = \frac{1}{\sqrt{2}}(W_{\mu}^{1}\mp iW_{\mu}^{2})
-			\end{equation}
-		\end{center}
-	
-		which represent the charged part of the interaction. Z and $\gamma$ represent the neutral part of the interaction and evolve from the mixing of the $W_{\mu}^{3}$ and $B_{\mu}$ neutral fields
-		
-		\begin{align}
-		\begin{split}`
-			\begin{pmatrix}
-				A_{\mu}  \\
-				Z_{\mu}  \\
-			\end{pmatrix}=\begin{pmatrix}
-				\cos \theta_{W}  & \sin \theta_{W} \\
-				-\sin \theta_{W} & \cos \theta_{W} \\
-			\end{pmatrix} \begin{pmatrix}
-				B_{\mu} \\
-				W_{\mu}^{3} \\
-			\end{pmatrix}
-		\end{split}
-		\end{align}	
-		
-		with the weak mixing angle $\theta_{W}$. 
 		
 		\subsubsection{Higgs Mechanism}
 		
