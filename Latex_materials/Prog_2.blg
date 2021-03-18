@@ -41,45 +41,45 @@ Warning--empty author and editor in ATLASTileTDR
 Warning--empty author and editor in ATLASMuonTDR
 Warning--empty booktitle in MultiwirePropChamber
 Warning--empty year in ATLASTGCCertification
-You've used 74 entries,
+You've used 80 entries,
             2525 wiz_defined-function locations,
-            1545 strings with 130732 characters,
-and the built_in function-call counts, 24895 in all, are:
-= -- 1471
-> -- 713
+            1592 strings with 131971 characters,
+and the built_in function-call counts, 26894 in all, are:
+= -- 1586
+> -- 764
 < -- 7
-+ -- 340
-- -- 165
-* -- 1372
-:= -- 2581
-add.period$ -- 286
-call.type$ -- 74
-change.case$ -- 16
++ -- 364
+- -- 177
+* -- 1485
+:= -- 2790
+add.period$ -- 310
+call.type$ -- 80
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 2794
-empty$ -- 2588
-format.name$ -- 208
-if$ -- 5518
+cite$ -- 102
+duplicate$ -- 3026
+empty$ -- 2802
+format.name$ -- 223
+if$ -- 5957
 int.to.chr$ -- 0
-int.to.str$ -- 74
-missing$ -- 760
-newline$ -- 429
-num.names$ -- 64
-pop$ -- 1188
+int.to.str$ -- 80
+missing$ -- 823
+newline$ -- 465
+num.names$ -- 70
+pop$ -- 1281
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 753
+skip$ -- 808
 stack$ -- 0
-substring$ -- 557
-swap$ -- 1700
+substring$ -- 595
+swap$ -- 1846
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 22
-while$ -- 102
-width$ -- 76
-write$ -- 933
+while$ -- 111
+width$ -- 82
+write$ -- 1013
 (There were 26 warnings)

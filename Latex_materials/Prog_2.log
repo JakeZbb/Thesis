@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  11 MAR 2021 18:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.16)  18 MAR 2021 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -514,38 +514,92 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@expandcount=\count300
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks43
+\t@pgfplots@tokb=\toks44
+\t@pgfplots@tokc=\toks45
+\pgfplots@tmpa=\dimen272
+\c@pgfplots@coordindex=\count301
+\c@pgfplots@scanlineindex=\count302
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count303
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count304
+\t@pgfplotstable@a=\toks46
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count305
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen273
+\pgfdecoratedremainingdistance=\dimen274
+\pgfdecoratedinputsegmentcompleteddistance=\dimen275
+\pgfdecoratedinputsegmentremainingdistance=\dimen276
+\pgf@decorate@distancetomove=\dimen277
+\pgf@decorate@repeatstate=\count306
+\pgfdecorationsegmentamplitude=\dimen278
+\pgfdecorationsegmentlength=\dimen279
+)
+\tikz@lib@dec@box=\box64
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count307
+\pgfplots@xmin@reg=\dimen280
+\pgfplots@xmax@reg=\dimen281
+\pgfplots@ymin@reg=\dimen282
+\pgfplots@ymax@reg=\dimen283
+\pgfplots@zmin@reg=\dimen284
+\pgfplots@zmax@reg=\dimen285
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks47
+\pgfopts@list@add@b@toks=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen286
+\pgfarrowlength=\dimen287
+\pgfarrowwidth=\dimen288
+\pgfarrowlinewidth=\dimen289
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\tikz@lib@auto@number=\count308
+\tikz@qnode@count=\count309
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex  v1.02, 2012/12/09 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex))) (/usr/share/texlive/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex  v1.02, 2012/12/09 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-\pgfbs@fading@count=\count301
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen272
-\pgfdecoratedremainingdistance=\dimen273
-\pgfdecoratedinputsegmentcompleteddistance=\dimen274
-\pgfdecoratedinputsegmentremainingdistance=\dimen275
-\pgf@decorate@distancetomove=\dimen276
-\pgf@decorate@repeatstate=\count302
-\pgfdecorationsegmentamplitude=\dimen277
-\pgfdecorationsegmentlength=\dimen278
-)
-\tikz@lib@dec@box=\box64
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+\pgfbs@fading@count=\count310
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen279
+\arrowsize=\dimen290
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
@@ -555,7 +609,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count303
+\l__kernel_color_stack_int=\count311
 \l__pdf_internal_box=\box65
 )
 
@@ -565,35 +619,35 @@ LaTeX Warning: Unused global option(s):
 (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux)
 \openout1 = `Prog_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen280
+\scratchcounter=\count312
+\scratchdimen=\dimen291
 \scratchbox=\box66
-\nofMPsegments=\count305
-\nofMParguments=\count306
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen281
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
-\everyMPtoPDFconversion=\toks44
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen292
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -605,7 +659,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring ON on input line 59.
+Package hyperref Info: Link coloring ON on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -613,17 +667,28 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count310
+\c@section@level=\count318
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
  (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.out) (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.out)
 \@outlinefile=\write6
 \openout6 = `Prog_2.out'.
 
-Package csquotes Info: Making character " active on input line 59.
- ABD: EveryShipout initializing macros [1
+Package csquotes Info: Making character " active on input line 61.
+ ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into your preamble.
+ on input line 61.
+
+
+Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices automatically placed. You can disable this warning by setting /tikzfeynman/warn luatex=false on input line 61.
+
+
+Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[compat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on input line 61.
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.toc [1
 
@@ -636,7 +701,7 @@ Chapter 1.
 Excluding 'comment' comment.pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 ...ithin the proton \cite{Article:PDG}. \par
+l.105 ...n the proton \cite{Article:PDG2020}. \par
                                                    [1
 
 ] Excluding 'comment' comment. [2]
@@ -644,10 +709,10 @@ Chapter 2.
 [3
 
 ]
-<Standard_Model.png, id=237, 1395.2125pt x 1334.9875pt>
+<Standard_Model.png, id=250, 1395.2125pt x 1334.9875pt>
 File: Standard_Model.png Graphic file (type png)
 <use Standard_Model.png>
-Package pdftex.def Info: Standard_Model.png  used on input line 147.
+Package pdftex.def Info: Standard_Model.png  used on input line 149.
 (pdftex.def)             Requested size: 348.80226pt x 333.74606pt.
 
 
@@ -662,207 +727,213 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 7 contains only floats.
 
 [7] [8] [9] [10] [11] [12] [13]
-<complexrotation.png, id=349, 803.0pt x 439.6425pt>
+<complexrotation.png, id=370, 803.0pt x 439.6425pt>
 File: complexrotation.png Graphic file (type png)
 <use complexrotation.png>
-Package pdftex.def Info: complexrotation.png  used on input line 588.
+Package pdftex.def Info: complexrotation.png  used on input line 592.
 (pdftex.def)             Requested size: 281.05421pt x 153.87717pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14] [15 </home/jake/Desktop/Thesis/Latex_materials/complexrotation.png>] [16] [17]
-<Spontaneous_Symmetry_Breaking_HQ.png, id=403, 1219.55624pt x 692.5875pt>
+<Spontaneous_Symmetry_Breaking_HQ.png, id=424, 1219.55624pt x 692.5875pt>
 File: Spontaneous_Symmetry_Breaking_HQ.png Graphic file (type png)
 <use Spontaneous_Symmetry_Breaking_HQ.png>
-Package pdftex.def Info: Spontaneous_Symmetry_Breaking_HQ.png  used on input line 732.
+Package pdftex.def Info: Spontaneous_Symmetry_Breaking_HQ.png  used on input line 736.
 (pdftex.def)             Requested size: 365.86969pt x 207.77785pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18]
-<HiggsPot_muEven.pdf, id=415, 569.12625pt x 355.3275pt>
+<HiggsPot_muEven.pdf, id=436, 569.12625pt x 355.3275pt>
 File: HiggsPot_muEven.pdf Graphic file (type pdf)
 <use HiggsPot_muEven.pdf>
-Package pdftex.def Info: HiggsPot_muEven.pdf  used on input line 766.
+Package pdftex.def Info: HiggsPot_muEven.pdf  used on input line 770.
 (pdftex.def)             Requested size: 216.27022pt x 135.02585pt.
-<HiggsPot_muOdd.pdf, id=416, 569.12625pt x 355.3275pt>
+<HiggsPot_muOdd.pdf, id=437, 569.12625pt x 355.3275pt>
 File: HiggsPot_muOdd.pdf Graphic file (type pdf)
 <use HiggsPot_muOdd.pdf>
-Package pdftex.def Info: HiggsPot_muOdd.pdf  used on input line 771.
+Package pdftex.def Info: HiggsPot_muOdd.pdf  used on input line 775.
 (pdftex.def)             Requested size: 216.27022pt x 135.02585pt.
  [19 </home/jake/Desktop/Thesis/Latex_materials/Spontaneous_Symmetry_Breaking_HQ.png>] [20 </home/jake/Desktop/Thesis/Latex_materials/HiggsPot_muEven.pdf, page is rotated 90 degrees> </home/jake/Desktop/Thesis/Latex_materials/HiggsPot_muOdd.pdf, page is rotated 90 degrees>] [21] [22] [23] [24]
-<Zbb_2.png, id=577, 394.47375pt x 228.855pt>
+<Sea-quarks.png, id=599, 1447.4075pt x 758.835pt>
+File: Sea-quarks.png Graphic file (type png)
+<use Sea-quarks.png>
+Package pdftex.def Info: Sea-quarks.png  used on input line 1030.
+(pdftex.def)             Requested size: 361.851pt x 189.70828pt.
+ [25 </home/jake/Desktop/Thesis/Latex_materials/Sea-quarks.png>] [26]
+<Zbb_2.png, id=625, 394.47375pt x 228.855pt>
 File: Zbb_2.png Graphic file (type png)
 <use Zbb_2.png>
-Package pdftex.def Info: Zbb_2.png  used on input line 942.
+Package pdftex.def Info: Zbb_2.png  used on input line 1071.
 (pdftex.def)             Requested size: 197.23639pt x 114.42722pt.
-<Gluon_Pair.png, id=578, 445.665pt x 265.99374pt>
+<Gluon_Pair.png, id=626, 445.665pt x 265.99374pt>
 File: Gluon_Pair.png Graphic file (type png)
 <use Gluon_Pair.png>
-Package pdftex.def Info: Gluon_Pair.png  used on input line 948.
+Package pdftex.def Info: Gluon_Pair.png  used on input line 1077.
 (pdftex.def)             Requested size: 187.17802pt x 111.7166pt.
- Excluding 'comment' comment. [25 </home/jake/Desktop/Thesis/Latex_materials/Zbb_2.png> </home/jake/Desktop/Thesis/Latex_materials/Gluon_Pair.png>] Excluding 'comment' comment.
-<Zbb_3.png, id=589, 280.79906pt x 307.90031pt>
+ Excluding 'comment' comment. Excluding 'comment' comment. [27 </home/jake/Desktop/Thesis/Latex_materials/Zbb_2.png> </home/jake/Desktop/Thesis/Latex_materials/Gluon_Pair.png>]
+<Zbb_3.png, id=636, 280.79906pt x 307.90031pt>
 File: Zbb_3.png Graphic file (type png)
 <use Zbb_3.png>
-Package pdftex.def Info: Zbb_3.png  used on input line 986.
+Package pdftex.def Info: Zbb_3.png  used on input line 1115.
 (pdftex.def)             Requested size: 140.39919pt x 153.94977pt.
- [26 </home/jake/Desktop/Thesis/Latex_materials/Zbb_3.png>]
-<Gluon_ttbar.png, id=598, 680.5425pt x 474.77374pt>
+ [28 </home/jake/Desktop/Thesis/Latex_materials/Zbb_3.png>]
+<Gluon_ttbar.png, id=646, 680.5425pt x 474.77374pt>
 File: Gluon_ttbar.png Graphic file (type png)
 <use Gluon_ttbar.png>
-Package pdftex.def Info: Gluon_ttbar.png  used on input line 1002.
+Package pdftex.def Info: Gluon_ttbar.png  used on input line 1131.
 (pdftex.def)             Requested size: 204.16432pt x 142.43321pt.
-<Single_Quark.png, id=599, 403.5075pt x 328.22626pt>
+<Single_Quark.png, id=647, 403.5075pt x 328.22626pt>
 File: Single_Quark.png Graphic file (type png)
 <use Single_Quark.png>
-Package pdftex.def Info: Single_Quark.png  used on input line 1008.
+Package pdftex.def Info: Single_Quark.png  used on input line 1137.
 (pdftex.def)             Requested size: 161.40013pt x 131.28816pt.
- Excluding 'comment' comment. [27 </home/jake/Desktop/Thesis/Latex_materials/Gluon_ttbar.png> </home/jake/Desktop/Thesis/Latex_materials/Single_Quark.png>]
-<ZqqZll.png, id=611, 490.83376pt x 315.1775pt>
+ Excluding 'comment' comment. [29 </home/jake/Desktop/Thesis/Latex_materials/Gluon_ttbar.png> </home/jake/Desktop/Thesis/Latex_materials/Single_Quark.png>]
+<ZqqZll.png, id=659, 490.83376pt x 315.1775pt>
 File: ZqqZll.png Graphic file (type png)
 <use ZqqZll.png>
-Package pdftex.def Info: ZqqZll.png  used on input line 1031.
+Package pdftex.def Info: ZqqZll.png  used on input line 1160.
 (pdftex.def)             Requested size: 220.87314pt x 141.82855pt.
-<WqqZll.png, id=612, 483.8075pt x 337.26pt>
+<WqqZll.png, id=660, 483.8075pt x 337.26pt>
 File: WqqZll.png Graphic file (type png)
 <use WqqZll.png>
-Package pdftex.def Info: WqqZll.png  used on input line 1037.
+Package pdftex.def Info: WqqZll.png  used on input line 1166.
 (pdftex.def)             Requested size: 203.19775pt x 141.64822pt.
-<ZZ4l.png, id=613, 483.8075pt x 337.26pt>
+<ZZ4l.png, id=661, 483.8075pt x 337.26pt>
 File: ZZ4l.png Graphic file (type png)
 <use ZZ4l.png>
-Package pdftex.def Info: ZZ4l.png  used on input line 1047.
+Package pdftex.def Info: ZZ4l.png  used on input line 1176.
 (pdftex.def)             Requested size: 217.71136pt x 151.7656pt.
- [28 </home/jake/Desktop/Thesis/Latex_materials/ZqqZll.png> </home/jake/Desktop/Thesis/Latex_materials/WqqZll.png> </home/jake/Desktop/Thesis/Latex_materials/ZZ4l.png>] [29]
+ [30 </home/jake/Desktop/Thesis/Latex_materials/ZqqZll.png> </home/jake/Desktop/Thesis/Latex_materials/WqqZll.png> </home/jake/Desktop/Thesis/Latex_materials/ZZ4l.png>]
 Chapter 3.
-[30
+[31
 
 ]
-<LHC_Rings.jpg, id=641, 803.0pt x 563.10374pt>
+<LHC_Rings.jpg, id=683, 803.0pt x 563.10374pt>
 File: LHC_Rings.jpg Graphic file (type jpg)
 <use LHC_Rings.jpg>
-Package pdftex.def Info: LHC_Rings.jpg  used on input line 1081.
+Package pdftex.def Info: LHC_Rings.jpg  used on input line 1210.
 (pdftex.def)             Requested size: 401.49902pt x 281.55118pt.
- [31] [32 </home/jake/Desktop/Thesis/Latex_materials/LHC_Rings.jpg>]
-<LHC_Octants.jpeg, id=667, 498.86375pt x 433.62pt>
+ [32] [33 </home/jake/Desktop/Thesis/Latex_materials/LHC_Rings.jpg>]
+<LHC_Octants.jpeg, id=709, 498.86375pt x 433.62pt>
 File: LHC_Octants.jpeg Graphic file (type jpg)
 <use LHC_Octants.jpeg>
-Package pdftex.def Info: LHC_Octants.jpeg  used on input line 1096.
+Package pdftex.def Info: LHC_Octants.jpeg  used on input line 1225.
 (pdftex.def)             Requested size: 249.43126pt x 216.80946pt.
- [33 </home/jake/Desktop/Thesis/Latex_materials/LHC_Octants.jpeg>] [34]
-<LHC_Beam_Structure.png, id=699, 1384.17125pt x 449.68pt>
+ [34 </home/jake/Desktop/Thesis/Latex_materials/LHC_Octants.jpeg>] [35]
+<LHC_Beam_Structure.png, id=741, 1384.17125pt x 449.68pt>
 File: LHC_Beam_Structure.png Graphic file (type png)
 <use LHC_Beam_Structure.png>
-Package pdftex.def Info: LHC_Beam_Structure.png  used on input line 1117.
+Package pdftex.def Info: LHC_Beam_Structure.png  used on input line 1246.
 (pdftex.def)             Requested size: 415.25458pt x 134.90503pt.
- [35 </home/jake/Desktop/Thesis/Latex_materials/LHC_Beam_Structure.png>]
-<ATLAS_Luminosity_Time.png, id=714, 798.985pt x 574.145pt>
+ [36 </home/jake/Desktop/Thesis/Latex_materials/LHC_Beam_Structure.png>]
+<ATLAS_Luminosity_Time.png, id=756, 798.985pt x 574.145pt>
 File: ATLAS_Luminosity_Time.png Graphic file (type png)
 <use ATLAS_Luminosity_Time.png>
-Package pdftex.def Info: ATLAS_Luminosity_Time.png  used on input line 1165.
+Package pdftex.def Info: ATLAS_Luminosity_Time.png  used on input line 1294.
 (pdftex.def)             Requested size: 215.72884pt x 155.02122pt.
-<ATLAS_Luminosity_Total.png, id=715, 798.985pt x 574.145pt>
+<ATLAS_Luminosity_Total.png, id=757, 798.985pt x 574.145pt>
 File: ATLAS_Luminosity_Total.png Graphic file (type png)
 <use ATLAS_Luminosity_Total.png>
-Package pdftex.def Info: ATLAS_Luminosity_Total.png  used on input line 1171.
+Package pdftex.def Info: ATLAS_Luminosity_Total.png  used on input line 1300.
 (pdftex.def)             Requested size: 215.72884pt x 155.02122pt.
- [36]
-<ATLAS_Pileup_Run2.png, id=726, 798.985pt x 574.145pt>
+ [37]
+<ATLAS_Pileup_Run2.png, id=768, 798.985pt x 574.145pt>
 File: ATLAS_Pileup_Run2.png Graphic file (type png)
 <use ATLAS_Pileup_Run2.png>
-Package pdftex.def Info: ATLAS_Pileup_Run2.png  used on input line 1203.
+Package pdftex.def Info: ATLAS_Pileup_Run2.png  used on input line 1332.
 (pdftex.def)             Requested size: 319.58833pt x 229.65393pt.
- [37 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Time.png> </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Total.png>] [38 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Pileup_Run2.png>]
-<ATLAS.jpg, id=751, 308.352pt x 180.4341pt>
+ [38 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Time.png> </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Luminosity_Total.png>] [39 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Pileup_Run2.png>]
+<ATLAS.jpg, id=794, 308.352pt x 180.4341pt>
 File: ATLAS.jpg Graphic file (type jpg)
 <use ATLAS.jpg>
-Package pdftex.def Info: ATLAS.jpg  used on input line 1222.
+Package pdftex.def Info: ATLAS.jpg  used on input line 1351.
 (pdftex.def)             Requested size: 308.35124pt x 180.43364pt.
- [39 </home/jake/Desktop/Thesis/Latex_materials/ATLAS.jpg>]
-<Magnet_Layout.png, id=762, 1830.84pt x 1228.59pt>
+ [40 </home/jake/Desktop/Thesis/Latex_materials/ATLAS.jpg>]
+<Magnet_Layout.png, id=806, 1830.84pt x 1228.59pt>
 File: Magnet_Layout.png Graphic file (type png)
 <use Magnet_Layout.png>
-Package pdftex.def Info: Magnet_Layout.png  used on input line 1257.
+Package pdftex.def Info: Magnet_Layout.png  used on input line 1386.
 (pdftex.def)             Requested size: 274.61415pt x 184.28055pt.
- [40]
-<Magnetic_Field.png, id=779, 1104.125pt x 511.9125pt>
+ [41]
+<Magnetic_Field.png, id=821, 1104.125pt x 511.9125pt>
 File: Magnetic_Field.png Graphic file (type png)
 <use Magnetic_Field.png>
-Package pdftex.def Info: Magnetic_Field.png  used on input line 1270.
+Package pdftex.def Info: Magnetic_Field.png  used on input line 1399.
 (pdftex.def)             Requested size: 441.64218pt x 204.76137pt.
- [41 </home/jake/Desktop/Thesis/Latex_materials/Magnet_Layout.png>]
-<Inner_Detector.png, id=800, 424.58624pt x 285.065pt>
+ [42 </home/jake/Desktop/Thesis/Latex_materials/Magnet_Layout.png>]
+<Inner_Detector.png, id=842, 424.58624pt x 285.065pt>
 File: Inner_Detector.png Graphic file (type png)
 <use Inner_Detector.png>
-Package pdftex.def Info: Inner_Detector.png  used on input line 1285.
+Package pdftex.def Info: Inner_Detector.png  used on input line 1414.
 (pdftex.def)             Requested size: 297.20834pt x 199.54413pt.
-<ATLAS_ID_Layers.png, id=803, 853.1875pt x 743.77875pt>
+<ATLAS_ID_Layers.png, id=845, 853.1875pt x 743.77875pt>
 File: ATLAS_ID_Layers.png Graphic file (type png)
 <use ATLAS_ID_Layers.png>
-Package pdftex.def Info: ATLAS_ID_Layers.png  used on input line 1292.
+Package pdftex.def Info: ATLAS_ID_Layers.png  used on input line 1421.
 (pdftex.def)             Requested size: 341.26895pt x 297.50623pt.
- [42 </home/jake/Desktop/Thesis/Latex_materials/Magnetic_Field.png>] [43 </home/jake/Desktop/Thesis/Latex_materials/Inner_Detector.png> </home/jake/Desktop/Thesis/Latex_materials/ATLAS_ID_Layers.png>] [44]
-<ATLAS_Calorimeters.png, id=841, 853.1875pt x 557.08125pt>
+ [43 </home/jake/Desktop/Thesis/Latex_materials/Magnetic_Field.png>] [44 </home/jake/Desktop/Thesis/Latex_materials/Inner_Detector.png> </home/jake/Desktop/Thesis/Latex_materials/ATLAS_ID_Layers.png>] [45]
+<ATLAS_Calorimeters.png, id=883, 853.1875pt x 557.08125pt>
 File: ATLAS_Calorimeters.png Graphic file (type png)
 <use ATLAS_Calorimeters.png>
-Package pdftex.def Info: ATLAS_Calorimeters.png  used on input line 1331.
+Package pdftex.def Info: ATLAS_Calorimeters.png  used on input line 1460.
 (pdftex.def)             Requested size: 341.26895pt x 222.82855pt.
- [45] [46 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Calorimeters.png>]
-<ATLAS_EMCal_Accordion.png, id=861, 853.1875pt x 690.58pt>
+ [46] [47 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Calorimeters.png>]
+<ATLAS_EMCal_Accordion.png, id=903, 853.1875pt x 690.58pt>
 File: ATLAS_EMCal_Accordion.png Graphic file (type png)
 <use ATLAS_EMCal_Accordion.png>
-Package pdftex.def Info: ATLAS_EMCal_Accordion.png  used on input line 1353.
+Package pdftex.def Info: ATLAS_EMCal_Accordion.png  used on input line 1482.
 (pdftex.def)             Requested size: 341.26895pt x 276.2271pt.
- [47 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_EMCal_Accordion.png>] [48] [49]
-<Muon_System.png, id=896, 1027.84pt x 770.88pt>
+ [48 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_EMCal_Accordion.png>] [49] [50]
+<Muon_System.png, id=939, 1027.84pt x 770.88pt>
 File: Muon_System.png Graphic file (type png)
 <use Muon_System.png>
-Package pdftex.def Info: Muon_System.png  used on input line 1401.
+Package pdftex.def Info: Muon_System.png  used on input line 1530.
 (pdftex.def)             Requested size: 308.35437pt x 231.26578pt.
- [50 </home/jake/Desktop/Thesis/Latex_materials/Muon_System.png (PNG copy)>]
-<Muon_schematic_transp.png, id=915, 226.6869pt x 133.6995pt>
+ [51 </home/jake/Desktop/Thesis/Latex_materials/Muon_System.png (PNG copy)>]
+<Muon_schematic_transp.png, id=957, 226.6869pt x 133.6995pt>
 File: Muon_schematic_transp.png Graphic file (type png)
 <use Muon_schematic_transp.png>
-Package pdftex.def Info: Muon_schematic_transp.png  used on input line 1422.
+Package pdftex.def Info: Muon_schematic_transp.png  used on input line 1551.
 (pdftex.def)             Requested size: 340.02951pt x 200.54874pt.
- [51 </home/jake/Desktop/Thesis/Latex_materials/muon_schematic_transp.png>]
-<ATLAS_Trigger_Flowchart.png, id=929, 893.3375pt x 713.66624pt>
+ [52 </home/jake/Desktop/Thesis/Latex_materials/muon_schematic_transp.png>]
+<ATLAS_Trigger_Flowchart.png, id=972, 893.3375pt x 713.66624pt>
 File: ATLAS_Trigger_Flowchart.png Graphic file (type png)
 <use ATLAS_Trigger_Flowchart.png>
-Package pdftex.def Info: ATLAS_Trigger_Flowchart.png  used on input line 1439.
+Package pdftex.def Info: ATLAS_Trigger_Flowchart.png  used on input line 1568.
 (pdftex.def)             Requested size: 357.32866pt x 285.46143pt.
- [52] [53 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Trigger_Flowchart.png>] [54] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.bbl [55
+ [53] [54 </home/jake/Desktop/Thesis/Latex_materials/ATLAS_Trigger_Flowchart.png>] [55] (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.bbl [56
 
-] [56] [57] [58] [59] [60]) [61]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1467.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1467.
+] [57] [58] [59] [60] [61] [62]) [63]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1596.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1596.
  (/home/jake/Desktop/Thesis/Latex_materials/Prog_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1467.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1467.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1596.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1596.
 Package rerunfilecheck Info: File `Prog_2.out' has not changed.
-(rerunfilecheck)             Checksum: B3DD3F9283B6EAFFE7ACEB3CAF2C5E95;1843.
+(rerunfilecheck)             Checksum: F45DE891AA8F1A192CCF6698E28308F6;1947.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1467.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1596.
  ) 
 Here is how much of TeX's memory you used:
- 21532 strings out of 483183
- 414767 string characters out of 5966291
- 659377 words of memory out of 5000000
- 35789 multiletter control sequences out of 15000+600000
- 544424 words of font info for 65 fonts, out of 8000000 for 9000
+ 35081 strings out of 483183
+ 838298 string characters out of 5966291
+ 2118109 words of memory out of 5000000
+ 49169 multiletter control sequences out of 15000+600000
+ 545045 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,21n,94p,1125b,753s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf (64 pages, 4197831 bytes).
+ 63i,21n,98p,1125b,5724s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/jake/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /home/jake/Desktop/Thesis/Latex_materials/Prog_2.pdf (66 pages, 4307563 bytes).
 PDF statistics:
- 1201 PDF objects out of 1440 (max. 8388607)
- 971 compressed objects within 10 object streams
- 295 named destinations out of 1000 (max. 500000)
- 462 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1262 PDF objects out of 1440 (max. 8388607)
+ 1024 compressed objects within 11 object streams
+ 312 named destinations out of 1000 (max. 500000)
+ 483 words of extra memory for PDF output out of 10000 (max. 10000000)
 
