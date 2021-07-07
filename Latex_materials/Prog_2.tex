@@ -91,6 +91,25 @@
 	
 	\chapter{Introduction}
 	
+	It is an innately human quality to look at the world and search for meaning. The pursuit of fully describing the behaviour of the universe is as unavoidable as existing within it. The search for a true understanding of the universe is a fundamental pillar of human nature, and modern research still builds on concepts with origins that can be traced back to the exact moment humanity realised it was a good idea to start writing things down. \par
+	
+	Particle physics aims to study the fundamental constituents of matter and the interactions between them. The evolution of this study winds a path through visionary theoretical ideas and groundbreaking experimental techniques to a theory formulated in the 1970s built from the fundamental symmetries of nature: \newline The Standard Model (SM), the current best description of the physical world. \par
+
+	% 24/03/21
+
+	The SM combines three of the four fundamental forces (the strong, weak, and electromagnetic forces) to form a Quantum Field Theory (QFT) capable of accurately describing both the fundamental particles of matter (fermions) and the force carriers (bosons) that mediate their interactions. The accuracy of the SM has allowed for the prediction of several results that were later observed through experimentation, %futurecite
+	however the model itself is still far from complete. Despite its previous success the SM still faces many famous issues such as the inclusion of gravity, a unification of the forces at higher energies, and an explanation of dark matter in the observable universe. \par
+
+	Fortunately these gaps in the SM are not weaknesses for physics but strengths, indicating to researchers exactly where to best coordinate their efforts. The original SM famously lacked a manner to generate masses for the massive electrons, muons, W bosons, and Z bosons (force carriers of the weak interaction). The solution to this problem did not only lead to the postulation of the Higgs mechanism and the discovery of the never before seen Higgs boson almost 50 years later, but to the construction of the largest particle collider every construction: The Large Hadron Collider (LHC). \par
+
+	% 16/06/21
+
+	The detection of a signal consistent with the SM Higgs boson was announced in July 2012 by two experiments located along the LHC beamline: the ATLAS (A Toroidal LHC ApparatuS) and CMS (Compact Muon Solenoid) experiments. This discovery did not mark the end of the Higgs boson's story but a new beginning, as research began to investigate the new higgs candidate. 
+
+	% 17/06/21
+
+	\chapter{Introduction}
+	
 	The production of a Z boson from \textit{pp} collisions is an ideal target for analysis due to the strong identifiers of the process. The clear experimental signature of a Z boson decaying to a lepton pair is combined with the long lifetimes of b-hadrons to create a signature which is easy to observe, and that provides an excellent opportunity to study the production and dynamics of heavy flavour physics (heavy flavour physics is physics pertaining to quarks at the heavier end of the scale, namely bottom and charm, but not top quarks which have their own area of study). \par
 	
 	In the Standard Model (SM), there are multiple processes which create the signal source of Z boson production in association with two b quarks, with the Z boson later decaying to two leptons. While these processes occur via different mechanisms, they all arrive at the same final state which this analysis examines. The Z boson production is only possible through the electroweak interaction, however strong interactions also take place in each of the signal processes. The most common of the these processes occurs via the radiation of a gluon which splits into a bb pair. This is one of the central motivations to measuring Z$\rightarrow$($\ell\ell$)+bb processes: performing a measurement of the strong signal processes allows the investigation of QCD phenomena and strong coupling coefficients, which could potentially lead to a more precise SM in the future. \par
@@ -125,7 +144,7 @@
 	
 	The key to advancement and understanding in particle physics is being incorrect. While it would be ideal to simply pick up a pen and write out a grand unified theory or to observe a single particle event before identifying new and unseen physics, the far more practical approach is to repeatedly and precisely measure our current understanding of the physical word to find the point at which it breaks. Only by identifying where the current description of physical behaviour is wrong can one begin to postulate new descriptions that might be right. \par
 
-	The most straightforward manner in which to find areas where current physics knowledge is not sufficient for understanding is to said knowledge in order to define a model which describes the behaviour of the fundamental constituents of matter and the interactions between them. In the case of particle physics, a combination of mathematical theories that describe just this are grouped together and named the Standard Model of particle physics (SM). 
+	The most straightforward manner in which to find areas where current physics knowledge is not sufficient for understanding is use to said knowledge in order to define a model which describes the behaviour of the fundamental constituents of matter and the interactions between them. In the case of particle physics, a combination of mathematical theories that describe just this are grouped together and named the Standard Model of particle physics (SM). 
 
 	% 16/02/21
 
@@ -1056,11 +1075,51 @@
 
 	% 18/03/21 	
 
-	\subsection{Signal Processes}
+	\newpage
+	
+
+	\subsection{Z Boson Production and Decay}
 		
-		The signal process for Z$\rightarrow$($\ell\ell$)+b or Z$\rightarrow$($\ell\ell$)+bb contain events where the Z boson decays to two muons or two electrons (Z$\rightarrow$($ee$) or Z$\rightarrow$($\mu\mu$)). This section describes the signal processes for Z$\rightarrow$($\mu\mu$) however the processes for Z$\rightarrow$($ee$) are similar, with the only difference being the decay products of the Z boson. \par
+		The signal process for Z$\rightarrow$($\ell\ell$)+b or Z$\rightarrow$($\ell\ell$)+bb contain events where the Z boson decays to two muons or two electrons. This section describes the signal processes for the muon channel Z$\rightarrow$($\mu\mu$) however the processes for the electron channel Z$\rightarrow$($ee$) are similar, with the only difference being the decay products of the Z boson. \par
 		
-		The most common production of a Z boson which decays to two muons is through the Drell-Yan process \cite{Article:DrellYan} - a quark-antiquark pair from two colliding protons annihilate and produce two muons through the weak force mediated by a Z boson. However, in order to arrive at the final state either of the signal processes for this analysis (Z$\rightarrow$($\mu\mu$)+b or Z$\rightarrow$($\mu\mu$)+bb), an additional requirement must be met - the presence of one or two b-quarks. \par
+		The most common production of a Z boson which decays to two muons is through the Drell-Yan process \cite{Article:DrellYan}. A quark-antiquark pair from two interacting hadrons annihilate and produce a pair of oppositely charged leptons through the exchange of a Z boson or a virtual photon $\gamma^{*}$. The Feynman diagram of this process can be seen in Figure \ref{Fig:DrellYan}. \par
+		
+		The Drell-Yan process has high physics value for several reasons, but two of the most significant are the process' high production rate and clear final state signature of two high $p_{T}$ leptons in the final state. The Z boson has a small decay width in comparison to its mass ($\Gamma_{Z} = 2.4952 \pm 0.0023$ and $m_{Z} = 91.1876 \pm 0.0021 \textrm{GeV}$ respectively), and can decay into either leptonically or hadronically into a fermion-antifermion pair (excluding top and anti-top quark pairs due to their higher mass). \par
+		
+		A useful metric for a process with multiple potential decays is the branching ratio (BR) of a process, which indicates the likelihood of a particular final state occurring. The BR of a process is defined as the number of decays to a particular final state, normalised by the total number of possible decays. Table \ref{tab:ZbosonBranchingRatio} shows these decay modes and their associated branching ratios.
+		
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.1]{drell-yan.png}
+			\caption{A figure showing the production of the Z boson via the Drell-Yan process}
+			\label{Fig:DrellYan}
+		\end{figure}
+
+		\begin{table}
+			\begin{center}
+				\begin{tabular}{ c | l }
+					\hline \hline
+					Z boson decay mode & BR ($\Gamma_{i} / \Gamma) [\%]$ \\
+					\hline
+					$e^{+}e^{-}$ & $3.3632 \pm 0.0042$ \\
+					\hline
+					$\mu^{+}\mu^{-}$ & $3.3662 \pm 0.0066$ \\
+					\hline
+					$\tau^{+}\tau^{-}$ & $3.3696 \pm 0.0083$ \\
+					\hline
+					invisible & $20.000 \pm 0.055$ \\
+					\hline
+					hadrons & $69.911 \pm 0.056$ \\
+					\hline \hline
+				\end{tabular}
+				\caption{A table showing the corresponding branching ratio of each Z boson decay mode \cite{Article:PDG2020}.}
+				\label{tab:ZbosonBranchingRatio}
+			\end{center}
+		\end{table}
+
+		\subsection{Jet Production in Association with a Z Boson}
+
+		A final state including the presence of one or two b-quarks requires the production of a Z boson in association with a jet. This can occur via two different processes: Compton scattering and $q\overline{q}$ annihilation. However, in order to arrive at the final state either of the signal processes for this analysis (Z$\rightarrow$($\mu\mu$)+b or Z$\rightarrow$($\mu\mu$)+bb), the additional requirement must be met - the presence of one or two b-quarks. \par
 		 
 		The most common mechanism for this process to occur is for one of the annihilating quarks to radiate a gluon. The gluon then produces a pair of b-quarks (with one a standard b-quark, and the other an anti b-quark), meeting the requirements for the final state of the process. The Feynman diagram of this process can be seen in Figure \ref{Fig:SFigAnnihilationFeynman}. \par
 		
@@ -1334,7 +1393,7 @@
 			\label{Fig:ATLASPileup}
 		\end{figure}
 
-		\section{ATLAS}
+		\section{The ATLAS Detector}
 
 		The ATLAS (A Toroidal LHC ApparatuS) experiment \cite{ATLAS_Collab}, located at Point 1 of the LHC ring, is the largest general-purpose experiment at CERN. The design of ATLAS is carefully engineered in order to maximise its capabilities as a general-purpose particle detector \cite{ATLAS-TDR-01, ATLAS-TDR-02, Article:ATLASDesignPaper}. ATLAS is cylindrical in shape, with a length of 46 metres and a diameter of 25 metres. The immense scale of ATLAS can be difficult to picture without adequate reference: the diameter of ATLAS is 1 metre greater than the height of Buckingham palace, and its length is the same as the Statue of Liberty's height\footnote{The statue of liberty itself, excluding the 47 m pedestal that the statue stands upon.}. It would take a tower of 9 giraffes carefully lying head to hoof in the ATLAS cavern while wearing the appropriate personal protective equipment (PPE) to occupy the same length as the ATLAS detector\footnote{This would likely irritate the giraffes.}. 
 
@@ -1353,7 +1412,7 @@
 			\label{Fig:ATLASDetector}
 		\end{figure}
 
-		\subsection{The ATLAS Coordinate System}
+		\subsection{Coordinate System}
 
 		In order to be able to accurately describe events relative to the detector and interaction point, ATLAS uses a well defined right-handed coordinate system. Taking the nominal IP as the origin, the $x$-axis points towards the centre of the LHC ring, the $y$-axis points vertically upwards, and the $z$-axis points along the direction of the beam pipe. A subtle yet crucial result of this coordinate system is the definition of the $x$-$y$ plane, which is tangential to the beam pipe (referred to as the \textit{transverse} plan). The nature of the fundamental colliding partons prevent the initial momentum in the $z$ direction from being known, however it is known that the partons have zero initial momentum in the transverse plane and therefore directional vector quantities such as momenta can be projected into the transverse plane. \par
 
@@ -1377,7 +1436,7 @@
 
 		%04/02/21
 
-		\subsection{The Magnet System}\label{Section:Magnets}
+		\subsection{Magnet System}\label{Section:Magnets}
 
 		The ATLAS magnet system consists of four magnets: a single solenoid magnet \cite{ATLASSolenoidMagnet}, and three toroidal magnets \cite{ATLASBarrelToroid, ATLASEndcapToroid} (which contribute an important part of the ATLAS name). The central solenoid provides the magnetic field for the inner detector, and the toroidal magnets provide the magnetic field	for the muon system. The arrangement of the magnet systems within ATLAS can be seen in Figure . \par
 
@@ -1403,7 +1462,7 @@
 
 		% 05/02/21
 
-		\subsection{The Inner Detector}\label{Section:InnerDetector}
+		\subsection{Inner Detector}\label{Section:InnerDetector}
 
 		The Inner Detector \cite{ATLASID1, ATLASID2} is the most central component of ATLAS providing precise measurements of both particle charge and momentum, in addition to tracking charged particles to a pseudorapidity range of $|\eta| < 2.5$. Using both an impact parameter, $d_{0}$, and a longitudinal impact parameter, $z_{0}$, the ID is able to characterise the primary vertex of each interaction. The parameter $d_{0}$ is defined as the distance between the vertex's point of closest approach and the $z$-axis, and the parameter $z_{0}$ is defined as the $z$-coordinate of the primary vertex's point of closest approach. A high precision measurement of the primary vertex is crucial to this analysis as the delayed secondary vertex of b-tagged events is an extremely important in their identification, and an excellent resolution for $d_{0}$ and $z_{0}$ allows for easier identification of b-hadrons and other particles with longer lifetime. The layout of these components within the ID barrel region can be seen in Figure \ref{Fig:InnerDetector}.  
 
@@ -1425,21 +1484,21 @@
 
 		The IBL, pixel detector, and SCT all operate through the use of pixel modules containing tens of thousands of silicon pixel sensors. As charged particles pass through the pixel sensors, they ionise with the silicon semiconductors, freeing electrons from atoms within the silicon and creating ion-electron pairs. By interpreting the resultant signal created at the points within these pixel modules that these ion-electron pairs are created, the path of the charged particles that pass through the ID can be measured. 
 
-		\subsubsection{The Insertable B-Layer (IBL)}\label{Section:IBL}
+		\subsubsection{Insertable B-Layer (IBL)}\label{Section:IBL}
 
 		The most central component of the ID is the IBL \cite{IBL-TDR} (positioned a mere R = 33.25 mm away from the beam pipe), which was added to ATLAS during the shutdown between Run 1 and Run 2. The IBL increases the resolution of $d_{0}$ and vertex measurements when compared with the pixel detector alone, which is an important addition due to the high pileup of Run 2 (which can easily obfuscate the primary vertex as discussed in Section \ref{Section:Pileup}). Each individual pixel is extremely small and has dimensions of $50 \mu m \times 250 \mu m$, which allows for a tracking resolution of 8 $\mu$m and 40 $\mu$m in the $x$-$y$ plane and $z$ direction respectively.  
 
-		\subsubsection{The Pixel Detector}\label{Section:PixelDetector}
+		\subsubsection{Pixel Detector}\label{Section:PixelDetector}
 
 		The pixel detector consists of three layers of concentric cylinders coaxial to the beam pipe, and three layers of end-cap disks perpendicular to the beam pipe. The barrel layers are positioned at R = 50.5, 88.5, and 122.5 mm, with the end-cap disks positioned at $z$ = 495, 580, and 650 mm. These components consist of a total of 1744 pixel modules \cite{ATLASPixel} with a thickness of 250 $\mu$m, each containing 47,232 pixels with dimensions of 50 $\mu$m $\times$ 400 $\mu$m. Each pixel module contains 16 front-end chips with 2880 readout channels equating to a total of 46,080 readout channels per module, however all 47,232 pixels are readout of each module (pixels in the inter-chip regions are ganged together to be readout). Overall, the pixel detector has over 80 million readout channels and provides a spatial resolution of 10 $\mu$m in the $x$-$y$ plane and a spatial resolution of 115 $\mu$m in the $z$-axis. 
 
 		% 08/02/21
 
-		\subsubsection{The Semiconductor Tracker (SCT)}\label{Section:SCT}
+		\subsubsection{Semiconductor Tracker (SCT)}\label{Section:SCT}
 
 		The Semiconductor Tracker (SCT) \cite{ATLASSCT} sits outside the pixel detector and is similar in operation, consisting of 4 barrel layers and 9 end-cap disks. The barrel layers are positioned at R = 299, 371, 443, and 514 mm, and the end-cap disks range from $z$ = 854 - 2720 mm. The 15,912 strip modules have a thickness of 285 $\mu$m and consist not of pixels as per the pixel detector but 768 silicon strips each 12 cm long, necessitating over 6.4 million readout channels. In total the SCT contains 61 m$^{2}$ of silicon strip sensors, and provides a hit resolution of 17 $\mu$m in the $x$-$y$ plane and a hit resolution of 580 $\mu$m in the $z$-axis. 
 
-		\subsubsection{The Transition Radiation Tracker (TRT)}\label{Section:TRT} 
+		\subsubsection{Transition Radiation Tracker (TRT)}\label{Section:TRT} 
 
 		The Transition Radiation Tracker (TRT) \cite{ATLASTRT} is the furthest component of the ID from the beam pipe, with a barrel region positioned at 563 $<$ R $<$ 1066 mm and $|z| <$ 712 mm and two end-caps at 644 $<$ R $<$ 1004 mm and 848 $< |z| <$ 2710 mm. The method of detection used by the TRT differs from the previous ID modules: instead of using silicon semiconductors, the TRT consists of thin-walled proportional drift tubes called "straws" containing a nominal mixture of 70\%/27\%/3\% xenon/carbon dioxide/oxygen gas. \par 
 
@@ -1449,7 +1508,7 @@
 
 		The TRT consists of 52,544 coaxial straws of length 144 cm ie barrel region and 122,880 radial straws of length 37 cm in each end-cap, totalling almost 300,000 straws across the entire TRT. Due to these numbers and the geometry of ATLAS, charged particles are guaranteed to cross 35-40 straws in a pseudorapidity interval of $|\eta| < 2$. Overall, the TRT provides a hit resolution of 130 $\mu$m per straw \cite{ATLASTRTRes}. 
 
-		\subsection{The Calorimeters}\label{Section:Calorimeters}
+		\subsection{Calorimeters}\label{Section:Calorimeters}
 
 		Calorimeters are instruments that measure the energy of particles: incoming particles are absorbed by the calorimeter and deposit their full energy which is converted into a measurable signal. The calorimeter system within ATLAS uses two main types of calorimeters: electromagnetic calorimeters for energy measurements of electromagnetic particles, and hadronic calorimeters for energy measurements of hadronic particles. These calorimeters measure all SM particles excluding muons and neutrinos, with a coverage up to $|\eta| < 4.9$. The layout of these calorimeters within ATLAS can be seen in Figure \ref{Fig:ATLASCalorimeters}. \par
 
@@ -1462,7 +1521,7 @@
 			\label{Fig:ATLASCalorimeters} 
 		\end{figure} 
 
-		\subsubsection{The Electromagnetic Calorimeter}\label{Section:ECal}
+		\subsubsection{Electromagnetic Calorimeter}\label{Section:ECal}
 
 		The electromagnetic calorimeter or LAr calorimeter \cite{ATLASECalTDR} has the primary function of measuring the energy of electrons and photons in the pseudorapidity region $|\eta| < 3.2$. Lead is chosen as the absorber material, with liquid argon (LAr) as the active material. Two main processes occur within the lead absorber material that lead to showering and a measurement of incoming particle energy:
 		
@@ -1498,7 +1557,7 @@
 		
 		\subparagraph{Layer 3,} which has a thickness of 2 $X_{0}$ designed to measure and correct for the leakage of higher energy calorimeter showers beyond the EM cal and potentially into the hadronic calorimeter. The cells in this layer have a size of $0.05 \times 0.0245$ in $\Delta\eta \times \Delta\phi$. 
 		
-		\subsubsection{The Hadronic Calorimeter}\label{Section:HCal}
+		\subsubsection{Hadronic Calorimeter}\label{Section:HCal}
 
 		Just as the EM calorimeter performs energy measurements of incoming EM particles, the hadronic calorimeter or Tile calorimeter \cite{ATLASTileTDR} measures energies of incoming hadronic particles in the region of $|\eta| < 4.9$. The Tile calorimeter consists of three barrel layers and two wheels per end-cap, each using differing absorber and active materials:
 		
@@ -1513,13 +1572,13 @@
 
 		The barrel region of the hadronic calorimeter has a depth of 9.7 $\lambda$ and cell sizes of $0.1 \times 0.1$ in $\Delta\eta \times \Delta\phi$ for the first two layers, and $0.2 \times 0.1$ in $\Delta\eta \times \Delta\phi$ in the last layer. The end-cap wheels have a depth of 10 $\lambda$ and similar granularity to the barrel region of  $0.1 \times 0.1$ in $\Delta\eta \times \Delta\phi$ in the first wheel, and $0.2 \times 0.1$ in $\Delta\eta \times \Delta\phi$ for the second. 
 
-		\subsubsection{The Forward Calorimeter}\label{Section:FCal}
+		\subsubsection{Forward Calorimeter}\label{Section:FCal}
 
 		ATLAS uses an additional calorimeter in the forward region of $3.2 < |\eta| < 4.9$ in order to increase the calorimeter coverage within ATLAS up to the pseudorapidity range of $|\eta| < 4.9$. The forward calorimeter (FCal) is a sampling calorimeter capable of performing energy measurements of both EM and hadronic particles via its use of a combination of multiple absorber materials. \par
 		
 		The FCal has a depth of 10 $\lambda$ and is segmented into three layers: while the FCal consistently uses LAr as its active material, the first layer uses copper layers as its absorber material in order to perform measurements of EM particles before switching to a tungsten absorber material in the second and third layers for hadronic energy measurements.  
 
-		\subsection{The Muon Spectrometer}\label{Section:MuonSystem}
+		\subsection{Muon Spectrometer}\label{Section:MuonSystem}
 
 		The final and outermost subsystem of the ATLAS detector is the Muon Spectrometer (MS) \cite{ATLASMuonTDR}. Interspersed between the toroidal magnet, the muon system is composed of two systems made up of pairs of triggering and tracking systems with the aim to track and measure muons in the pseudorapidity range of $|\eta| < 2.7$. Muons that pass through the system are subjected to ATLAS' magnetic field (discussed in Section \ref{Section:Magnets}), bending the muon tracks and allowing for muon momentum measurements. \par
 
@@ -1555,7 +1614,7 @@
 
 		%10/02/21
 
-		\subsection{The ATLAS Trigger System}
+		\subsection{Trigger System}
 
 		Attempting to record every interaction that occurs within the ATLAS detector is a herculean task. Bunches accelerated by the LHC cross every 25 ns, giving a frequency of 40 MHz. If each event has a raw size of 1.5 MB, ATLAS must record and store to disk 60 TB per second. The current record for highest data throughput attained experimentally is only 178.08 Tb or 22.25 TB per second \cite{UCLThroughput}, and was only achieved in July 2020 (over a year after the beginning of Long Shutdown 2). \par
 
@@ -1588,7 +1647,31 @@
 		% 11/02/21
 
 		\newpage
+
+		\chapter{Data and Monte Carlo Samples}
+
+		\chapter{Object and Event Selection}
+
+		In their simplest form, each event that is detected by ATLAS is merely a collection of electrical signals from the various detector subsystems. Before these events can be useful for physics analysis by researchers and software alike, the signals corresponding to individual particles must be \textit{reconstructed} into the physics objects they represent. Once all physics objects have been constructed, they must then be carefully selected in order to arrive at a desired final state for analysis. While all events useful for physics within ATLAS will be constructed, only a subset of these events will be used by each analysis.  
+
+		\section{Object Reconstruction}
+
+		All standard model particles (excluding neutrinos) leave some form of signal in the ATLAS detector and can be reconstructed from their interactions with the detector subsystems. Energy deposits in the various components of the ATLAS detector can be used in conjunction to reconstruct a particle's energy, type, and path of travel through the detector. \par
 		
+		Neutrinos do not interact with any of the ATLAS detector subsystems, and their presence is instead inferred from the presence of "missing transverse energy." Conservation of energy allows the calculation of the total expected energy in each event: if the energy of all reconstructed particles within an event is lower than this number, then this signifies the presence of one or more neutrinos (as this missing energy \textit{must} go somewhere and cannot simply disappear). \par
+
+		\subsection{Primary Vertex and Tracks}
+
+		The first step in reconstructing a particle is to build the low-level objects that represent it. By observing a particle's spacepoint hits and calorimeter deposits in the Inner Detector, something something
+
+		\chapter{Signal and Background Modelling}
+
+		\chapter{Systematics}
+
+		\chapter{Results}
+
+		\chapter{Conclusion}
+
 		\bibliographystyle{Thesis.bst}
 		
 		\bibliography{Prog_2}	
